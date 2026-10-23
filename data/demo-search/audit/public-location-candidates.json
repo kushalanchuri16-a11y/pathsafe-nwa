@@ -1,0 +1,872 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2507621623965,
+          36.37149256958668
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "COMMON_NAME": "Ardis Ann Middle School",
+        "ADDRESS": "3400 SW 2ND ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20363133075323,
+          36.36571210106438
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "COMMON_NAME": "Austin-Baggett Park",
+        "ADDRESS": "601 SE D ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21561889267842,
+          36.401959565483686
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "COMMON_NAME": "Bark Park",
+        "ADDRESS": "2400 N WALTON BLVD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22562277195081,
+          36.330686633086984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "COMMON_NAME": "Bentonville Community Center",
+        "ADDRESS": "1101 SW CITIZENS CIR",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19521148198835,
+          36.351891386817904
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "COMMON_NAME": "Bentonville High School-North",
+        "ADDRESS": "1801 SE J ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19521148198835,
+          36.351891386817904
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "COMMON_NAME": "Bentonville High School-South",
+        "ADDRESS": "1801 SE J ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21002265056917,
+          36.369998318612836
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "COMMON_NAME": "Bentonville Parks & Recreation Bldg",
+        "ADDRESS": "215 SW A ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21479245802851,
+          36.386400659827835
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "COMMON_NAME": "Bentonville School Admin",
+        "ADDRESS": "500  TIGER BLVD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21676182692332,
+          36.374653823176736
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "COMMON_NAME": "Bogle Park",
+        "ADDRESS": " NW F ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23418476347162,
+          36.32336577031839
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "COMMON_NAME": "Bright Field Middle School",
+        "ADDRESS": "5101 SW BRIGHT RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23005096944678,
+          36.317804183885784
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "COMMON_NAME": "Central Park Elementary",
+        "ADDRESS": "1400 SW LIBERTY AVE",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18429600939845,
+          36.371453125310694
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "COMMON_NAME": "Central Park Plaza",
+        "ADDRESS": "2201 E CENTRAL AVE",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20976429957359,
+          36.372111175420486
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "COMMON_NAME": "City Hall",
+        "ADDRESS": "117 W CENTRAL AVE",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22562277195081,
+          36.330686633086984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "COMMON_NAME": "Community Center",
+        "ADDRESS": "1101 SW CITIZENS CIR",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21009010591298,
+          36.36878749270149
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "COMMON_NAME": "Community Development",
+        "ADDRESS": "305 SW A ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22562277195081,
+          36.330686633086984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "COMMON_NAME": "Community Recreation Center",
+        "ADDRESS": "1101 SW CITIZENS CIR",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23188276589727,
+          36.43852893061873
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "COMMON_NAME": "Cooper Elementary School",
+        "ADDRESS": "2  BLOWING SPRINGS RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20715955313322,
+          36.37210886655008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "COMMON_NAME": "Dave Peel Park",
+        "ADDRESS": "206 E CENTRAL AVE",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21561889267842,
+          36.401959565483686
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "COMMON_NAME": "Dog Park",
+        "ADDRESS": "2400 N WALTON BLVD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20191575643521,
+          36.362374358066624
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "COMMON_NAME": "Durham Place Park",
+        "ADDRESS": "913  DURHAM PL",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20040325451879,
+          36.386876961373574
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "COMMON_NAME": "Enfield Park",
+        "ADDRESS": "1205 NE WAVERLY WAY",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.24350223132986,
+          36.29226242563084
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "COMMON_NAME": "Evening Star Elementary School",
+        "ADDRESS": "9649 W PLEASANT GROVE RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23527354014026,
+          36.32027373610842
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "COMMON_NAME": "Fulbright Jr High School",
+        "ADDRESS": "5303 SW BRIGHT RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21356397263834,
+          36.36673563201211
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "COMMON_NAME": "Gilmore Park",
+        "ADDRESS": "501 SW D ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23247127706883,
+          36.43238370270138
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "COMMON_NAME": "Lake Bella Vista Park",
+        "ADDRESS": "4900  BELLA VISTA WAY",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20753355872435,
+          36.374649832783945
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "COMMON_NAME": "Lawrence Plaza",
+        "ADDRESS": "214 NE A ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20851110772566,
+          36.36770870312484
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "COMMON_NAME": "Library",
+        "ADDRESS": "405 S MAIN ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21161421463339,
+          36.38810435136245
+        ]
+      },
+      "properties": {
+        "OBJECTID": 72,
+        "COMMON_NAME": "Lincoln Jr High School",
+        "ADDRESS": "1206 NW LEOPARD LN",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18699731536287,
+          36.374059289119096
+        ]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "COMMON_NAME": "Memorial Park",
+        "ADDRESS": "2000 NE MEMORIAL PARK SQ",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.24963022066163,
+          36.3743192219413
+        ]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "COMMON_NAME": "Merchant's Park",
+        "ADDRESS": "201 NW ELM TREE RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2095495079777,
+          36.380726412800804
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "COMMON_NAME": "NW A Street Park",
+        "ADDRESS": "802 NW A ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21374709627699,
+          36.3735601906109
+        ]
+      },
+      "properties": {
+        "OBJECTID": 86,
+        "COMMON_NAME": "Old High Middle School",
+        "ADDRESS": "406 NW 2ND ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20546057572246,
+          36.38301547050704
+        ]
+      },
+      "properties": {
+        "OBJECTID": 89,
+        "COMMON_NAME": "Overlook Parking Lot",
+        "ADDRESS": "906 NE A ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21172262806756,
+          36.38446940084979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 90,
+        "COMMON_NAME": "Park Springs Park",
+        "ADDRESS": "300 NW 10TH ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18373509790693,
+          36.374470145886924
+        ]
+      },
+      "properties": {
+        "OBJECTID": 91,
+        "COMMON_NAME": "Parks Department",
+        "ADDRESS": "401 NE MOBERLY LN",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21173453541986,
+          36.37482615178318
+        ]
+      },
+      "properties": {
+        "OBJECTID": 99,
+        "COMMON_NAME": "RE Baker Elementary School",
+        "ADDRESS": "301 NW 3RD ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20460353661403,
+          36.351650931695254
+        ]
+      },
+      "properties": {
+        "OBJECTID": 100,
+        "COMMON_NAME": "Ruth Hale Barker Middle School",
+        "ADDRESS": "500 SE 18TH ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21479245802851,
+          36.386400659827835
+        ]
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "COMMON_NAME": "School Admin",
+        "ADDRESS": "500  TIGER BLVD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18693487487153,
+          36.376441378484245
+        ]
+      },
+      "properties": {
+        "OBJECTID": 104,
+        "COMMON_NAME": "Skate Park",
+        "ADDRESS": "407 NE SKATE PARK PL",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20890980425452,
+          36.372366596727936
+        ]
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "COMMON_NAME": "Spark Cafe",
+        "ADDRESS": "101 N MAIN ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21640621628336,
+          36.383805847996555
+        ]
+      },
+      "properties": {
+        "OBJECTID": 118,
+        "COMMON_NAME": "Sugar Creek Elementary School",
+        "ADDRESS": "1102  BELLA VISTA RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2053611101244,
+          36.36251541949441
+        ]
+      },
+      "properties": {
+        "OBJECTID": 125,
+        "COMMON_NAME": "Thaden School East Campus",
+        "ADDRESS": "410 SE STAGGERWING LN",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20872837217932,
+          36.36352162519407
+        ]
+      },
+      "properties": {
+        "OBJECTID": 126,
+        "COMMON_NAME": "Thaden School Main Campus",
+        "ADDRESS": "805 S MAIN ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21646362903837,
+          36.38254124765499
+        ]
+      },
+      "properties": {
+        "OBJECTID": 127,
+        "COMMON_NAME": "Thomas Jefferson Elementary School",
+        "ADDRESS": "810  BELLA VISTA RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20897810579008,
+          36.36797251257309
+        ]
+      },
+      "properties": {
+        "OBJECTID": 131,
+        "COMMON_NAME": "Train Station Park",
+        "ADDRESS": "418 S MAIN ST",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19141626620348,
+          36.373440427394414
+        ]
+      },
+      "properties": {
+        "OBJECTID": 135,
+        "COMMON_NAME": "Washington Jr High School",
+        "ADDRESS": "1501 NE WILDCAT WAY",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23648877730862,
+          36.334423206975764
+        ]
+      },
+      "properties": {
+        "OBJECTID": 137,
+        "COMMON_NAME": "Wildwood Park",
+        "ADDRESS": "3800 SW BRIGHT RD",
+        "STATUS": "PERMANENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20495860938583,
+          36.37198650395156
+        ]
+      },
+      "properties": {
+        "OBJECTID": 161,
+        "COMMON_NAME": "Park Central",
+        "ADDRESS": null,
+        "STATUS": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2046131637148,
+          36.37080031220432
+        ]
+      },
+      "properties": {
+        "OBJECTID": 162,
+        "COMMON_NAME": "Parkwood",
+        "ADDRESS": null,
+        "STATUS": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.30750170050517,
+          36.31381378912827
+        ]
+      },
+      "properties": {
+        "OBJECTID": 189,
+        "COMMON_NAME": "Glen at Polo Park",
+        "ADDRESS": null,
+        "STATUS": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19839649401031,
+          36.34036358430057
+        ]
+      },
+      "properties": {
+        "OBJECTID": 199,
+        "COMMON_NAME": "The Woods at the Park",
+        "ADDRESS": null,
+        "STATUS": null
+      }
+    }
+  ]
+}

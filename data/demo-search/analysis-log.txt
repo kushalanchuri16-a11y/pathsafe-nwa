@@ -1,0 +1,235 @@
+Accepted 144 trail features; {
+  'Explicit public access missing': 117,
+  'Not a documented paved/shared-use or explicit hiking facility': 159,
+  'Walking/shared-use classification not sufficiently established': 6,
+  'Unapproved/proposed/future facility': 13
+}
+Infrastructure dedup 5 duplicates, 601.3954998057261 meters trimmed
+pair-01 baseline 50.55 65.54 audited 55.61 65.76 gain 10.16 quality 62.04
+pair-02 baseline 45.98 45.98 audited 45.99 45.99 gain 0.00 quality 0.00
+pair-03 baseline 69.98 69.98 audited 72.59 72.59 gain 0.00 quality 0.00
+pair-04 baseline 70.91 70.91 audited 72.99 72.99 gain 0.00 quality 0.00
+pair-05 baseline 79.31 79.31 audited 80.22 80.22 gain 0.00 quality 0.00
+pair-06 baseline 89.48 89.48 audited 89.48 89.48 gain 0.00 quality 0.00
+pair-07 baseline 18.49 18.49 audited 27.32 27.32 gain 0.00 quality 0.00
+pair-08 baseline 93.29 93.29 audited 93.29 93.29 gain 0.00 quality 0.00
+pair-09 baseline 87.29 87.29 audited 87.29 87.29 gain 0.00 quality 0.00
+pair-10 baseline 81.74 95.87 audited 82.54 96.66 gain 14.12 quality 71.69
+pair-11 baseline 80.16 99.99 audited 80.16 99.99 gain 19.83 quality 82.09
+pair-12 baseline 83.96 95.17 audited 89.41 89.41 gain 0.00 quality 0.00
+pair-13 baseline 62.98 73.61 audited 63.60 74.33 gain 10.73 quality 63.08
+pair-14 baseline 74.13 74.13 audited 74.13 74.13 gain 0.00 quality 0.00
+pair-15 baseline 88.00 88.00 audited 90.47 90.47 gain 0.00 quality 0.00
+pair-16 baseline 68.45 68.45 audited 68.45 68.45 gain 0.00 quality 0.00
+pair-17 baseline 53.24 63.57 audited 53.92 64.24 gain 10.32 quality 53.75
+pair-18 baseline 100.00 100.00 audited 100.00 100.00 gain 0.00 quality 0.00
+pair-19 baseline 54.35 54.35 audited 59.04 59.04 gain 0.00 quality 0.00
+pair-20 baseline 74.64 96.39 audited 74.64 96.39 gain 21.75 quality 82.57
+RANKED [
+  {
+    pair: 'pair-20',
+    origin: 'Austin-Baggett Park',
+    destination: 'Lawrence Plaza',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 74.64369816375708,
+    recommendedCoverage: 96.38925952666217,
+    coverageGain: 21.745561362905093,
+    addedSeconds: 4.752999999999929,
+    addedDistanceMeters: -8,
+    fastestScore: 69,
+    recommendedScore: 94,
+    scoreGain: 25,
+    fastestGaps: 3,
+    recommendedGaps: 1,
+    fastestMinutes: 17.40895,
+    recommendedMinutes: 17.488166666666665,
+    fastestDistanceMeters: 1482.055,
+    recommendedDistanceMeters: 1474.055,
+    recommendedMeasuredLengthMeters: 1474.910636503629,
+    recommendedCoveredMeters: 1421.6554412058279,
+    recommendedUncoveredMeters: 53.25519529780104,
+    distinctFraction: 0.49766894365423653,
+    directionalOverlapWithin5m: [ 50.10498762735003, 50.36122364180267 ],
+    demoQuality: 82.57068244508115,
+    routes: undefined,
+    recommendation: undefined
+  },
+  {
+    pair: 'pair-11',
+    origin: 'Sugar Creek Elementary School',
+    destination: 'Lawrence Plaza',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 80.16009274204382,
+    recommendedCoverage: 99.98771690434987,
+    coverageGain: 19.82762416230605,
+    addedSeconds: 22.100999999999885,
+    addedDistanceMeters: 40,
+    fastestScore: 76,
+    recommendedScore: 100,
+    scoreGain: 24,
+    fastestGaps: 2,
+    recommendedGaps: 0,
+    fastestMinutes: 21.691916666666668,
+    recommendedMinutes: 22.060266666666667,
+    fastestDistanceMeters: 1797.339,
+    recommendedDistanceMeters: 1837.339,
+    recommendedMeasuredLengthMeters: 1838.1499950863922,
+    recommendedCoveredMeters: 1837.924213364303,
+    recommendedUncoveredMeters: 0.225781722089323,
+    distinctFraction: 0.7127220208160578,
+    directionalOverlapWithin5m: [ 29.04102518586702, 28.414570650921405 ],
+    demoQuality: 82.08696749587361,
+    routes: undefined,
+    recommendation: undefined
+  },
+  {
+    pair: 'pair-10',
+    origin: 'Thomas Jefferson Elementary School',
+    destination: 'Library',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 82.54095527152012,
+    recommendedCoverage: 96.66153696209417,
+    coverageGain: 14.120581690574056,
+    addedSeconds: 25.641999999999825,
+    addedDistanceMeters: 43,
+    fastestScore: 77,
+    recommendedScore: 95,
+    scoreGain: 18,
+    fastestGaps: 3,
+    recommendedGaps: 1,
+    fastestMinutes: 30.35376666666667,
+    recommendedMinutes: 30.781133333333333,
+    fastestDistanceMeters: 2536.263,
+    recommendedDistanceMeters: 2579.263,
+    recommendedMeasuredLengthMeters: 2579.0792453368317,
+    recommendedCoveredMeters: 2492.977638012961,
+    recommendedUncoveredMeters: 86.10160732387067,
+    distinctFraction: 0.5570610778307812,
+    directionalOverlapWithin5m: [ 44.68039248817809, 43.907391945665665 ],
+    demoQuality: 71.68704745436816,
+    routes: undefined,
+    recommendation: undefined
+  },
+  {
+    pair: 'pair-13',
+    origin: 'Bentonville Community Center',
+    destination: 'Library',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 63.598627271809406,
+    recommendedCoverage: 74.32564156011047,
+    coverageGain: 10.727014288301064,
+    addedSeconds: 21.52300000000014,
+    addedDistanceMeters: -18.001000000000204,
+    fastestScore: 48,
+    recommendedScore: 58,
+    scoreGain: 10,
+    fastestGaps: 8,
+    recommendedGaps: 8,
+    fastestMinutes: 65.39203333333333,
+    recommendedMinutes: 65.75075,
+    fastestDistanceMeters: 5569.154,
+    recommendedDistanceMeters: 5551.153,
+    recommendedMeasuredLengthMeters: 5545.9593009582795,
+    recommendedCoveredMeters: 4122.069831099859,
+    recommendedUncoveredMeters: 1423.8894698584209,
+    distinctFraction: 0.7912807867039439,
+    directionalOverlapWithin5m: [ 20.837676048093776, 20.906166611117452 ],
+    demoQuality: 63.078319386140656,
+    routes: undefined,
+    recommendation: undefined
+  },
+  {
+    pair: 'pair-01',
+    origin: 'Bentonville High School-North',
+    destination: 'Library',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 55.60619293160305,
+    recommendedCoverage: 65.76231236773036,
+    coverageGain: 10.156119436127312,
+    addedSeconds: 17.416999999999916,
+    addedDistanceMeters: 41.29300000000012,
+    fastestScore: 44,
+    recommendedScore: 58,
+    scoreGain: 14,
+    fastestGaps: 6,
+    recommendedGaps: 4,
+    fastestMinutes: 33.70588333333333,
+    recommendedMinutes: 33.99616666666667,
+    fastestDistanceMeters: 2843.354,
+    recommendedDistanceMeters: 2884.647,
+    recommendedMeasuredLengthMeters: 2882.531940436124,
+    recommendedCoveredMeters: 1895.619658769203,
+    recommendedUncoveredMeters: 986.912281666921,
+    distinctFraction: 0.993077834627938,
+    directionalOverlapWithin5m: [ 0.6978617568117687, 0.6865713176006426 ],
+    demoQuality: 62.03983130476824,
+    routes: undefined,
+    recommendation: undefined
+  },
+  {
+    pair: 'pair-17',
+    origin: 'Bark Park',
+    destination: 'City Hall',
+    fastestId: 'fastest',
+    recommendedId: 'pathsafe',
+    qualifyingAlternative: true,
+    fastestCoverage: 53.91604051630856,
+    recommendedCoverage: 64.2360973000177,
+    coverageGain: 10.320056783709141,
+    addedSeconds: 47.972999999999956,
+    addedDistanceMeters: 43.00200000000041,
+    fastestScore: 40,
+    recommendedScore: 54,
+    scoreGain: 14,
+    fastestGaps: 7,
+    recommendedGaps: 5,
+    fastestMinutes: 55.4214,
+    recommendedMinutes: 56.22095,
+    fastestDistanceMeters: 4383,
+    recommendedDistanceMeters: 4426.002,
+    recommendedMeasuredLengthMeters: 4423.624020807603,
+    recommendedCoveredMeters: 2841.563430192927,
+    recommendedUncoveredMeters: 1582.0605906146761,
+    distinctFraction: 0.3913046117060408,
+    directionalOverlapWithin5m: [ 61.19729852530992, 60.54177913348191 ],
+    demoQuality: 53.7457510186779,
+    routes: undefined,
+    recommendation: undefined
+  }
+]
+AUDIT {
+  generatedAt: '2026-10-23T22:28:54.878Z',
+  baseSource: 'Planning/Community_Development23/MapServer/174',
+  trailSource: 'Parks/Parks_Recreation18/MapServer/158',
+  trailFeaturesInspected: 439,
+  acceptedTrailFeatures: 144,
+  acceptedPavedFeatures: 139,
+  acceptedPavedLineParts: 145,
+  acceptedHikingLineParts: 5,
+  exclusions: {
+    'Explicit public access missing': 117,
+    'Not a documented paved/shared-use or explicit hiking facility': 159,
+    'Walking/shared-use classification not sufficiently established': 6,
+    'Unapproved/proposed/future facility': 13
+  },
+  duplicateFeatures: 5,
+  trimmedMeters: 601.3954998057261,
+  mirrorSample: {
+    features: 385,
+    eligibleFeatures: 202,
+    totalMeters: 18024.039262405036,
+    nearBaselineWithin25cmMeters: 16818.928551961686,
+    overlapPercent: 93.31386992172726
+  },
+  baselineFeatureCount: 4834
+}

@@ -1,0 +1,2535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20324567083367,
+          36.38172637322613
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "name": "Crystal Bridges Museum of Natural Art",
+        "address": "600 Museum Way",
+        "city": "Bentonville",
+        "subtype": 9,
+        "cost": null,
+        "trail_access": null,
+        "visible": null,
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2311522694855,
+          36.3714654032997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "name": "Museum of Native American History",
+        "address": " 202 SW 'O' Street",
+        "city": "Bentonville",
+        "subtype": 9,
+        "cost": null,
+        "trail_access": null,
+        "visible": null,
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2084679272637,
+          36.372645513722176
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "name": "Bentonville Square",
+        "address": "103 Northeast 2nd Street",
+        "city": "Bentonville",
+        "subtype": 10,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2438625567362,
+          36.461272373803794
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "name": "Bella Vista Historical Museum",
+        "address": "1885 Bella Vista Way",
+        "city": "Bentonville",
+        "subtype": 9,
+        "cost": null,
+        "trail_access": null,
+        "visible": null,
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20747125968848,
+          36.374891271094356
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "name": "Lawrence Plaza",
+        "address": "214 NE A Street",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18556478033891,
+          36.374843804867986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "name": "Memorial Park",
+        "address": "401 NE Martin Luther King Jr Parkway ",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19594453815714,
+          36.376967373700836
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "name": "Orchards Park",
+        "address": "NE J Street & John DeShields Blvd.",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2117310052916,
+          36.38462806973404
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "name": "Park Springs Park",
+        "address": "300 NW 10th Street",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20452029977012,
+          36.340192529583746
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "name": "Phillips Park",
+        "address": "3108 SE \"J\" Street",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.236385576335,
+          36.334420372425576
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "name": "Wildwood Park",
+        "address": "3800 Bright road",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21551492038964,
+          36.40199480764167
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "name": "Bentonville Bark Park",
+        "address": "2561 71 Business",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20733088075504,
+          36.37207643831543
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "name": "Dave Peel Park",
+        "address": "206 East Central Avenue",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "No",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20751905305274,
+          36.37465486409889
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "name": "Lawrence Plaza",
+        "address": "214 NE A Street",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18539311809766,
+          36.374878357948916
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "name": "Memorial Park",
+        "address": "401 NE Martin Luther King Jr Parkway ",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1960674320752,
+          36.37697666655705
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "name": "Orchards Park",
+        "address": "NE J Street & John DeShields Blvd.",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21157948421704,
+          36.38450369602826
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "name": "Park Springs Park",
+        "address": "300 NW 10th Street",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20472951252016,
+          36.34041722657966
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "name": "Phillips Park",
+        "address": "3108 SE J St, Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "No",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.236385576335,
+          36.334420372425576
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "name": "Wildwood Park",
+        "address": "3800 Bright road",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19754483239672,
+          36.3660998638161
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19864191450914,
+          36.36647975786047
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 3,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20838199137819,
+          36.367985501009485
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "name": "Bentonville Public Library",
+        "address": "405 S Main St",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20803072252424,
+          36.36772821453483
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "name": "Bentonville Public Library",
+        "address": "405 S Main St",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": null,
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18816233911899,
+          36.37747885552266
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "name": "Memorial Park Tennis Court Parking",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22933379710668,
+          36.43313320750402
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "name": "Lot C",
+        "address": "Bella Vista Lake, Cold Cave Road",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21562035673718,
+          36.402434245808166
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "name": "Bark Park Trail Head",
+        "address": "2580 N Walton Blvd",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23239607609248,
+          36.43251314043697
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "name": "Lot B",
+        "address": "Bella Vista Lake, Cold Cave Road",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20646155804891,
+          36.377651083057515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "name": "Crystal Bridges Trail Access",
+        "address": "399 NE 5th St",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20801520726772,
+          36.376015628520264
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "name": "Compton Gardens",
+        "address": "312 North Main Street",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19991007060916,
+          36.37893834265047
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "name": "Crystal Bridges Trailhead",
+        "address": "600 Museum Way",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18692412883145,
+          36.37499743840453
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "name": "Melvin Ford Aquatic Center Parking",
+        "address": "401 NE Martin Luther King Jr Parkway",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "see website",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18719839426785,
+          36.37341088271607
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "name": "Memorial Park Parking",
+        "address": "401 NE Martin Luther King Jr Parkway Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23207671544233,
+          36.431517990766466
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "name": "Lot A",
+        "address": "Bella Vista Lake, Cold Cave Road",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19090169795756,
+          36.33962305731306
+        ]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "name": "Northwest Medical Center",
+        "address": "3000 SE Medical Center Pkwy",
+        "city": "Bentonville",
+        "subtype": 11,
+        "cost": null,
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2114299817623,
+          36.38402686383845
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "name": "Park Springs Park",
+        "address": "300 NW 10th Street",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2038325879927,
+          36.388905476815
+        ]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "name": "Slaughter Pen Trail: Cub Street Parking Lot",
+        "address": "N/A",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20760887164947,
+          36.37543359523246
+        ]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "name": "Compton Gardens",
+        "address": "312 North Main Street",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20551006769158,
+          36.38350352705876
+        ]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "name": "Slaughter Pen Trail Parking",
+        "address": "N/A",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20540302511354,
+          36.38311785519513
+        ]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "name": "Slaughter Pen Trail Restroom",
+        "address": "N/A",
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20733488265194,
+          36.37188895686178
+        ]
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "name": "David Peel Park",
+        "address": "206 East Central Avenue",
+        "city": "Bentonville",
+        "subtype": 5,
+        "cost": "Free",
+        "trail_access": "No",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21193755453262,
+          36.38402106345656
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "name": "Park Springs Park Trailhead",
+        "address": "300 NW 10th Street",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18799145644961,
+          36.37651066869294
+        ]
+      },
+      "properties": {
+        "OBJECTID": 84,
+        "name": "Memorial Park Parking",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19369115151463,
+          36.37724923007119
+        ]
+      },
+      "properties": {
+        "OBJECTID": 85,
+        "name": "John DeShields Soccer Park",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19073803956333,
+          36.37698792683891
+        ]
+      },
+      "properties": {
+        "OBJECTID": 86,
+        "name": "John DeShields Soccer Complex",
+        "address": "1600 John DeShields Blvd Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1851530402652,
+          36.3762799269642
+        ]
+      },
+      "properties": {
+        "OBJECTID": 87,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "No",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20562162059217,
+          36.37824435176737
+        ]
+      },
+      "properties": {
+        "OBJECTID": 89,
+        "name": "Bentonville Public Restrooms",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20476006488862,
+          36.34217972133347
+        ]
+      },
+      "properties": {
+        "OBJECTID": 91,
+        "name": "Phillips Park",
+        "address": "3108 SE J St, Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "No",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20267435467831,
+          36.38091947405021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 99,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19940420471471,
+          36.378623299208655
+        ]
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20628465012943,
+          36.37764183669133
+        ]
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "name": "NE 5th St Parking Lot",
+        "address": "NE 5th St",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20783765021075,
+          36.37580190836375
+        ]
+      },
+      "properties": {
+        "OBJECTID": 110,
+        "name": "Compton Gardens",
+        "address": "312 N. Main St.",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20516730938623,
+          36.38301873547139
+        ]
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "name": "NW A St Parking Lot",
+        "address": "906 NE A St.",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22885611768632,
+          36.4333503982719
+        ]
+      },
+      "properties": {
+        "OBJECTID": 116,
+        "name": "Bella Vista Lake Trailhead",
+        "address": "Cold Cave Road",
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2158152951216,
+          36.404459366139285
+        ]
+      },
+      "properties": {
+        "OBJECTID": 120,
+        "name": "Bentonville Bark Park",
+        "address": "2700 North Walton Blvd.  Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22082462709865,
+          36.42144156049972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 121,
+        "name": "Wishing Spring Trail Parking",
+        "address": "3803 NW Wishing Spring Rd, Bentonville, AR 72712",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20304401908449,
+          36.39261489716977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 122,
+        "name": "NE \"A\" Street",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": "Yes",
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2387358584018,
+          36.39712379769083
+        ]
+      },
+      "properties": {
+        "OBJECTID": 144,
+        "name": "Coler Preserve Parking",
+        "address": "11840 Peach Orchard Rd",
+        "city": "Bentonville",
+        "subtype": 12,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20046875261043,
+          36.386475632441
+        ]
+      },
+      "properties": {
+        "OBJECTID": 154,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18990834574126,
+          36.37675861584303
+        ]
+      },
+      "properties": {
+        "OBJECTID": 161,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23530609958655,
+          36.39561201345217
+        ]
+      },
+      "properties": {
+        "OBJECTID": 162,
+        "name": "Tree Cut Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23619575217663,
+          36.39154605406742
+        ]
+      },
+      "properties": {
+        "OBJECTID": 164,
+        "name": "THE HUB",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2384185403794,
+          36.397228054713956
+        ]
+      },
+      "properties": {
+        "OBJECTID": 165,
+        "name": "Coler Trails Map",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 4,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23817456309591,
+          36.39734529747846
+        ]
+      },
+      "properties": {
+        "OBJECTID": 166,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23875540146594,
+          36.39686596357263
+        ]
+      },
+      "properties": {
+        "OBJECTID": 167,
+        "name": "Coler Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23803693697899,
+          36.39751178954222
+        ]
+      },
+      "properties": {
+        "OBJECTID": 170,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23803679826787,
+          36.39769566783945
+        ]
+      },
+      "properties": {
+        "OBJECTID": 171,
+        "name": "Oscars Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23798097157731,
+          36.39769311628627
+        ]
+      },
+      "properties": {
+        "OBJECTID": 172,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23797007533412,
+          36.3977777419057
+        ]
+      },
+      "properties": {
+        "OBJECTID": 173,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23563834169556,
+          36.398422581125516
+        ]
+      },
+      "properties": {
+        "OBJECTID": 174,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23529666098949,
+          36.396445055218486
+        ]
+      },
+      "properties": {
+        "OBJECTID": 175,
+        "name": "Oscars Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23532142866618,
+          36.396402627206264
+        ]
+      },
+      "properties": {
+        "OBJECTID": 176,
+        "name": "Fire Line",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2360646659025,
+          36.39555713156355
+        ]
+      },
+      "properties": {
+        "OBJECTID": 177,
+        "name": "Drop The Hammer",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23611624811339,
+          36.395528590589734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 178,
+        "name": "Drop The Hammer Jump",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2357737753429,
+          36.39522902835064
+        ]
+      },
+      "properties": {
+        "OBJECTID": 179,
+        "name": "Cease and Desist Jump",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23567781823702,
+          36.39522761549521
+        ]
+      },
+      "properties": {
+        "OBJECTID": 180,
+        "name": "Drop Sign",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23624071329326,
+          36.391741059425996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 181,
+        "name": "Cease and Desist",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23613370487689,
+          36.39165955362155
+        ]
+      },
+      "properties": {
+        "OBJECTID": 182,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2361021466256,
+          36.39158620143285
+        ]
+      },
+      "properties": {
+        "OBJECTID": 183,
+        "name": "Fire Line",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23624671299999,
+          36.39153465590055
+        ]
+      },
+      "properties": {
+        "OBJECTID": 184,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23624172282616,
+          36.39140954105101
+        ]
+      },
+      "properties": {
+        "OBJECTID": 185,
+        "name": "Rock Solid",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23641744304436,
+          36.39141569349053
+        ]
+      },
+      "properties": {
+        "OBJECTID": 186,
+        "name": "Rock Solid",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23612831683151,
+          36.39131026583169
+        ]
+      },
+      "properties": {
+        "OBJECTID": 187,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23610841741089,
+          36.39123192944821
+        ]
+      },
+      "properties": {
+        "OBJECTID": 188,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23602310938752,
+          36.38873035982873
+        ]
+      },
+      "properties": {
+        "OBJECTID": 189,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23610259765981,
+          36.388662310865456
+        ]
+      },
+      "properties": {
+        "OBJECTID": 190,
+        "name": "Copperhead Road",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2348993980725,
+          36.388094139466844
+        ]
+      },
+      "properties": {
+        "OBJECTID": 191,
+        "name": "Feature",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23479744129372,
+          36.388003526891694
+        ]
+      },
+      "properties": {
+        "OBJECTID": 192,
+        "name": "Tree Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23490247919652,
+          36.38774968668239
+        ]
+      },
+      "properties": {
+        "OBJECTID": 193,
+        "name": "Feature",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23491803405692,
+          36.387730975224464
+        ]
+      },
+      "properties": {
+        "OBJECTID": 194,
+        "name": "Feature",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23521087632716,
+          36.386993674308336
+        ]
+      },
+      "properties": {
+        "OBJECTID": 195,
+        "name": "X-ING",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23530308107881,
+          36.3869054097193
+        ]
+      },
+      "properties": {
+        "OBJECTID": 196,
+        "name": "Tree Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23545622985348,
+          36.38681316426876
+        ]
+      },
+      "properties": {
+        "OBJECTID": 197,
+        "name": "Feature",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23594370457154,
+          36.38589408786539
+        ]
+      },
+      "properties": {
+        "OBJECTID": 199,
+        "name": "SERVICE ROAD",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23599808688766,
+          36.38413398586703
+        ]
+      },
+      "properties": {
+        "OBJECTID": 200,
+        "name": "Copperhead Road",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23593381922313,
+          36.384198127405305
+        ]
+      },
+      "properties": {
+        "OBJECTID": 201,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23580893403366,
+          36.384120288255474
+        ]
+      },
+      "properties": {
+        "OBJECTID": 202,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23523594101076,
+          36.38269852670551
+        ]
+      },
+      "properties": {
+        "OBJECTID": 203,
+        "name": "Wooden Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 96,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23530073164699,
+          36.38273588285207
+        ]
+      },
+      "properties": {
+        "OBJECTID": 204,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23524097013147,
+          36.3826663867543
+        ]
+      },
+      "properties": {
+        "OBJECTID": 205,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2375714343504,
+          36.38570396696192
+        ]
+      },
+      "properties": {
+        "OBJECTID": 206,
+        "name": "SERVICE ROAD",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23802965157323,
+          36.38744546584603
+        ]
+      },
+      "properties": {
+        "OBJECTID": 207,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23850859202712,
+          36.38674376520097
+        ]
+      },
+      "properties": {
+        "OBJECTID": 208,
+        "name": "Steel Bridge",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 96,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23641194304581,
+          36.39030536059281
+        ]
+      },
+      "properties": {
+        "OBJECTID": 209,
+        "name": "Copperhead Road",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23648298018448,
+          36.39029462293552
+        ]
+      },
+      "properties": {
+        "OBJECTID": 210,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23855665538831,
+          36.396570285319896
+        ]
+      },
+      "properties": {
+        "OBJECTID": 211,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23860908263859,
+          36.396433096832766
+        ]
+      },
+      "properties": {
+        "OBJECTID": 212,
+        "name": "Downhill Only",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23860293050619,
+          36.396466121812054
+        ]
+      },
+      "properties": {
+        "OBJECTID": 213,
+        "name": "Oscar's Loop",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19716053606317,
+          36.36626104195219
+        ]
+      },
+      "properties": {
+        "OBJECTID": 220,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23672416756295,
+          36.37626511074483
+        ]
+      },
+      "properties": {
+        "OBJECTID": 224,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 2,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20471654989817,
+          36.388787849255486
+        ]
+      },
+      "properties": {
+        "OBJECTID": 228,
+        "name": "Rim Trail",
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20462053510558,
+          36.388702601917736
+        ]
+      },
+      "properties": {
+        "OBJECTID": 229,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20455474475963,
+          36.38866046784784
+        ]
+      },
+      "properties": {
+        "OBJECTID": 230,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20385700681692,
+          36.38633706643766
+        ]
+      },
+      "properties": {
+        "OBJECTID": 231,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20358841874531,
+          36.385907512859916
+        ]
+      },
+      "properties": {
+        "OBJECTID": 232,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20527780056041,
+          36.38512113785308
+        ]
+      },
+      "properties": {
+        "OBJECTID": 233,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 97,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20538965393474,
+          36.38510651880748
+        ]
+      },
+      "properties": {
+        "OBJECTID": 234,
+        "name": null,
+        "address": null,
+        "city": "Bentonville",
+        "subtype": 98,
+        "cost": "Free",
+        "trail_access": null,
+        "visible": "Yes",
+        "Approved": null
+      }
+    }
+  ]
+}

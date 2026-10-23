@@ -1,0 +1,7 @@
+{
+  "status": 400,
+  "body": {
+    "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+    "code": "INVALID_LOCATION"
+  }
+}

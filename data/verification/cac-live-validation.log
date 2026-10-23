@@ -1,0 +1,111 @@
+{
+  "start": {
+    "label": "Austin-Baggett Park",
+    "point": [
+      36.36571210106438,
+      -94.20363133075323
+    ]
+  },
+  "destination": {
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "metrics": {
+        "minutes": 17.40895,
+        "miles": 0.920906282311302,
+        "seconds": 1044.537,
+        "providerDistanceMeters": 1482.055,
+        "coverage": 74.64369816375708,
+        "gaps": 3,
+        "score": 69,
+        "lengthMeters": 1482.449785558302,
+        "coveredMeters": 1106.555343361403,
+        "uncoveredMeters": 375.89444219689904
+      }
+    },
+    {
+      "id": "pathsafe",
+      "metrics": {
+        "minutes": 17.488166666666665,
+        "miles": 0.9159353127734033,
+        "seconds": 1049.29,
+        "providerDistanceMeters": 1474.055,
+        "coverage": 96.38925952666217,
+        "gaps": 1,
+        "score": 94,
+        "lengthMeters": 1474.910636503629,
+        "coveredMeters": 1421.6554412058279,
+        "uncoveredMeters": 53.25519529780104
+      }
+    },
+    {
+      "id": "alternative-2",
+      "metrics": {
+        "minutes": 17.610400000000002,
+        "miles": 0.9240131382724887,
+        "seconds": 1056.624,
+        "providerDistanceMeters": 1487.055,
+        "coverage": 80.26834633964855,
+        "gaps": 3,
+        "score": 74,
+        "lengthMeters": 1487.8799981139816,
+        "coveredMeters": 1194.296670004487,
+        "uncoveredMeters": 293.5833281094947
+      }
+    }
+  ],
+  "story": {
+    "headline": "About 5 seconds longer for over 21 percentage points more mapped pedestrian infrastructure coverage.",
+    "explanation": "This route adds about 5 seconds while increasing mapped pedestrian infrastructure coverage from 74.6% to 96.4%.",
+    "factors": [
+      "Higher mapped pedestrian infrastructure coverage",
+      "Fewer meaningful infrastructure gaps",
+      "Minimal additional travel time"
+    ]
+  },
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-23T22:37:46.935Z",
+        "cacheHit": false,
+        "featureCount": 313
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-23T22:37:46.794Z",
+        "cacheHit": false,
+        "featureCount": 4
+      }
+    ],
+    "gisFetchedAt": "2026-10-23T22:37:46.935Z",
+    "routingFetchedAt": "2026-10-23T22:18:57.031Z",
+    "gisCacheHit": false,
+    "routingCacheHit": true,
+    "featureCount": 317,
+    "segmentCount": 325,
+    "eligibleSegmentCount": 245,
+    "countsByKind": {
+      "crossing": 78,
+      "sidewalk": 235,
+      "trail": 4
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 13.88m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  }
+}

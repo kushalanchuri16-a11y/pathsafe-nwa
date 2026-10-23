@@ -1,0 +1,98 @@
+{
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-23T20:09:53.973Z",
+        "cacheHit": true,
+        "featureCount": 311
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-23T22:28:13.932Z",
+        "cacheHit": false,
+        "featureCount": 6
+      }
+    ],
+    "gisFetchedAt": "2026-10-23T20:09:53.973Z",
+    "routingFetchedAt": "2026-10-23T20:09:53.402Z",
+    "gisCacheHit": false,
+    "routingCacheHit": true,
+    "featureCount": 317,
+    "segmentCount": 345,
+    "eligibleSegmentCount": 267,
+    "countsByKind": {
+      "crossing": 76,
+      "sidewalk": 235,
+      "trail": 6
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 60.53m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 0.3 minutes and increases mapped pedestrian infrastructure coverage from 55.6% to 65.8%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "metrics": {
+        "minutes": 33.70588333333333,
+        "miles": 1.7667782649327923,
+        "seconds": 2022.353,
+        "providerDistanceMeters": 2843.354,
+        "coverage": 55.60619293160305,
+        "gaps": 6,
+        "score": 44,
+        "lengthMeters": 2835.767509970154,
+        "coveredMeters": 1576.8623526857195,
+        "uncoveredMeters": 1258.9051572844346
+      }
+    },
+    {
+      "id": "pathsafe",
+      "metrics": {
+        "minutes": 33.99616666666667,
+        "miles": 1.7924365455738487,
+        "seconds": 2039.77,
+        "providerDistanceMeters": 2884.647,
+        "coverage": 65.76231236773036,
+        "gaps": 4,
+        "score": 58,
+        "lengthMeters": 2882.531940436124,
+        "coveredMeters": 1895.619658769203,
+        "uncoveredMeters": 986.912281666921
+      }
+    },
+    {
+      "id": "alternative-2",
+      "metrics": {
+        "minutes": 34.26683333333334,
+        "miles": 1.8009530591346536,
+        "seconds": 2056.01,
+        "providerDistanceMeters": 2898.353,
+        "coverage": 37.54380212624719,
+        "gaps": 7,
+        "score": 24,
+        "lengthMeters": 2892.8954642465897,
+        "coveredMeters": 1086.1029488159197,
+        "uncoveredMeters": 1806.79251543067
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "type": "type",
+    "record_count": "record_count"
+  },
+  "fields": [
+    {
+      "name": "type",
+      "type": "esriFieldTypeString",
+      "alias": "type",
+      "length": 50
+    },
+    {
+      "name": "record_count",
+      "type": "esriFieldTypeInteger",
+      "alias": "record_count"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "type": "z-walk",
+        "record_count": 401
+      }
+    }
+  ]
+}

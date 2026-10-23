@@ -1,0 +1,466 @@
+{
+  "selectedAt": "2026-10-23T22:15:36.338Z",
+  "publicRequestSpacingSeconds": 10,
+  "pairs": [
+    {
+      "id": "pair-01",
+      "start": {
+        "label": "Bentonville High School-North",
+        "objectId": 20,
+        "address": "1801 SE J ST",
+        "point": [
+          36.351891386817904,
+          -94.19521148198835
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-02",
+      "start": {
+        "label": "Bentonville High School-North",
+        "objectId": 20,
+        "address": "1801 SE J ST",
+        "point": [
+          36.351891386817904,
+          -94.19521148198835
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "objectId": 77,
+        "address": "2000 NE MEMORIAL PARK SQ",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-03",
+      "start": {
+        "label": "Ruth Hale Barker Middle School",
+        "objectId": 100,
+        "address": "500 SE 18TH ST",
+        "point": [
+          36.351650931695254,
+          -94.20460353661403
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-04",
+      "start": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "objectId": 77,
+        "address": "2000 NE MEMORIAL PARK SQ",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-05",
+      "start": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Park Springs Park",
+        "objectId": 90,
+        "address": "300 NW 10TH ST",
+        "point": [
+          36.38446940084979,
+          -94.21172262806756
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-06",
+      "start": {
+        "label": "City Hall",
+        "objectId": 35,
+        "address": "117 W CENTRAL AVE",
+        "point": [
+          36.372111175420486,
+          -94.20976429957359
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "objectId": 77,
+        "address": "2000 NE MEMORIAL PARK SQ",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-07",
+      "start": {
+        "label": "Lawrence Plaza",
+        "objectId": 67,
+        "address": "214 NE A ST",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Enfield Park",
+        "objectId": 51,
+        "address": "1205 NE WAVERLY WAY",
+        "point": [
+          36.386876961373574,
+          -94.20040325451879
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-08",
+      "start": {
+        "label": "Old High Middle School",
+        "objectId": 86,
+        "address": "406 NW 2ND ST",
+        "point": [
+          36.3735601906109,
+          -94.21374709627699
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "objectId": 77,
+        "address": "2000 NE MEMORIAL PARK SQ",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-09",
+      "start": {
+        "label": "Lincoln Jr High School",
+        "objectId": 72,
+        "address": "1206 NW LEOPARD LN",
+        "point": [
+          36.38810435136245,
+          -94.21161421463339
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "objectId": 67,
+        "address": "214 NE A ST",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-10",
+      "start": {
+        "label": "Thomas Jefferson Elementary School",
+        "objectId": 127,
+        "address": "810  BELLA VISTA RD",
+        "point": [
+          36.38254124765499,
+          -94.21646362903837
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-11",
+      "start": {
+        "label": "Sugar Creek Elementary School",
+        "objectId": 118,
+        "address": "1102  BELLA VISTA RD",
+        "point": [
+          36.383805847996555,
+          -94.21640621628336
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "objectId": 67,
+        "address": "214 NE A ST",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-12",
+      "start": {
+        "label": "Bentonville Community Center",
+        "objectId": 17,
+        "address": "1101 SW CITIZENS CIR",
+        "point": [
+          36.330686633086984,
+          -94.22562277195081
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Wildwood Park",
+        "objectId": 137,
+        "address": "3800 SW BRIGHT RD",
+        "point": [
+          36.334423206975764,
+          -94.23648877730862
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-13",
+      "start": {
+        "label": "Bentonville Community Center",
+        "objectId": 17,
+        "address": "1101 SW CITIZENS CIR",
+        "point": [
+          36.330686633086984,
+          -94.22562277195081
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-14",
+      "start": {
+        "label": "Ardis Ann Middle School",
+        "objectId": 3,
+        "address": "3400 SW 2ND ST",
+        "point": [
+          36.37149256958668,
+          -94.2507621623965
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Bogle Park",
+        "objectId": 29,
+        "address": " NW F ST",
+        "point": [
+          36.374653823176736,
+          -94.21676182692332
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-15",
+      "start": {
+        "label": "Washington Jr High School",
+        "objectId": 135,
+        "address": "1501 NE WILDCAT WAY",
+        "point": [
+          36.373440427394414,
+          -94.19141626620348
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-16",
+      "start": {
+        "label": "Bogle Park",
+        "objectId": 29,
+        "address": " NW F ST",
+        "point": [
+          36.374653823176736,
+          -94.21676182692332
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Park Springs Park",
+        "objectId": 90,
+        "address": "300 NW 10TH ST",
+        "point": [
+          36.38446940084979,
+          -94.21172262806756
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-17",
+      "start": {
+        "label": "Bark Park",
+        "objectId": 6,
+        "address": "2400 N WALTON BLVD",
+        "point": [
+          36.401959565483686,
+          -94.21561889267842
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "City Hall",
+        "objectId": 35,
+        "address": "117 W CENTRAL AVE",
+        "point": [
+          36.372111175420486,
+          -94.20976429957359
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-18",
+      "start": {
+        "label": "Enfield Park",
+        "objectId": 51,
+        "address": "1205 NE WAVERLY WAY",
+        "point": [
+          36.386876961373574,
+          -94.20040325451879
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "objectId": 77,
+        "address": "2000 NE MEMORIAL PARK SQ",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-19",
+      "start": {
+        "label": "Durham Place Park",
+        "objectId": 49,
+        "address": "913  DURHAM PL",
+        "point": [
+          36.362374358066624,
+          -94.20191575643521
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Library",
+        "objectId": 68,
+        "address": "405 S MAIN ST",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    },
+    {
+      "id": "pair-20",
+      "start": {
+        "label": "Austin-Baggett Park",
+        "objectId": 5,
+        "address": "601 SE D ST",
+        "point": [
+          36.36571210106438,
+          -94.20363133075323
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "objectId": 67,
+        "address": "214 NE A ST",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ],
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+
+> pathsafe-nwa@1.0.0 demo:prewarm
+> node --import tsx scripts/prewarm-demo.ts
+
+REAL DATA prewarm complete. Open /app and compare the verified demo pair.
+Verified trip: Austin-Baggett Park → Lawrence Plaza
+┌─────────┬─────────────────┬─────────────┬─────────┬────────┬──────────┬──────┬───────┐
+│ (index) │ route           │ recommended │ minutes │ miles  │ coverage │ gaps │ score │
+├─────────┼─────────────────┼─────────────┼─────────┼────────┼──────────┼──────┼───────┤
+│ 0       │ 'Fastest Route' │ false       │ '17.41' │ '0.92' │ '74.64%' │ 3    │ 69    │
+│ 1       │ 'Alternative 1' │ true        │ '17.49' │ '0.92' │ '96.39%' │ 1    │ 94    │
+│ 2       │ 'Alternative 2' │ false       │ '17.61' │ '0.92' │ '80.27%' │ 3    │ 74    │
+└─────────┴─────────────────┴─────────────┴─────────┴────────┴──────────┴──────┴───────┘
+GIS retrieved: 2026-10-23T22:37:46.935Z Routing retrieved: 2026-10-23T22:18:57.031Z
+Existing cache hits: true true (fresh successful results are now cached)

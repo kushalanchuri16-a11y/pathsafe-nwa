@@ -1,0 +1,147 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "trltyptxt": "trltyptxt",
+    "trlsubtype": "trlsubtype",
+    "record_count": "record_count"
+  },
+  "fields": [
+    {
+      "name": "trltyptxt",
+      "type": "esriFieldTypeString",
+      "alias": "trltyptxt",
+      "length": 50
+    },
+    {
+      "name": "trlsubtype",
+      "type": "esriFieldTypeInteger",
+      "alias": "trlsubtype"
+    },
+    {
+      "name": "record_count",
+      "type": "esriFieldTypeInteger",
+      "alias": "record_count"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "trltyptxt": null,
+        "trlsubtype": null,
+        "record_count": 1
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Marked Shared Roadway",
+        "trlsubtype": 1,
+        "record_count": 1
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Signed Shared Roadway",
+        "trlsubtype": 1,
+        "record_count": 48
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Off-Street Trail",
+        "trlsubtype": 4,
+        "record_count": 178
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Side-Path Trail",
+        "trlsubtype": 4,
+        "record_count": 20
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Other Cross",
+        "trlsubtype": 5,
+        "record_count": 502
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Painted Cross",
+        "trlsubtype": 5,
+        "record_count": 326
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Sidewalk",
+        "trlsubtype": 5,
+        "record_count": 5646
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": null,
+        "trlsubtype": 6,
+        "record_count": 10
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Hiking",
+        "trlsubtype": 6,
+        "record_count": 1
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Neighborhood Trail",
+        "trlsubtype": 6,
+        "record_count": 5
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Park Trail",
+        "trlsubtype": 6,
+        "record_count": 4
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Pump Track",
+        "trlsubtype": 6,
+        "record_count": 1
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": null,
+        "trlsubtype": 7,
+        "record_count": 2
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Hiking",
+        "trlsubtype": 7,
+        "record_count": 4
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Mountain Bike primary use",
+        "trlsubtype": 7,
+        "record_count": 208
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Path",
+        "trlsubtype": 8,
+        "record_count": 6
+      }
+    }
+  ]
+}

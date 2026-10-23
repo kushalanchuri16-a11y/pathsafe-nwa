@@ -1,0 +1,298 @@
+{
+  "validatedAt": "2026-10-23T22:57:14.021Z",
+  "trips": [
+    {
+      "id": "showcase",
+      "start": {
+        "label": "Austin-Baggett Park",
+        "point": [
+          36.36571210106438,
+          -94.20363133075323
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 17.40895,
+            "miles": 0.920906282311302,
+            "seconds": 1044.537,
+            "providerDistanceMeters": 1482.055,
+            "coverage": 74.64369816375708,
+            "gaps": 3,
+            "score": 69,
+            "lengthMeters": 1482.449785558302,
+            "coveredMeters": 1106.555343361403,
+            "uncoveredMeters": 375.89444219689904
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 17.488166666666665,
+            "miles": 0.9159353127734033,
+            "seconds": 1049.29,
+            "providerDistanceMeters": 1474.055,
+            "coverage": 96.38925952666217,
+            "gaps": 1,
+            "score": 94,
+            "lengthMeters": 1474.910636503629,
+            "coveredMeters": 1421.6554412058279,
+            "uncoveredMeters": 53.25519529780104
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 17.610400000000002,
+            "miles": 0.9240131382724887,
+            "seconds": 1056.624,
+            "providerDistanceMeters": 1487.055,
+            "coverage": 80.26834633964855,
+            "gaps": 3,
+            "score": 74,
+            "lengthMeters": 1487.8799981139816,
+            "coveredMeters": 1194.296670004487,
+            "uncoveredMeters": 293.5833281094947
+          }
+        }
+      ],
+      "recommendation": {
+        "routeId": "pathsafe",
+        "explanation": "This route adds approximately 0.1 minutes and increases mapped pedestrian infrastructure coverage from 74.6% to 96.4%.",
+        "factors": [
+          "At least 10 percentage points more mapped infrastructure coverage",
+          "At most 5 extra minutes and 25% added time/distance",
+          "Higher Pedestrian Infrastructure Score than the fastest route"
+        ]
+      },
+      "realBadge": true
+    },
+    {
+      "id": "library-park",
+      "start": {
+        "label": "Library",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ]
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 31.67778333333333,
+            "miles": 1.6618659528354411,
+            "seconds": 1900.667,
+            "providerDistanceMeters": 2674.514,
+            "coverage": 72.98557639604658,
+            "gaps": 6,
+            "score": 61,
+            "lengthMeters": 2670.63285697311,
+            "coveredMeters": 1949.1767840840307,
+            "uncoveredMeters": 721.4560728890792
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 32.69253333333333,
+            "miles": 1.7059833074842918,
+            "seconds": 1961.552,
+            "providerDistanceMeters": 2745.514,
+            "coverage": 67.79021869281422,
+            "gaps": 6,
+            "score": 56,
+            "lengthMeters": 2741.2502794222746,
+            "coveredMeters": 1858.299559337741,
+            "uncoveredMeters": 882.9507200845337
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 32.971666666666664,
+            "miles": 1.714061132983377,
+            "seconds": 1978.3,
+            "providerDistanceMeters": 2758.514,
+            "coverage": 75.32285216805612,
+            "gaps": 6,
+            "score": 63,
+            "lengthMeters": 2754.1241389470574,
+            "coveredMeters": 2074.48485370384,
+            "uncoveredMeters": 679.6392852432173
+          }
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "realBadge": true
+    },
+    {
+      "id": "crystal-plaza",
+      "start": {
+        "label": "Crystal Bridges",
+        "point": [
+          36.38211712065461,
+          -94.2033730929639
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 22.3082,
+            "miles": 1.0594378827646544,
+            "seconds": 1338.492,
+            "providerDistanceMeters": 1705,
+            "coverage": 48.75872543136266,
+            "gaps": 5,
+            "score": 39,
+            "lengthMeters": 1704.5087733801945,
+            "coveredMeters": 831.0967527659366,
+            "uncoveredMeters": 873.4120206142579
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 33.27328333333333,
+            "miles": 1.6603038256581564,
+            "seconds": 1996.397,
+            "providerDistanceMeters": 2672,
+            "coverage": 69.41307989525275,
+            "gaps": 4,
+            "score": 57,
+            "lengthMeters": 2670.1837190002843,
+            "coveredMeters": 1853.4567582196985,
+            "uncoveredMeters": 816.7269607805858
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 35.76875,
+            "miles": 1.7168486041517537,
+            "seconds": 2146.125,
+            "providerDistanceMeters": 2763,
+            "coverage": 44.86141677179939,
+            "gaps": 9,
+            "score": 22,
+            "lengthMeters": 2759.4569744991477,
+            "coveredMeters": 1237.9314939685487,
+            "uncoveredMeters": 1521.525480530599
+          }
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "realBadge": true
+    },
+    {
+      "id": "street-addresses",
+      "start": {
+        "label": "300 N MAIN ST",
+        "point": [
+          36.37528271730159,
+          -94.20875532431894
+        ]
+      },
+      "destination": {
+        "label": "500 S MAIN ST",
+        "point": [
+          36.36665665368549,
+          -94.20929888668746
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 11.467066666666666,
+            "miles": 0.6033725542829873,
+            "seconds": 688.024,
+            "providerDistanceMeters": 971.034,
+            "coverage": 99.06405378379479,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 971.4636152591429,
+            "coveredMeters": 962.3712383103147,
+            "uncoveredMeters": 9.092376948828246
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 13.615216666666667,
+            "miles": 0.7067562932474349,
+            "seconds": 816.913,
+            "providerDistanceMeters": 1137.414,
+            "coverage": 83.16936468090617,
+            "gaps": 2,
+            "score": 78,
+            "lengthMeters": 1137.6116358176848,
+            "coveredMeters": 946.1443700456324,
+            "uncoveredMeters": 191.46726577205243
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 13.629366666666666,
+            "miles": 0.7148341187465203,
+            "seconds": 817.762,
+            "providerDistanceMeters": 1150.414,
+            "coverage": 80.24213239874098,
+            "gaps": 2,
+            "score": 75,
+            "lengthMeters": 1150.970528440699,
+            "coveredMeters": 923.5632953018744,
+            "uncoveredMeters": 227.4072331388245
+          }
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "realBadge": true
+    }
+  ]
+}

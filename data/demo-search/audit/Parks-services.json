@@ -1,0 +1,14 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Parks/Parks_Recreation18",
+      "type": "MapServer"
+    },
+    {
+      "name": "Parks/Sidewalk_Gap_Identification_Web_Map",
+      "type": "MapServer"
+    }
+  ]
+}

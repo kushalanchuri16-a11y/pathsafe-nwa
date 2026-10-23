@@ -1,0 +1,43 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "Existing": "Existing",
+    "Type": "Type",
+    "record_count": "record_count"
+  },
+  "fields": [
+    {
+      "name": "Existing",
+      "type": "esriFieldTypeString",
+      "alias": "Existing",
+      "length": 10
+    },
+    {
+      "name": "Type",
+      "type": "esriFieldTypeString",
+      "alias": "Type",
+      "length": 50
+    },
+    {
+      "name": "record_count",
+      "type": "esriFieldTypeInteger",
+      "alias": "record_count"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "Existing": "No",
+        "Type": "Loop Trail",
+        "record_count": 38
+      }
+    },
+    {
+      "attributes": {
+        "Existing": "Yes",
+        "Type": "Loop Trail",
+        "record_count": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "trltyptxt": "trltyptxt",
+    "trlsubtype": "trlsubtype",
+    "record_count": "record_count"
+  },
+  "fields": [
+    {
+      "name": "trltyptxt",
+      "type": "esriFieldTypeString",
+      "alias": "trltyptxt",
+      "length": 50
+    },
+    {
+      "name": "trlsubtype",
+      "type": "esriFieldTypeInteger",
+      "alias": "trlsubtype"
+    },
+    {
+      "name": "record_count",
+      "type": "esriFieldTypeInteger",
+      "alias": "record_count"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "trltyptxt": "Other Cross",
+        "trlsubtype": 5,
+        "record_count": 502
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Painted Cross",
+        "trlsubtype": 5,
+        "record_count": 326
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Sidewalk",
+        "trlsubtype": 5,
+        "record_count": 5646
+      }
+    },
+    {
+      "attributes": {
+        "trltyptxt": "Path",
+        "trlsubtype": 8,
+        "record_count": 6
+      }
+    }
+  ]
+}

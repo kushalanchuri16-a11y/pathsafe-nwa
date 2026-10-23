@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "id": "city-place:17",
+      "label": "Bentonville Community Center",
+      "point": [
+        36.330686633086984,
+        -94.22562277195081
+      ],
+      "address": "1101 SW CITIZENS CIR",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "id": "city-place:38",
+      "label": "Community Center",
+      "point": [
+        36.330686633086984,
+        -94.22562277195081
+      ],
+      "address": "1101 SW CITIZENS CIR",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "id": "city-place:40",
+      "label": "Community Recreation Center",
+      "point": [
+        36.330686633086984,
+        -94.22562277195081
+      ],
+      "address": "1101 SW CITIZENS CIR",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS"
+    }
+  ],
+  "attribution": "City of Bentonville GIS"
+}

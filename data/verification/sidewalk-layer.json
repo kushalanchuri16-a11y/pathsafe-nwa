@@ -1,0 +1,947 @@
+{
+ "currentVersion": 10.91,
+ "cimVersion": "2.9.0",
+ "id": 174,
+ "name": "Sidewalks",
+ "type": "Feature Layer",
+ "description": "This feature class contains sidewalks, trails, and on-street bicycle facilities for the City of Bentonville, AR and surrounding areas.",
+ "geometryType": "esriGeometryPolyline",
+ "sourceSpatialReference": {
+  "wkid": 102651,
+  "latestWkid": 3433,
+  "xyTolerance": 0.003280833333333333,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -122328300,
+  "falseY": -93908400,
+  "xyUnits": 3048.0060960121928,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": 0,
+  "mUnits": 1
+ },
+ "copyrightText": "City of Bentonville GIS Department; #COBGIS",
+ "parentLayer": {
+  "id": 7,
+  "name": "Sidewalk System"
+ },
+ "subLayers": [],
+ "minScale": 2400,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "trltyptxt",
+   "defaultSymbol": {
+    "type": "esriSLS",
+    "style": "esriSLSSolid",
+    "color": [
+     115,
+     178,
+     255,
+     255
+    ],
+    "width": 2
+   },
+   "defaultLabel": "Path",
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+       130,
+       130,
+       130,
+       255
+      ],
+      "width": 1
+     },
+     "value": "Other Cross",
+     "label": "Other Cross"
+    },
+    {
+     "symbol": {
+      "type": "esriSLS",
+      "style": "esriSLSDash",
+      "color": [
+       0,
+       0,
+       0,
+       255
+      ],
+      "width": 3.4
+     },
+     "value": "Painted Cross",
+     "label": "Painted Cross"
+    },
+    {
+     "symbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       255
+      ],
+      "width": 1
+     },
+     "value": "Sidewalk",
+     "label": "Sidewalk"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        245,
+        93,
+        96,
+        255
+       ],
+       "toColor": [
+        245,
+        93,
+        96,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        126,
+        250,
+        107,
+        255
+       ],
+       "toColor": [
+        126,
+        250,
+        107,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        87,
+        93,
+        250,
+        255
+       ],
+       "toColor": [
+        87,
+        93,
+        250,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        67,
+        133,
+        143,
+        255
+       ],
+       "toColor": [
+        67,
+        133,
+        143,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        214,
+        177,
+        84,
+        255
+       ],
+       "toColor": [
+        214,
+        177,
+        84,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        194,
+        91,
+        175,
+        255
+       ],
+       "toColor": [
+        194,
+        91,
+        175,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        60,
+        128,
+        52,
+        255
+       ],
+       "toColor": [
+        60,
+        128,
+        52,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        156,
+        104,
+        95,
+        255
+       ],
+       "toColor": [
+        156,
+        104,
+        95,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        131,
+        162,
+        247,
+        255
+       ],
+       "toColor": [
+        131,
+        162,
+        247,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        139,
+        240,
+        196,
+        255
+       ],
+       "toColor": [
+        139,
+        240,
+        196,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        87,
+        85,
+        133,
+        255
+       ],
+       "toColor": [
+        87,
+        85,
+        133,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        193,
+        93,
+        240,
+        255
+       ],
+       "toColor": [
+        193,
+        93,
+        240,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        197,
+        230,
+        133,
+        255
+       ],
+       "toColor": [
+        197,
+        230,
+        133,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 631401.942965135,
+  "ymin": 631320.0225439817,
+  "xmax": 695786.4926734716,
+  "ymax": 795652.6062797308,
+  "spatialReference": {
+   "wkid": 102651,
+   "latestWkid": 3433,
+   "xyTolerance": 0.003280833333333333,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -122328300,
+   "falseY": -93908400,
+   "xyUnits": 3048.0060960121928,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "prim_name",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "prim_name",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Name",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "trlsubtype",
+   "type": "esriFieldTypeInteger",
+   "alias": "Subtype",
+   "domain": null
+  },
+  {
+   "name": "trltyptxt",
+   "type": "esriFieldTypeString",
+   "alias": "Class",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "facdescrip",
+   "type": "esriFieldTypeString",
+   "alias": "Fac. Description",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_FacDescrip",
+    "description": "Description of Facilities",
+    "codedValues": [
+     {
+      "name": "Arkansas Missouri Trail",
+      "code": "Arkansas Missouri Trail"
+     },
+     {
+      "name": "Bella Vista Lake",
+      "code": "Bella Vista Lake"
+     },
+     {
+      "name": "Blowing Springs Trails",
+      "code": "Blowing Springs Trails"
+     },
+     {
+      "name": "Citizens Park",
+      "code": "Citizens Park"
+     },
+     {
+      "name": "CLOSED",
+      "code": "CLOSED"
+     },
+     {
+      "name": "Coler",
+      "code": "Coler"
+     },
+     {
+      "name": "Crystal Bridges Trails",
+      "code": "Crystal Bridges Trails"
+     },
+     {
+      "name": "Enfield Park",
+      "code": "Enfield Park"
+     },
+     {
+      "name": "Heritage Trail",
+      "code": "Heritage Trail"
+     },
+     {
+      "name": "Hobbs State Park",
+      "code": "Hobbs State Park"
+     },
+     {
+      "name": "Park Springs/Burns Trail",
+      "code": "Park Springs/Burns Trail"
+     },
+     {
+      "name": "Razorback Greenway",
+      "code": "Razorback Greenway"
+     },
+     {
+      "name": "Shared Roadway",
+      "code": "Shared Roadway"
+     },
+     {
+      "name": "Shared Use",
+      "code": "Shared Use"
+     },
+     {
+      "name": "Sidewalk",
+      "code": "Sidewalk"
+     },
+     {
+      "name": "Slaughter Pen Trails",
+      "code": "Slaughter Pen Trails"
+     },
+     {
+      "name": "TAP",
+      "code": "TAP"
+     },
+     {
+      "name": "The Back 40",
+      "code": "The Back 40"
+     },
+     {
+      "name": "Trail",
+      "code": "Trail"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDuplicate"
+   }
+  },
+  {
+   "name": "surftype",
+   "type": "esriFieldTypeString",
+   "alias": "Surface Type",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_Surface Type",
+    "description": "What type of surface?",
+    "codedValues": [
+     {
+      "name": "Asphalt",
+      "code": "Asphalt"
+     },
+     {
+      "name": "Concrete",
+      "code": "Concrete"
+     },
+     {
+      "name": "Dirt",
+      "code": "Dirt"
+     },
+     {
+      "name": "Gravel",
+      "code": "Gravel"
+     },
+     {
+      "name": "Wood",
+      "code": "Wood"
+     },
+     {
+      "name": "PAVED",
+      "code": "PAVED"
+     },
+     {
+      "name": "UNPAVED",
+      "code": "UNPAVED"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "trlrating",
+   "type": "esriFieldTypeString",
+   "alias": "Rating",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_TrlRating",
+    "description": "What is the rating of the trail?",
+    "codedValues": [
+     {
+      "name": "Easiest",
+      "code": "Easiest"
+     },
+     {
+      "name": "Easy",
+      "code": "Easy"
+     },
+     {
+      "name": "More Difficult",
+      "code": "More Difficult"
+     },
+     {
+      "name": "Very Difficult",
+      "code": "Very Difficult"
+     },
+     {
+      "name": "Extremely Difficult",
+      "code": "Extremely Difficult"
+     },
+     {
+      "name": "Intermediate - Blue Square",
+      "code": "Intermediate"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "maintowner",
+   "type": "esriFieldTypeString",
+   "alias": "Maintenance Owner",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_MaintOwner",
+    "description": "Maintenance Owner",
+    "codedValues": [
+     {
+      "name": "Private",
+      "code": "Private"
+     },
+     {
+      "name": "Bentonville",
+      "code": "Bentonville"
+     },
+     {
+      "name": "AHTD",
+      "code": "AHTD"
+     },
+     {
+      "name": "Benton County",
+      "code": "Benton County"
+     },
+     {
+      "name": "Crystal Bridges",
+      "code": "Crystal Bridges"
+     },
+     {
+      "name": "School District",
+      "code": "School district"
+     },
+     {
+      "name": "Bella Vista",
+      "code": "Bella Vista"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDuplicate"
+   }
+  },
+  {
+   "name": "lighting",
+   "type": "esriFieldTypeString",
+   "alias": "Lighting",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_YesNo",
+    "description": "Yes or No",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Y"
+     },
+     {
+      "name": "No",
+      "code": "N"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "bikesallow",
+   "type": "esriFieldTypeString",
+   "alias": "Bikes Allowed",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_BikesAllow",
+    "description": "Are bikes allowed?",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     },
+     {
+      "name": "Bike Only",
+      "code": "Bike Only"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDuplicate"
+   }
+  },
+  {
+   "name": "adopted_section",
+   "type": "esriFieldTypeString",
+   "alias": "Adopted By",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "created_user",
+   "type": "esriFieldTypeString",
+   "alias": "created_user",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "created_date",
+   "type": "esriFieldTypeDate",
+   "alias": "created_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "last_edited_user",
+   "type": "esriFieldTypeString",
+   "alias": "last_edited_user",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "last_edited_date",
+   "type": "esriFieldTypeDate",
+   "alias": "last_edited_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "trlwidth",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Width (ft)",
+   "domain": {
+    "type": "range",
+    "name": "WS2_trailwidth",
+    "description": "width in ft of trails",
+    "range": [
+     0,
+     30
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "useaccess",
+   "type": "esriFieldTypeString",
+   "alias": "User Access",
+   "length": 10,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_useraccess",
+    "description": "User Access",
+    "codedValues": [
+     {
+      "name": "Public use allowed",
+      "code": "Public"
+     },
+     {
+      "name": "Private use only",
+      "code": "Private"
+     },
+     {
+      "name": "Use permitted with permission",
+      "code": "Restricted"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "constrdate",
+   "type": "esriFieldTypeDate",
+   "alias": "Constructed Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "INC_911",
+   "type": "esriFieldTypeString",
+   "alias": "Include 911",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_YesNo",
+    "description": "Yes or No",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Y"
+     },
+     {
+      "name": "No",
+      "code": "N"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Seg_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Seg_Name",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "LINK",
+   "type": "esriFieldTypeString",
+   "alias": "LINK",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Approved",
+   "type": "esriFieldTypeString",
+   "alias": "Approved",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_YesNo",
+    "description": "Yes or No",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Y"
+     },
+     {
+      "name": "No",
+      "code": "N"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Start_Closure",
+   "type": "esriFieldTypeDate",
+   "alias": "Start_Closure",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "End_Closure",
+   "type": "esriFieldTypeDate",
+   "alias": "End_Closure",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "Closure_Status",
+   "type": "esriFieldTypeString",
+   "alias": "Closure_Status",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "WS2_CLOSE_STATUS",
+    "description": "ROAD STATUS FOR ROAD CLOSURE APP",
+    "codedValues": [
+     {
+      "name": "OPEN",
+      "code": "OPEN"
+     },
+     {
+      "name": "CLOSED",
+      "code": "CLOSED"
+     },
+     {
+      "name": "DETOUR",
+      "code": "DETOUR"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "length": 38,
+   "domain": null
+  },
+  {
+   "name": "Shape.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STLength()",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "R80_pk",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "UUID_80",
+   "fields": "GlobalID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "UUID_OID_80",
+   "fields": "GlobalID,OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "S56_idx",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Query,Map,Data",
+ "maxRecordCount": 2000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "hasZ": true,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": true,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsPagination": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": true
+ },
+ "supportsDatumTransformation": true,
+ "advancedQueryAnalyticCapabilities": {
+  "supportsLinearRegression": true,
+  "supportsAsync": false,
+  "supportsPercentileAnalytic": true
+ },
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeLengthFieldName": "Shape.STLength()",
+  "units": "esriFeet"
+ },
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true,
+ "serviceItemId": "c5f19d10eea14f0ab1f1873efa7937dd"
+}

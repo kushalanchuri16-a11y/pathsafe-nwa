@@ -1,0 +1,68 @@
+{
+  "toleranceSensitivity": [
+    {
+      "id": "fastest",
+      "coverageAt10m": 45.297017694275944,
+      "coverageAt15m": 50.55490509336921,
+      "coverageAt20m": 53.43950238660301
+    },
+    {
+      "id": "pathsafe",
+      "coverageAt10m": 57.13022681479667,
+      "coverageAt15m": 65.54260740836607,
+      "coverageAt20m": 67.1173034657633
+    },
+    {
+      "id": "alternative-2",
+      "coverageAt10m": 30.198313301956336,
+      "coverageAt15m": 37.32488423907607,
+      "coverageAt20m": 44.153981538336744
+    }
+  ],
+  "differences": [
+    {
+      "a": "fastest",
+      "b": "pathsafe",
+      "percentANearBWithin5m": 0.6978617568117687,
+      "percentBNearAWithin5m": 0.6865713176006426
+    },
+    {
+      "a": "fastest",
+      "b": "alternative-2",
+      "percentANearBWithin5m": 8.30610763129377,
+      "percentBNearAWithin5m": 8.142110335749479
+    },
+    {
+      "a": "pathsafe",
+      "b": "alternative-2",
+      "percentANearBWithin5m": 50.292231224696984,
+      "percentBNearAWithin5m": 50.112053068532745
+    }
+  ],
+  "projectionCheck": [
+    {
+      "id": "fastest",
+      "localLengthMeters": 2835.959780325158,
+      "geodesicMeters": 2835.767509970154,
+      "relativeDifferencePercent": 0.006780187526938968,
+      "startSnapMeters": 52.541841617256274,
+      "destinationSnapMeters": 15.369976180476632
+    },
+    {
+      "id": "pathsafe",
+      "localLengthMeters": 2882.574796025866,
+      "geodesicMeters": 2882.531940436124,
+      "relativeDifferencePercent": 0.0014867342540354144,
+      "startSnapMeters": 52.541841617256274,
+      "destinationSnapMeters": 15.369976180476632
+    },
+    {
+      "id": "alternative-2",
+      "localLengthMeters": 2892.9871815101724,
+      "geodesicMeters": 2892.8954642465897,
+      "relativeDifferencePercent": 0.003170431310645688,
+      "startSnapMeters": 52.541841617256274,
+      "destinationSnapMeters": 15.369976180476632
+    }
+  ]
+}

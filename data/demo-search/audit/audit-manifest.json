@@ -1,0 +1,9 @@
+{
+  "retrievedAt": "2026-10-23T22:13:54.886262+00:00",
+  "unchangedBaselineHashes": {
+    "lib/scoring/pathsafeScore.ts": "fe981bd453810bdab56731994db432b8acca6d7fd001f9de20292fa6387db478",
+    "lib/scoring/recommendation.ts": "034b2ec3cb7614a3c16835d1f41270d006c5fd559d7fe3859f4152cff560fa8a",
+    "lib/analysis/coverage.ts": "a79de68b2ed16c61d6fef7116cdd646c7b0139fda828f8d18992d7639bc63a74",
+    "data/demoLocations.ts": "6883a0943790da1f13bf84ff44a4115a6552981d48ad8a56b679e01827d92f4e"
+  }
+}

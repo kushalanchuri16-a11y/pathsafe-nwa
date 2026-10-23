@@ -1,0 +1,10 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Transportation/NewWorldCenterlines18",
+      "type": "MapServer"
+    }
+  ]
+}

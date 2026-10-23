@@ -1,0 +1,42 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "landingFits": true,
+    "appFits": true,
+    "methodFits": true,
+    "technicalCollapsed": true,
+    "story": "About 17 seconds longer for nearly 15 percentage points more mapped pedestrian infrastructure coverage.",
+    "browserErrors": []
+  },
+  {
+    "viewport": "laptop",
+    "width": 1280,
+    "landingFits": true,
+    "appFits": true,
+    "methodFits": true,
+    "technicalCollapsed": true,
+    "story": "About 17 seconds longer for nearly 15 percentage points more mapped pedestrian infrastructure coverage.",
+    "browserErrors": []
+  },
+  {
+    "viewport": "tablet",
+    "width": 834,
+    "landingFits": true,
+    "appFits": true,
+    "methodFits": true,
+    "technicalCollapsed": true,
+    "story": "About 17 seconds longer for nearly 15 percentage points more mapped pedestrian infrastructure coverage.",
+    "browserErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "landingFits": true,
+    "appFits": true,
+    "methodFits": true,
+    "technicalCollapsed": true,
+    "story": "About 17 seconds longer for nearly 15 percentage points more mapped pedestrian infrastructure coverage.",
+    "browserErrors": []
+  }
+]
