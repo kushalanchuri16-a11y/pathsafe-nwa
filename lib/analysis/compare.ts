@@ -78,6 +78,7 @@ export async function getLiveRouteComparison(
     throw new LocationError(
       "No walking route was found between these locations.",
     );
+  // Filter each route before fetching GIS so one unsupported alternative cannot hide valid routes.
   const supported = supportedCandidates(routing.result.routes);
   let inventory: Awaited<ReturnType<typeof getRouteInventory>>;
   try {
@@ -89,6 +90,7 @@ export async function getLiveRouteComparison(
       "Live route analysis is temporarily unavailable. City infrastructure data could not be loaded. Please try again.",
     );
   }
+  // Every supported trip uses the same coverage, scoring and recommendation pipeline.
   const { routes, recommendation } = analyzeCandidates(
     supported.routes,
     inventory.dataset,

@@ -10,7 +10,7 @@ export async function searchLocations(query: string) {
   if (q.length < 3 || q.length > 120) return [];
   return (
     await cached(
-      `city-geocoding-${/^\d/.test(q) ? "address-v3" : "place-v2"}:${q.toLowerCase()}`,
+      `city-geocoding-ranked-v3:${q.toLowerCase()}`,
       24 * 3600000,
       async () => {
         if (active >= 4)

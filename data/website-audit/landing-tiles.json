@@ -1,0 +1,34 @@
+[
+  {
+    "width": 1440,
+    "loadedTiles": 8
+  },
+  {
+    "width": 1280,
+    "loadedTiles": 6
+  },
+  {
+    "width": 1024,
+    "loadedTiles": 6
+  },
+  {
+    "width": 834,
+    "loadedTiles": 6
+  },
+  {
+    "width": 768,
+    "loadedTiles": 6
+  },
+  {
+    "width": 430,
+    "loadedTiles": 6
+  },
+  {
+    "width": 390,
+    "loadedTiles": 6
+  },
+  {
+    "width": 375,
+    "loadedTiles": 6
+  }
+]

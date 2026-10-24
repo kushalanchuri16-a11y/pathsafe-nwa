@@ -68,10 +68,25 @@ export async function getRouteComparison({
       "Live route analysis is temporarily unavailable. The analysis request failed or timed out.",
     );
   });
-  const body = await response.json();
+  // Gateway error pages are not JSON and must remain an unavailable state.
+  const body = await response.json().catch(() => {
+    throw new Error(
+      "Live route analysis is temporarily unavailable. The server returned an unreadable response. Please try again.",
+    );
+  });
   if (!response.ok)
     throw new Error(
-      body.error ?? "Live route analysis is temporarily unavailable.",
+      body?.error ?? "Live route analysis is temporarily unavailable.",
     );
-  return body.comparison as RouteComparison;
+  const comparison = body?.comparison as RouteComparison | undefined;
+  if (
+    !comparison ||
+    comparison.source !== "live" ||
+    !Array.isArray(comparison.routes) ||
+    !comparison.routes.length
+  )
+    throw new Error(
+      "Live route analysis is temporarily unavailable. The server returned an invalid comparison. Please try again.",
+    );
+  return comparison;
 }

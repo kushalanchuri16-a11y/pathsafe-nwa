@@ -29,6 +29,7 @@ export async function POST(request: Request) {
       { headers: { "Cache-Control": "no-store" } },
     );
   } catch (error) {
+    // Keep location, boundary and upstream failures distinct for actionable feedback.
     if (error instanceof RouteBoundaryError)
       return Response.json(
         { error: error.message, code: "ROUTE_OUTSIDE_SUPPORTED_AREA" },

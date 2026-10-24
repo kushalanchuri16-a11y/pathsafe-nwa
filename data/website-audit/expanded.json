@@ -1,0 +1,374 @@
+{
+  "checkedAt": "2026-10-24T04:17:28.874Z",
+  "mode": "expanded",
+  "findings": [
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 1280,
+      "scrollWidth": 1280,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 834,
+      "scrollWidth": 834,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 430,
+      "scrollWidth": 430,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/methodology",
+      "expanded": true,
+      "width": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "Data & Methodology | PathSafe NWA",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 1280,
+      "scrollWidth": 1280,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 834,
+      "scrollWidth": 834,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 430,
+      "scrollWidth": 430,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "path": "/app",
+      "expanded": true,
+      "width": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "axe": [],
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    }
+  ]
+}

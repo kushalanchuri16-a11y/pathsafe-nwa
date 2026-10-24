@@ -16,6 +16,7 @@ export function validateSelection(raw: unknown): SelectedLocation {
     !p.point.every((n) => typeof n === "number" && Number.isFinite(n))
   )
     throw new LocationError("Choose a location from the search suggestions.");
+  // Recheck the official boundary even when coordinates came from a browser selection.
   if (!isWithinSupportedArea(p.point[0], p.point[1]))
     throw new LocationError(AREA_MESSAGE);
   return { label: p.label.trim(), point: p.point as Coordinate };

@@ -124,7 +124,7 @@ test("municipal-airport alias uses verified public City record, never XNA", asyn
       type: "FeatureCollection",
       features: new URL(String(input)).searchParams
         .get("where")
-        ?.includes("OBJECTID = 124")
+        ?.includes("STATUS = 'PERMANENT'")
         ? [source]
         : [],
     })) as Fetcher);
@@ -145,8 +145,10 @@ test("expanded address words and punctuation use the same official address token
   const provider = new CityGeocodingProvider((async (input) => {
     const where = new URL(String(input)).searchParams.get("where")!;
     assert.match(where, /'3809 %'/);
-    assert.match(where, /'% SW %'/);
-    assert.match(where, /'%AVE%'/);
+    assert.ok(
+      !where.includes("MISTLETOE"),
+      "local ranking handles expanded words within exact-number candidates",
+    );
     return Response.json({ type: "FeatureCollection", features: [] });
   }) as Fetcher);
   await provider.search(" 3809 Southwest Mistletoe Avenue., Bentonville, AR ");

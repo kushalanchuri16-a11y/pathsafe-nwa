@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-24T04:17:25.087Z",
+  "mode": "navigation",
+  "findings": [
+    {
+      "href": "#main",
+      "anchorExists": true
+    },
+    {
+      "href": "/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "href": "/#how-it-works",
+      "anchorExists": true
+    },
+    {
+      "href": "/#data",
+      "anchorExists": true
+    },
+    {
+      "href": "/#about",
+      "anchorExists": true
+    },
+    {
+      "href": "/app",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "href": "/methodology",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "id": "history-refresh-metadata",
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": 200,
+      "openGraph": 200,
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {}
+      }
+    },
+    {
+      "browser": "chrome",
+      "status": 200,
+      "width": 1280,
+      "scrollWidth": 1280,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": [],
+      "clippedControls": [],
+      "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+      "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+      "invalidNumbers": false,
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [],
+        "counts": {
+          "/api/compare": 1
+        }
+      }
+    },
+    {
+      "browser": "webkit",
+      "unavailable": "Browser binary is not installed in this environment."
+    }
+  ]
+}

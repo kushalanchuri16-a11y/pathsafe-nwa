@@ -5,7 +5,8 @@ export function addedTimeLabel(seconds: number) {
     const rounded = Math.round(value);
     return `${rounded} ${rounded === 1 ? "second" : "seconds"}`;
   }
-  return `${(value / 60).toFixed(1)} minutes`;
+  const minutes = (value / 60).toFixed(1);
+  return `${minutes} ${minutes === "1.0" ? "minute" : "minutes"}`;
 }
 // Presentation only: derive the story from the existing recommendation and live metrics.
 // This does not change ranking, scoring, or any threshold.

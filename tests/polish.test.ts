@@ -47,6 +47,7 @@ test("mock and single-candidate stories do not invent live tradeoffs", () => {
     "One walking route available.",
   );
   assert.equal(addedTimeLabel(1), "1 second");
+  assert.equal(addedTimeLabel(60), "1.0 minute");
   assert.equal(addedTimeLabel(120), "2.0 minutes");
 });
 test("production blocks missing, public-demo, insecure, or malformed routing configuration", () => {

@@ -147,6 +147,7 @@ export default function RouteExplorer() {
             disabled={!hydrated || status === "loading"}
             onChange={(text) => {
               setStart(text);
+              // A visible text edit must never retain hidden coordinates.
               setStartLocation(null);
               setComparison(null);
               setStatus("initial");
@@ -179,7 +180,12 @@ export default function RouteExplorer() {
           />
           <button
             className="button compare-button"
-            disabled={!hydrated || status === "loading"}
+            disabled={
+              !hydrated ||
+              status === "loading" ||
+              !startLocation ||
+              !destinationLocation
+            }
           >
             {status === "loading" ? (
               <>

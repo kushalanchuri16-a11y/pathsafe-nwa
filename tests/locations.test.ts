@@ -108,8 +108,8 @@ test("City geocoding normalizes, deduplicates and removes outside/invalid locati
 test("forward provider preserves ambiguous choices, handles empty results, escapes queries and propagates failures", async () => {
   const provider = new CityGeocodingProvider((async (input) => {
     const url = new URL(String(input));
-    assert.ok(url.searchParams.get("where")?.includes("LIBRARY"));
-    assert.equal(url.searchParams.get("resultRecordCount"), "8");
+    assert.equal(url.searchParams.get("where"), "STATUS = 'PERMANENT'");
+    assert.equal(url.searchParams.get("resultRecordCount"), "1000");
     return Response.json({
       type: "FeatureCollection",
       features: [
@@ -121,7 +121,7 @@ test("forward provider preserves ambiguous choices, handles empty results, escap
       ],
     });
   }) as Fetcher);
-  assert.equal((await provider.search("Bentonville Public Library")).length, 2);
+  assert.equal((await provider.search("Library")).length, 2);
   const empty = new CityGeocodingProvider((async () =>
     Response.json({ type: "FeatureCollection", features: [] })) as Fetcher);
   assert.deepEqual(await empty.search("Unknown Place"), []);
@@ -303,7 +303,10 @@ test("address queries preserve house number and compass direction", async () => 
   const provider = new CityGeocodingProvider((async (input) => {
     const where = new URL(String(input)).searchParams.get("where")!;
     assert.ok(where.includes("LIKE '300 %'"));
-    assert.ok(where.includes("LIKE '% N %'"));
+    assert.ok(
+      !where.includes("MAIN"),
+      "street spelling is ranked locally within the exact house number",
+    );
     return Response.json({ type: "FeatureCollection", features: [] });
   }) as Fetcher);
   assert.deepEqual(await provider.search("300 N MAIN ST"), []);

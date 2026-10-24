@@ -42,6 +42,7 @@ export async function cached<T>(
   }
   const failure = failures.get(key);
   if (failure && failure.until > Date.now()) throw failure.error;
+  // Share one upstream request when several callers need the same fresh data.
   const existing = pending.get(key);
   if (existing) return existing as Promise<Cached<T>>;
   const task = (async () => {

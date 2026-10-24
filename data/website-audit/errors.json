@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-24T04:17:07.069Z",
+  "note": "Fault injection into the shared production analysis pipeline plus real API input rejection; not an assertion of an actual source outage.",
+  "rows": [
+    {
+      "failure": "provider offline",
+      "errorType": "AnalysisUnavailableError",
+      "message": "Live route analysis is temporarily unavailable. Walking routing failed or timed out. Please try again."
+    },
+    {
+      "failure": "timeout",
+      "errorType": "AnalysisUnavailableError",
+      "message": "Live route analysis is temporarily unavailable. Walking routing failed or timed out. Please try again."
+    },
+    {
+      "failure": "malformed provider",
+      "errorType": "AnalysisUnavailableError",
+      "message": "Live route analysis is temporarily unavailable. Walking routing failed or timed out. Please try again."
+    },
+    {
+      "failure": "empty provider",
+      "errorType": "LocationError",
+      "message": "No walking route was found between these locations."
+    },
+    {
+      "failure": "GIS unavailable",
+      "errorType": "AnalysisUnavailableError",
+      "message": "Live route analysis is temporarily unavailable. City infrastructure data could not be loaded. Please try again."
+    },
+    {
+      "failure": "all routes outside",
+      "errorType": "RouteBoundaryError",
+      "message": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip."
+    },
+    {
+      "failure": "empty confirmed inventory",
+      "result": "live",
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "gaps": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "failure": "invalid start",
+      "status": 400,
+      "body": {
+        "error": "Choose a location from the search suggestions.",
+        "code": "INVALID_LOCATION"
+      }
+    },
+    {
+      "failure": "invalid destination",
+      "status": 400,
+      "body": {
+        "error": "Choose a location from the search suggestions.",
+        "code": "INVALID_LOCATION"
+      }
+    },
+    {
+      "failure": "identical endpoints",
+      "status": 400,
+      "body": {
+        "error": "Choose a destination at least 20 meters from your starting point.",
+        "code": "INVALID_LOCATION"
+      }
+    },
+    {
+      "failure": "XNA coordinates",
+      "status": 400,
+      "body": {
+        "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+        "code": "INVALID_LOCATION"
+      }
+    },
+    {
+      "failure": "City Limits upstream unavailable",
+      "result": "Boundary validation uses the bundled official snapshot, not a runtime HTTP request.",
+      "polygonCount": 4
+    }
+  ]
+}

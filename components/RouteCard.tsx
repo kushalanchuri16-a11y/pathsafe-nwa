@@ -54,7 +54,7 @@ export default function RouteCard({
       </div>
       <div className="gaps">
         {m.gaps
-          ? `${m.gaps} meaningful mapped-coverage gaps`
+          ? `${m.gaps} meaningful mapped-coverage gap${m.gaps === 1 ? "" : "s"}`
           : route.source === "live"
             ? "0 meaningful mapped-coverage gaps"
             : "0 major mapped gaps"}

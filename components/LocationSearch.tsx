@@ -48,9 +48,17 @@ export default function LocationSearch({
               ]),
             },
           );
-          const body = await response.json();
+          const body = await response.json().catch(() => {
+            throw new Error(
+              "Location search is temporarily unavailable. Please try again.",
+            );
+          });
           if (!response.ok)
-            throw new Error(body.error ?? "Location search is unavailable.");
+            throw new Error(body?.error ?? "Location search is unavailable.");
+          if (!Array.isArray(body?.results))
+            throw new Error(
+              "Location search is temporarily unavailable. Please try again.",
+            );
           found = body.results as LocationResult[];
           if (cache.current.size >= 50)
             cache.current.delete(cache.current.keys().next().value!);
@@ -115,6 +123,8 @@ export default function LocationSearch({
           autoComplete="off"
           placeholder="Search a Bentonville place or address"
           onChange={(e) => {
+            // Editing invalidates the previous selection before another response can arrive.
+            generation.current++;
             dismissed.current = false;
             setActive(-1);
             setResults([]);

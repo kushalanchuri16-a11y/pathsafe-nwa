@@ -1,0 +1,102 @@
+{
+  "source": "live",
+  "start": {
+    "label": "3809 SW MISTLETOE AVE",
+    "point": [
+      36.32936552602442,
+      -94.2557953932388
+    ]
+  },
+  "destination": {
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ]
+  },
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "Both routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T03:09:56.634Z",
+        "cacheHit": true,
+        "featureCount": 4176
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T03:09:53.598Z",
+        "cacheHit": true,
+        "featureCount": 70
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T03:09:56.634Z",
+    "routingFetchedAt": "2026-10-23T23:14:08.978Z",
+    "gisCacheHit": true,
+    "routingCacheHit": true,
+    "featureCount": 4246,
+    "segmentCount": 4329,
+    "eligibleSegmentCount": 3727,
+    "countsByKind": {
+      "sidewalk": 3584,
+      "crossing": 587,
+      "trail": 75
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 4 duplicate features removed and 449.31m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "metrics": {
+        "minutes": 135.25885,
+        "miles": 7.149494452397995,
+        "seconds": 8115.531,
+        "providerDistanceMeters": 11505.996,
+        "coverage": 81.30079757644816,
+        "gaps": 15,
+        "score": 61,
+        "lengthMeters": 11486.547594154315,
+        "coveredMeters": 9338.654808045776,
+        "uncoveredMeters": 2147.8927861085394
+      },
+      "recommended": true
+    },
+    {
+      "id": "pathsafe",
+      "metrics": {
+        "minutes": 135.64798333333334,
+        "miles": 7.151358565974707,
+        "seconds": 8138.879,
+        "providerDistanceMeters": 11508.996,
+        "coverage": 89.05130667327586,
+        "gaps": 9,
+        "score": 71,
+        "lengthMeters": 11493.662068654778,
+        "coveredMeters": 10235.256256747749,
+        "uncoveredMeters": 1258.4058119070287
+      },
+      "recommended": false
+    }
+  ],
+  "note": "Summary of actual local /api/compare response, 2026-10-23. Full geometry/inventory omitted; original provider geometry retained in data/reliability/reported-routing.json."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "width": 375,
+    "labels": [
+      {
+        "text": "Start · 1509 SW A ST",
+        "left": 194,
+        "right": 303.375,
+        "top": 263,
+        "bottom": 290
+      },
+      {
+        "text": "Destination · 1601 SW A ST",
+        "left": 47,
+        "right": 185,
+        "top": 279,
+        "bottom": 306
+      }
+    ],
+    "overlap": false
+  },
+  {
+    "width": 1440,
+    "labels": [
+      {
+        "text": "Start · 1509 SW A ST",
+        "left": 942,
+        "right": 1051.375,
+        "top": 526,
+        "bottom": 553
+      },
+      {
+        "text": "Destination · 1601 SW A ST",
+        "left": 795,
+        "right": 933,
+        "top": 542,
+        "bottom": 569
+      }
+    ],
+    "overlap": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "places",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194?f=json",
+    "http": 200,
+    "name": "Common_Names",
+    "error": false,
+    "tls": "verified by curl system trust store"
+  },
+  {
+    "source": "addresses",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2?f=json",
+    "http": 200,
+    "name": "Address",
+    "error": false,
+    "tls": "verified by curl system trust store"
+  },
+  {
+    "source": "sidewalks",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174?f=json",
+    "http": 200,
+    "name": "Sidewalks",
+    "error": false,
+    "tls": "verified by curl system trust store"
+  },
+  {
+    "source": "parks_trails",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158?f=json",
+    "http": 200,
+    "name": "Natural Surface Trails (Mountain / Hiking)",
+    "error": false,
+    "tls": "verified by curl system trust store"
+  },
+  {
+    "source": "city_limits",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5?f=json",
+    "http": 200,
+    "name": "Bentonville City Limits",
+    "error": false,
+    "tls": "verified by curl system trust store"
+  }
+]

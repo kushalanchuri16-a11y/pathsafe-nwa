@@ -1,0 +1,833 @@
+{
+  "checkedAt": "2026-10-23",
+  "source": "local API -> current official City GIS/cache",
+  "queries": [
+    {
+      "query": "Creekside park",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "creekside",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "CREEKSIDE PARK",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "crystal bridge",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "crystal bridges",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "crstal bridges",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "crystal museum",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bridges museum",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bentonville library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bentonvile library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "library bentonville",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "public library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "lawrence plaza",
+      "results": [
+        {
+          "id": "city-place:67",
+          "label": "Lawrence Plaza",
+          "point": [
+            36.374649832783945,
+            -94.20753355872435
+          ],
+          "address": "214 NE A ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "lawerence plaza",
+      "results": [
+        {
+          "id": "city-place:67",
+          "label": "Lawrence Plaza",
+          "point": [
+            36.374649832783945,
+            -94.20753355872435
+          ],
+          "address": "214 NE A ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "law plaza",
+      "results": [
+        {
+          "id": "city-place:67",
+          "label": "Lawrence Plaza",
+          "point": [
+            36.374649832783945,
+            -94.20753355872435
+          ],
+          "address": "214 NE A ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 mistletoe",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 sw mistletoe",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 southwest mistletoe avenue",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 mistltoe ave",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 SW MISTLETOE AVE",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "300 n main",
+      "results": [
+        {
+          "id": "city-address:18910884",
+          "label": "300 N MAIN ST",
+          "point": [
+            36.37528271730159,
+            -94.20875532431894
+          ],
+          "address": "300 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "300 north main street",
+      "results": [
+        {
+          "id": "city-address:18910884",
+          "label": "300 N MAIN ST",
+          "point": [
+            36.37528271730159,
+            -94.20875532431894
+          ],
+          "address": "300 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "500 s main",
+      "results": [
+        {
+          "id": "city-address:18893549",
+          "label": "500 S MAIN ST",
+          "point": [
+            36.36665665368549,
+            -94.20929888668746
+          ],
+          "address": "500 S MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "500 south main st",
+      "results": [
+        {
+          "id": "city-address:18893549",
+          "label": "500 S MAIN ST",
+          "point": [
+            36.36665665368549,
+            -94.20929888668746
+          ],
+          "address": "500 S MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bentonville airport",
+      "results": [
+        {
+          "id": "city-place:124",
+          "label": "Bentonville Municipal Airport \u00b7 Thaden Field House",
+          "point": [
+            36.35055955173087,
+            -94.22128233962593
+          ],
+          "address": "2205 SW I ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "municipal airport",
+      "results": [
+        {
+          "id": "city-place:124",
+          "label": "Bentonville Municipal Airport \u00b7 Thaden Field House",
+          "point": [
+            36.35055955173087,
+            -94.22128233962593
+          ],
+          "address": "2205 SW I ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bentonville municipal airport",
+      "results": [
+        {
+          "id": "city-place:124",
+          "label": "Bentonville Municipal Airport \u00b7 Thaden Field House",
+          "point": [
+            36.35055955173087,
+            -94.22128233962593
+          ],
+          "address": "2205 SW I ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "  Crystal   Bridges  ",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 S.W. Mistletoe Ave.",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Bentonville-Public Library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "crys",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "address": "600  MUSEUM WAY",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "benton lib",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "address": "405 S MAIN ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "3809 mist",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "mistretoe 3809 sw",
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "airport bentonville municipal",
+      "results": [
+        {
+          "id": "city-place:124",
+          "label": "Bentonville Municipal Airport \u00b7 Thaden Field House",
+          "point": [
+            36.35055955173087,
+            -94.22128233962593
+          ],
+          "address": "2205 SW I ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "community center",
+      "results": [
+        {
+          "id": "city-place:38",
+          "label": "Community Center",
+          "point": [
+            36.330686633086984,
+            -94.22562277195081
+          ],
+          "address": "1101 SW CITIZENS CIR",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "bentonville community",
+      "results": [
+        {
+          "id": "city-place:17",
+          "label": "Bentonville Community Center",
+          "point": [
+            36.330686633086984,
+            -94.22562277195081
+          ],
+          "address": "1101 SW CITIZENS CIR",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-place:39",
+          "label": "Community Development",
+          "point": [
+            36.36878749270149,
+            -94.21009010591298
+          ],
+          "address": "305 SW A ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Mistltoe Ave",
+      "results": [
+        {
+          "id": "city-address:18896958",
+          "label": "3401 SW MISTLETOE AVE",
+          "point": [
+            36.329277435293,
+            -94.25019105997328
+          ],
+          "address": "3401 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896959",
+          "label": "3403 SW MISTLETOE AVE",
+          "point": [
+            36.32923117105704,
+            -94.25047244651513
+          ],
+          "address": "3403 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896960",
+          "label": "3405 SW MISTLETOE AVE",
+          "point": [
+            36.329245050851604,
+            -94.25069640714854
+          ],
+          "address": "3405 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896961",
+          "label": "3407 SW MISTLETOE AVE",
+          "point": [
+            36.32924505046503,
+            -94.25088017094822
+          ],
+          "address": "3407 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896962",
+          "label": "3409 SW MISTLETOE AVE",
+          "point": [
+            36.329245050307364,
+            -94.25113284410742
+          ],
+          "address": "3409 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896963",
+          "label": "3501 SW MISTLETOE AVE",
+          "point": [
+            36.32924967670554,
+            -94.25155779610448
+          ],
+          "address": "3501 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896964",
+          "label": "3503 SW MISTLETOE AVE",
+          "point": [
+            36.32926818236927,
+            -94.2517875001876
+          ],
+          "address": "3503 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18896965",
+          "label": "3505 SW MISTLETOE AVE",
+          "point": [
+            36.32926355624304,
+            -94.25197700526667
+          ],
+          "address": "3505 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Main St",
+      "results": [
+        {
+          "id": "city-address:18872192",
+          "label": "1000 N MAIN ST",
+          "point": [
+            36.384283130182546,
+            -94.20826692605809
+          ],
+          "address": "1000 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18876412",
+          "label": "1001 N MAIN ST",
+          "point": [
+            36.38439385584663,
+            -94.2088428887194
+          ],
+          "address": "1001 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18876406",
+          "label": "1002 N MAIN ST",
+          "point": [
+            36.38448120410805,
+            -94.20819342148327
+          ],
+          "address": "1002 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18868955",
+          "label": "1003 S MAIN ST",
+          "point": [
+            36.36146239417415,
+            -94.20878682055658
+          ],
+          "address": "1003 S MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18905572",
+          "label": "1019 N MAIN ST",
+          "point": [
+            36.38465293088703,
+            -94.20885944409943
+          ],
+          "address": "1019 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18905571",
+          "label": "1023 N MAIN ST",
+          "point": [
+            36.384732824900304,
+            -94.20885005626896
+          ],
+          "address": "1023 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18872172",
+          "label": "1025 N MAIN ST",
+          "point": [
+            36.38488697011051,
+            -94.20884445894703
+          ],
+          "address": "1025 N MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        },
+        {
+          "id": "city-address:18878053",
+          "label": "103 S MAIN ST",
+          "point": [
+            36.37205019543538,
+            -94.20872976535793
+          ],
+          "address": "103 S MAIN ST",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "XNA",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Northwest Arkansas National Airport",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Fayetteville airport",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "Rogers high school",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "New York",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "asdfghjkl",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "query": "random park nowhere",
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    }
+  ]
+}

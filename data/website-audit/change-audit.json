@@ -1,0 +1,28 @@
+{
+  "changedExistingApplicationFiles": [
+    "app/api/compare/route.ts",
+    "components/MapCanvas.tsx",
+    "components/LocationSearch.tsx",
+    "components/RouteCard.tsx",
+    "components/RouteExplorer.tsx",
+    "lib/routes.ts",
+    "lib/analysis/compare.ts",
+    "lib/server/cache.ts",
+    "lib/geocoding/search.ts",
+    "lib/geocoding/validate.ts",
+    "lib/presentation/recommendation.ts"
+  ],
+  "protectedFilesUnchanged": [
+    "lib/scoring/pathsafeScore.ts",
+    "lib/scoring/recommendation.ts",
+    "lib/analysis/coverage.ts",
+    "lib/geocoding/area.ts",
+    "lib/geocoding/supportedRoutes.ts",
+    "lib/routing/valhalla.ts",
+    "lib/gis/bentonville.ts",
+    "lib/gis/pedestrianInventory.ts",
+    "lib/gis/trailEligibility.ts",
+    "lib/gis/deduplicateInfrastructure.ts",
+    "data/demoLocations.ts"
+  ]
+}

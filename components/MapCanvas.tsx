@@ -7,10 +7,14 @@ import {
   Tooltip,
   useMap,
 } from "react-leaflet";
-import type { RouteComparison, RouteCandidate } from "@/types/routes";
+import type {
+  RouteComparison,
+  RouteCandidate,
+  Coordinate,
+} from "@/types/routes";
 import { routeDisplayName } from "@/lib/presentation/routes";
 import { useEffect } from "react";
-import type { LeafletEvent } from "leaflet";
+import type { LeafletEvent, Map as LeafletMap } from "leaflet";
 function namedTooltip(label: string) {
   return {
     add: (event: LeafletEvent) => {
@@ -19,30 +23,46 @@ function namedTooltip(label: string) {
   };
 }
 import { LocateFixed } from "lucide-react";
+function fitPoints(map: LeafletMap, points: Coordinate[]) {
+  const bounds = map.getContainer().getBoundingClientRect();
+  const legend = map
+    .getContainer()
+    .parentElement?.querySelector(".map-legend")
+    ?.getBoundingClientRect();
+  // Reserve room for the overlaid legend so it cannot hide endpoint labels.
+  const bottom =
+    legend && legend.top < bounds.bottom
+      ? Math.max(80, bounds.bottom - legend.top + 40)
+      : 80;
+  map.fitBounds(points, {
+    paddingTopLeft: [70, 90],
+    paddingBottomRight: [70, bottom],
+    maxZoom: 15,
+    animate: false,
+  });
+}
+function comparisonPoints(comparison: RouteComparison) {
+  return [
+    ...comparison.routes.flatMap((r) => r.geometry),
+    comparison.start.point,
+    comparison.destination.point,
+  ];
+}
 function ResetView({ comparison }: { comparison: RouteComparison | null }) {
   const map = useMap();
   function fit() {
-    if (comparison)
-      map.fitBounds(
-        [
-          ...comparison.routes.flatMap((r) => r.geometry),
-          comparison.start.point,
-          comparison.destination.point,
-        ],
-        { paddingTopLeft: [70, 90], paddingBottomRight: [70, 80], maxZoom: 15 },
-      );
+    if (comparison) fitPoints(map, comparisonPoints(comparison));
     else map.setView([36.3626, -94.211], 14);
   }
   useEffect(() => {
-    if (comparison)
-      map.fitBounds(
-        [
-          ...comparison.routes.flatMap((r) => r.geometry),
-          comparison.start.point,
-          comparison.destination.point,
-        ],
-        { paddingTopLeft: [70, 90], paddingBottomRight: [70, 80], maxZoom: 15 },
-      );
+    const fit = () => {
+      if (comparison) fitPoints(map, comparisonPoints(comparison));
+    };
+    fit();
+    map.on("resize", fit);
+    return () => {
+      map.off("resize", fit);
+    };
   }, [comparison, map]);
   return (
     <button
@@ -98,6 +118,7 @@ export default function MapCanvas({
         </Polyline>
       ))}
       {comparison &&
+        // Draw the selected route last so it stays above overlapping alternatives.
         [...comparison.routes]
           .sort((a, b) => Number(a.id === selected) - Number(b.id === selected))
           .map((r) => (
@@ -201,13 +222,19 @@ function SelectionView({
 }) {
   const map = useMap();
   useEffect(() => {
-    const points = [
-      locations.start?.point,
-      locations.destination?.point,
-    ].filter((p): p is import("@/types/routes").Coordinate => !!p);
-    if (points.length === 2)
-      map.fitBounds(points, { padding: [60, 80], maxZoom: 15 });
-    else if (points.length === 1) map.setView(points[0], 15);
+    const fit = () => {
+      const points = [
+        locations.start?.point,
+        locations.destination?.point,
+      ].filter((p): p is Coordinate => !!p);
+      if (points.length === 2) fitPoints(map, points);
+      else if (points.length === 1) map.setView(points[0], 15);
+    };
+    fit();
+    map.on("resize", fit);
+    return () => {
+      map.off("resize", fit);
+    };
   }, [locations.start, locations.destination, map]);
   return null;
 }

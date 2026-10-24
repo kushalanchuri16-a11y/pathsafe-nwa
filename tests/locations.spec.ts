@@ -59,6 +59,12 @@ test("autocomplete debounces, requires explicit choice, supports keyboard/clear 
     }),
   ).toBeVisible();
   expect(comparisons).toBe(1);
+  await start.fill("Library edited");
+  await expect(
+    page.getByRole("button", { name: "Compare routes" }),
+  ).toBeDisabled();
+  await start.press("Tab");
+  expect(comparisons).toBe(1);
   await page.getByRole("button", { name: "Clear starting point" }).click();
   await expect(start).toHaveValue("");
   await start.fill("Library");
@@ -106,12 +112,10 @@ test("search empty/failure and unresolved text are explicit and never submit a r
   const start = page.getByRole("combobox", { name: "Starting point" });
   await start.fill("Outside Place");
   await expect(page.getByText(/No matching supported locations/)).toBeVisible();
-  await page.getByRole("button", { name: "Compare routes" }).click();
   await expect(
-    page.getByText("Choose both locations from the search suggestions.", {
-      exact: true,
-    }),
-  ).toBeVisible();
+    page.getByRole("button", { name: "Compare routes" }),
+  ).toBeDisabled();
+  await start.press("Enter");
   expect(comparisons).toBe(0);
   await page.unroute("**/api/locations?**");
   await page.route("**/api/locations?**", (r) =>
@@ -129,4 +133,55 @@ test("search empty/failure and unresolved text are explicit and never submit a r
       { exact: true },
     ),
   ).toBeVisible();
+});
+
+test("late responses cannot replace newer input; Escape/Tab never select, pointer choice confirms", async ({
+  page,
+  isMobile,
+}) => {
+  let comparisons = 0;
+  await page.route("**/api/compare", (r) => {
+    comparisons++;
+    return r.abort();
+  });
+  await page.route("**/api/locations?**", async (r) => {
+    const old =
+      new URL(r.request().url()).searchParams.get("q") === "Old library";
+    if (old) await new Promise((resolve) => setTimeout(resolve, 1000));
+    await r
+      .fulfill({
+        json: {
+          results: [{ ...library, label: old ? "Old library" : "Library" }],
+        },
+      })
+      .catch(() => {});
+  });
+  await page.goto("/app");
+  const input = page.getByRole("combobox", { name: "Starting point" });
+  const compare = page.getByRole("button", { name: "Compare routes" });
+  await input.fill("Old library");
+  await page.getByLabel("Searching locations", { exact: true }).waitFor();
+  await input.fill("New library");
+  await expect(compare).toBeDisabled();
+  const option = page.getByRole("option", {
+    name: "Library 405 S MAIN ST · Bentonville",
+    exact: true,
+  });
+  await expect(option).toBeVisible();
+  await page.waitForTimeout(1100); // Deliberately allow the older request to finish.
+  await expect(page.getByRole("option", { name: /Old library/ })).toHaveCount(
+    0,
+  );
+  await input.press("ArrowDown");
+  await input.press("Escape");
+  await input.press("Tab");
+  await expect(compare).toBeDisabled();
+  await input.focus();
+  if (isMobile) await option.tap();
+  else await option.click();
+  await expect(compare).toBeEnabled();
+  await input.fill("Library ");
+  await expect(compare).toBeDisabled();
+  await input.press("Enter");
+  expect(comparisons).toBe(0);
 });

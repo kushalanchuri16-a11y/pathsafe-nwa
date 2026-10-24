@@ -1,0 +1,2598 @@
+{
+  "checkedAt": "2026-10-24T04:18:28.056Z",
+  "mode": "live",
+  "findings": [
+    {
+      "id": "showcase",
+      "status": 200,
+      "start": {
+        "label": "Austin-Baggett Park",
+        "point": [
+          36.36571210106438,
+          -94.20363133075323
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "recommendation": {
+        "routeId": "pathsafe",
+        "explanation": "This route adds approximately 0.1 minutes and increases mapped pedestrian infrastructure coverage from 74.6% to 96.4%.",
+        "factors": [
+          "At least 10 percentage points more mapped infrastructure coverage",
+          "At most 5 extra minutes and 25% added time/distance",
+          "Higher Pedestrian Infrastructure Score than the fastest route"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-23T22:37:46.935Z",
+            "cacheHit": true,
+            "featureCount": 313
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-23T22:37:46.794Z",
+            "cacheHit": true,
+            "featureCount": 4
+          }
+        ],
+        "gisFetchedAt": "2026-10-23T22:37:46.935Z",
+        "routingFetchedAt": "2026-10-23T22:18:57.031Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 317,
+        "segmentCount": 325,
+        "eligibleSegmentCount": 245,
+        "countsByKind": {
+          "crossing": 78,
+          "sidewalk": 235,
+          "trail": 4
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 13.88m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 17.40895,
+            "miles": 0.920906282311302,
+            "seconds": 1044.537,
+            "providerDistanceMeters": 1482.055,
+            "coverage": 74.64369816375708,
+            "gaps": 3,
+            "score": 69,
+            "lengthMeters": 1482.449785558302,
+            "coveredMeters": 1106.555343361403,
+            "uncoveredMeters": 375.89444219689904
+          },
+          "vertices": 85,
+          "geometryHash": "861367c75abb7c09695e213f8ea88dd096bcfa44efec5ef29c3eb5702853b4c7",
+          "startSnapMeters": 5.286310764431914,
+          "endSnapMeters": 4.798855836376334
+        },
+        {
+          "id": "pathsafe",
+          "recommended": true,
+          "metrics": {
+            "minutes": 17.488166666666665,
+            "miles": 0.9159353127734033,
+            "seconds": 1049.29,
+            "providerDistanceMeters": 1474.055,
+            "coverage": 96.38925952666217,
+            "gaps": 1,
+            "score": 94,
+            "lengthMeters": 1474.910636503629,
+            "coveredMeters": 1421.6554412058279,
+            "uncoveredMeters": 53.25519529780104
+          },
+          "vertices": 86,
+          "geometryHash": "e0b0953762f015552dd58e94c2591446a00714aa7bbeb7d4932bef4596430e5c",
+          "startSnapMeters": 5.286310764431914,
+          "endSnapMeters": 4.798855836376334
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 17.610400000000002,
+            "miles": 0.9240131382724887,
+            "seconds": 1056.624,
+            "providerDistanceMeters": 1487.055,
+            "coverage": 80.26834633964855,
+            "gaps": 3,
+            "score": 74,
+            "lengthMeters": 1487.8799981139816,
+            "coveredMeters": 1194.296670004487,
+            "uncoveredMeters": 293.5833281094947
+          },
+          "vertices": 89,
+          "geometryHash": "aab6f93d80e56be11b23aeacae2dfbafff9343a8114d64b020aef944178da54f",
+          "startSnapMeters": 5.286310764431914,
+          "endSnapMeters": 4.798855836376334
+        }
+      ],
+      "cards": [
+        "Fastest Route\n17.41min\n0.92 mi\n74.64%\nmapped pedestrian infrastructure coverage\n3 meaningful mapped-coverage gaps\n\n1,107m near eligible facilities · 376m uncovered\n\nPedestrian Infrastructure Score\n69/100",
+        "PathSafe Route\nRecommended\n17.49min\n0.92 mi\n96.39%\nmapped pedestrian infrastructure coverage\n1 meaningful mapped-coverage gap\n\n1,422m near eligible facilities · 53m uncovered\n\nPedestrian Infrastructure Score\n94/100",
+        "Alternative 2\n17.61min\n0.92 mi\n80.27%\nmapped pedestrian infrastructure coverage\n3 meaningful mapped-coverage gaps\n\n1,194m near eligible facilities · 294m uncovered\n\nPedestrian Infrastructure Score\n74/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Austin-Baggett Park",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endpoint-edit",
+      "status": 200,
+      "start": {
+        "label": "Library",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-24T03:08:35.697Z",
+            "cacheHit": true,
+            "featureCount": 234
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-24T03:08:35.696Z",
+            "cacheHit": true,
+            "featureCount": 3
+          }
+        ],
+        "gisFetchedAt": "2026-10-24T03:08:35.697Z",
+        "routingFetchedAt": "2026-10-24T03:08:35.428Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 237,
+        "segmentCount": 241,
+        "eligibleSegmentCount": 175,
+        "countsByKind": {
+          "crossing": 64,
+          "sidewalk": 170,
+          "trail": 3
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 4.54m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": true,
+          "metrics": {
+            "minutes": 11.46545,
+            "miles": 0.5940308597788913,
+            "seconds": 687.927,
+            "providerDistanceMeters": 956,
+            "coverage": 99.97551502007107,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 956.6002615490743,
+            "coveredMeters": 956.3660381670339,
+            "uncoveredMeters": 0.23422338204034077
+          },
+          "vertices": 96,
+          "geometryHash": "12d558986c0bfc78ac0724102770c52061e9cc93a8ada8bb200b88ba77ae0bc0",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 4.798855836376334
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 11.969366666666668,
+            "miles": 0.621371192237334,
+            "seconds": 718.162,
+            "providerDistanceMeters": 1000,
+            "coverage": 99.97659024234336,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 1000.5374061368451,
+            "coveredMeters": 1000.3031827548045,
+            "uncoveredMeters": 0.23422338204056814
+          },
+          "vertices": 52,
+          "geometryHash": "e5ee0cccfdc137f438a8969828c3addb05980f22ad5ee94a742bc07f54c7b72c",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 4.798855836376334
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 12.641483333333333,
+            "miles": 0.6598962061560486,
+            "seconds": 758.489,
+            "providerDistanceMeters": 1062,
+            "coverage": 99.97794846862969,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 1062.163793104836,
+            "coveredMeters": 1061.9295697227953,
+            "uncoveredMeters": 0.23422338204068183
+          },
+          "vertices": 77,
+          "geometryHash": "e87f23b731fd5f0dfb5268ffe734a62ccb1d291f71889e990b910d0f8824f3e5",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 4.798855836376334
+        }
+      ],
+      "cards": [
+        "Fastest Route\nRecommended\n11.47min\n0.59 mi\n99.98%\nmapped pedestrian infrastructure coverage\n0 meaningful mapped-coverage gaps\n\n956m near eligible facilities · 0m uncovered\n\nPedestrian Infrastructure Score\n100/100",
+        "Alternative 1\n11.97min\n0.62 mi\n99.98%\nmapped pedestrian infrastructure coverage\n0 meaningful mapped-coverage gaps\n\n1,000m near eligible facilities · 0m uncovered\n\nPedestrian Infrastructure Score\n100/100",
+        "Alternative 2\n12.64min\n0.66 mi\n99.98%\nmapped pedestrian infrastructure coverage\n0 meaningful mapped-coverage gaps\n\n1,062m near eligible facilities · 0m uncovered\n\nPedestrian Infrastructure Score\n100/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Lawrence Plaza",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistletoe",
+      "status": 200,
+      "start": {
+        "label": "3809 SW MISTLETOE AVE",
+        "point": [
+          36.32936552602442,
+          -94.2557953932388
+        ]
+      },
+      "destination": {
+        "label": "Crystal Bridges",
+        "point": [
+          36.38211712065461,
+          -94.2033730929639
+        ]
+      },
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "Both routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-24T03:09:56.634Z",
+            "cacheHit": true,
+            "featureCount": 4176
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-24T03:09:53.598Z",
+            "cacheHit": true,
+            "featureCount": 70
+          }
+        ],
+        "gisFetchedAt": "2026-10-24T03:09:56.634Z",
+        "routingFetchedAt": "2026-10-23T23:14:08.978Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 4246,
+        "segmentCount": 4329,
+        "eligibleSegmentCount": 3727,
+        "countsByKind": {
+          "sidewalk": 3584,
+          "crossing": 587,
+          "trail": 75
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 2,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+          "Features without explicit public access are excluded from coverage.",
+          "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+          "Overlapping infrastructure is deduplicated before coverage; 4 duplicate features removed and 449.31m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": true,
+          "metrics": {
+            "minutes": 135.25885,
+            "miles": 7.149494452397995,
+            "seconds": 8115.531,
+            "providerDistanceMeters": 11505.996,
+            "coverage": 81.30079757644816,
+            "gaps": 15,
+            "score": 61,
+            "lengthMeters": 11486.547594154315,
+            "coveredMeters": 9338.654808045776,
+            "uncoveredMeters": 2147.8927861085394
+          },
+          "vertices": 373,
+          "geometryHash": "ba931d441efd4d5e07bf2157a15ebd696a3a4dfa8932e7e641e2dbd4e466dd80",
+          "startSnapMeters": 19.515811353576005,
+          "endSnapMeters": 11.011823648728502
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 135.64798333333334,
+            "miles": 7.151358565974707,
+            "seconds": 8138.879,
+            "providerDistanceMeters": 11508.996,
+            "coverage": 89.05130667327586,
+            "gaps": 9,
+            "score": 71,
+            "lengthMeters": 11493.662068654778,
+            "coveredMeters": 10235.256256747749,
+            "uncoveredMeters": 1258.4058119070287
+          },
+          "vertices": 346,
+          "geometryHash": "a85fba9a05bb98e8fff7a6602cbaaea971a18d050da6f3f743bdf43a0404d709",
+          "startSnapMeters": 19.515811353576005,
+          "endSnapMeters": 11.011823648728502
+        }
+      ],
+      "cards": [
+        "Fastest Route\nRecommended\n135.26min\n7.15 mi\n81.30%\nmapped pedestrian infrastructure coverage\n15 meaningful mapped-coverage gaps\n\n9,339m near eligible facilities · 2,148m uncovered\n\nPedestrian Infrastructure Score\n61/100",
+        "Alternative 1\n135.65min\n7.15 mi\n89.05%\nmapped pedestrian infrastructure coverage\n9 meaningful mapped-coverage gaps\n\n10,235m near eligible facilities · 1,258m uncovered\n\nPedestrian Infrastructure Score\n71/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 3809 SW MISTLETOE AVE",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-park",
+      "status": 200,
+      "start": {
+        "label": "Library",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ]
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ]
+      },
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-23T22:55:30.650Z",
+            "cacheHit": true,
+            "featureCount": 486
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-23T22:55:30.545Z",
+            "cacheHit": true,
+            "featureCount": 26
+          }
+        ],
+        "gisFetchedAt": "2026-10-23T22:55:30.650Z",
+        "routingFetchedAt": "2026-10-24T04:17:43.844Z",
+        "gisCacheHit": true,
+        "routingCacheHit": false,
+        "featureCount": 512,
+        "segmentCount": 516,
+        "eligibleSegmentCount": 389,
+        "countsByKind": {
+          "crossing": 124,
+          "sidewalk": 362,
+          "trail": 21
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Features without explicit public access are excluded from coverage.",
+          "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 195.53m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": true,
+          "metrics": {
+            "minutes": 31.67778333333333,
+            "miles": 1.6618659528354411,
+            "seconds": 1900.667,
+            "providerDistanceMeters": 2674.514,
+            "coverage": 72.98557639604658,
+            "gaps": 6,
+            "score": 61,
+            "lengthMeters": 2670.63285697311,
+            "coveredMeters": 1949.1767840840307,
+            "uncoveredMeters": 721.4560728890792
+          },
+          "vertices": 97,
+          "geometryHash": "9b9750fd0588d04ad2f93fbf6fd44688b55a7601b63e1f1e6aad61a6d2baac7a",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 10.090459807209568
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 32.69253333333333,
+            "miles": 1.7059833074842918,
+            "seconds": 1961.552,
+            "providerDistanceMeters": 2745.514,
+            "coverage": 67.79021869281422,
+            "gaps": 6,
+            "score": 56,
+            "lengthMeters": 2741.2502794222746,
+            "coveredMeters": 1858.299559337741,
+            "uncoveredMeters": 882.9507200845337
+          },
+          "vertices": 158,
+          "geometryHash": "6ab677b678cff08a0050628d848fdc07b6ea16ae303c7c0283d70844eadd8e53",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 10.090459807209568
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 32.971666666666664,
+            "miles": 1.714061132983377,
+            "seconds": 1978.3,
+            "providerDistanceMeters": 2758.514,
+            "coverage": 75.32285216805612,
+            "gaps": 6,
+            "score": 63,
+            "lengthMeters": 2754.1241389470574,
+            "coveredMeters": 2074.48485370384,
+            "uncoveredMeters": 679.6392852432173
+          },
+          "vertices": 178,
+          "geometryHash": "8bbae162bf9e6facb8768571b6af744afe9fea6d27073845bdc22a20caf6b37b",
+          "startSnapMeters": 15.369976180476632,
+          "endSnapMeters": 10.090459807209568
+        }
+      ],
+      "cards": [
+        "Fastest Route\nRecommended\n31.68min\n1.66 mi\n72.99%\nmapped pedestrian infrastructure coverage\n6 meaningful mapped-coverage gaps\n\n1,949m near eligible facilities · 721m uncovered\n\nPedestrian Infrastructure Score\n61/100",
+        "Alternative 1\n32.69min\n1.71 mi\n67.79%\nmapped pedestrian infrastructure coverage\n6 meaningful mapped-coverage gaps\n\n1,858m near eligible facilities · 883m uncovered\n\nPedestrian Infrastructure Score\n56/100",
+        "Alternative 2\n32.97min\n1.71 mi\n75.32%\nmapped pedestrian infrastructure coverage\n6 meaningful mapped-coverage gaps\n\n2,074m near eligible facilities · 680m uncovered\n\nPedestrian Infrastructure Score\n63/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Library",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Memorial Park",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airport-library",
+      "status": 200,
+      "start": {
+        "label": "Bentonville Municipal Airport · Thaden Field House",
+        "point": [
+          36.35055955173087,
+          -94.22128233962593
+        ]
+      },
+      "destination": {
+        "label": "Library",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ]
+      },
+      "recommendation": {
+        "routeId": "alternative-2",
+        "explanation": "This route adds approximately 2.0 minutes and increases mapped pedestrian infrastructure coverage from 47.9% to 68.3%.",
+        "factors": [
+          "At least 10 percentage points more mapped infrastructure coverage",
+          "At most 5 extra minutes and 25% added time/distance",
+          "Higher Pedestrian Infrastructure Score than the fastest route"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-24T04:08:34.882Z",
+            "cacheHit": true,
+            "featureCount": 505
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-24T04:08:34.560Z",
+            "cacheHit": true,
+            "featureCount": 14
+          }
+        ],
+        "gisFetchedAt": "2026-10-24T04:08:34.882Z",
+        "routingFetchedAt": "2026-10-24T04:08:34.236Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 519,
+        "segmentCount": 542,
+        "eligibleSegmentCount": 400,
+        "countsByKind": {
+          "sidewalk": 366,
+          "crossing": 139,
+          "trail": 14
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Features without explicit public access are excluded from coverage.",
+          "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+          "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 180.07m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 34.60423333333333,
+            "miles": 1.8224562306132186,
+            "seconds": 2076.254,
+            "providerDistanceMeters": 2932.959,
+            "coverage": 47.869762007599235,
+            "gaps": 7,
+            "score": 34,
+            "lengthMeters": 2931.5196233359434,
+            "coveredMeters": 1403.3114668969856,
+            "uncoveredMeters": 1528.2081564389578
+          },
+          "vertices": 124,
+          "geometryHash": "48b46a3eba653d3621302d95818ed1d58d73ba1842bc12bc84a86c0125ac5b22",
+          "startSnapMeters": 17.301211060124594,
+          "endSnapMeters": 15.369976180476632
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 35.73465,
+            "miles": 1.8833506074524773,
+            "seconds": 2144.079,
+            "providerDistanceMeters": 3030.959,
+            "coverage": 54.90204499843651,
+            "gaps": 5,
+            "score": 45,
+            "lengthMeters": 3028.9912782284364,
+            "coveredMeters": 1662.9781545716933,
+            "uncoveredMeters": 1366.0131236567431
+          },
+          "vertices": 104,
+          "geometryHash": "d76a6888442e706e3fe7e30ecce904c1eb2882e520c161b69bd3e042c106bf6e",
+          "startSnapMeters": 17.301211060124594,
+          "endSnapMeters": 15.369976180476632
+        },
+        {
+          "id": "alternative-2",
+          "recommended": true,
+          "metrics": {
+            "minutes": 36.59455,
+            "miles": 1.915662530820011,
+            "seconds": 2195.673,
+            "providerDistanceMeters": 3082.96,
+            "coverage": 68.29942547007326,
+            "gaps": 7,
+            "score": 54,
+            "lengthMeters": 3079.680955571236,
+            "coveredMeters": 2103.4043989664165,
+            "uncoveredMeters": 976.2765566048197
+          },
+          "vertices": 168,
+          "geometryHash": "1f3d32181eb100a89687f72950e0bc3cca497e4d008caac0b8f04fecd3502538",
+          "startSnapMeters": 17.301211060124594,
+          "endSnapMeters": 15.369976180476632
+        }
+      ],
+      "cards": [
+        "Fastest Route\n34.60min\n1.82 mi\n47.87%\nmapped pedestrian infrastructure coverage\n7 meaningful mapped-coverage gaps\n\n1,403m near eligible facilities · 1,528m uncovered\n\nPedestrian Infrastructure Score\n34/100",
+        "Alternative 1\n35.73min\n1.88 mi\n54.90%\nmapped pedestrian infrastructure coverage\n5 meaningful mapped-coverage gaps\n\n1,663m near eligible facilities · 1,366m uncovered\n\nPedestrian Infrastructure Score\n45/100",
+        "PathSafe Route\nRecommended\n36.59min\n1.92 mi\n68.30%\nmapped pedestrian infrastructure coverage\n7 meaningful mapped-coverage gaps\n\n2,103m near eligible facilities · 976m uncovered\n\nPedestrian Infrastructure Score\n54/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Municipal Airport · Thaden Field House",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Library",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-street",
+      "status": 200,
+      "start": {
+        "label": "300 N MAIN ST",
+        "point": [
+          36.37528271730159,
+          -94.20875532431894
+        ]
+      },
+      "destination": {
+        "label": "500 S MAIN ST",
+        "point": [
+          36.36665665368549,
+          -94.20929888668746
+        ]
+      },
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-23T22:55:57.816Z",
+            "cacheHit": true,
+            "featureCount": 280
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-23T22:55:57.796Z",
+            "cacheHit": true,
+            "featureCount": 2
+          }
+        ],
+        "gisFetchedAt": "2026-10-23T22:55:57.816Z",
+        "routingFetchedAt": "2026-10-23T22:55:57.469Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 282,
+        "segmentCount": 283,
+        "eligibleSegmentCount": 199,
+        "countsByKind": {
+          "crossing": 84,
+          "sidewalk": 196,
+          "trail": 2
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 6.85m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": true,
+          "metrics": {
+            "minutes": 11.467066666666666,
+            "miles": 0.6033725542829873,
+            "seconds": 688.024,
+            "providerDistanceMeters": 971.034,
+            "coverage": 99.06405378379479,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 971.4636152591429,
+            "coveredMeters": 962.3712383103147,
+            "uncoveredMeters": 9.092376948828246
+          },
+          "vertices": 49,
+          "geometryHash": "9b94ac6b82d5a91bff112b78571af12bb82a3bdb8242684f60bac58decafc0c9",
+          "startSnapMeters": 5.702584098813104,
+          "endSnapMeters": 19.27839867950143
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 13.615216666666667,
+            "miles": 0.7067562932474349,
+            "seconds": 816.913,
+            "providerDistanceMeters": 1137.414,
+            "coverage": 83.16936468090617,
+            "gaps": 2,
+            "score": 78,
+            "lengthMeters": 1137.6116358176848,
+            "coveredMeters": 946.1443700456324,
+            "uncoveredMeters": 191.46726577205243
+          },
+          "vertices": 50,
+          "geometryHash": "d26169315893d11e638d4f2ba59da36463102a7b3a481a483018b2a9f37010d8",
+          "startSnapMeters": 5.702584098813104,
+          "endSnapMeters": 19.27839867950143
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 13.629366666666666,
+            "miles": 0.7148341187465203,
+            "seconds": 817.762,
+            "providerDistanceMeters": 1150.414,
+            "coverage": 80.24213239874098,
+            "gaps": 2,
+            "score": 75,
+            "lengthMeters": 1150.970528440699,
+            "coveredMeters": 923.5632953018744,
+            "uncoveredMeters": 227.4072331388245
+          },
+          "vertices": 54,
+          "geometryHash": "b8489fb4b2a0cdaaaff7c6f89709ddfbe252a7b2ebea624fd163460522a145b7",
+          "startSnapMeters": 5.702584098813104,
+          "endSnapMeters": 19.27839867950143
+        }
+      ],
+      "cards": [
+        "Fastest Route\nRecommended\n11.47min\n0.60 mi\n99.06%\nmapped pedestrian infrastructure coverage\n0 meaningful mapped-coverage gaps\n\n962m near eligible facilities · 9m uncovered\n\nPedestrian Infrastructure Score\n99/100",
+        "Alternative 1\n13.62min\n0.71 mi\n83.17%\nmapped pedestrian infrastructure coverage\n2 meaningful mapped-coverage gaps\n\n946m near eligible facilities · 191m uncovered\n\nPedestrian Infrastructure Score\n78/100",
+        "Alternative 2\n13.63min\n0.71 mi\n80.24%\nmapped pedestrian infrastructure coverage\n2 meaningful mapped-coverage gaps\n\n924m near eligible facilities · 227m uncovered\n\nPedestrian Infrastructure Score\n75/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 300 N MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 500 S MAIN ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "short",
+      "status": 200,
+      "start": {
+        "label": "1509 SW A ST",
+        "point": [
+          36.35499638763491,
+          -94.2103201348513
+        ]
+      },
+      "destination": {
+        "label": "1601 SW A ST",
+        "point": [
+          36.35441714824877,
+          -94.21020112222803
+        ]
+      },
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "Only one distinct walking route was returned. No alternative comparison is available; this route is shown without a comparative infrastructure recommendation.",
+        "factors": [
+          "One provider route; no fabricated alternative"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-24T03:21:07.021Z",
+            "cacheHit": true,
+            "featureCount": 15
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-24T03:23:32.382Z",
+            "cacheHit": true,
+            "featureCount": 0
+          }
+        ],
+        "gisFetchedAt": "2026-10-24T03:21:07.021Z",
+        "routingFetchedAt": "2026-10-24T03:21:06.851Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 15,
+        "segmentCount": 15,
+        "eligibleSegmentCount": 12,
+        "countsByKind": {
+          "crossing": 3,
+          "sidewalk": 12,
+          "trail": 0
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 1,
+        "candidatesRetained": 1,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "No distinct alternative was returned after geometric deduplication.",
+          "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 0.00m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 1.6395666666666666,
+            "miles": 0.08303569653225165,
+            "seconds": 98.374,
+            "providerDistanceMeters": 133.633,
+            "coverage": 77.2546075344192,
+            "gaps": 1,
+            "score": 75,
+            "lengthMeters": 133.86454623306923,
+            "coveredMeters": 103.41652982008877,
+            "uncoveredMeters": 30.448016412980465
+          },
+          "vertices": 12,
+          "geometryHash": "be7aff8c6d3e6e1cc5184f7ac6d13b2a6d26b854052f5af2026471db2cc88a0e",
+          "startSnapMeters": 12.274806428614564,
+          "endSnapMeters": 11.005962139750444
+        }
+      ],
+      "cards": [
+        "Fastest Route\n1.64min\n0.08 mi\n77.25%\nmapped pedestrian infrastructure coverage\n1 meaningful mapped-coverage gap\n\n103m near eligible facilities · 30m uncovered\n\nPedestrian Infrastructure Score\n75/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · 1509 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · 1601 SW A ST",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross-city",
+      "status": 200,
+      "start": {
+        "label": "Bentonville Community Center",
+        "point": [
+          36.330686633086984,
+          -94.22562277195081
+        ]
+      },
+      "destination": {
+        "label": "Crystal Bridges",
+        "point": [
+          36.38211712065461,
+          -94.2033730929639
+        ]
+      },
+      "recommendation": {
+        "routeId": "alternative-2",
+        "explanation": "This route adds approximately 0.8 minutes and increases mapped pedestrian infrastructure coverage from 59.9% to 76.7%.",
+        "factors": [
+          "At least 10 percentage points more mapped infrastructure coverage",
+          "At most 5 extra minutes and 25% added time/distance",
+          "Higher Pedestrian Infrastructure Score than the fastest route"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-23T23:13:11.407Z",
+            "cacheHit": true,
+            "featureCount": 2250
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-23T23:13:10.137Z",
+            "cacheHit": true,
+            "featureCount": 66
+          }
+        ],
+        "gisFetchedAt": "2026-10-23T23:13:11.407Z",
+        "routingFetchedAt": "2026-10-23T23:13:09.474Z",
+        "gisCacheHit": true,
+        "routingCacheHit": true,
+        "featureCount": 2316,
+        "segmentCount": 2395,
+        "eligibleSegmentCount": 1871,
+        "countsByKind": {
+          "sidewalk": 1741,
+          "crossing": 509,
+          "trail": 66
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Features without explicit public access are excluded from coverage.",
+          "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+          "Overlapping infrastructure is deduplicated before coverage; 4 duplicate features removed and 448.73m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 101.57463333333334,
+            "miles": 5.412238775550784,
+            "seconds": 6094.478,
+            "providerDistanceMeters": 8710.154,
+            "coverage": 59.87182581178489,
+            "gaps": 17,
+            "score": 40,
+            "lengthMeters": 8699.695791426419,
+            "coveredMeters": 5208.666710398005,
+            "uncoveredMeters": 3491.029081028413
+          },
+          "vertices": 382,
+          "geometryHash": "687971e7d5ca440f4506496c914463788de8434d5be63508c1b8d610abfb01d8",
+          "startSnapMeters": 39.937500392942546,
+          "endSnapMeters": 11.011823648728502
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 102.16731666666666,
+            "miles": 5.407268427384078,
+            "seconds": 6130.039,
+            "providerDistanceMeters": 8702.155,
+            "coverage": 68.32632841702787,
+            "gaps": 17,
+            "score": 48,
+            "lengthMeters": 8694.647781999089,
+            "coveredMeters": 5940.733598232526,
+            "uncoveredMeters": 2753.914183766563
+          },
+          "vertices": 379,
+          "geometryHash": "5adcbd25289324c71b06f9424f1d2d8e2f9b181b6643de36a540bc5324e14498",
+          "startSnapMeters": 39.937500392942546,
+          "endSnapMeters": 11.011823648728502
+        },
+        {
+          "id": "alternative-2",
+          "recommended": true,
+          "metrics": {
+            "minutes": 102.38428333333333,
+            "miles": 5.4109966545375014,
+            "seconds": 6143.057,
+            "providerDistanceMeters": 8708.155,
+            "coverage": 76.7411592000599,
+            "gaps": 12,
+            "score": 57,
+            "lengthMeters": 8697.091894564986,
+            "coveredMeters": 6674.249136583621,
+            "uncoveredMeters": 2022.8427579813651
+          },
+          "vertices": 355,
+          "geometryHash": "cb4191be2228b59a6e99fe3afda27b061cd2dc6721c593ca9e65c55015433809",
+          "startSnapMeters": 39.937500392942546,
+          "endSnapMeters": 11.011823648728502
+        }
+      ],
+      "cards": [
+        "Fastest Route\n101.57min\n5.41 mi\n59.87%\nmapped pedestrian infrastructure coverage\n17 meaningful mapped-coverage gaps\n\n5,209m near eligible facilities · 3,491m uncovered\n\nPedestrian Infrastructure Score\n40/100",
+        "Alternative 1\n102.17min\n5.41 mi\n68.33%\nmapped pedestrian infrastructure coverage\n17 meaningful mapped-coverage gaps\n\n5,941m near eligible facilities · 2,754m uncovered\n\nPedestrian Infrastructure Score\n48/100",
+        "PathSafe Route\nRecommended\n102.38min\n5.41 mi\n76.74%\nmapped pedestrian infrastructure coverage\n12 meaningful mapped-coverage gaps\n\n6,674m near eligible facilities · 2,023m uncovered\n\nPedestrian Infrastructure Score\n57/100"
+      ],
+      "mapLayouts": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "scrollWidth": 1280,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 834,
+          "scrollWidth": 834,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375,
+          "overflow": false,
+          "h1": 1,
+          "main": 1,
+          "brokenImages": [],
+          "clippedControls": [],
+          "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+          "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+          "invalidNumbers": false,
+          "labels": [
+            {
+              "text": "Start · Bentonville Community Center",
+              "legendOverlap": false,
+              "clipped": false
+            },
+            {
+              "text": "Destination · Crystal Bridges",
+              "legendOverlap": false,
+              "clipped": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "start": "4208 E CENTRAL AVE",
+      "end": "Lawrence Plaza",
+      "status": 422,
+      "body": {
+        "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+        "code": "ROUTE_OUTSIDE_SUPPORTED_AREA"
+      }
+    },
+    {
+      "id": "fuzzy-and-XNA",
+      "events": {
+        "errors": [],
+        "failed": [],
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)"
+        ],
+        "counts": {
+          "/api/locations": 16,
+          "/api/compare": 9
+        }
+      },
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": false,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "clippedControls": [],
+        "title": "PathSafe NWA | Infrastructure-Aware Walking Routes",
+        "icon": "/icon.svg?icon.3qkklqrwonmfj.svg",
+        "invalidNumbers": false
+      }
+    }
+  ]
+}
