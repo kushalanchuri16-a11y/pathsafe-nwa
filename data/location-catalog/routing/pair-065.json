@@ -1,0 +1,144 @@
+{
+  "id": 65,
+  "checkedAt": "2026-10-24T05:15:08.932Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18869158",
+    "label": "100 SW AUTUMN HILLS RD",
+    "point": [
+      36.37186651274967,
+      -94.26512799348934
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-parks-directory:767",
+    "label": "Austin-Baggett Park",
+    "point": [
+      36.36571210106438,
+      -94.20363133075323
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 81.92313333333333,
+        "miles": 4.201124806132188,
+        "seconds": 4915.388,
+        "providerDistanceMeters": 6761.055,
+        "coverage": 82.52757828873165,
+        "gaps": 10,
+        "score": 63,
+        "lengthMeters": 6757.02454470661,
+        "coveredMeters": 5576.408721121561,
+        "uncoveredMeters": 1180.615823585049
+      },
+      "vertices": 233
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 90.03073333333333,
+        "miles": 4.580781983218007,
+        "seconds": 5401.844,
+        "providerDistanceMeters": 7372.054,
+        "coverage": 70.44231325755268,
+        "gaps": 14,
+        "score": 50,
+        "lengthMeters": 7361.406337725253,
+        "coveredMeters": 5185.5449125817595,
+        "uncoveredMeters": 2175.8614251434938
+      },
+      "vertices": 255
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:15:10.957Z",
+        "cacheHit": false,
+        "featureCount": 1326
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:15:09.947Z",
+        "cacheHit": false,
+        "featureCount": 18
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:15:10.957Z",
+    "routingFetchedAt": "2026-10-24T05:15:09.535Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1344,
+    "segmentCount": 1371,
+    "eligibleSegmentCount": 1160,
+    "countsByKind": {
+      "sidewalk": 1114,
+      "crossing": 210,
+      "trail": 20
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 145.88m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 57.882881569261514,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 233
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 57.882881569261514,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 255
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 57.882881569261514,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 203
+    }
+  ],
+  "validAlternatives": 2,
+  "elapsedMs": 2182.201291000005,
+  "catalogReconciledAt": "2026-10-24T19:45:40.664Z"
+}

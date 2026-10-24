@@ -1,0 +1,160 @@
+{
+  "id": 31,
+  "checkedAt": "2026-10-24T05:06:22.471Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-place:47",
+    "label": "Dog Park",
+    "point": [
+      36.401959565483686,
+      -94.21561889267842
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 53.28268333333333,
+        "miles": 2.599195697128768,
+        "seconds": 3196.961,
+        "providerDistanceMeters": 4183,
+        "coverage": 54.316270680435295,
+        "gaps": 6,
+        "score": 42,
+        "lengthMeters": 4177.952148661599,
+        "coveredMeters": 2269.3077979660966,
+        "uncoveredMeters": 1908.644350695502
+      },
+      "vertices": 141
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 55.630266666666664,
+        "miles": 2.6395848246241944,
+        "seconds": 3337.816,
+        "providerDistanceMeters": 4248,
+        "coverage": 46.17405035029799,
+        "gaps": 2,
+        "score": 42,
+        "lengthMeters": 4242.621970890406,
+        "coveredMeters": 1958.9904050117411,
+        "uncoveredMeters": 2283.6315658786652
+      },
+      "vertices": 289
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 58.08341666666667,
+        "miles": 2.788714532132347,
+        "seconds": 3485.005,
+        "providerDistanceMeters": 4488.001,
+        "coverage": 29.209605809995505,
+        "gaps": 7,
+        "score": 15,
+        "lengthMeters": 4486.007731269316,
+        "coveredMeters": 1310.3451749096894,
+        "uncoveredMeters": 3175.6625563596263
+      },
+      "vertices": 346
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:06:24.531Z",
+        "cacheHit": false,
+        "featureCount": 517
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:06:24.006Z",
+        "cacheHit": false,
+        "featureCount": 17
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:06:24.531Z",
+    "routingFetchedAt": "2026-10-24T05:06:23.302Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 534,
+    "segmentCount": 555,
+    "eligibleSegmentCount": 445,
+    "countsByKind": {
+      "crossing": 108,
+      "sidewalk": 409,
+      "trail": 17
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 73.99m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.9380459206653649,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 141
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.9380459206653649,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 289
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.9380459206653649,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 346
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 2268.1728749999893,
+  "catalogReconciledAt": "2026-10-24T19:45:39.901Z"
+}

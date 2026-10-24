@@ -1,0 +1,739 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "Sewer System",
+      "type": "Group Layer",
+      "description": "",
+      "geometryType": null,
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [
+        {
+          "id": -1,
+          "name": ""
+        },
+        {
+          "id": 2,
+          "name": "Sewer Gravity Main"
+        }
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "defaultVisibility": false,
+      "extent": {
+        "xmin": 631944.1016577184,
+        "ymin": 696348.1198497266,
+        "xmax": 677869.8011447191,
+        "ymax": 768181.6106968969,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 3048.006096012192,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "heightModelInfo": {
+        "heightModel": "gravity_related_height",
+        "vertCRS": "NAVD88_height_(ftUS)",
+        "heightUnit": "us-foot"
+      },
+      "supportsVCSProjection": true,
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": null,
+      "geometryField": {},
+      "indexes": [],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": false,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query",
+      "supportsStatistics": false,
+      "supportsExceedsLimitStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsPercentileStatistics": false,
+        "supportsHavingClause": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsCountDistinct": false,
+        "supportsPagination": false,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": false
+      },
+      "supportsDatumTransformation": true,
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": false,
+      "serviceItemId": "ee00b39afc434021b77ee5001e1344d0"
+    },
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 2,
+      "name": "Sewer Gravity Main",
+      "type": "Feature Layer",
+      "description": "<DIV STYLE=\"text-align:Left;\"><DIV><P><SPAN>Separated and combined sewer gravity mains.</SPAN></P></DIV></DIV>",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "vcsWkid": 105703,
+        "latestVcsWkid": 6360,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "sourceHeightModelInfo": {
+        "heightModel": "gravity_related_height",
+        "vertCRS": "NAVD88_height_(ftUS)",
+        "heightUnit": "us-foot"
+      },
+      "copyrightText": "",
+      "parentLayer": {
+        "id": 0,
+        "name": "Sewer System"
+      },
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              103,
+              135,
+              29,
+              255
+            ],
+            "width": 1
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": false,
+      "extent": {
+        "xmin": 631944.1016577184,
+        "ymin": 696348.1198497266,
+        "xmax": 677869.8011447191,
+        "ymax": 768181.6106968969,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 3048.006096012192,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "heightModelInfo": {
+        "heightModel": "gravity_related_height",
+        "vertCRS": "NAVD88_height_(ftUS)",
+        "heightUnit": "us-foot"
+      },
+      "supportsVCSProjection": true,
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "FACILITYID",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID",
+          "domain": null
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "Global ID",
+          "length": 38,
+          "domain": null
+        },
+        {
+          "name": "Feature_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Feature ID",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Feature_Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Notes",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Development_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Development Status",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "DevelopmentStatus",
+            "description": "Development Status",
+            "codedValues": [
+              {
+                "name": "Accepted",
+                "code": "Accepted"
+              },
+              {
+                "name": "Not Accepted",
+                "code": "Not Accepted"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Active_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Status",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "ActiveStatus",
+            "description": "Active/Abandoned Status",
+            "codedValues": [
+              {
+                "name": "Active",
+                "code": "Active"
+              },
+              {
+                "name": "Abandoned",
+                "code": "Abandoned"
+              },
+              {
+                "name": "Inactive",
+                "code": "Inactive"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Public_Visible",
+          "type": "esriFieldTypeString",
+          "alias": "Publicly Visible",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "Yes/No",
+            "description": "Yes/No Status",
+            "codedValues": [
+              {
+                "name": "Yes",
+                "code": "Yes"
+              },
+              {
+                "name": "No",
+                "code": "No"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Install_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Install Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Collection_Method",
+          "type": "esriFieldTypeString",
+          "alias": "Collection Method",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "CollectionMethod",
+            "description": "Method of locating the feature",
+            "codedValues": [
+              {
+                "name": "Unknown",
+                "code": "Unknown"
+              },
+              {
+                "name": "GPS",
+                "code": "GPS"
+              },
+              {
+                "name": "Field Observation",
+                "code": "Field Observation"
+              },
+              {
+                "name": "AsBuilts",
+                "code": "AsBuilts"
+              },
+              {
+                "name": "Plans",
+                "code": "Plans"
+              },
+              {
+                "name": "Aerial",
+                "code": "Aerial"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter",
+          "domain": {
+            "type": "codedValue",
+            "name": "ssGravityMainDiameter",
+            "description": "Gravity Main Diameters",
+            "codedValues": [
+              {
+                "name": "Unknown",
+                "code": 0
+              },
+              {
+                "name": "4\"",
+                "code": 4
+              },
+              {
+                "name": "6\"",
+                "code": 6
+              },
+              {
+                "name": "8\"",
+                "code": 8
+              },
+              {
+                "name": "10\"",
+                "code": 10
+              },
+              {
+                "name": "12\"",
+                "code": 12
+              },
+              {
+                "name": "15\"",
+                "code": 15
+              },
+              {
+                "name": "18\"",
+                "code": 18
+              },
+              {
+                "name": "24\"",
+                "code": 24
+              },
+              {
+                "name": "30\"",
+                "code": 30
+              },
+              {
+                "name": "36\"",
+                "code": 36
+              },
+              {
+                "name": "40\"",
+                "code": 40
+              },
+              {
+                "name": "42\"",
+                "code": 42
+              },
+              {
+                "name": "48\"",
+                "code": 48
+              },
+              {
+                "name": "New Line",
+                "code": 100
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "ssGravityMainMaterial",
+            "description": "The list of pipe materials types based on the NASSCO standards",
+            "codedValues": [
+              {
+                "name": "Cast Iron",
+                "code": "CAS"
+              },
+              {
+                "name": "Ductile Iron",
+                "code": "DIP"
+              },
+              {
+                "name": "Pitch Fiber (Orangeburg)",
+                "code": "OB"
+              },
+              {
+                "name": "Polyvinyl Chloride",
+                "code": "PVC"
+              },
+              {
+                "name": "Vitrified Clay",
+                "code": "VCP"
+              },
+              {
+                "name": "High Density Polyethylene",
+                "code": "HDPE"
+              },
+              {
+                "name": "Unknown",
+                "code": "UNK"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeDouble",
+          "alias": "Slope",
+          "domain": null
+        },
+        {
+          "name": "Upstream_Manhole",
+          "type": "esriFieldTypeString",
+          "alias": "Upstream Manhole",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Upstream_Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Upstream Elevation",
+          "domain": null
+        },
+        {
+          "name": "Downstream_Manhole",
+          "type": "esriFieldTypeString",
+          "alias": "Downstream Manhole",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Downstream_Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Downstream Elevation",
+          "domain": null
+        },
+        {
+          "name": "Liner_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Liner Type",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Year_Lined",
+          "type": "esriFieldTypeString",
+          "alias": "Year Lined",
+          "length": 4,
+          "domain": null
+        },
+        {
+          "name": "Surcharge_Status",
+          "type": "esriFieldTypeDouble",
+          "alias": "Surcharge Status",
+          "domain": null
+        },
+        {
+          "name": "Owned_By",
+          "type": "esriFieldTypeString",
+          "alias": "Owned By",
+          "length": 255,
+          "domain": {
+            "type": "codedValue",
+            "name": "AssetOwner",
+            "description": "Asset Owner",
+            "codedValues": [
+              {
+                "name": "COB",
+                "code": "COB"
+              },
+              {
+                "name": "Private",
+                "code": "Private"
+              },
+              {
+                "name": "Other",
+                "code": "Other"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Created By",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Created Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Last Edit By",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Edit Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Warranty_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Warranty Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Condition",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Pipe Condition",
+          "domain": null
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Expected_Lifespan",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Expected Lifespan",
+          "domain": null
+        },
+        {
+          "name": "Decommission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Decommission Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Legacy_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Legacy ID",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE",
+          "domain": null
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "SHAPE"
+      },
+      "indexes": [
+        {
+          "name": "R19_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "UUID_19",
+          "fields": "GlobalID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "G27Feature_ID",
+          "fields": "Feature_ID",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "S4_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "hasZ": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasGeometryProperties": true,
+      "geometryProperties": {
+        "shapeLengthFieldName": "Shape.STLength()",
+        "units": "esriFeet"
+      },
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "ee00b39afc434021b77ee5001e1344d0"
+    }
+  ],
+  "tables": []
+}

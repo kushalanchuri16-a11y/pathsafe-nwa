@@ -1,0 +1,144 @@
+{
+  "id": 86,
+  "checkedAt": "2026-10-24T19:14:33.548Z",
+  "group": "official parks directory",
+  "start": {
+    "id": "city-parks-directory:765",
+    "label": "Merchants Baseball Park",
+    "point": [
+      36.374319221920686,
+      -94.24963022177573
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 83.75461666666666,
+        "miles": 4.351368010816829,
+        "seconds": 5025.277,
+        "providerDistanceMeters": 7002.848,
+        "coverage": 82.61082220264578,
+        "gaps": 9,
+        "score": 65,
+        "lengthMeters": 6995.364554224066,
+        "coveredMeters": 5778.928174316948,
+        "uncoveredMeters": 1216.436379907118
+      },
+      "vertices": 257
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 92.02005000000001,
+        "miles": 4.785897856517935,
+        "seconds": 5521.203,
+        "providerDistanceMeters": 7702.156,
+        "coverage": 67.9497076112173,
+        "gaps": 8,
+        "score": 52,
+        "lengthMeters": 7692.465725087664,
+        "coveredMeters": 5227.007968290175,
+        "uncoveredMeters": 2465.4577567974893
+      },
+      "vertices": 240
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T19:14:35.520Z",
+        "cacheHit": false,
+        "featureCount": 1569
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T19:14:34.460Z",
+        "cacheHit": false,
+        "featureCount": 21
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T19:14:35.520Z",
+    "routingFetchedAt": "2026-10-24T19:14:34.133Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1590,
+    "segmentCount": 1629,
+    "eligibleSegmentCount": 1509,
+    "countsByKind": {
+      "sidewalk": 1447,
+      "crossing": 117,
+      "trail": 26
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 209.09m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 3.5391604152741922,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 257
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 3.5391604152741922,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 257
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 3.5391604152741922,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 240
+    }
+  ],
+  "validAlternatives": 2,
+  "elapsedMs": 2174.2450420000023,
+  "catalogReconciledAt": "2026-10-24T19:45:41.130Z"
+}

@@ -1,0 +1,521 @@
+{
+  "tables": [],
+  "layers": [
+    {
+      "extent": {
+        "ymin": 4341289.208877973,
+        "xmin": -10518467.365565449,
+        "ymax": 4361196.44904843,
+        "xmax": -10459801.993917394,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "supportsApplyEditsWithGlobalIds": true,
+      "maxRecordCount": 1000,
+      "attachmentProperties": [
+        {
+          "fieldName": "attachmentid",
+          "isEnabled": true,
+          "name": "id"
+        },
+        {
+          "fieldName": "globalid",
+          "isEnabled": true,
+          "name": "globalId"
+        },
+        {
+          "fieldName": "att_name",
+          "isEnabled": true,
+          "name": "name"
+        },
+        {
+          "fieldName": "data_size",
+          "isEnabled": true,
+          "name": "size"
+        },
+        {
+          "fieldName": "content_type",
+          "isEnabled": true,
+          "name": "contentType"
+        },
+        {
+          "fieldName": "keywords",
+          "isEnabled": true,
+          "name": "keywords"
+        },
+        {
+          "fieldName": "exifinfo",
+          "isEnabled": true,
+          "name": "exifInfo"
+        }
+      ],
+      "attachmentFields": [
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "attachmentid",
+          "alias": "attachmentid",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 38,
+          "name": "globalid",
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 250,
+          "name": "att_name",
+          "alias": "att_name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "data_size",
+          "alias": "data_size",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 150,
+          "name": "content_type",
+          "alias": "content_type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 2048,
+          "name": "keywords",
+          "alias": "keywords",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 1073741822,
+          "name": "exifinfo",
+          "alias": "exifinfo",
+          "type": "esriFieldTypeString"
+        }
+      ],
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "type": "Feature Layer",
+      "hasStaticData": false,
+      "supportsAttachmentsByUploadId": true,
+      "syncEnabled": false,
+      "relationships": [],
+      "supportsAttachmentsResizing": true,
+      "id": 0,
+      "supportsStatistics": true,
+      "supportedExportFormats": "sqlite,filegdb",
+      "standardMaxRecordCount": 16000,
+      "isDataVersioned": false,
+      "templates": [
+        {
+          "name": "New Feature",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "address": null,
+              "notes": null,
+              "name": null,
+              "year_built": null,
+              "original_structure": null,
+              "style": null,
+              "vacant_lot": null
+            }
+          }
+        }
+      ],
+      "hasGeometryProperties": true,
+      "supportsAdvancedQueries": true,
+      "currentVersion": 10.91,
+      "hasZ": false,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": false,
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ]
+      },
+      "objectIdField": "objectid",
+      "supportsQuantizationEditMode": true,
+      "viewSourceHasAttachments": true,
+      "name": "Point layer",
+      "displayField": null,
+      "supportsCalculate": true,
+      "fields": [
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "objectid",
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_receiver",
+          "length": 50,
+          "alias": "Receiver Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_h_rms",
+          "alias": "Horizontal Accuracy (m)",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_v_rms",
+          "alias": "Vertical Accuracy (m)",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_latitude",
+          "alias": "Latitude",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_longitude",
+          "alias": "Longitude",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "esrignss_altitude",
+          "alias": "Altitude",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": {
+            "name": "Historic_Sites_Field_Collection_ESRI_NUM_SATS_DOMAIN",
+            "range": [
+              0,
+              99
+            ],
+            "type": "range"
+          },
+          "name": "esrignss_numsats",
+          "alias": "Number of Satellites",
+          "type": "esriFieldTypeSmallInteger"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "globalid",
+          "length": 38,
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 255,
+          "name": "created_user",
+          "alias": "created_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 29,
+          "name": "created_date",
+          "alias": "created_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 255,
+          "name": "last_edited_user",
+          "alias": "last_edited_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 29,
+          "name": "last_edited_date",
+          "alias": "last_edited_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "address",
+          "length": 256,
+          "alias": "Address",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "year_built",
+          "length": 256,
+          "alias": "Year Built",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": {
+            "name": "Point layer_vacant_lot_281a31c2-eb1c-40f8-8f07-c818b0598528",
+            "type": "codedValue",
+            "codedValues": [
+              {
+                "code": "yes",
+                "name": "YES"
+              },
+              {
+                "code": "no",
+                "name": "NO"
+              }
+            ]
+          },
+          "name": "vacant_lot",
+          "length": 256,
+          "alias": "Vacant Lot?",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": {
+            "name": "Point layer_original_structure_fe397af1-ecb2-4f2c-8212-5d0147b3f072",
+            "type": "codedValue",
+            "codedValues": [
+              {
+                "code": "yes",
+                "name": "YES"
+              },
+              {
+                "code": "no",
+                "name": "NO"
+              }
+            ]
+          },
+          "name": "original_structure",
+          "length": 256,
+          "alias": "Original Structure?",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "notes",
+          "length": 256,
+          "alias": "NOTES",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "name",
+          "length": 256,
+          "alias": "Name of Building/Property:",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "style",
+          "length": 256,
+          "alias": "Style:",
+          "type": "esriFieldTypeString"
+        }
+      ],
+      "maxRecordCountFactor": 1,
+      "supportsFieldDescriptionProperty": true,
+      "hasM": false,
+      "allowGeometryUpdates": true,
+      "isView": true,
+      "useStandardizedQueries": true,
+      "globalIdField": "globalid",
+      "description": "",
+      "syncCanReturnChanges": true,
+      "supportsAsyncDelete": true,
+      "isUpdatableView": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin"
+      ],
+      "supportsRollbackOnFailureParameter": true,
+      "standardMaxRecordCountNoGeometry": 16000,
+      "indexes": [
+        {
+          "name": "uuid_272",
+          "isUnique": true,
+          "description": "",
+          "fields": "globalid",
+          "isAscending": true
+        },
+        {
+          "name": "a191_ix1",
+          "isUnique": false,
+          "description": "",
+          "fields": "shape",
+          "isAscending": true
+        },
+        {
+          "name": "r272_sde_rowid_uk",
+          "isUnique": false,
+          "description": "",
+          "fields": "objectid",
+          "isAscending": true
+        }
+      ],
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "editFieldsInfo": {
+        "editDateField": "last_edited_date",
+        "editorField": "last_edited_user",
+        "creationDateField": "created_date",
+        "creatorField": "created_user"
+      },
+      "minScale": 0,
+      "hasAttachments": true,
+      "advancedQueryCapabilities": {
+        "supportsSqlExpression": true,
+        "supportsQueryWithResultType": true,
+        "supportsQueryWithCacheHint": false,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "supportsQueryDateBins": false,
+        "supportsQueryWithLodSR": true,
+        "supportsPaginationOnAggregatedQueries": true,
+        "supportsPagination": true,
+        "supportsMaxRecordCountFactor": true,
+        "supportsStatistics": true,
+        "supportsOrderBy": true,
+        "supportsQueryWithDistance": true,
+        "supportsLod": true,
+        "supportsCountDistinct": true,
+        "supportsQueryAttachments": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryAttachmentsCountOnly": true,
+        "supportsOrderByOnlyOnLayerFields": false,
+        "supportsOutFieldSqlExpression": true,
+        "supportsTopFeaturesQuery": true,
+        "supportsDistinct": true,
+        "supportsReturningGeometryCentroid": false,
+        "supportsQueryAnalytic": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true
+      },
+      "supportsValidateSql": true,
+      "serviceItemId": "a0b5f090f3354e6786a062e6700d115f",
+      "supportsValidateSQL": true,
+      "allowUpdateWithoutMValues": true,
+      "supportsCoordinatesQuantization": true,
+      "types": [],
+      "capabilities": "Query",
+      "maxScale": 0,
+      "supportsAppend": true,
+      "supportsExceedsLimitStatistics": true,
+      "sourceSchemaChangesAllowed": true,
+      "defaultVisibility": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsAsync": false,
+        "supportsLinearRegression": true,
+        "supportsPercentileAnalytic": false
+      },
+      "hasMetadata": false,
+      "supportedAppendFormats": "shapefile,geojson,csv,featureCollection,excel",
+      "uniqueIdField": {
+        "isSystemMaintained": true,
+        "name": "OBJECTID"
+      },
+      "tileMaxRecordCount": 4000,
+      "typeIdField": "",
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "sqlParserVersion": "PG_10.9.1",
+      "drawingInfo": {
+        "renderer": {
+          "symbol": {
+            "imageData": "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",
+            "width": 15,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "RedSphere.png",
+            "height": 15
+          },
+          "type": "simple"
+        }
+      },
+      "copyrightText": "",
+      "geometryType": "esriGeometryPoint"
+    }
+  ]
+}

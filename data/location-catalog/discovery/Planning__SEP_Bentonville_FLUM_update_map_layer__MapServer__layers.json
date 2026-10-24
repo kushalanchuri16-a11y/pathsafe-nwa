@@ -1,0 +1,828 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "Bentonville Future Land Use Update 9/6/2024",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "PT_0906",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  144,
+                  179,
+                  216,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Center - City",
+              "label": "Center - City"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  196,
+                  210,
+                  226,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Center - Neighborhood",
+              "label": "Center - Neighborhood"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  49,
+                  130,
+                  189,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Center - Regional",
+              "label": "Center - Regional"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  233,
+                  180,
+                  208,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Corridor - Suburban",
+              "label": "Corridor - Suburban"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  197,
+                  27,
+                  138,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Corridor - Urban",
+              "label": "Corridor - Urban"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  219,
+                  140,
+                  183,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Corridor - Walkable",
+              "label": "Corridor - Walkable"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  243,
+                  163,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Neighborhood - Suburban",
+              "label": "Neighborhood - Suburban"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  237,
+                  211,
+                  79,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Neighborhood - Traditional",
+              "label": "Neighborhood - Traditional"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  238,
+                  181,
+                  57,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Neighborhood - Urban",
+              "label": "Neighborhood - Urban"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  254,
+                  212,
+                  134,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Neighborhood - Walkable",
+              "label": "Neighborhood - Walkable"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  195,
+                  195,
+                  195,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Other - Civic and Institutional",
+              "label": "Other - Civic and Institutional"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  157,
+                  157,
+                  160,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Other - Industry and Technology",
+              "label": "Other - Industry and Technology"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  226,
+                  234,
+                  182,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Other - Rural and Estates",
+              "label": "Other - Rural and Estates"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  80,
+                  123,
+                  52,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Recreation - Outdoor and Entertainment",
+              "label": "Recreation - Outdoor and Entertainment"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  149,
+                  200,
+                  115,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    0
+                  ],
+                  "width": 0.7
+                }
+              },
+              "value": "Recreation - Parks and Public Spaces",
+              "label": "Recreation - Parks and Public Spaces"
+            }
+          ],
+          "fieldDelimiter": ",",
+          "authoringInfo": {
+            "colorRamp": {
+              "type": "multipart",
+              "colorRamps": [
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    215,
+                    216,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    215,
+                    216,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    179,
+                    252,
+                    194,
+                    255
+                  ],
+                  "toColor": [
+                    179,
+                    252,
+                    194,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    183,
+                    179,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    183,
+                    179,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    179,
+                    234,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    179,
+                    234,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    250,
+                    179,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    250,
+                    179,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    179,
+                    250,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    179,
+                    250,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    242,
+                    212,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    242,
+                    212,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    217,
+                    179,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    217,
+                    179,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    207,
+                    252,
+                    234,
+                    255
+                  ],
+                  "toColor": [
+                    207,
+                    252,
+                    234,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    179,
+                    207,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    179,
+                    207,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    247,
+                    252,
+                    215,
+                    255
+                  ],
+                  "toColor": [
+                    247,
+                    252,
+                    215,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    189,
+                    209,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    189,
+                    209,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    225,
+                    189,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    225,
+                    189,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    220,
+                    252,
+                    189,
+                    255
+                  ],
+                  "toColor": [
+                    220,
+                    252,
+                    189,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    215,
+                    230,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    215,
+                    230,
+                    252,
+                    255
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 626938.4299105555,
+        "ymin": 706671.7369977236,
+        "xmax": 678968.5545246303,
+        "ymax": 773809.2346122265,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "PT_0906",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "PT_0906",
+          "type": "esriFieldTypeString",
+          "alias": "PT 0906",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()",
+          "domain": null
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()",
+          "domain": null
+        },
+        {
+          "name": "PT_url",
+          "type": "esriFieldTypeString",
+          "alias": "PT_url",
+          "length": 255,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R24903_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S24767_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasGeometryProperties": true,
+      "geometryProperties": {
+        "shapeAreaFieldName": "Shape.STArea()",
+        "shapeLengthFieldName": "Shape.STLength()",
+        "units": "esriFeet"
+      },
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "b33f467a1d7f4c3ea135154b1d787ac1"
+    }
+  ],
+  "tables": []
+}

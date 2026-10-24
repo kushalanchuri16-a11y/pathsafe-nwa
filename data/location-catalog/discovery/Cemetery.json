@@ -1,0 +1,10 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Cemetery/Cemetery_WebService18",
+      "type": "MapServer"
+    }
+  ]
+}

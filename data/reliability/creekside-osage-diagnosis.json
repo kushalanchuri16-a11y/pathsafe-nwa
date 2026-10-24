@@ -1,0 +1,348 @@
+{
+  "checkedAt": "2026-10-24T22:46:19.395Z",
+  "routingFetchedAt": "2026-10-24T22:44:24.664Z",
+  "boundarySHA256": "341edf29d0e61264d2eb3ad789f05a3730facc8218bc0bf54558e9481ee5eb78",
+  "boundarySource": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5",
+  "start": {
+    "id": "city-parks-directory:1525",
+    "label": "Creekside Park",
+    "point": [
+      36.34070259828065,
+      -94.23757071600167
+    ],
+    "inside": true
+  },
+  "destination": {
+    "id": "park-properties:315",
+    "label": "Osage Park",
+    "point": [
+      36.351640914616624,
+      -94.21976250101292
+    ],
+    "inside": true
+  },
+  "liveBoundaryPointChecks": [
+    {
+      "name": "Creekside Park",
+      "point": [
+        36.34070259828065,
+        -94.23757071600167
+      ],
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5/query?f=json&where=1%3D1&geometry=%7B%22x%22%3A-94.23757071600167%2C%22y%22%3A36.34070259828065%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "checkedAt": "2026-10-24T22:45:46.901Z",
+      "body": {
+        "objectIdFieldName": "OBJECTID",
+        "objectIds": [
+          74
+        ]
+      }
+    },
+    {
+      "name": "Osage Park",
+      "point": [
+        36.351640914616624,
+        -94.21976250101292
+      ],
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5/query?f=json&where=1%3D1&geometry=%7B%22x%22%3A-94.21976250101292%2C%22y%22%3A36.351640914616624%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "checkedAt": "2026-10-24T22:45:46.988Z",
+      "body": {
+        "objectIdFieldName": "OBJECTID",
+        "objectIds": [
+          74
+        ]
+      }
+    },
+    {
+      "name": "Shared outside interval midpoint",
+      "point": [
+        36.34297,
+        -94.2291
+      ],
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5/query?f=json&where=1%3D1&geometry=%7B%22x%22%3A-94.2291%2C%22y%22%3A36.34297%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "checkedAt": "2026-10-24T22:45:47.044Z",
+      "body": {
+        "objectIdFieldName": "OBJECTID",
+        "objectIds": null
+      },
+      "confirmedCount": 0,
+      "countUrl": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Pending_PZitems_Publish23/MapServer/5/query?f=json&where=1%3D1&geometry=%7B%22x%22%3A-94.2291%2C%22y%22%3A36.34297%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&returnCountOnly=true"
+    }
+  ],
+  "rawReceived": 3,
+  "distinctReceived": 3,
+  "valid": 0,
+  "rejected": 3,
+  "measurement": "Partition the returned GeoJSON route segments at all intersections with the unchanged bundled City polygon rings. Classify every open subsegment by its midpoint against the full polygon union and exterior-only union; sum geodesic lengths with the application's Turf distance routine. Values are exact-to-returned-geometry calculations, not a physical survey. No buffer, simplification, rounding allowance or route-policy threshold is applied.",
+  "alternatives": [
+    {
+      "alternative": 1,
+      "rawIndex": 0,
+      "providerDistanceMeters": 2745.467,
+      "durationSeconds": 1937.277,
+      "passesBoundary": false,
+      "passesOuterBoundary": true,
+      "outsideMeters": 404.4120689507082,
+      "trueExitMeters": 0,
+      "holeMeters": 404.4120689507082,
+      "endpointSnapsMeters": {
+        "start": 4.960442755489399,
+        "destination": 57.00424015406411
+      },
+      "snappedEndpointsInside": {
+        "start": true,
+        "destination": true
+      },
+      "maxObservedOutsideMidpointDepthMeters": 198.48240754746402,
+      "rawParsedCoordinatesIdentical": true,
+      "maximumCoordinateDecimalPlaces": 6,
+      "intervals": [
+        {
+          "start": [
+            36.34302363254643,
+            -94.23135669905247
+          ],
+          "end": [
+            36.342916463005864,
+            -94.22684341516104
+          ],
+          "meters": 404.4120689507082,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ]
+        }
+      ],
+      "pieces": [
+        {
+          "segment": 36,
+          "start": [
+            36.34302363254643,
+            -94.23135669905247
+          ],
+          "end": [
+            36.342919,
+            -94.226926
+          ],
+          "meters": 397.0099039481434,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.342971316273214,
+            -94.22914134952624
+          ],
+          "depthMeters": 198.48240754746402
+        },
+        {
+          "segment": 37,
+          "start": [
+            36.342919,
+            -94.226926
+          ],
+          "end": [
+            36.342916463005864,
+            -94.22684341516104
+          ],
+          "meters": 7.402165002564805,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.342917731502936,
+            -94.22688470758052
+          ],
+          "depthMeters": 3.70044877825421
+        }
+      ]
+    },
+    {
+      "alternative": 2,
+      "rawIndex": 1,
+      "providerDistanceMeters": 2736.466,
+      "durationSeconds": 1974.586,
+      "passesBoundary": false,
+      "passesOuterBoundary": true,
+      "outsideMeters": 404.4337577639719,
+      "trueExitMeters": 0,
+      "holeMeters": 404.4337577639719,
+      "endpointSnapsMeters": {
+        "start": 4.960442755489399,
+        "destination": 57.00424015406411
+      },
+      "snappedEndpointsInside": {
+        "start": true,
+        "destination": true
+      },
+      "maxObservedOutsideMidpointDepthMeters": 198.73604703703833,
+      "rawParsedCoordinatesIdentical": true,
+      "maximumCoordinateDecimalPlaces": 6,
+      "intervals": [
+        {
+          "start": [
+            36.343102935442296,
+            -94.23135508518224
+          ],
+          "end": [
+            36.34299728647861,
+            -94.22684149610944
+          ],
+          "meters": 404.4337577639719,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ]
+        }
+      ],
+      "pieces": [
+        {
+          "segment": 37,
+          "start": [
+            36.343102935442296,
+            -94.23135508518224
+          ],
+          "end": [
+            36.342999,
+            -94.226919
+          ],
+          "meters": 397.4894428555749,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.34305096772115,
+            -94.22913704259112
+          ],
+          "depthMeters": 198.73604703703833
+        },
+        {
+          "segment": 38,
+          "start": [
+            36.342999,
+            -94.226919
+          ],
+          "end": [
+            36.34299728647861,
+            -94.22684149610944
+          ],
+          "meters": 6.944314908397034,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.342998143239306,
+            -94.22688024805473
+          ],
+          "depthMeters": 3.4717943448161046
+        }
+      ]
+    },
+    {
+      "alternative": 3,
+      "rawIndex": 2,
+      "providerDistanceMeters": 2713.467,
+      "durationSeconds": 1982.856,
+      "passesBoundary": false,
+      "passesOuterBoundary": true,
+      "outsideMeters": 404.35427987193907,
+      "trueExitMeters": 0,
+      "holeMeters": 404.35427987193907,
+      "endpointSnapsMeters": {
+        "start": 4.960442755489399,
+        "destination": 57.00424015406411
+      },
+      "snappedEndpointsInside": {
+        "start": true,
+        "destination": true
+      },
+      "maxObservedOutsideMidpointDepthMeters": 196.1701063066183,
+      "rawParsedCoordinatesIdentical": true,
+      "maximumCoordinateDecimalPlaces": 6,
+      "intervals": [
+        {
+          "start": [
+            36.34318613798468,
+            -94.23135304625164
+          ],
+          "end": [
+            36.34309069199132,
+            -94.22683999098916
+          ],
+          "meters": 404.35427987193907,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ]
+        }
+      ],
+      "pieces": [
+        {
+          "segment": 37,
+          "start": [
+            36.34318613798468,
+            -94.23135304625164
+          ],
+          "end": [
+            36.343093,
+            -94.226974
+          ],
+          "meters": 392.34892153529563,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.34313956899234,
+            -94.22916352312582
+          ],
+          "depthMeters": 196.1701063066183
+        },
+        {
+          "segment": 38,
+          "start": [
+            36.343093,
+            -94.226974
+          ],
+          "end": [
+            36.343092,
+            -94.226917
+          ],
+          "meters": 5.106457087300438,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.3430925,
+            -94.2269455
+          ],
+          "depthMeters": 9.45180426390653
+        },
+        {
+          "segment": 39,
+          "start": [
+            36.343092,
+            -94.226917
+          ],
+          "end": [
+            36.34309069199132,
+            -94.22683999098916
+          ],
+          "meters": 6.89890124934299,
+          "cause": "internal City Limits hole",
+          "holes": [
+            "3:12"
+          ],
+          "midpoint": [
+            36.34309134599566,
+            -94.22687849549457
+          ],
+          "depthMeters": 3.4493373232419966
+        }
+      ]
+    }
+  ]
+}

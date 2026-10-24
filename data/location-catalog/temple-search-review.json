@@ -1,0 +1,330 @@
+{
+  "checkedAt": "2026-10-24T20:40:55.235Z",
+  "scope": "Only the requested temple; 27 existing inventories retained; no new sources, owner websites, citywide audit, routing requests, build or e2e run.",
+  "rootCause": "County-addresses requests FULL_ADDR only, omitting COMMENT. City/TrakIT/billing address EX_ADD fields are null for these addresses. Current temple name supplied by user is reconciled to the official religious association-building annotation; neither point is claimed as a verified entrance or main temple building.",
+  "evidence": [
+    {
+      "inventory": "city-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2/query?f=geojson&where=UPPER%28EX_ADD%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28EX_ADD%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID%2CADDRESS%2CEX_ADD%2CMISC_INFO&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:10.912Z",
+      "matched": 0
+    },
+    {
+      "inventory": "trakit-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0/query?f=geojson&where=UPPER%28EX_ADD%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28EX_ADD%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID%2CADDRESS%2CEX_ADD%2CMISC_INFO&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:11.137Z",
+      "matched": 0
+    },
+    {
+      "inventory": "billing-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0/query?f=geojson&where=UPPER%28EX_ADD%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28EX_ADD%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID_1%2CADDRESS%2CEX_ADD%2CMISC_INFO&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:11.250Z",
+      "matched": 0
+    },
+    {
+      "inventory": "common",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194/query?f=geojson&where=UPPER%28COMMON_NAME%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28COMMON_NAME%29+LIKE+%27%25TEMPLE%25%27+OR+UPPER%28EX_ADD%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28EX_ADD%29+LIKE+%27%25TEMPLE%25%27+OR+UPPER%28NOTES%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28NOTES%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID%2CCOMMON_NAME%2CADDRESS%2CEX_ADD%2CNOTES%2CSTATUS%2CTYPE&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:52.439Z",
+      "matched": 0
+    },
+    {
+      "inventory": "registered-businesses",
+      "url": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0/query?f=geojson&where=UPPER%28Business_Name%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28Business_Name%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID%2CBusiness_Name%2CPhysical_Address%2CSTATUS%2CHome_occ&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:52.862Z",
+      "matched": 1,
+      "note": "Only unrelated Templeton substring; no temple record"
+    },
+    {
+      "inventory": "county-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=geojson&where=UPPER%28COMMENT%29+LIKE+%27%25HINDU%25%27+OR+UPPER%28COMMENT%29+LIKE+%27%25TEMPLE%25%27&outFields=OBJECTID%2CFULL_ADDR%2CCOMMENT&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:36:54.099Z",
+      "matched": 5,
+      "note": "Two in-city NWA HINDU ASSOC BLDG records; one outside-city Hindu-association record and unrelated religious records are not promoted"
+    },
+    {
+      "inventory": "city-temple-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2/query?f=geojson&where=ADDRESS+IN+%28%272500+SW+REGIONAL+AIRPORT+BLVD%27%2C%272502+SW+REGIONAL+AIRPORT+BLVD%27%29&outFields=OBJECTID%2CADDRESS%2CEX_ADD%2CMISC_INFO%2CLOCID%2CPARCELID%2CSUBNAME&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:37:54.389Z",
+      "matched": 2,
+      "records": [
+        {
+          "type": "Feature",
+          "id": 18874516,
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -94.24242528162843,
+              36.336382125641016
+            ]
+          },
+          "properties": {
+            "OBJECTID": 18874516,
+            "ADDRESS": "2500 SW REGIONAL AIRPORT BLVD",
+            "EX_ADD": null,
+            "MISC_INFO": "M",
+            "LOCID": 131084,
+            "PARCELID": "01-16546-000",
+            "SUBNAME": "HANWA ADDITION"
+          }
+        },
+        {
+          "type": "Feature",
+          "id": 18893410,
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -94.2424919298125,
+              36.33667361163425
+            ]
+          },
+          "properties": {
+            "OBJECTID": 18893410,
+            "ADDRESS": "2502 SW REGIONAL AIRPORT BLVD",
+            "EX_ADD": null,
+            "MISC_INFO": "M",
+            "LOCID": 174642,
+            "PARCELID": "01-16546-000",
+            "SUBNAME": "HANWA ADDITION"
+          }
+        }
+      ]
+    },
+    {
+      "inventory": "county-temple-addresses",
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=geojson&where=OBJECTID+IN+%281411896%2C1412232%29&outFields=OBJECTID%2CFULL_ADDR%2CCOMMENT%2CPOINT_TYPE%2CCLASSIFICA%2CPARCELID_1%2CUNIT_APT%2CCITY&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T20:37:54.484Z",
+      "matched": 2,
+      "records": [
+        {
+          "type": "Feature",
+          "id": 1411896,
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -94.24249110763982,
+              36.336653273241275
+            ]
+          },
+          "properties": {
+            "OBJECTID": 1411896,
+            "FULL_ADDR": "2502 SW REGIONAL AIRPORT BLVD",
+            "COMMENT": "NWA HINDU ASSOC BLDG",
+            "POINT_TYPE": "DRIVE_ADDR",
+            "CLASSIFICA": "RELIGIOUS",
+            "PARCELID_1": "01-16546-001",
+            "UNIT_APT": "",
+            "CITY": "BENTONVILLE"
+          }
+        },
+        {
+          "type": "Feature",
+          "id": 1412232,
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -94.24242085981575,
+              36.33638367190181
+            ]
+          },
+          "properties": {
+            "OBJECTID": 1412232,
+            "FULL_ADDR": "2500 SW REGIONAL AIRPORT BLVD",
+            "COMMENT": "NWA HINDU ASSOC BLDG",
+            "POINT_TYPE": "DRIVE_ADDR",
+            "CLASSIFICA": "RELIGIOUS",
+            "PARCELID_1": "01-16546-001",
+            "UNIT_APT": "",
+            "CITY": "BENTONVILLE"
+          }
+        }
+      ]
+    }
+  ],
+  "namedViews": [
+    {
+      "id": "verified-place:county-addresses:1412232",
+      "label": "Northwest Arkansas Hindu Temple · 2500 SW REGIONAL AIRPORT BLVD",
+      "point": [
+        36.336382125641016,
+        -94.24242528162843
+      ],
+      "address": "2500 SW REGIONAL AIRPORT BLVD",
+      "type": "other official place",
+      "aliases": [
+        "2500 SW REGIONAL AIRPORT BLVD",
+        "NWA HINDU ASSOC BLDG",
+        "Northwest Arkansas Hindu Temple",
+        "Hindu Temple",
+        "NWA Hindu Temple",
+        "Northwest Arkansas Hindu Association Building"
+      ],
+      "supported": true,
+      "normalizedName": "northwest arkansas hindu temple 2500 sw regional airport blvd",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS",
+      "provenance": [
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18874516,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "county-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+          "sourceObjectId": 1412232,
+          "coordinateMethod": "official point",
+          "priority": 40,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=pjson&objectIds=1412232&outFields=OBJECTID,FULL_ADDR,COMMENT,CLASSIFICA,POINT_TYPE,PARCELID_1&returnGeometry=true&outSR=4326"
+            ]
+          }
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18874516,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79790098,
+          "coordinateMethod": "official point",
+          "priority": 30
+        }
+      ]
+    },
+    {
+      "id": "verified-place:county-addresses:1411896",
+      "label": "Northwest Arkansas Hindu Temple · 2502 SW REGIONAL AIRPORT BLVD",
+      "point": [
+        36.33667361163425,
+        -94.2424919298125
+      ],
+      "address": "2502 SW REGIONAL AIRPORT BLVD",
+      "type": "other official place",
+      "aliases": [
+        "2502 SW REGIONAL AIRPORT BLVD",
+        "NWA HINDU ASSOC BLDG",
+        "Northwest Arkansas Hindu Temple",
+        "Hindu Temple",
+        "NWA Hindu Temple",
+        "Northwest Arkansas Hindu Association Building"
+      ],
+      "supported": true,
+      "normalizedName": "northwest arkansas hindu temple 2502 sw regional airport blvd",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS",
+      "provenance": [
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18893410,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "county-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+          "sourceObjectId": 1411896,
+          "coordinateMethod": "official point",
+          "priority": 40,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=pjson&objectIds=1411896&outFields=OBJECTID,FULL_ADDR,COMMENT,CLASSIFICA,POINT_TYPE,PARCELID_1&returnGeometry=true&outSR=4326"
+            ]
+          }
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18893410,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79807708,
+          "coordinateMethod": "official point",
+          "priority": 30
+        }
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query": "Northwest Arkansas Hindu Temple",
+      "before": [],
+      "after": [
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2500 SW REGIONAL AIRPORT BLVD",
+          "address": "2500 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.336382125641016,
+            -94.24242528162843
+          ]
+        },
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2502 SW REGIONAL AIRPORT BLVD",
+          "address": "2502 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.33667361163425,
+            -94.2424919298125
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Hindu Temple",
+      "before": [],
+      "after": [
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2500 SW REGIONAL AIRPORT BLVD",
+          "address": "2500 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.336382125641016,
+            -94.24242528162843
+          ]
+        },
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2502 SW REGIONAL AIRPORT BLVD",
+          "address": "2502 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.33667361163425,
+            -94.2424919298125
+          ]
+        }
+      ]
+    },
+    {
+      "query": "NWA Hindu Temple",
+      "before": [],
+      "after": [
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2500 SW REGIONAL AIRPORT BLVD",
+          "address": "2500 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.336382125641016,
+            -94.24242528162843
+          ]
+        },
+        {
+          "label": "Northwest Arkansas Hindu Temple · 2502 SW REGIONAL AIRPORT BLVD",
+          "address": "2502 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.33667361163425,
+            -94.2424919298125
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": "88 targeted tests passed; includes all three requested searches, existing name reconciliations, exact address retention, outside/changed-annotation guards and unrelated-comment exclusion."
+}

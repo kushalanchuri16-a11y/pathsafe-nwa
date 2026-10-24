@@ -1,0 +1,160 @@
+{
+  "id": 3,
+  "checkedAt": "2026-10-24T05:03:11.543Z",
+  "group": "school",
+  "start": {
+    "id": "schools-4:5",
+    "label": "Sugar Creek Elementary",
+    "point": [
+      36.38325752034997,
+      -94.21590021164909
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "alternative-2",
+    "explanation": "This route adds approximately 0.4 minutes and increases mapped pedestrian infrastructure coverage from 81.8% to 95.8%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 30.637333333333334,
+        "miles": 1.5909376739839338,
+        "seconds": 1838.24,
+        "providerDistanceMeters": 2560.366,
+        "coverage": 81.75033347872495,
+        "gaps": 3,
+        "score": 76,
+        "lengthMeters": 2559.0075936442295,
+        "coveredMeters": 2091.9972415500524,
+        "uncoveredMeters": 467.01035209417705
+      },
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 30.795633333333335,
+        "miles": 1.6002576204963015,
+        "seconds": 1847.738,
+        "providerDistanceMeters": 2575.365,
+        "coverage": 78.83550480676159,
+        "gaps": 3,
+        "score": 73,
+        "lengthMeters": 2575.5510532386375,
+        "coveredMeters": 2030.448674376545,
+        "uncoveredMeters": 545.1023788620926
+      },
+      "vertices": 146
+    },
+    {
+      "id": "alternative-2",
+      "recommended": true,
+      "metrics": {
+        "minutes": 31.064700000000002,
+        "miles": 1.6176560138789469,
+        "seconds": 1863.882,
+        "providerDistanceMeters": 2603.365,
+        "coverage": 95.75150554644965,
+        "gaps": 1,
+        "score": 94,
+        "lengthMeters": 2603.591145021012,
+        "coveredMeters": 2492.9777196316663,
+        "uncoveredMeters": 110.6134253893456
+      },
+      "vertices": 143
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:03:12.638Z",
+        "cacheHit": false,
+        "featureCount": 575
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:03:12.296Z",
+        "cacheHit": false,
+        "featureCount": 4
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:03:12.638Z",
+    "routingFetchedAt": "2026-10-24T05:03:11.992Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 579,
+    "segmentCount": 589,
+    "eligibleSegmentCount": 448,
+    "countsByKind": {
+      "crossing": 139,
+      "sidewalk": 436,
+      "trail": 4
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 11.38m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 9.740069301642453,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 9.740069301642453,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 146
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 9.740069301642453,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 143
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1203.056790999999,
+  "catalogReconciledAt": "2026-10-24T19:45:39.200Z"
+}

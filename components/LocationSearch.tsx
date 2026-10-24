@@ -38,6 +38,7 @@ export default function LocationSearch({
       setBusy(true);
       try {
         let found = cache.current.get(text.toLowerCase());
+        let warning = "";
         if (!found) {
           const response = await fetch(
             `/api/locations?q=${encodeURIComponent(text.trim())}`,
@@ -60,17 +61,19 @@ export default function LocationSearch({
               "Location search is temporarily unavailable. Please try again.",
             );
           found = body.results as LocationResult[];
+          warning = typeof body.warning === "string" ? body.warning : "";
           if (cache.current.size >= 50)
             cache.current.delete(cache.current.keys().next().value!);
-          cache.current.set(text.toLowerCase(), found);
+          if (!warning) cache.current.set(text.toLowerCase(), found);
         }
         if (generation.current !== version) return;
         setResults(found);
         setOpen(focused.current && !dismissed.current);
         setMessage(
-          found.length
-            ? "Choose a suggestion to confirm the location."
-            : "No matching supported locations. Try a street address or another place name. PathSafe currently supports locations within Bentonville, Arkansas.",
+          warning ||
+            (found.length
+              ? "Choose a suggestion to confirm the location."
+              : "No matching supported locations. Try a street address or another place name. PathSafe currently supports locations within Bentonville, Arkansas."),
         );
       } catch (e) {
         if (!controller.signal.aborted && generation.current === version)
@@ -212,7 +215,9 @@ export default function LocationSearch({
             onClick={() => choose(item)}
           >
             <strong>{item.label}</strong>
-            <span>{item.address} · Bentonville</span>
+            <span>
+              {item.address || item.type || "Official place"} · Bentonville
+            </span>
           </div>
         ))}
       </div>

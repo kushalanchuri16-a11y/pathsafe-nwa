@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-24T20:31:27.430Z",
+  "rows": [
+    {
+      "query": "Walton Family Whole Health & Fitness",
+      "status": 200,
+      "results": [
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "address": "1400 SE 5TH ST",
+          "aliases": [
+            "FITNESS CENTER"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "whole health",
+      "status": 200,
+      "results": [
+        {
+          "label": "Heartland Whole Health Institute",
+          "point": [
+            36.3793029259075,
+            -94.2003768017785
+          ],
+          "address": "850 MUSEUM WAY",
+          "aliases": [
+            "WHOLE HEALTH"
+          ]
+        },
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "address": "1400 SE 5TH ST",
+          "aliases": [
+            "FITNESS CENTER"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "walton whole health",
+      "status": 200,
+      "results": [
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "address": "1400 SE 5TH ST",
+          "aliases": [
+            "FITNESS CENTER"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "1400 SE 5th St",
+      "status": 200,
+      "results": [
+        {
+          "label": "1400 SE 5TH ST",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "aliases": []
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "FITNESS CENTER",
+      "status": 200,
+      "results": [
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "address": "1400 SE 5TH ST",
+          "aliases": [
+            "FITNESS CENTER"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "8th & Plate",
+      "status": 200,
+      "results": [
+        {
+          "label": "8th & Plate",
+          "point": [
+            36.363286614746244,
+            -94.19132466734716
+          ],
+          "address": "1600 SE 8TH ST",
+          "aliases": [
+            "WALMART FOOD HALL"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "Walmart Home Office Welcome Center",
+      "status": 200,
+      "results": [
+        {
+          "label": "Walmart Home Office Welcome Center",
+          "point": [
+            36.36431736229416,
+            -94.19468555061927
+          ],
+          "address": "1 CUSTOMER DR",
+          "aliases": [
+            "WELCOM CTR"
+          ]
+        }
+      ],
+      "sources": 27
+    },
+    {
+      "query": "XNA",
+      "status": 200,
+      "results": [],
+      "sources": 27
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Stormwater/FEMA_DATA",
+      "type": "MapServer"
+    },
+    {
+      "name": "Stormwater/StormWater_System18",
+      "type": "MapServer"
+    },
+    {
+      "name": "Stormwater/TEST_geotagged_photos",
+      "type": "MapServer"
+    }
+  ]
+}

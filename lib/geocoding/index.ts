@@ -1,39 +1,18 @@
-import { cached } from "@/lib/server/cache";
-import { CityGeocodingProvider, cleanQuery } from "./city";
-import type { GeocodingProvider } from "./provider";
-export const geocodingProvider: GeocodingProvider = new CityGeocodingProvider();
-let active = 0,
-  lastStart = 0;
-let queue: Promise<void> = Promise.resolve();
-export async function searchLocations(query: string) {
+import { getUnifiedCatalog } from "./catalog";
+import { searchUnifiedCatalog } from "./catalog/search";
+import { cleanQuery } from "./city";
+export async function searchLocationsDetailed(query: string) {
   const q = cleanQuery(query);
-  if (q.length < 3 || q.length > 120) return [];
-  return (
-    await cached(
-      `city-geocoding-ranked-v3:${q.toLowerCase()}`,
-      24 * 3600000,
-      async () => {
-        if (active >= 4)
-          throw new Error(
-            "Location search is busy. Please wait a moment and try again.",
-          );
-        active++;
-        const previous = queue;
-        let release!: () => void;
-        queue = new Promise<void>((r) => {
-          release = r;
-        });
-        try {
-          await previous;
-          const delay = Math.max(0, 1000 - (Date.now() - lastStart));
-          if (delay) await new Promise((r) => setTimeout(r, delay));
-          lastStart = Date.now();
-          return await geocodingProvider.search(q);
-        } finally {
-          active--;
-          release();
-        }
-      },
-    )
-  ).value;
+  if (q.length < 3 || q.length > 120)
+    return { results: [], diagnostics: [], partial: false };
+  const index = await getUnifiedCatalog();
+  return {
+    results: searchUnifiedCatalog(q, index),
+    diagnostics: index.catalog.diagnostics,
+    partial: index.catalog.diagnostics.some((d) => d.status === "unavailable"),
+  };
 }
+export async function searchLocations(query: string) {
+  return (await searchLocationsDetailed(query)).results;
+}
+export const geocodingProvider = { search: searchLocations };

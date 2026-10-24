@@ -1,0 +1,33 @@
+{
+  "id": 75,
+  "checkedAt": "2026-10-24T05:16:10.785Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "county-addresses:1321020",
+    "label": "8125 W FORD SPRINGS RD",
+    "point": [
+      36.41250905262994,
+      -94.2072492199116
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "The walking provider could not connect a selected location to its walking network within 100 meters. Try a nearby public entrance. No route was substituted.",
+  "providerError": "Error: Routing endpoint snapped more than 100m from the verified location.",
+  "failureCause": "Endpoint snapping exceeds existing 100m limit",
+  "elapsedMs": 426.4946250000503,
+  "catalogReconciledAt": "2026-10-24T19:45:40.872Z"
+}

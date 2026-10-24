@@ -1,0 +1,162 @@
+{
+  "id": 42,
+  "checkedAt": "2026-10-24T05:08:02.764Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18751721",
+    "label": "WEST SOCCER COMPLEX",
+    "point": [
+      36.376526173985624,
+      -94.1930281704006
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 0.7 minutes and increases mapped pedestrian infrastructure coverage from 48.1% to 59.8%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 63.484766666666665,
+        "miles": 3.3310529010578223,
+        "seconds": 3809.086,
+        "providerDistanceMeters": 5360.81,
+        "coverage": 48.11549536693997,
+        "gaps": 14,
+        "score": 28,
+        "lengthMeters": 5358.339561321669,
+        "coveredMeters": 2578.191623372639,
+        "uncoveredMeters": 2780.14793794903
+      },
+      "vertices": 227
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 64.20876666666666,
+        "miles": 3.347207930684801,
+        "seconds": 3852.526,
+        "providerDistanceMeters": 5386.809,
+        "coverage": 59.807088728540414,
+        "gaps": 10,
+        "score": 40,
+        "lengthMeters": 5382.525788155664,
+        "coveredMeters": 3219.131973958827,
+        "uncoveredMeters": 2163.3938141968365
+      },
+      "vertices": 242
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 65.04531666666666,
+        "miles": 3.404996072934065,
+        "seconds": 3902.719,
+        "providerDistanceMeters": 5479.81,
+        "coverage": 50.49167065889798,
+        "gaps": 12,
+        "score": 30,
+        "lengthMeters": 5468.827896518171,
+        "coveredMeters": 2761.3025704118927,
+        "uncoveredMeters": 2707.525326106278
+      },
+      "vertices": 229
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:08:04.910Z",
+        "cacheHit": false,
+        "featureCount": 1447
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:08:04.072Z",
+        "cacheHit": false,
+        "featureCount": 46
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:08:04.910Z",
+    "routingFetchedAt": "2026-10-24T05:08:03.663Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1493,
+    "segmentCount": 1559,
+    "eligibleSegmentCount": 1181,
+    "countsByKind": {
+      "sidewalk": 1078,
+      "crossing": 369,
+      "trail": 46
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 437.91m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 58.20261814831627,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 227
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 58.20261814831627,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 242
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 58.20261814831627,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 229
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 2367.197041999956,
+  "catalogReconciledAt": "2026-10-24T19:45:40.136Z"
+}

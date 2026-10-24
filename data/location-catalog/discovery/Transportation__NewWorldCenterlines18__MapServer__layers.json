@@ -1,0 +1,457 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "Centerlines",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 30000,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "width": 0.2
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelExpression": "[StreetName]",
+            "labelPlacement": "esriServerLinePlacementCenterAlong",
+            "textLayout": "straight",
+            "deconflictionStrategy": "dynamic",
+            "allowOverrun": false,
+            "repeatLabel": false,
+            "removeDuplicates": "all",
+            "removeDuplicatesDistance": 0,
+            "lineConnection": "minimizeLabels",
+            "stackLabel": false,
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Default",
+            "priority": 1,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "left",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Arial",
+                "size": 18,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          }
+        ]
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 542406.4113108814,
+        "ymin": 651375.0345992297,
+        "xmax": 777420.9005985558,
+        "ymax": 798713.1418253034,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 2,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 36424925.36731862,
+          "falseZ": 0,
+          "zUnits": 1,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "StreetName",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OWNERSHIP",
+          "type": "esriFieldTypeString",
+          "alias": "OWNERSHIP",
+          "length": 30,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()",
+          "domain": null
+        },
+        {
+          "name": "ONEWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ONEWAY",
+          "length": 2,
+          "domain": null
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "LeftFrom",
+          "type": "esriFieldTypeString",
+          "alias": "LeftFrom",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "LeftTo",
+          "type": "esriFieldTypeString",
+          "alias": "LeftTo",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "RightFrom",
+          "type": "esriFieldTypeString",
+          "alias": "RightFrom",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "RightTo",
+          "type": "esriFieldTypeString",
+          "alias": "RightTo",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "PreDirectional",
+          "type": "esriFieldTypeString",
+          "alias": "PreDirectional",
+          "length": 3,
+          "domain": null
+        },
+        {
+          "name": "PreType",
+          "type": "esriFieldTypeString",
+          "alias": "PreType",
+          "length": 5,
+          "domain": null
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName",
+          "length": 30,
+          "domain": null
+        },
+        {
+          "name": "PostType",
+          "type": "esriFieldTypeString",
+          "alias": "PostType",
+          "length": 10,
+          "domain": null
+        },
+        {
+          "name": "PostDirectional",
+          "type": "esriFieldTypeString",
+          "alias": "PostDirectional",
+          "length": 3,
+          "domain": null
+        },
+        {
+          "name": "LeftVenue",
+          "type": "esriFieldTypeString",
+          "alias": "LeftVenue",
+          "length": 25,
+          "domain": null
+        },
+        {
+          "name": "RightVenue",
+          "type": "esriFieldTypeString",
+          "alias": "RightVenue",
+          "length": 25,
+          "domain": null
+        },
+        {
+          "name": "LeftZip",
+          "type": "esriFieldTypeString",
+          "alias": "LeftZip",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "RightZip",
+          "type": "esriFieldTypeString",
+          "alias": "RightZip",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "LPostalCity",
+          "type": "esriFieldTypeString",
+          "alias": "LPostalCity",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "RPostalCity",
+          "type": "esriFieldTypeString",
+          "alias": "RPostalCity",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "MPH",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPH",
+          "domain": null
+        },
+        {
+          "name": "TIME",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIME",
+          "domain": null
+        },
+        {
+          "name": "Max_Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Max_Height_inches",
+          "domain": null
+        },
+        {
+          "name": "Max_Weight",
+          "type": "esriFieldTypeDouble",
+          "alias": "Max_Weight_lbs",
+          "domain": null
+        },
+        {
+          "name": "JOIN_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "JOIN_ID",
+          "domain": null
+        },
+        {
+          "name": "FullStreetName",
+          "type": "esriFieldTypeString",
+          "alias": "FullStreetName",
+          "length": 35,
+          "domain": null
+        },
+        {
+          "name": "SURFACE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE_TYPE",
+          "length": 15,
+          "domain": null
+        },
+        {
+          "name": "FUNC_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "FUNC_CLASS",
+          "length": 15,
+          "domain": null
+        },
+        {
+          "name": "ROAD_DESIGN",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_DESIGN",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "LOG_DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "LOG_DIRECTION",
+          "length": 10,
+          "domain": null
+        },
+        {
+          "name": "POST_MPH",
+          "type": "esriFieldTypeDouble",
+          "alias": "Posted MPH",
+          "domain": null
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LANES",
+          "domain": null
+        },
+        {
+          "name": "Road_Width",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Road_Width",
+          "domain": null
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "ACF_GUID",
+          "type": "esriFieldTypeString",
+          "alias": "ACF_GUID",
+          "length": 255,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R294_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S212_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": true,
+      "capabilities": "Query,Map,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": {
+        "timeZone": "Central Standard Time",
+        "respectsDaylightSaving": true
+      },
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasGeometryProperties": true,
+      "geometryProperties": {
+        "shapeLengthFieldName": "Shape.STLength()",
+        "units": "esriFeet"
+      },
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "1712bb5341d2444399aaa14207d8bc7c"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,161 @@
+{
+  "id": 15,
+  "checkedAt": "2026-10-24T05:04:34.441Z",
+  "group": "school",
+  "start": {
+    "id": "schools-all:29",
+    "label": "Bentonville Seventh-Day Adventist School",
+    "point": [
+      36.355346870074825,
+      -94.18218917427838
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-parks-directory:767",
+    "label": "Austin-Baggett Park",
+    "point": [
+      36.36571210106438,
+      -94.20363133075323
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 1.2 minutes and increases mapped pedestrian infrastructure coverage from 13.4% to 42.7%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 35.315733333333334,
+        "miles": 1.8620015360295872,
+        "seconds": 2118.944,
+        "providerDistanceMeters": 2996.601,
+        "coverage": 13.448030031791799,
+        "gaps": 4,
+        "score": 5,
+        "lengthMeters": 2994.53059840672,
+        "coveredMeters": 402.7053741849304,
+        "uncoveredMeters": 2591.8252242217895
+      },
+      "vertices": 168
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 36.5246,
+        "miles": 1.9297316173546486,
+        "seconds": 2191.476,
+        "providerDistanceMeters": 3105.602,
+        "coverage": 42.74181131707555,
+        "gaps": 5,
+        "score": 33,
+        "lengthMeters": 3102.716559838207,
+        "coveredMeters": 1326.157257709704,
+        "uncoveredMeters": 1776.559302128503
+      },
+      "vertices": 116
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 36.976549999999996,
+        "miles": 1.9539650938519046,
+        "seconds": 2218.593,
+        "providerDistanceMeters": 3144.602,
+        "coverage": 21.22850993390284,
+        "gaps": 4,
+        "score": 13,
+        "lengthMeters": 3142.0812583195197,
+        "coveredMeters": 667.0170320536586,
+        "uncoveredMeters": 2475.064226265861
+      },
+      "vertices": 161
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:35.248Z",
+        "cacheHit": false,
+        "featureCount": 164
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:35.226Z",
+        "cacheHit": false,
+        "featureCount": 21
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:35.248Z",
+    "routingFetchedAt": "2026-10-24T05:04:34.894Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 185,
+    "segmentCount": 216,
+    "eligibleSegmentCount": 175,
+    "countsByKind": {
+      "crossing": 39,
+      "sidewalk": 125,
+      "trail": 21
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 132.50m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 0.4306161962402593,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 168
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 0.4306161962402593,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 116
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 0.4306161962402593,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 161
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 929.9032909999951,
+  "catalogReconciledAt": "2026-10-24T19:45:39.501Z"
+}

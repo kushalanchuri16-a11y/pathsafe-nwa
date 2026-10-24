@@ -1,0 +1,111 @@
+{
+  "id": 18,
+  "checkedAt": "2026-10-24T05:04:52.341Z",
+  "group": "school",
+  "start": {
+    "id": "schools-all:25",
+    "label": "Haas Hall Academy",
+    "point": [
+      36.34442438665628,
+      -94.19808784851148
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "Only one distinct walking route was returned. No alternative comparison is available; this route is shown without a comparative infrastructure recommendation.",
+    "factors": [
+      "One provider route; no fabricated alternative"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 56.01396666666667,
+        "miles": 2.9829446035154694,
+        "seconds": 3360.838,
+        "providerDistanceMeters": 4800.584,
+        "coverage": 81.20849262018638,
+        "gaps": 5,
+        "score": 71,
+        "lengthMeters": 4790.446062655241,
+        "coveredMeters": 3890.24903726539,
+        "uncoveredMeters": 900.1970253898508
+      },
+      "vertices": 204
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:53.269Z",
+        "cacheHit": false,
+        "featureCount": 351
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:53.066Z",
+        "cacheHit": false,
+        "featureCount": 34
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:53.269Z",
+    "routingFetchedAt": "2026-10-24T05:04:52.789Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 385,
+    "segmentCount": 418,
+    "eligibleSegmentCount": 338,
+    "countsByKind": {
+      "crossing": 70,
+      "sidewalk": 281,
+      "trail": 34
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 1,
+    "candidatesRetained": 1,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "No distinct alternative was returned after geometric deduplication.",
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 197.44m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 1,
+  "distinctAlternatives": 1,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 23.622777105821037,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 204
+    }
+  ],
+  "validAlternatives": 1,
+  "elapsedMs": 1000.0192079999979,
+  "catalogReconciledAt": "2026-10-24T19:45:39.572Z"
+}

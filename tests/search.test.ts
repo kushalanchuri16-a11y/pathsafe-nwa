@@ -12,36 +12,19 @@ import {
   isAddressLikeQuery,
   scoreCandidate,
 } from "../lib/geocoding/search";
-import type { Fetcher } from "../lib/server/http";
+import { catalogFetcher } from "./fixtures/catalog";
 const places = JSON.parse(
   readFileSync("data/search/official-places.json", "utf8"),
 );
 const addresses = JSON.parse(
   readFileSync("data/search/official-addresses.json", "utf8"),
 );
-const provider = new CityGeocodingProvider((async (input) => {
-  const url = new URL(String(input));
-  if (url.pathname.includes("Community_Development"))
-    return Response.json(places);
-  if (url.searchParams.get("returnDistinctValues"))
-    return Response.json({
-      type: "FeatureCollection",
-      features: [
-        { properties: { STNAME: "MISTLETOE" } },
-        { properties: { STNAME: "MAIN" } },
-      ],
-    });
-  const number = url.searchParams.get("where")?.match(/LIKE '(\d+) %'/)?.[1];
-  return Response.json({
-    ...addresses,
-    features: addresses.features.filter(
-      (f: { properties: { ADDRESS: string } }) =>
-        number
-          ? f.properties.ADDRESS.startsWith(number + " ")
-          : /MAIN|MISTLETOE/.test(f.properties.ADDRESS),
-    ),
-  });
-}) as Fetcher);
+const provider = new CityGeocodingProvider(
+  catalogFetcher({
+    common: places.features,
+    "city-addresses": addresses.features,
+  }),
+);
 const cases: [string[], string][] = [
   [
     [
@@ -120,7 +103,7 @@ for (const query of [
   test(`no forced guess: ${query}`, async () =>
     assert.deepEqual(await provider.search(query), []));
 for (const query of ["Creekside park", "creekside", "CREEKSIDE PARK"])
-  test(`absent official named record is not fabricated: ${query}`, async () =>
+  test(`absent fixture record is not fabricated: ${query}`, async () =>
     assert.deepEqual(await provider.search(query), []));
 test("normalization uses whole tokens, directions and punctuation", () => {
   assert.equal(normalizeSearchText("  Crystal   Bridges  "), "crystal bridges");

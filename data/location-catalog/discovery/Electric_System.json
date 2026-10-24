@@ -1,0 +1,42 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Electric_System/Catalyst_BaseMap",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_BaseMap",
+      "type": "MapServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Planning",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Planning",
+      "type": "MapServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Sewer",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Sewer",
+      "type": "MapServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Stormwater",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Electric_System/Catalyst_Stormwater",
+      "type": "MapServer"
+    },
+    {
+      "name": "Electric_System/Electric_System_Public18",
+      "type": "MapServer"
+    }
+  ]
+}

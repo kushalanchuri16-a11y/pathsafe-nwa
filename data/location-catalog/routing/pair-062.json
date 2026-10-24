@@ -1,0 +1,61 @@
+{
+  "id": 62,
+  "checkedAt": "2026-10-24T05:14:51.849Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18904314",
+    "label": "10310 W AR 264 HWY",
+    "point": [
+      36.25952868023762,
+      -94.25829114689694
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 25.10677006939823,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 283
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 25.10677006939823,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 263
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 25.10677006939823,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 248
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Real outer city exit (may also cross holes); Real outer city exit (may also cross holes); Real outer city exit (may also cross holes)",
+  "elapsedMs": 712.1524579999968,
+  "catalogReconciledAt": "2026-10-24T19:45:40.598Z"
+}

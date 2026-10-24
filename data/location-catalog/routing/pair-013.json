@@ -1,0 +1,136 @@
+{
+  "id": 13,
+  "checkedAt": "2026-10-24T05:04:22.422Z",
+  "group": "school",
+  "start": {
+    "id": "schools-all:26",
+    "label": "Founders Classical Academy-Bentonville",
+    "point": [
+      36.36200109814173,
+      -94.22823820254959
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 22.045399999999997,
+        "miles": 1.1547437962300167,
+        "seconds": 1322.724,
+        "providerDistanceMeters": 1858.38,
+        "coverage": 81.25245487470109,
+        "gaps": 2,
+        "score": 77,
+        "lengthMeters": 1858.5080779081088,
+        "coveredMeters": 1510.0834373449607,
+        "uncoveredMeters": 348.42464056314816
+      },
+      "vertices": 66
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 24.113166666666665,
+        "miles": 1.2175022866459875,
+        "seconds": 1446.79,
+        "providerDistanceMeters": 1959.38,
+        "coverage": 34.51811710808371,
+        "gaps": 5,
+        "score": 25,
+        "lengthMeters": 1958.5851149679027,
+        "coveredMeters": 676.0667036461166,
+        "uncoveredMeters": 1282.518411321786
+      },
+      "vertices": 73
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:23.155Z",
+        "cacheHit": false,
+        "featureCount": 65
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:23.182Z",
+        "cacheHit": false,
+        "featureCount": 5
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:23.155Z",
+    "routingFetchedAt": "2026-10-24T05:04:22.870Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 70,
+    "segmentCount": 74,
+    "eligibleSegmentCount": 52,
+    "countsByKind": {
+      "sidewalk": 45,
+      "crossing": 20,
+      "trail": 5
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 2,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 84.45m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 2,
+  "distinctAlternatives": 2,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 29.174129285074017,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 66
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 29.174129285074017,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 73
+    }
+  ],
+  "validAlternatives": 2,
+  "elapsedMs": 798.606792000006,
+  "catalogReconciledAt": "2026-10-24T19:45:39.444Z"
+}

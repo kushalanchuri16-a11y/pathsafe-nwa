@@ -1,0 +1,53 @@
+{
+  "id": 20,
+  "checkedAt": "2026-10-24T05:05:04.505Z",
+  "group": "school",
+  "start": {
+    "id": "schools-4:20",
+    "label": "Osage Creek Elementary",
+    "point": [
+      36.34169461266523,
+      -94.24356189105993
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 2,
+  "distinctAlternatives": 2,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 16.906991672449678,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 60
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 16.906991672449678,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 72
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Internal municipal polygon hole; Internal municipal polygon hole",
+  "elapsedMs": 510.01229199999943,
+  "catalogReconciledAt": "2026-10-24T19:45:39.620Z"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+    "count": 40405,
+    "idHash": "2b99f51117ee56f3a389c57bacff9cf04c05dce28c9f240e186d8bd4707915a7",
+    "error": null
+  },
+  {
+    "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+    "count": 43071,
+    "idHash": "05b452017bd70417b6ceb1e56320681270af00d2898c32e17036a888d6c2a756",
+    "error": null
+  },
+  {
+    "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Display/MapServer/0",
+    "count": 43071,
+    "idHash": "05b452017bd70417b6ceb1e56320681270af00d2898c32e17036a888d6c2a756",
+    "error": null
+  },
+  {
+    "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/5",
+    "count": 1048,
+    "idHash": "233ab8e72c7f2b93f2b60ef94b76532116b2137d484a6151215c99fd9a2df15e",
+    "error": null
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "reviewedAt": "2026-10-24",
+  "policy": "Names only. Match eligible source/OID, address where available, and previous name. Address-name entries enrich the existing address identity; named and numeric search views share its ID and coordinates. No new coordinate, location source, or public-access claim is supplied.",
+  "entries": [
+    {
+      "source": "address-destinations",
+      "objectId": 18879439,
+      "address": "1400 SE 5TH ST",
+      "previousName": "FITNESS CENTER",
+      "canonicalName": "Walton Family Whole Health & Fitness",
+      "evidence": [
+        "https://wholehealth.walmart.com/content/wholehealth/en_us/whole-health0/whole-health0/faq.html"
+      ],
+      "basis": "Venue-owner FAQ explicitly gives the current name and 1400 SE 5th Street address. City GIS provides the existing point. Membership requirements are unchanged."
+    },
+    {
+      "source": "address-destinations",
+      "objectId": 18879220,
+      "address": "1600 SE 8TH ST",
+      "previousName": "WALMART FOOD HALL",
+      "canonicalName": "8th & Plate",
+      "evidence": [
+        "https://corporate.walmart.com/about/newhomeoffice/explore-the-new-campus/tour",
+        "https://corporate.walmart.com/content/dam/corporate/documents/about/new-home-office/tour/Walmart_Self-Guided_Tour_Map.pdf"
+      ],
+      "basis": "Owner tour identifies 8th & Plate as the campus associate food hall; its campus map locates the facility on 8th Street. The existing unique named City campus food-hall record supplies its address and coordinate. No retail tenants or access rights are inferred."
+    },
+    {
+      "source": "address-destinations",
+      "objectId": 18883922,
+      "address": "1 CUSTOMER DR",
+      "previousName": "WELCOM CTR",
+      "canonicalName": "Walmart Home Office Welcome Center",
+      "evidence": [
+        "https://corporate.walmart.com/content/dam/corporate/documents/about/new-home-office/tour/Walmart_Self-Guided_Tour_Map.pdf",
+        "https://corporate.walmart.com/about/newhomeoffice/explore-the-new-campus/public-spaces"
+      ],
+      "basis": "Owner campus guide gives Welcome Center / Customer Plaza at 1 Customer Drive, matching the abbreviated City record. The City point is unchanged."
+    },
+    {
+      "source": "county-addresses",
+      "objectId": 1411896,
+      "address": "2502 SW REGIONAL AIRPORT BLVD",
+      "previousName": "NWA HINDU ASSOC BLDG",
+      "addressName": true,
+      "canonicalName": "Northwest Arkansas Hindu Temple \u00b7 2502 SW REGIONAL AIRPORT BLVD",
+      "aliases": [
+        "Northwest Arkansas Hindu Temple",
+        "Hindu Temple",
+        "NWA Hindu Temple",
+        "NWA HINDU ASSOC BLDG",
+        "Northwest Arkansas Hindu Association Building"
+      ],
+      "evidence": [
+        "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=pjson&objectIds=1411896&outFields=OBJECTID,FULL_ADDR,COMMENT,CLASSIFICA,POINT_TYPE,PARCELID_1&returnGeometry=true&outSR=4326"
+      ],
+      "basis": "Targeted check of the existing source: COMMENT NWA HINDU ASSOC BLDG, CLASSIFICA RELIGIOUS, POINT_TYPE DRIVE_ADDR; both 2500/2502 share parcel 01-16546-001. Temple query names are supplied by the user. Preserve both official address choices; do not assert a main building, verified entrance or public access. Coordinates come from the existing deduplicated City address identity."
+    },
+    {
+      "source": "county-addresses",
+      "objectId": 1412232,
+      "address": "2500 SW REGIONAL AIRPORT BLVD",
+      "previousName": "NWA HINDU ASSOC BLDG",
+      "addressName": true,
+      "canonicalName": "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD",
+      "aliases": [
+        "Northwest Arkansas Hindu Temple",
+        "Hindu Temple",
+        "NWA Hindu Temple",
+        "NWA HINDU ASSOC BLDG",
+        "Northwest Arkansas Hindu Association Building"
+      ],
+      "evidence": [
+        "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0/query?f=pjson&objectIds=1412232&outFields=OBJECTID,FULL_ADDR,COMMENT,CLASSIFICA,POINT_TYPE,PARCELID_1&returnGeometry=true&outSR=4326"
+      ],
+      "basis": "Targeted check of the existing source: COMMENT NWA HINDU ASSOC BLDG, CLASSIFICA RELIGIOUS, POINT_TYPE DRIVE_ADDR; both 2500/2502 share parcel 01-16546-001. Temple query names are supplied by the user. Preserve both official address choices; do not assert a main building, verified entrance or public access. Coordinates come from the existing deduplicated City address identity."
+    },
+    {
+      "source": "city-addresses",
+      "objectId": 18876387,
+      "address": "105 N MAIN ST",
+      "previousName": "105 N MAIN ST",
+      "addressName": true,
+      "canonicalName": "The Walmart Museum",
+      "aliases": ["Walmart Museum", "Walton's 5&10", "Walton 5 and 10"],
+      "evidence": [
+        "https://corporate.walmart.com/about/walmart-museum/plan-your-visit"
+      ],
+      "basis": "Owner visitor page verifies museum and Walton's 5&10 at 105 N Main St. Existing City main-address OID 18876387 has EX_ADD null, MISC_INFO M; reuse the deduplicated address identity and its existing City point, not a second location.",
+      "namedType": "museum"
+    },
+    {
+      "source": "park-properties",
+      "objectId": 315,
+      "address": null,
+      "previousName": "Osage Park @ Lake Bentonville",
+      "canonicalName": "Osage Park",
+      "evidence": [
+        "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1/query?f=pjson&objectIds=315&outFields=OBJECTID,FACILITY_NAME&returnGeometry=true&outSR=4326"
+      ],
+      "basis": "Official parcel facility name explicitly identifies Osage Park; text after @ gives its location context, not an alias for Lake Bentonville. Preserve this separate official facility and its existing polygon anchor."
+    }
+  ]
+}

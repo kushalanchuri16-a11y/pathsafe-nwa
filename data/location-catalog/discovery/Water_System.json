@@ -1,0 +1,14 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Water_System/Water_Leaks_Layer_for_Dashboard",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Water_System/Water_Leaks_Layer_for_Dashboard",
+      "type": "MapServer"
+    }
+  ]
+}

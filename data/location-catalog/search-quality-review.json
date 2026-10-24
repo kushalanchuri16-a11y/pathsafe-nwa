@@ -1,0 +1,1102 @@
+{
+  "checkedAt": "2026-10-24T22:35:06.085Z",
+  "scope": "Only verified naming, contextual identity and search confidence utilities. No discovery, citywide audit, mass routing, build, e2e or deployment.",
+  "museum": {
+    "originalRecord": {
+      "id": "city-address:18876386",
+      "label": "105 N MAIN ST",
+      "point": [
+        36.37250862234924,
+        -94.20902221035391
+      ],
+      "type": "address",
+      "aliases": [],
+      "supported": true,
+      "normalizedName": "105 n main st",
+      "kind": "address",
+      "attribution": "City of Bentonville GIS",
+      "provenance": [
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18876386,
+          "coordinateMethod": "official point",
+          "priority": 60
+        }
+      ]
+    },
+    "reviewedCityRecords": {
+      "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2/query?f=geojson&where=ADDRESS+%3D+%27105+N+MAIN+ST%27&outFields=OBJECTID%2CADDRESS%2CEX_ADD%2CMISC_INFO&outSR=4326&returnGeometry=true",
+      "checkedAt": "2026-10-24T22:27:22.262Z",
+      "body": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": 18876386,
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.20902221035391,
+                36.37250862234924
+              ]
+            },
+            "properties": {
+              "OBJECTID": 18876386,
+              "ADDRESS": "105 N MAIN ST",
+              "EX_ADD": null,
+              "MISC_INFO": "UTIL"
+            }
+          },
+          {
+            "type": "Feature",
+            "id": 18876387,
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.20902221035391,
+                36.37250862234924
+              ]
+            },
+            "properties": {
+              "OBJECTID": 18876387,
+              "ADDRESS": "105 N MAIN ST",
+              "EX_ADD": null,
+              "MISC_INFO": "M"
+            }
+          },
+          {
+            "type": "Feature",
+            "id": 18876388,
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.20902139487372,
+                36.372508637147
+              ]
+            },
+            "properties": {
+              "OBJECTID": 18876388,
+              "ADDRESS": "105 N MAIN ST",
+              "EX_ADD": null,
+              "MISC_INFO": "ELEC"
+            }
+          },
+          {
+            "type": "Feature",
+            "id": 18880666,
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.20902221035391,
+                36.37250862234924
+              ]
+            },
+            "properties": {
+              "OBJECTID": 18880666,
+              "ADDRESS": "105 N MAIN ST",
+              "EX_ADD": null,
+              "MISC_INFO": "UTIL"
+            }
+          },
+          {
+            "type": "Feature",
+            "id": 18880667,
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.20902221035391,
+                36.37250862234924
+              ]
+            },
+            "properties": {
+              "OBJECTID": 18880667,
+              "ADDRESS": "105 N MAIN ST",
+              "EX_ADD": null,
+              "MISC_INFO": "UTIL"
+            }
+          }
+        ]
+      }
+    },
+    "ownerVerification": "https://corporate.walmart.com/about/walmart-museum/plan-your-visit",
+    "canonicalRecord": {
+      "id": "city-address:18876386",
+      "label": "105 N MAIN ST",
+      "point": [
+        36.37250862234924,
+        -94.20902221035391
+      ],
+      "type": "address",
+      "aliases": [
+        "105 N MAIN ST",
+        "Walmart Museum",
+        "Walton's 5&10",
+        "Walton 5 and 10"
+      ],
+      "supported": true,
+      "normalizedName": "105 n main st",
+      "kind": "address",
+      "attribution": "City of Bentonville GIS",
+      "provenance": [
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18876386,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18876387,
+          "coordinateMethod": "official point",
+          "priority": 60,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://corporate.walmart.com/about/walmart-museum/plan-your-visit"
+            ]
+          }
+        },
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18876388,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18880666,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "city-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18880667,
+          "coordinateMethod": "official point",
+          "priority": 60
+        },
+        {
+          "source": "county-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+          "sourceObjectId": 1415875,
+          "coordinateMethod": "official point",
+          "priority": 40
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18876386,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18876387,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18876388,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18880666,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "trakit-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18880667,
+          "coordinateMethod": "official point",
+          "priority": 35
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79791913,
+          "coordinateMethod": "official point",
+          "priority": 30
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79791914,
+          "coordinateMethod": "official point",
+          "priority": 30
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79791915,
+          "coordinateMethod": "official point",
+          "priority": 30
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79796181,
+          "coordinateMethod": "official point",
+          "priority": 30
+        },
+        {
+          "source": "billing-addresses",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79796182,
+          "coordinateMethod": "official point",
+          "priority": 30
+        }
+      ],
+      "canonicalName": "The Walmart Museum",
+      "namedType": "museum"
+    },
+    "additionalLocationCreated": false
+  },
+  "osage": {
+    "originalRecords": [
+      {
+        "id": "park-properties:315",
+        "label": "Osage Park @ Lake Bentonville",
+        "point": [
+          36.351640914616624,
+          -94.21976250101292
+        ],
+        "type": "park",
+        "aliases": [],
+        "supported": true,
+        "normalizedName": "osage park lake bentonville",
+        "kind": "place",
+        "attribution": "City of Bentonville GIS",
+        "provenance": [
+          {
+            "source": "park-properties",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+            "sourceObjectId": 315,
+            "coordinateMethod": "polygon interior",
+            "priority": 25,
+            "extent": [
+              -94.2219961292184,
+              36.34953065056522,
+              -94.21751515219195,
+              36.35242266772962
+            ]
+          }
+        ]
+      },
+      {
+        "id": "civic-properties:315",
+        "label": "Osage Park @ Lake Bentonville",
+        "point": [
+          36.351640914616624,
+          -94.21976250101292
+        ],
+        "type": "park",
+        "aliases": [],
+        "supported": true,
+        "normalizedName": "osage park lake bentonville",
+        "kind": "place",
+        "attribution": "City of Bentonville GIS",
+        "provenance": [
+          {
+            "source": "civic-properties",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+            "sourceObjectId": 315,
+            "coordinateMethod": "polygon interior",
+            "priority": 24,
+            "extent": [
+              -94.2219961292184,
+              36.34953065056522,
+              -94.21751515219195,
+              36.35242266772962
+            ]
+          }
+        ]
+      }
+    ],
+    "originalHost": {
+      "id": "city-parks-directory:772",
+      "label": "Lake Bentonville",
+      "point": [
+        36.3514403733648,
+        -94.22113619019005
+      ],
+      "address": "2100 SW I St.",
+      "type": "park",
+      "aliases": [
+        "Bentonville Lake",
+        "LAKE BENTONVILLE PARK",
+        "Osage Park @ Lake Bentonville"
+      ],
+      "supported": true,
+      "normalizedName": "lake bentonville",
+      "kind": "place",
+      "attribution": "City of Bentonville GIS",
+      "provenance": [
+        {
+          "source": "city-parks-directory",
+          "sourceLayer": "https://www.bentonville.ar.gov/772/Lake-Bentonville",
+          "sourceObjectId": 772,
+          "coordinateMethod": "official point",
+          "priority": 75,
+          "coordinateSource": {
+            "source": "common",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+            "sourceObjectId": 22,
+            "method": "unique existing GIS destination identity"
+          },
+          "parcelIdentity": {
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+            "sourceObjectId": 315
+          }
+        }
+      ]
+    },
+    "after": [
+      {
+        "id": "city-parks-directory:772",
+        "label": "Lake Bentonville",
+        "point": [
+          36.3514403733648,
+          -94.22113619019005
+        ],
+        "address": "2100 SW I St.",
+        "type": "park",
+        "aliases": [
+          "Bentonville Lake",
+          "LAKE BENTONVILLE PARK"
+        ],
+        "supported": true,
+        "normalizedName": "lake bentonville",
+        "kind": "place",
+        "attribution": "City of Bentonville GIS",
+        "provenance": [
+          {
+            "source": "city-parks-directory",
+            "sourceLayer": "https://www.bentonville.ar.gov/772/Lake-Bentonville",
+            "sourceObjectId": 772,
+            "coordinateMethod": "official point",
+            "priority": 75,
+            "coordinateSource": {
+              "source": "common",
+              "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+              "sourceObjectId": 22,
+              "method": "unique existing GIS destination identity"
+            },
+            "parcelIdentity": {
+              "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+              "sourceObjectId": 315
+            }
+          },
+          {
+            "source": "common",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+            "sourceObjectId": 22,
+            "coordinateMethod": "official point",
+            "priority": 60
+          },
+          {
+            "source": "common",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+            "sourceObjectId": 66,
+            "coordinateMethod": "official point",
+            "priority": 60
+          },
+          {
+            "source": "parks",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+            "sourceObjectId": 18739203,
+            "coordinateMethod": "official point",
+            "priority": 55
+          },
+          {
+            "source": "address-destinations",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+            "sourceObjectId": 18879907,
+            "coordinateMethod": "official point",
+            "priority": 40
+          },
+          {
+            "source": "trakit-destinations",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+            "sourceObjectId": 18879907,
+            "coordinateMethod": "official point",
+            "priority": 34
+          },
+          {
+            "source": "billing-destinations",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+            "sourceObjectId": 79795426,
+            "coordinateMethod": "official point",
+            "priority": 29
+          }
+        ]
+      },
+      {
+        "id": "park-properties:315",
+        "label": "Osage Park",
+        "point": [
+          36.351640914616624,
+          -94.21976250101292
+        ],
+        "type": "park",
+        "aliases": [
+          "Osage Park @ Lake Bentonville"
+        ],
+        "supported": true,
+        "normalizedName": "osage park",
+        "kind": "place",
+        "attribution": "City of Bentonville GIS",
+        "provenance": [
+          {
+            "source": "park-properties",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+            "sourceObjectId": 315,
+            "coordinateMethod": "polygon interior",
+            "priority": 25,
+            "extent": [
+              -94.2219961292184,
+              36.34953065056522,
+              -94.21751515219195,
+              36.35242266772962
+            ],
+            "nameEvidence": {
+              "reviewedAt": "2026-10-24",
+              "urls": [
+                "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1/query?f=pjson&objectIds=315&outFields=OBJECTID,FACILITY_NAME&returnGeometry=true&outSR=4326"
+              ]
+            }
+          },
+          {
+            "source": "civic-properties",
+            "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+            "sourceObjectId": 315,
+            "coordinateMethod": "polygon interior",
+            "priority": 24,
+            "extent": [
+              -94.2219961292184,
+              36.34953065056522,
+              -94.21751515219195,
+              36.35242266772962
+            ]
+          }
+        ]
+      }
+    ],
+    "rootCause": "The park @ host locative name was retained as an alias on Lake Bentonville and bridged into the same deduplication identity. Search therefore matched a contaminated alias. Generic name overlap compounded the identity error; no new park coordinate was needed."
+  },
+  "ranking": "Exact canonical > exact verified alias > exact normalized address > all distinctive tokens > strong prefixes > modest typo. Every meaningful query token must agree within one canonical name/alias; generic categories have low weight and cannot make unrelated names qualify. Whole category words, category-only browse classification, character agreement, precision and stable ID tie-breaking apply. No fallback below confidence.",
+  "additionalCurrentNamesRecovered": 2,
+  "queries": [
+    {
+      "query": "The Walmart Museum",
+      "results": [
+        {
+          "id": "city-address:18876386",
+          "label": "The Walmart Museum",
+          "address": "105 N MAIN ST",
+          "point": [
+            36.37250862234924,
+            -94.20902221035391
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "Walmart Museum",
+      "results": [
+        {
+          "id": "city-address:18876386",
+          "label": "The Walmart Museum",
+          "address": "105 N MAIN ST",
+          "point": [
+            36.37250862234924,
+            -94.20902221035391
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "Walton's 5&10",
+      "results": [
+        {
+          "id": "city-address:18876386",
+          "label": "The Walmart Museum",
+          "address": "105 N MAIN ST",
+          "point": [
+            36.37250862234924,
+            -94.20902221035391
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "Walton 5 and 10",
+      "results": [
+        {
+          "id": "city-address:18876386",
+          "label": "The Walmart Museum",
+          "address": "105 N MAIN ST",
+          "point": [
+            36.37250862234924,
+            -94.20902221035391
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "105 N Main St",
+      "results": [
+        {
+          "id": "city-address:18876386",
+          "label": "105 N MAIN ST",
+          "point": [
+            36.37250862234924,
+            -94.20902221035391
+          ],
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "query": "Osage Park",
+      "results": [
+        {
+          "id": "park-properties:315",
+          "label": "Osage Park",
+          "point": [
+            36.351640914616624,
+            -94.21976250101292
+          ],
+          "type": "park"
+        }
+      ]
+    },
+    {
+      "query": "osage",
+      "results": [
+        {
+          "id": "park-properties:315",
+          "label": "Osage Park",
+          "point": [
+            36.351640914616624,
+            -94.21976250101292
+          ],
+          "type": "park"
+        },
+        {
+          "id": "schools-4:20",
+          "label": "Osage Creek Elementary",
+          "address": "3001 SW FEATHERSTON RD",
+          "point": [
+            36.34169461266523,
+            -94.24356189105993
+          ],
+          "type": "school"
+        },
+        {
+          "id": "registered-businesses:215204",
+          "label": "Osage Veterinary Clinic",
+          "address": "2700 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.3356010066911,
+            -94.2437918047001
+          ],
+          "type": "other official place"
+        },
+        {
+          "id": "city-address:18888300",
+          "label": "6100 SW OSAGE ST",
+          "point": [
+            36.31462386939576,
+            -94.28555043787578
+          ],
+          "type": "address"
+        },
+        {
+          "id": "city-address:18888307",
+          "label": "6101 SW OSAGE ST",
+          "point": [
+            36.31463534850339,
+            -94.28504618107411
+          ],
+          "type": "address"
+        },
+        {
+          "id": "city-address:18888301",
+          "label": "6102 SW OSAGE ST",
+          "point": [
+            36.314316243053405,
+            -94.28556439274384
+          ],
+          "type": "address"
+        },
+        {
+          "id": "city-address:18888308",
+          "label": "6103 SW OSAGE ST",
+          "point": [
+            36.314313022708276,
+            -94.28507770879656
+          ],
+          "type": "address"
+        },
+        {
+          "id": "city-address:18888302",
+          "label": "6104 SW OSAGE ST",
+          "point": [
+            36.314110715001014,
+            -94.28552271460747
+          ],
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "query": "osge park",
+      "results": [
+        {
+          "id": "park-properties:315",
+          "label": "Osage Park",
+          "point": [
+            36.351640914616624,
+            -94.21976250101292
+          ],
+          "type": "park"
+        }
+      ]
+    },
+    {
+      "query": "Memorial Park",
+      "results": [
+        {
+          "id": "city-parks-directory:773",
+          "label": "Memorial Park",
+          "address": "401 NE Martin Luther King Jr Parkway",
+          "point": [
+            36.374059289119096,
+            -94.18699731536287
+          ],
+          "type": "park"
+        },
+        {
+          "id": "poi-165:62",
+          "label": "Memorial Park Parking",
+          "address": "401 NE Martin Luther King Jr Parkway Bentonville, AR 72712",
+          "point": [
+            36.37341088271607,
+            -94.18719839426785
+          ],
+          "type": "park"
+        },
+        {
+          "id": "poi-165:84",
+          "label": "Memorial Park Parking",
+          "point": [
+            36.37651066869294,
+            -94.18799145644961
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-place:104",
+          "label": "Skate Park",
+          "address": "407 NE SKATE PARK PL",
+          "point": [
+            36.376441378484245,
+            -94.18693487487153
+          ],
+          "type": "recreation"
+        },
+        {
+          "id": "park-properties:765",
+          "label": "Memorial Park Soccer Fields",
+          "point": [
+            36.3757203517204,
+            -94.19309209473687
+          ],
+          "type": "recreation"
+        },
+        {
+          "id": "park-properties:768",
+          "label": "Memorial Park Tennis Courts",
+          "point": [
+            36.37800520890962,
+            -94.18884917125072
+          ],
+          "type": "recreation"
+        },
+        {
+          "id": "poi-165:54",
+          "label": "Memorial Park Tennis Court Parking",
+          "point": [
+            36.37747885552266,
+            -94.18816233911899
+          ],
+          "type": "recreation"
+        },
+        {
+          "id": "city-address:18876944",
+          "label": "2000 NE MEMORIAL PARK SQ",
+          "point": [
+            36.3739866750422,
+            -94.1869744604999
+          ],
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "query": "Crystal Bridges",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "address": "600  MUSEUM WAY",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "type": "museum"
+        },
+        {
+          "id": "poi-165:60",
+          "label": "Crystal Bridges Trailhead",
+          "address": "600 Museum Way",
+          "point": [
+            36.37893834265047,
+            -94.19991007060916
+          ],
+          "type": "museum"
+        },
+        {
+          "id": "poi-165:58",
+          "label": "Crystal Bridges Trail Access",
+          "address": "399 NE 5th St",
+          "point": [
+            36.377651083057515,
+            -94.20646155804891
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "qxzvbrnflp park",
+      "results": []
+    },
+    {
+      "query": "park",
+      "results": [
+        {
+          "id": "city-parks-directory:781",
+          "label": "Bark Park",
+          "address": "2400 N. Walton Blvd.",
+          "point": [
+            36.401959565483686,
+            -94.21561889267842
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:1479",
+          "label": "Bogle Park",
+          "address": "270 NW F Street",
+          "point": [
+            36.375045466782346,
+            -94.21650186073236
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:1052",
+          "label": "Citizens Park",
+          "address": "1101 SW Citizens Circle",
+          "point": [
+            36.33072097605758,
+            -94.22537042126459
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:1525",
+          "label": "Creekside Park",
+          "address": "3104 SW Bright Road",
+          "point": [
+            36.34070259828065,
+            -94.23757071600167
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-place:47",
+          "label": "Dog Park",
+          "address": "2400 N WALTON BLVD",
+          "point": [
+            36.401959565483686,
+            -94.21561889267842
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:770",
+          "label": "Enfield Park",
+          "address": "1205 NE Waverly Way",
+          "point": [
+            36.386876961373574,
+            -94.20040325451879
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:779",
+          "label": "Gilmore Park",
+          "address": "501 SW D St.",
+          "point": [
+            36.36673563201211,
+            -94.21356397263834
+          ],
+          "type": "park"
+        },
+        {
+          "id": "city-parks-directory:772",
+          "label": "Lake Bentonville",
+          "address": "2100 SW I St.",
+          "point": [
+            36.3514403733648,
+            -94.22113619019005
+          ],
+          "type": "park"
+        }
+      ]
+    },
+    {
+      "query": "crstal bridges",
+      "results": [
+        {
+          "id": "city-place:44",
+          "label": "Crystal Bridges",
+          "address": "600  MUSEUM WAY",
+          "point": [
+            36.38211712065461,
+            -94.2033730929639
+          ],
+          "type": "museum"
+        },
+        {
+          "id": "poi-165:60",
+          "label": "Crystal Bridges Trailhead",
+          "address": "600 Museum Way",
+          "point": [
+            36.37893834265047,
+            -94.19991007060916
+          ],
+          "type": "museum"
+        },
+        {
+          "id": "poi-165:58",
+          "label": "Crystal Bridges Trail Access",
+          "address": "399 NE 5th St",
+          "point": [
+            36.377651083057515,
+            -94.20646155804891
+          ],
+          "type": "museum"
+        }
+      ]
+    },
+    {
+      "query": "bentonvile library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "address": "405 S MAIN ST",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "type": "civic facility"
+        },
+        {
+          "id": "public-art:8",
+          "label": "Lil’ Library in the Park",
+          "address": "Lake Bentonville Park",
+          "point": [
+            36.35123024706928,
+            -94.22125453943607
+          ],
+          "type": "landmark"
+        },
+        {
+          "id": "public-parking:32",
+          "label": "Bentonville Public Library Parking Lot",
+          "address": "405 S Main St",
+          "point": [
+            36.3674472454,
+            -94.20822600592929
+          ],
+          "type": "public facility"
+        },
+        {
+          "id": "public-art:1",
+          "label": "This is Your Public Library",
+          "address": "Bentonville Public Library",
+          "point": [
+            36.36771168374773,
+            -94.20799427009301
+          ],
+          "type": "landmark"
+        }
+      ]
+    },
+    {
+      "query": "lawerence plaza",
+      "results": [
+        {
+          "id": "city-place:67",
+          "label": "Lawrence Plaza",
+          "address": "214 NE A ST",
+          "point": [
+            36.374649832783945,
+            -94.20753355872435
+          ],
+          "type": "plaza"
+        }
+      ]
+    },
+    {
+      "query": "Creekside Middle School",
+      "results": [
+        {
+          "id": "schools-7:19",
+          "label": "Creekside Middle School",
+          "point": [
+            36.342294900955686,
+            -94.24165967314097
+          ],
+          "type": "school"
+        }
+      ]
+    },
+    {
+      "query": "Creekside Park",
+      "results": [
+        {
+          "id": "city-parks-directory:1525",
+          "label": "Creekside Park",
+          "address": "3104 SW Bright Road",
+          "point": [
+            36.34070259828065,
+            -94.23757071600167
+          ],
+          "type": "park"
+        }
+      ]
+    },
+    {
+      "query": "Walton Family Whole Health & Fitness",
+      "results": [
+        {
+          "id": "address-destinations:18879439",
+          "label": "Walton Family Whole Health & Fitness",
+          "address": "1400 SE 5TH ST",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ],
+          "type": "other official place"
+        }
+      ]
+    },
+    {
+      "query": "Northwest Arkansas Hindu Temple",
+      "results": [
+        {
+          "id": "city-address:18874516",
+          "label": "Northwest Arkansas Hindu Temple · 2500 SW REGIONAL AIRPORT BLVD",
+          "address": "2500 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.336382125641016,
+            -94.24242528162843
+          ],
+          "type": "other official place"
+        },
+        {
+          "id": "city-address:18893410",
+          "label": "Northwest Arkansas Hindu Temple · 2502 SW REGIONAL AIRPORT BLVD",
+          "address": "2502 SW REGIONAL AIRPORT BLVD",
+          "point": [
+            36.33667361163425,
+            -94.2424919298125
+          ],
+          "type": "other official place"
+        }
+      ]
+    },
+    {
+      "query": "Bentonville Public Library",
+      "results": [
+        {
+          "id": "city-place:68",
+          "label": "Library",
+          "address": "405 S MAIN ST",
+          "point": [
+            36.36770870312484,
+            -94.20851110772566
+          ],
+          "type": "civic facility"
+        },
+        {
+          "id": "public-parking:32",
+          "label": "Bentonville Public Library Parking Lot",
+          "address": "405 S Main St",
+          "point": [
+            36.3674472454,
+            -94.20822600592929
+          ],
+          "type": "public facility"
+        },
+        {
+          "id": "public-art:1",
+          "label": "This is Your Public Library",
+          "address": "Bentonville Public Library",
+          "point": [
+            36.36771168374773,
+            -94.20799427009301
+          ],
+          "type": "landmark"
+        }
+      ]
+    },
+    {
+      "query": "Lawrence Plaza",
+      "results": [
+        {
+          "id": "city-place:67",
+          "label": "Lawrence Plaza",
+          "address": "214 NE A ST",
+          "point": [
+            36.374649832783945,
+            -94.20753355872435
+          ],
+          "type": "plaza"
+        }
+      ]
+    }
+  ],
+  "targetedTests": 110
+}

@@ -1,0 +1,1902 @@
+{
+  "checkedAt": "2026-10-24T20:30:40.636Z",
+  "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+  "areaQuery": {
+    "envelope": [
+      -94.1995,
+      36.358,
+      -94.183,
+      36.369
+    ],
+    "fields": [
+      "OBJECTID",
+      "ADDRESS",
+      "EX_ADD",
+      "MISC_INFO",
+      "SUBNAME"
+    ],
+    "received": 808,
+    "exceededTransferLimit": false
+  },
+  "rootCause": "Current City EX_ADD labels are generic/abbreviated, not missing geometry or dropped occupant fields. The 27 integrated inventories do not supply the current fitness brand. Three verified legacy names are reconciled using owner identity evidence and existing City points; no new location source, geometry, search rule or access claim.",
+  "fitnessRecord": {
+    "type": "Feature",
+    "id": 18879439,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -94.194025472946,
+        36.36664876438695
+      ]
+    },
+    "properties": {
+      "OBJECTID": 18879439,
+      "ADDRESS": "1400 SE 5TH ST",
+      "EX_ADD": "FITNESS CENTER",
+      "MISC_INFO": "M",
+      "SUBNAME": "WAL-MART CAMPUS SUBDIVISION PHASE 3",
+      "LOCID": 143256,
+      "PARCELID": "01-21000-000"
+    }
+  },
+  "reconciled": [
+    {
+      "id": "address-destinations:18879220",
+      "label": "8th & Plate",
+      "address": "1600 SE 8TH ST",
+      "point": [
+        36.363286614746244,
+        -94.19132466734716
+      ],
+      "aliases": [
+        "WALMART FOOD HALL"
+      ],
+      "provenance": [
+        {
+          "source": "address-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18879220,
+          "coordinateMethod": "official point",
+          "priority": 40,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://corporate.walmart.com/about/newhomeoffice/explore-the-new-campus/tour",
+              "https://corporate.walmart.com/content/dam/corporate/documents/about/new-home-office/tour/Walmart_Self-Guided_Tour_Map.pdf"
+            ]
+          }
+        },
+        {
+          "source": "trakit-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18879220,
+          "coordinateMethod": "official point",
+          "priority": 34
+        },
+        {
+          "source": "billing-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79794739,
+          "coordinateMethod": "official point",
+          "priority": 29
+        }
+      ]
+    },
+    {
+      "id": "address-destinations:18879439",
+      "label": "Walton Family Whole Health & Fitness",
+      "address": "1400 SE 5TH ST",
+      "point": [
+        36.36664876438695,
+        -94.194025472946
+      ],
+      "aliases": [
+        "FITNESS CENTER"
+      ],
+      "provenance": [
+        {
+          "source": "address-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18879439,
+          "coordinateMethod": "official point",
+          "priority": 40,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://wholehealth.walmart.com/content/wholehealth/en_us/whole-health0/whole-health0/faq.html"
+            ]
+          }
+        },
+        {
+          "source": "trakit-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18879439,
+          "coordinateMethod": "official point",
+          "priority": 34
+        },
+        {
+          "source": "billing-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79794958,
+          "coordinateMethod": "official point",
+          "priority": 29
+        }
+      ]
+    },
+    {
+      "id": "address-destinations:18883922",
+      "label": "Walmart Home Office Welcome Center",
+      "address": "1 CUSTOMER DR",
+      "point": [
+        36.36431736229416,
+        -94.19468555061927
+      ],
+      "aliases": [
+        "WELCOM CTR"
+      ],
+      "provenance": [
+        {
+          "source": "address-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+          "sourceObjectId": 18883922,
+          "coordinateMethod": "official point",
+          "priority": 40,
+          "nameEvidence": {
+            "reviewedAt": "2026-10-24",
+            "urls": [
+              "https://corporate.walmart.com/content/dam/corporate/documents/about/new-home-office/tour/Walmart_Self-Guided_Tour_Map.pdf",
+              "https://corporate.walmart.com/about/newhomeoffice/explore-the-new-campus/public-spaces"
+            ]
+          }
+        },
+        {
+          "source": "trakit-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+          "sourceObjectId": 18883922,
+          "coordinateMethod": "official point",
+          "priority": 34
+        },
+        {
+          "source": "billing-destinations",
+          "sourceLayer": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+          "sourceObjectId": 79799177,
+          "coordinateMethod": "official point",
+          "priority": 29
+        }
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query": "Walton Family Whole Health & Fitness",
+      "before": [],
+      "after": [
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ]
+        }
+      ]
+    },
+    {
+      "query": "whole health",
+      "before": [
+        {
+          "label": "Heartland Whole Health Institute",
+          "point": [
+            36.3793029259075,
+            -94.2003768017785
+          ]
+        }
+      ],
+      "after": [
+        {
+          "label": "Heartland Whole Health Institute",
+          "point": [
+            36.3793029259075,
+            -94.2003768017785
+          ]
+        },
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ]
+        }
+      ]
+    },
+    {
+      "query": "walton whole health",
+      "before": [],
+      "after": [
+        {
+          "label": "Walton Family Whole Health & Fitness",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ]
+        }
+      ]
+    },
+    {
+      "query": "1400 SE 5th St",
+      "before": [
+        {
+          "label": "1400 SE 5TH ST",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ]
+        }
+      ],
+      "after": [
+        {
+          "label": "1400 SE 5TH ST",
+          "point": [
+            36.36664876438695,
+            -94.194025472946
+          ]
+        }
+      ]
+    },
+    {
+      "query": "8th & Plate",
+      "before": [],
+      "after": [
+        {
+          "label": "8th & Plate",
+          "point": [
+            36.363286614746244,
+            -94.19132466734716
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Walmart Home Office Welcome Center",
+      "before": [],
+      "after": [
+        {
+          "label": "Walmart Home Office Welcome Center",
+          "point": [
+            36.36431736229416,
+            -94.19468555061927
+          ]
+        }
+      ]
+    }
+  ],
+  "campusRecords": [
+    {
+      "type": "Feature",
+      "id": 18869020,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19016627709239,
+          36.36195706576331
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18869020,
+        "ADDRESS": "814 RESPECT DR",
+        "EX_ADD": "WALMART BUILDING OF07",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18869021,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19151643485218,
+          36.36144620407303
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18869021,
+        "ADDRESS": "1601 SE 10TH ST",
+        "EX_ADD": "WALMART BUILDING OF 08",
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18869022,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19453385231675,
+          36.363708237056706
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18869022,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18869023,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19466028306644,
+          36.36047835372136
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18869023,
+        "ADDRESS": "1005 EXCELLENCE DR",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "PRE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18869048,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18299281479291,
+          36.3595187170279
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18869048,
+        "ADDRESS": "1201 SE MOBERLY LN",
+        "EX_ADD": null,
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART SUBDIVISION 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868973,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18858419532236,
+          36.36685428316214
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868973,
+        "ADDRESS": "1800 SE 5TH ST",
+        "EX_ADD": "PG01 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868974,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18872468101438,
+          36.36584890607408
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868974,
+        "ADDRESS": "601 RESPECT DR",
+        "EX_ADD": "WALMART BUILDING OF04",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868975,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19066121310313,
+          36.36410848982627
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868975,
+        "ADDRESS": "1701 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868997,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1892286576309,
+          36.36339166181032
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868997,
+        "ADDRESS": "801 RESPECT DR",
+        "EX_ADD": "PARKING LOT SIGN",
+        "MISC_INFO": "SIGN",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18870456,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19005332266438,
+          36.36412180825865
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18870456,
+        "ADDRESS": "1701 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18870458,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1867523927142,
+          36.36555559861753
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18870458,
+        "ADDRESS": "2101 SE 8TH ST",
+        "EX_ADD": "WM LAYOUT CTR",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18870083,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.187486139413,
+          36.36785650186793
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18870083,
+        "ADDRESS": "2103 SE 5TH ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "TEMP",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18870086,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.190180085271,
+          36.363609041927624
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18870086,
+        "ADDRESS": "1702 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18870087,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19031302595417,
+          36.36367610898155
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18870087,
+        "ADDRESS": "1702 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18871837,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1944726512773,
+          36.36197674020841
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18871837,
+        "ADDRESS": "811 EXCELLENCE DR",
+        "EX_ADD": "WALMART BUILDING OF10",
+        "MISC_INFO": "M",
+        "SUBNAME": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18871838,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19412440612142,
+          36.362703325442205
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18871838,
+        "ADDRESS": "810 CUSTOMER DR",
+        "EX_ADD": "FUTURE WM TREEHOUSE",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 17"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18876334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18299281479291,
+          36.3595187170279
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18876334,
+        "ADDRESS": "1201 SE MOBERLY LN",
+        "EX_ADD": null,
+        "MISC_INFO": "ELEC",
+        "SUBNAME": "WAL-MART SUBDIVISION 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18872143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1944901173453,
+          36.361195392869156
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18872143,
+        "ADDRESS": "908 CUSTOMER DR",
+        "EX_ADD": "PG07 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18878666,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1957522878295,
+          36.36729791802879
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18878666,
+        "ADDRESS": "1300 SE 5TH ST",
+        "EX_ADD": "PG12 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART CAMPUS SUBDIVISION PHASE 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18878674,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19331315266533,
+          36.363229139126354
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18878674,
+        "ADDRESS": "1500 SE 8TH ST",
+        "EX_ADD": "ACT BUILDING",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18874881,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19013254732009,
+          36.36355624825597
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18874881,
+        "ADDRESS": "1702 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879436,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1901625885641,
+          36.36277024627571
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879436,
+        "ADDRESS": "802 RESPECT DR",
+        "EX_ADD": "WALMART BUILDING OF05",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART SUBDIVISION PHASE 11"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879439,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.194025472946,
+          36.36664876438695
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879439,
+        "ADDRESS": "1400 SE 5TH ST",
+        "EX_ADD": "FITNESS CENTER",
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART CAMPUS SUBDIVISION PHASE 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18878206154973,
+          36.36426513247305
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879440,
+        "ADDRESS": "1801 SE 8TH ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "TEMP",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879459,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19237938556687,
+          36.36736438136878
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879459,
+        "ADDRESS": "1588 SE 5TH ST",
+        "EX_ADD": "ZONE 2N",
+        "MISC_INFO": "ZONE",
+        "SUBNAME": "WAL-MART CAMPUS SUBDIVISION PHASE 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879460,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19356801438414,
+          36.368066634495044
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879460,
+        "ADDRESS": "310 ASSOCIATE DR",
+        "EX_ADD": "WM CHILDCARE",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879462,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18864751298753,
+          36.36488335016577
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879462,
+        "ADDRESS": "701 RESPECT DR",
+        "EX_ADD": "WALMART BUILDING OF12",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18875934,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19194431621895,
+          36.359358455047655
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18875934,
+        "ADDRESS": "1100 INTEGRITY DR",
+        "EX_ADD": null,
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879093,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19173976970829,
+          36.36028076822328
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879093,
+        "ADDRESS": "1000 SE P ST",
+        "EX_ADD": "PARKING LOT",
+        "MISC_INFO": "TEMP",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879095,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19147681584047,
+          36.36429036992341
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879095,
+        "ADDRESS": "703 ASSOCIATE DR",
+        "EX_ADD": "WALMART BUILDING OF03",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19465301213563,
+          36.363755174060515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879200,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19480043528824,
+          36.36375650451569
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879201,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19356805868972,
+          36.36047835379848
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879202,
+        "ADDRESS": "1502 SE 10TH ST",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "PRE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1887242787234,
+          36.36028714223612
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879203,
+        "ADDRESS": "1812 SE 10TH ST",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "PRE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1902201527707,
+          36.36021703095379
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879204,
+        "ADDRESS": "1001 INTEGRITY DR",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "PRE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18874586293276,
+          36.362508931539196
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879205,
+        "ADDRESS": "805 RESPECT DR",
+        "EX_ADD": "WALMART BUILDING OF06",
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19132466734716,
+          36.363286614746244
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879220,
+        "ADDRESS": "1600 SE 8TH ST",
+        "EX_ADD": "WALMART FOOD HALL",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19321189886769,
+          36.36153956911053
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879222,
+        "ADDRESS": "905 CUSTOMER DR",
+        "EX_ADD": "WALMART BUILDING OF09",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 20"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18883922,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19468555061927,
+          36.36431736229416
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18883922,
+        "ADDRESS": "1 CUSTOMER DR",
+        "EX_ADD": "WELCOM CTR",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879546,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19497252282726,
+          36.36375629305312
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879546,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879548,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19019002110828,
+          36.361249594592614
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879548,
+        "ADDRESS": "902 RESPECT DR",
+        "EX_ADD": "PG06 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879549,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18892816606466,
+          36.36129200876329
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879549,
+        "ADDRESS": "903 RESPECT DR",
+        "EX_ADD": "PG05 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18879616,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19142556184752,
+          36.36689570881861
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18879616,
+        "ADDRESS": "1604 SE 5TH ST",
+        "EX_ADD": "PG03 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18884229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19619537221674,
+          36.36439605409264
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18884229,
+        "ADDRESS": "1201 SE 8TH ST",
+        "EX_ADD": "WM HOTEL",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18884575,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18319565579432,
+          36.366528000575045
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18884575,
+        "ADDRESS": "621 SE MOBERLY LN",
+        "EX_ADD": null,
+        "MISC_INFO": "CABLE",
+        "SUBNAME": "WAL-MART ISD 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18884609,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19560613129302,
+          36.365484383234886
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18884609,
+        "ADDRESS": "780 SE P ST",
+        "EX_ADD": null,
+        "MISC_INFO": "CABLE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18896283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18734358343872,
+          36.36755433318294
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18896283,
+        "ADDRESS": "2003 SE 5TH ST",
+        "EX_ADD": "TRAFFIC LIGHT #52",
+        "MISC_INFO": "TLITE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18901973,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18366512685613,
+          36.368472103907195
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18901973,
+        "ADDRESS": "488 SE MOBERLY LN",
+        "EX_ADD": "TRAFFIC SIGNAL #51",
+        "MISC_INFO": "TLITE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18727640131296,
+          36.36767805428431
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903129,
+        "ADDRESS": "2103 SE 5TH ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18806893126667,
+          36.36730501439969
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903130,
+        "ADDRESS": "1888 SE 5TH ST",
+        "EX_ADD": "ZONE 1",
+        "MISC_INFO": "ZONE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19412258754478,
+          36.36412997904925
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903131,
+        "ADDRESS": "1487 SE 8TH ST",
+        "EX_ADD": "ZONE 2S",
+        "MISC_INFO": "ZONE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1925950560277,
+          36.36377625329716
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903133,
+        "ADDRESS": "1588 SE 8TH ST",
+        "EX_ADD": "ZONE 4",
+        "MISC_INFO": "ZONE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19304619151542,
+          36.36061177745802
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903134,
+        "ADDRESS": "1588 SE 10TH ST",
+        "EX_ADD": "ZONE 5",
+        "MISC_INFO": "ZONE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18903165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18711810763757,
+          36.367671681933984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18903165,
+        "ADDRESS": "2103 SE 5TH ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904786,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19174372710258,
+          36.360213844455316
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904786,
+        "ADDRESS": "1000 SE P ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18885866,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19144534882375,
+          36.36563062137742
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18885866,
+        "ADDRESS": "600 INTEGRITY DR",
+        "EX_ADD": "WALMART BUILDING OF04",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18885867,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19008402542376,
+          36.366255201159255
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18885867,
+        "ADDRESS": "1700 SE 5TH ST",
+        "EX_ADD": "WALMART BUILDING OF02",
+        "MISC_INFO": "M",
+        "SUBNAME": "MID-CONTINENT ADDITION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18893856,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18439263322801,
+          36.36789354831335
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18893856,
+        "ADDRESS": "103 DETENTION POND",
+        "EX_ADD": "SE MLK JR BLVD-SE 5TH",
+        "MISC_INFO": "DP",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18893857,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18453306236327,
+          36.367251901867334
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18893857,
+        "ADDRESS": "104 DETENTION POND",
+        "EX_ADD": "SEMLK JR PKWY- SE 5TH",
+        "MISC_INFO": "DP",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18893890,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19017672054363,
+          36.36416743395504
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18893890,
+        "ADDRESS": "1701 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18893912,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19170251680723,
+          36.36777043975697
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18893912,
+        "ADDRESS": "1605 SE 5TH ST",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "PRE",
+        "SUBNAME": "NORTH ARKANSAS WHOLESALE CO INC"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18895519,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19041956695686,
+          36.364105305734704
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18895519,
+        "ADDRESS": "1701 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18902471,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19621783691281,
+          36.363487264726075
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18902471,
+        "ADDRESS": "806 EXCELLENCE DR",
+        "EX_ADD": "WALMART BUILDING OF11",
+        "MISC_INFO": "M",
+        "SUBNAME": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18893456,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1885491153291,
+          36.36782746216211
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18893456,
+        "ADDRESS": "1991 SE 5TH ST",
+        "EX_ADD": "SUB STA B",
+        "MISC_INFO": "ELEC",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19606655247969,
+          36.35859800674837
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904293,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": "TEMPORARY WORK TRAILER",
+        "MISC_INFO": "TEMP",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19605468112326,
+          36.35854064261793
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904310,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19604676632912,
+          36.3584737164723
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904311,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19605072384813,
+          36.3584195388555
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904312,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19604676573843,
+          36.35836536073825
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904313,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18904337,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1960388511304,
+          36.358295248207334
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18904337,
+        "ADDRESS": "1251 SE J ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18876623204652,
+          36.364172718702854
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905993,
+        "ADDRESS": "1801 SE 8TH ST",
+        "EX_ADD": "TEMP WORK TRAILER",
+        "MISC_INFO": "WATER",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18907845,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19464207842381,
+          36.35936575769952
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18907845,
+        "ADDRESS": "1101 EXCELLENCE DR",
+        "EX_ADD": "FUTURE WALMART BUILDING",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909497,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19460613659751,
+          36.36339455785396
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909497,
+        "ADDRESS": "808 CUSTOMER DR",
+        "EX_ADD": "PG09 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909498,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19013656263576,
+          36.36328137513158
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909498,
+        "ADDRESS": "800 RESPECT DR",
+        "EX_ADD": "PG04 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909499,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19579882617379,
+          36.36207515390895
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909499,
+        "ADDRESS": "812 EXCELLENCE DR",
+        "EX_ADD": "PG08 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909500,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19018073649498,
+          36.364403498844155
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909500,
+        "ADDRESS": "704 RESPECT DR",
+        "EX_ADD": "PG02 WALMART CAMPUS",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909518,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18973325441739,
+          36.36408902551996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909518,
+        "ADDRESS": "1701 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909520,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19447225464853,
+          36.363754116301116
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909520,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18909522,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19417169232968,
+          36.363750730892505
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18909522,
+        "ADDRESS": "1410 SE 8TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "STE",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18908163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1869868560257,
+          36.364504936405076
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18908163,
+        "ADDRESS": "2101 SE 8TH ST",
+        "EX_ADD": "WM LAYOUT CTR",
+        "MISC_INFO": "STE",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905564,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19250889059758,
+          36.36727271440478
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905564,
+        "ADDRESS": "1583 SE 5TH ST",
+        "EX_ADD": null,
+        "MISC_INFO": "WATER",
+        "SUBNAME": "WAL-MART CAMPUS SUBDIVISION PHASE 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905565,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18809250298743,
+          36.36610323182573
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905565,
+        "ADDRESS": "599 RESPECT DR",
+        "EX_ADD": null,
+        "MISC_INFO": "WATER",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18832994317069,
+          36.36186490648577
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905566,
+        "ADDRESS": "803 RESPECT DR",
+        "EX_ADD": null,
+        "MISC_INFO": "WATER",
+        "SUBNAME": "WAL-MART SUBDIVISION 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19191421999568,
+          36.3592908357057
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905601,
+        "ADDRESS": "1100 INTEGRITY DR",
+        "EX_ADD": "SOUTH CUP SITE",
+        "MISC_INFO": "ELEC",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18905607,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1919126572206,
+          36.35944450109748
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18905607,
+        "ADDRESS": "1100 INTEGRITY DR",
+        "EX_ADD": "SOUTH CUP SITE",
+        "MISC_INFO": "ELEC",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18910384,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19076377781302,
+          36.363319158037925
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18910384,
+        "ADDRESS": "801 INTEGRITY DR",
+        "EX_ADD": null,
+        "MISC_INFO": "SIGN",
+        "SUBNAME": "WALMART CAMPUS SUB PHASE 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18910513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19645307388784,
+          36.36011975623154
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18910513,
+        "ADDRESS": "1010 EXCELLENCE DR",
+        "EX_ADD": "JOB TRAILER",
+        "MISC_INFO": "TEMP",
+        "SUBNAME": "WALMART SUBDIVISION 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18906945,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18925694180291,
+          36.36422689204536
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18906945,
+        "ADDRESS": "709 RESPECT DR",
+        "EX_ADD": "PARKING LOT SIGN",
+        "MISC_INFO": "M",
+        "SUBNAME": "WALMART CAMPUS SUBDIVISION PHASE 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18911515,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18623147828313,
+          36.367980913437016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18911515,
+        "ADDRESS": "2106 SE 5TH ST",
+        "EX_ADD": "EV METER",
+        "MISC_INFO": "ELEC",
+        "SUBNAME": "WALMART LAYOUT SUBDIVISION"
+      }
+    }
+  ],
+  "unresolvedNames": [
+    {
+      "label": "ACT BUILDING",
+      "address": "1500 SE 8TH ST",
+      "reason": "Owner tour names Sam Walton Hall, but an explicit owner address-to-record binding has not been captured in this bounded review; City label retained."
+    },
+    {
+      "label": "WM CHILDCARE",
+      "addresses": [
+        "210 ASSOCIATE DR",
+        "310 ASSOCIATE DR"
+      ],
+      "reason": "Owner map names Little Squiggles; two distinct official points exist. No single campus pin or assignment of names to these two identities is invented."
+    },
+    {
+      "label": "WALMART BUILDING OFxx",
+      "reason": "Numbered office records already searchable. Current brand-to-building-number identities remain unverified, including two official OF04 labels at distinct addresses; never merge by building number alone."
+    }
+  ],
+  "checks": {
+    "inventories": 27,
+    "namedBefore": 816,
+    "namedAfter": 816,
+    "addresses": 24600,
+    "geometryUnchanged": true
+  }
+}

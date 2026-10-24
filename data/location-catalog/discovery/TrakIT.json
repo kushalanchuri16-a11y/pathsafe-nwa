@@ -1,0 +1,14 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "TrakIT/TrakIT_Data",
+      "type": "MapServer"
+    },
+    {
+      "name": "TrakIT/TrakIT_Display",
+      "type": "MapServer"
+    }
+  ]
+}

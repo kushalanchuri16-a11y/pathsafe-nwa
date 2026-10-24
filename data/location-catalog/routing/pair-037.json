@@ -1,0 +1,160 @@
+{
+  "id": 37,
+  "checkedAt": "2026-10-24T05:07:29.068Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-parks-directory:774",
+    "label": "Orchards Park",
+    "point": [
+      36.37742187109481,
+      -94.19555426890389
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-parks-directory:767",
+    "label": "Austin-Baggett Park",
+    "point": [
+      36.36571210106438,
+      -94.20363133075323
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 25.820116666666667,
+        "miles": 1.329109873339696,
+        "seconds": 1549.207,
+        "providerDistanceMeters": 2138.995,
+        "coverage": 83.86346478399786,
+        "gaps": 4,
+        "score": 76,
+        "lengthMeters": 2137.1232847034175,
+        "coveredMeters": 1792.2656332578688,
+        "uncoveredMeters": 344.85765144554875
+      },
+      "vertices": 126
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 26.20315,
+        "miles": 1.3471296379145787,
+        "seconds": 1572.189,
+        "providerDistanceMeters": 2167.995,
+        "coverage": 89.05427022286182,
+        "gaps": 3,
+        "score": 83,
+        "lengthMeters": 2163.2949709660047,
+        "coveredMeters": 1926.506549161646,
+        "uncoveredMeters": 236.78842180435868
+      },
+      "vertices": 128
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 30.378083333333333,
+        "miles": 1.5602599568519844,
+        "seconds": 1822.685,
+        "providerDistanceMeters": 2510.995,
+        "coverage": 61.139308304947335,
+        "gaps": 3,
+        "score": 54,
+        "lengthMeters": 2508.601483494317,
+        "coveredMeters": 1533.741595136073,
+        "uncoveredMeters": 974.859888358244
+      },
+      "vertices": 116
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:07:29.827Z",
+        "cacheHit": false,
+        "featureCount": 181
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:07:29.825Z",
+        "cacheHit": false,
+        "featureCount": 19
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:07:29.827Z",
+    "routingFetchedAt": "2026-10-24T05:07:29.498Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 200,
+    "segmentCount": 216,
+    "eligibleSegmentCount": 170,
+    "countsByKind": {
+      "crossing": 42,
+      "sidewalk": 139,
+      "trail": 19
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 155.13m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.453916512076843,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 126
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.453916512076843,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 128
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.453916512076843,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 116
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 861.0541250000242,
+  "catalogReconciledAt": "2026-10-24T19:45:40.029Z"
+}

@@ -1,0 +1,626 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "THEWEB.DBO.wLeaks_With_Location",
+      "type": "Feature Layer",
+      "parentLayer": null,
+      "defaultVisibility": true,
+      "minScale": 0,
+      "maxScale": 0,
+      "canScaleSymbols": false,
+      "geometryType": "esriGeometryPoint",
+      "description": "",
+      "copyrightText": "",
+      "editFieldsInfo": null,
+      "ownershipBasedAccessControlForFeatures": null,
+      "syncCanReturnChanges": false,
+      "relationships": [],
+      "isDataVersioned": false,
+      "isDataArchived": false,
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "isDataBranchVersioned": false,
+      "isDataReplicaTracked": false,
+      "isCoGoEnabled": false,
+      "supportsRollbackOnFailureParameter": true,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportsValidateSQL": true,
+      "supportsCoordinatesQuantization": true,
+      "supportsQuantizationEditMode": true,
+      "supportsCalculate": true,
+      "supportsASyncCalculate": true,
+      "supportsDatumTransformation": true,
+      "advancedQueryCapabilities": {
+        "supportsPagination": true,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDistance": true,
+        "supportsReturningQueryExtent": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsQueryWithResultType": true,
+        "supportsReturningGeometryCentroid": false,
+        "supportsSqlExpression": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsQueryAnalytic": true
+      },
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "advancedEditingCapabilities": {
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ],
+        "supportsAsyncApplyEdits": true
+      },
+      "hasMetadata": true,
+      "extent": {
+        "xmin": 449999.99999547005,
+        "ymin": 700000.0000131428,
+        "xmax": 677728.4595638812,
+        "ymax": 771658.7300549746,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              132,
+              53,
+              119,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.7
+            }
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "hasM": false,
+      "hasZ": false,
+      "allowGeometryUpdates": true,
+      "allowTrueCurvesUpdates": true,
+      "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+      "hasAttachments": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "objectIdField": "OBJECTID",
+      "globalIdField": "",
+      "displayField": "Request__",
+      "typeIdField": "",
+      "subtypeField": "",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null,
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "modelName": "OBJECTID"
+        },
+        {
+          "name": "Request__",
+          "type": "esriFieldTypeString",
+          "alias": "Request__",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Request__"
+        },
+        {
+          "name": "J_O__",
+          "type": "esriFieldTypeInteger",
+          "alias": "J_O__",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "J_O__"
+        },
+        {
+          "name": "J_O_Description",
+          "type": "esriFieldTypeString",
+          "alias": "J_O_Description",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "J_O_Description"
+        },
+        {
+          "name": "Scheduled_Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Scheduled_Start_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "Scheduled_Start_Date"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Status"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Category"
+        },
+        {
+          "name": "Department",
+          "type": "esriFieldTypeInteger",
+          "alias": "Department",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "Department"
+        },
+        {
+          "name": "Task",
+          "type": "esriFieldTypeString",
+          "alias": "Task",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Task"
+        },
+        {
+          "name": "Crew",
+          "type": "esriFieldTypeString",
+          "alias": "Crew",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Crew"
+        },
+        {
+          "name": "Work_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Work_Type",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Work_Type"
+        },
+        {
+          "name": "Priority",
+          "type": "esriFieldTypeString",
+          "alias": "Priority",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Priority"
+        },
+        {
+          "name": "Facility_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility_ID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Facility_ID"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Project"
+        },
+        {
+          "name": "Location_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Location_ID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "Location_ID"
+        },
+        {
+          "name": "Location_Address",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Address",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Location_Address"
+        },
+        {
+          "name": "Standard_task",
+          "type": "esriFieldTypeString",
+          "alias": "Standard_task",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1073741822,
+          "defaultValue": null,
+          "modelName": "Standard_task"
+        },
+        {
+          "name": "LOCID_norm",
+          "type": "esriFieldTypeString",
+          "alias": "LOCID_norm",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "LOCID_norm"
+        },
+        {
+          "name": "Leak_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Leak_Status",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "Leak_Status"
+        },
+        {
+          "name": "Show_on_GIS",
+          "type": "esriFieldTypeString",
+          "alias": "Show_on_GIS",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1,
+          "defaultValue": null,
+          "modelName": "Show_on_GIS"
+        },
+        {
+          "name": "Leak_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Leak_Flag",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 1,
+          "defaultValue": null,
+          "modelName": "Leak_Flag"
+        },
+        {
+          "name": "HasGeometry",
+          "type": "esriFieldTypeString",
+          "alias": "HasGeometry",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 5,
+          "defaultValue": null,
+          "modelName": "HasGeometry"
+        },
+        {
+          "name": "GIS_Created_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_Created_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "GIS_Created_Date"
+        },
+        {
+          "name": "GIS_Edited_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_Edited_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "GIS_Edited_Date"
+        },
+        {
+          "name": "Suspected_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Suspected_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "Suspected_Date"
+        },
+        {
+          "name": "Investigated_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Investigated_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "Investigated_Date"
+        },
+        {
+          "name": "Confirmed_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Confirmed_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "Confirmed_Date"
+        },
+        {
+          "name": "Repaired_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Repaired_Date",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 8,
+          "defaultValue": null,
+          "modelName": "Repaired_Date"
+        },
+        {
+          "name": "CEI_comments",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_comments",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "CEI_comments"
+        },
+        {
+          "name": "CEI_AssetType",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_AssetType",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "CEI_AssetType"
+        },
+        {
+          "name": "CEI_AssetID",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_AssetID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "CEI_AssetID"
+        },
+        {
+          "name": "CEI_Pipe_Dia",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_Pipe_Dia",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "CEI_Pipe_Dia"
+        },
+        {
+          "name": "CEI_Pipe_Mat",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_Pipe_Mat",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "CEI_Pipe_Mat"
+        },
+        {
+          "name": "Overwrite_show",
+          "type": "esriFieldTypeString",
+          "alias": "Overwrite_show",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 15,
+          "defaultValue": null,
+          "modelName": "Overwrite_show"
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null,
+        "editable": true,
+        "nullable": true,
+        "defaultValue": null,
+        "modelName": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R24907_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S24771_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "datesInUnknownTimezone": false,
+      "dateFieldsTimeReference": {
+        "timeZone": "UTC",
+        "respectsDaylightSaving": false
+      },
+      "preferredTimeReference": null,
+      "types": [],
+      "templates": [
+        {
+          "name": "THEWEB.DBO.wLeaks_With_Location",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "CEI_Pipe_Mat": null,
+              "Overwrite_show": null,
+              "Request__": null,
+              "J_O__": null,
+              "J_O_Description": null,
+              "Scheduled_Start_Date": null,
+              "Status": null,
+              "Category": null,
+              "Department": null,
+              "Task": null,
+              "Crew": null,
+              "Work_Type": null,
+              "Priority": null,
+              "Facility_ID": null,
+              "Project": null,
+              "Location_ID": null,
+              "Location_Address": null,
+              "Standard_task": null,
+              "LOCID_norm": null,
+              "Leak_Status": null,
+              "Show_on_GIS": null,
+              "Leak_Flag": null,
+              "HasGeometry": null,
+              "GIS_Created_Date": null,
+              "GIS_Edited_Date": null,
+              "Suspected_Date": null,
+              "Investigated_Date": null,
+              "Confirmed_Date": null,
+              "Repaired_Date": null,
+              "CEI_comments": null,
+              "CEI_AssetType": null,
+              "CEI_AssetID": null,
+              "CEI_Pipe_Dia": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolPoint"
+        }
+      ],
+      "maxRecordCount": 2000,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "supportedExportFormats": "sqlite,filegdb",
+      "capabilities": "Query,Update,Uploads,Editing",
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "standardMaxRecordCount": 32000,
+      "tileMaxRecordCount": 8000,
+      "standardMaxRecordCountNoGeometry": 32000,
+      "maxRecordCountFactor": 1,
+      "serviceItemId": "14b624128b5c49b48a90b6edebe537e3"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": 87,
+  "checkedAt": "2026-10-24T19:14:40.726Z",
+  "group": "official parks directory",
+  "start": {
+    "id": "city-parks-directory:1052",
+    "label": "Citizens Park",
+    "point": [
+      36.33072097605758,
+      -94.22537042126459
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "Only one distinct walking route was returned. No alternative comparison is available; this route is shown without a comparative infrastructure recommendation.",
+    "factors": [
+      "One provider route; no fabricated alternative"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 2.0724,
+        "miles": 0.10945639962618309,
+        "seconds": 124.344,
+        "providerDistanceMeters": 176.153,
+        "coverage": 0,
+        "gaps": 1,
+        "score": 0,
+        "lengthMeters": 176.0107283025862,
+        "coveredMeters": 0,
+        "uncoveredMeters": 176.0107283025862
+      },
+      "vertices": 16
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T19:14:41.436Z",
+        "cacheHit": false,
+        "featureCount": 4
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T19:14:41.431Z",
+        "cacheHit": false,
+        "featureCount": 1
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T19:14:41.436Z",
+    "routingFetchedAt": "2026-10-24T19:14:41.174Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 5,
+    "segmentCount": 9,
+    "eligibleSegmentCount": 9,
+    "countsByKind": {
+      "sidewalk": 4,
+      "trail": 1
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 1,
+    "candidatesRetained": 1,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "No distinct alternative was returned after geometric deduplication.",
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 0.00m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 1,
+  "distinctAlternatives": 1,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 36.76957856237548,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 16
+    }
+  ],
+  "validAlternatives": 1,
+  "elapsedMs": 719.070458000002,
+  "catalogReconciledAt": "2026-10-24T19:45:41.157Z"
+}

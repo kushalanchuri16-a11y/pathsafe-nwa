@@ -1,0 +1,161 @@
+{
+  "id": 74,
+  "checkedAt": "2026-10-24T05:16:04.306Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18900727",
+    "label": "2503 SW 18TH ST",
+    "point": [
+      36.35351594986534,
+      -94.23937989612267
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "alternative-2",
+    "explanation": "This route adds approximately 3.2 minutes and increases mapped pedestrian infrastructure coverage from 35.5% to 91.0%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 51.661449999999995,
+        "miles": 2.713629280004772,
+        "seconds": 3099.687,
+        "providerDistanceMeters": 4367.163,
+        "coverage": 35.46806825693165,
+        "gaps": 8,
+        "score": 19,
+        "lengthMeters": 4364.736894740123,
+        "coveredMeters": 1548.0878610619056,
+        "uncoveredMeters": 2816.649033678217
+      },
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 52.03313333333333,
+        "miles": 2.721707105503857,
+        "seconds": 3121.988,
+        "providerDistanceMeters": 4380.163,
+        "coverage": 49.74782694997195,
+        "gaps": 9,
+        "score": 32,
+        "lengthMeters": 4374.618481858383,
+        "coveredMeters": 2176.2776320763987,
+        "uncoveredMeters": 2198.3408497819846
+      },
+      "vertices": 200
+    },
+    {
+      "id": "alternative-2",
+      "recommended": true,
+      "metrics": {
+        "minutes": 54.8554,
+        "miles": 2.831689806529865,
+        "seconds": 3291.324,
+        "providerDistanceMeters": 4557.163,
+        "coverage": 90.9593210642637,
+        "gaps": 5,
+        "score": 81,
+        "lengthMeters": 4549.0902101896645,
+        "coveredMeters": 4137.821569789406,
+        "uncoveredMeters": 411.26864040025885
+      },
+      "vertices": 202
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:16:05.624Z",
+        "cacheHit": false,
+        "featureCount": 708
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:16:05.272Z",
+        "cacheHit": false,
+        "featureCount": 16
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:16:05.624Z",
+    "routingFetchedAt": "2026-10-24T05:16:04.881Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 724,
+    "segmentCount": 749,
+    "eligibleSegmentCount": 584,
+    "countsByKind": {
+      "sidewalk": 543,
+      "crossing": 162,
+      "trail": 19
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 180.65m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 20.366553821671086,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 20.366553821671086,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 200
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 20.366553821671086,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 202
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1467.6533749999944,
+  "catalogReconciledAt": "2026-10-24T19:45:40.857Z"
+}

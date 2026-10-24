@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-24T19:00:34.110Z",
+  "primary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+  "secondary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Parking_Data_Layers_(view)/FeatureServer/0",
+  "rawCounts": [
+    14,
+    14
+  ],
+  "acceptedCounts": [
+    14,
+    14
+  ],
+  "primaryHash": "b59e520329d58c3a42c570c62f5caa515525574518221b796d89578fdc15f5b9",
+  "secondaryHash": "b59e520329d58c3a42c570c62f5caa515525574518221b796d89578fdc15f5b9",
+  "sameEligibleDestinations": true
+}

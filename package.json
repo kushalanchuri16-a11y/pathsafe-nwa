@@ -11,7 +11,12 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",
     "demo:prewarm": "node --import tsx scripts/prewarm-demo.ts",
-    "check:deployment": "node --import tsx scripts/check-deployment.ts"
+    "check:deployment": "node --import tsx scripts/check-deployment.ts",
+    "catalog:refresh": "node --import tsx scripts/refresh-location-catalog.ts",
+    "catalog:audit": "node --import tsx scripts/audit-location-catalog.ts",
+    "catalog:routes": "node --import tsx scripts/audit-catalog-routes.ts",
+    "catalog:parks": "node --import tsx scripts/refresh-parks-directory.ts",
+    "catalog:discover": "python3 scripts/discover-location-sources.py && node --import tsx scripts/discover-portal-sources.ts"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,335 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "Public_Art_Points",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "2883c29122ccdd7eb661a2b901a20694",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnElEQVRIie3UO0sjURgG4HfOTDKTxI2Jl0KIkMILoqyKRku1slMsbAWt9UeobGEraqVIfsFK9AdE2C1UsPUSEBUviZc4iZM5zMw5Z7bdzlFGsZi3f7+HDz4+BV8YJcACLMC+FzadQiRtKSNNqtTxYInCeYjv797B9B1bS0eGu+rDqx0JbUgLyzAMG6dl62g8xRbmb+iBb9h0PN7Ql2rc7OtM9sQGfsJVCBKXp6grVDNqQd+a1fWxbcN49AUbjNGZ9sZoT6StGe7oFKC4IPs6NJMhXbS6M25xbhtY8QVLcJ4hlRJYXSuU27+ARMBjGkQyCvX5DPWO2+9ljifMsEWZGha0agXi/AiABEYdOAaFUhNwwu4LbJ+wsh3KFkvWDLm6iMs0BEiAoBzklqPiOq83MTkLQ/iD/TKd416JLGp/Kss/utSoJEsgNlAtMfNMlZbYtXPoZY7X0xcbNbE6eedcdNfceZJUWkRYvj8x+frvAt3NA2+v9Q4MeYDldb4Dne9N1KxI7gkUAPPafxf2X1juCa8f6H3j3xhgAfap+Qcko6WAHRrjAAAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 20,
+            "height": 20,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 653304.003819719,
+        "ymin": 731089.7974134833,
+        "xmax": 671894.843606472,
+        "ymax": 768856.1303452253,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "created_user",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "globalid",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "globalid",
+          "length": 38,
+          "domain": null
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "location_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "title_artwork",
+          "type": "esriFieldTypeString",
+          "alias": "Title of Artwork",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "artist",
+          "type": "esriFieldTypeString",
+          "alias": "Artist",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "artist_state",
+          "type": "esriFieldTypeString",
+          "alias": "Artist State",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "medium",
+          "type": "esriFieldTypeString",
+          "alias": "Medium",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "height",
+          "type": "esriFieldTypeString",
+          "alias": "Height",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "Width",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "length",
+          "type": "esriFieldTypeString",
+          "alias": "Length",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "narrative",
+          "type": "esriFieldTypeString",
+          "alias": "Narrative",
+          "length": 1000,
+          "domain": null
+        },
+        {
+          "name": "cost",
+          "type": "esriFieldTypeString",
+          "alias": "Cost",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "curator",
+          "type": "esriFieldTypeString",
+          "alias": "Curator",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "paac_proj_title",
+          "type": "esriFieldTypeString",
+          "alias": "PAAC Project Title",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "temp_perm",
+          "type": "esriFieldTypeString",
+          "alias": "Temporary or Permanent",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "install_date",
+          "type": "esriFieldTypeString",
+          "alias": "Install Date",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "removal_date",
+          "type": "esriFieldTypeString",
+          "alias": "Removal Date",
+          "length": 256,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R66_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "UUID_66",
+          "fields": "globalid",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "UUID_OID_66",
+          "fields": "globalid,OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S42_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": true,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "8dc7a291265347eb96ab1c451bd0843f"
+    }
+  ],
+  "tables": []
+}

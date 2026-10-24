@@ -1,0 +1,61 @@
+{
+  "id": 67,
+  "checkedAt": "2026-10-24T05:15:22.505Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18893037",
+    "label": "12713 HUBER RD",
+    "point": [
+      36.34320634522534,
+      -94.3096743670363
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 18.6722225200854,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 204
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 18.6722225200854,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 243
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 18.6722225200854,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 334
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Real outer city exit (may also cross holes); Real outer city exit (may also cross holes); Real outer city exit (may also cross holes)",
+  "elapsedMs": 677.9646669999929,
+  "catalogReconciledAt": "2026-10-24T19:45:40.710Z"
+}

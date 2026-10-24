@@ -1,0 +1,160 @@
+{
+  "id": 16,
+  "checkedAt": "2026-10-24T05:04:40.374Z",
+  "group": "school",
+  "start": {
+    "id": "schools-7:6",
+    "label": "Ruth Barker Middle School",
+    "point": [
+      36.352153119534364,
+      -94.20503566536182
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 0.1 minutes and increases mapped pedestrian infrastructure coverage from 68.9% to 80.1%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 33.739066666666666,
+        "miles": 1.7869430028632785,
+        "seconds": 2024.344,
+        "providerDistanceMeters": 2875.806,
+        "coverage": 68.90080101998612,
+        "gaps": 5,
+        "score": 59,
+        "lengthMeters": 2875.5665116840737,
+        "coveredMeters": 1981.2883604127996,
+        "uncoveredMeters": 894.278151271274
+      },
+      "vertices": 109
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 33.8453,
+        "miles": 1.7844575180943292,
+        "seconds": 2030.718,
+        "providerDistanceMeters": 2871.806,
+        "coverage": 80.07867385846016,
+        "gaps": 3,
+        "score": 74,
+        "lengthMeters": 2869.4766518182273,
+        "coveredMeters": 2297.8388494541805,
+        "uncoveredMeters": 571.6378023640468
+      },
+      "vertices": 103
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 34.32938333333333,
+        "miles": 1.8130412143084385,
+        "seconds": 2059.763,
+        "providerDistanceMeters": 2917.807,
+        "coverage": 67.37282952642933,
+        "gaps": 4,
+        "score": 59,
+        "lengthMeters": 2916.4602560521253,
+        "coveredMeters": 1964.9017965160624,
+        "uncoveredMeters": 951.5584595360629
+      },
+      "vertices": 151
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:41.304Z",
+        "cacheHit": false,
+        "featureCount": 451
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:41.126Z",
+        "cacheHit": false,
+        "featureCount": 4
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:41.304Z",
+    "routingFetchedAt": "2026-10-24T05:04:40.810Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 455,
+    "segmentCount": 463,
+    "eligibleSegmentCount": 350,
+    "countsByKind": {
+      "crossing": 111,
+      "sidewalk": 340,
+      "trail": 4
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 13.88m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.8358322079189064,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 109
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.8358322079189064,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 103
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.8358322079189064,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 151
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1028.4441670000087,
+  "catalogReconciledAt": "2026-10-24T19:45:39.529Z"
+}

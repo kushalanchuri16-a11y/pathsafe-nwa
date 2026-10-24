@@ -1,0 +1,160 @@
+{
+  "id": 53,
+  "checkedAt": "2026-10-24T05:13:11.859Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18738038",
+    "label": "FOUNTAIN",
+    "point": [
+      36.36621315148005,
+      -94.19711535949907
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "alternative-2",
+    "explanation": "This route adds approximately 2.4 minutes and increases mapped pedestrian infrastructure coverage from 65.1% to 94.6%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 13.727116666666666,
+        "miles": 0.7232655044539886,
+        "seconds": 823.627,
+        "providerDistanceMeters": 1163.983,
+        "coverage": 65.13240527024983,
+        "gaps": 4,
+        "score": 57,
+        "lengthMeters": 1161.5874952767567,
+        "coveredMeters": 756.5698749922012,
+        "uncoveredMeters": 405.0176202845555
+      },
+      "vertices": 76
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 15.274483333333334,
+        "miles": 0.7978300475224688,
+        "seconds": 916.469,
+        "providerDistanceMeters": 1283.983,
+        "coverage": 59.33759323588481,
+        "gaps": 2,
+        "score": 55,
+        "lengthMeters": 1280.0689415270956,
+        "coveredMeters": 759.5621016622442,
+        "uncoveredMeters": 520.5068398648514
+      },
+      "vertices": 52
+    },
+    {
+      "id": "alternative-2",
+      "recommended": true,
+      "metrics": {
+        "minutes": 16.1137,
+        "miles": 0.8469183717092181,
+        "seconds": 966.822,
+        "providerDistanceMeters": 1362.983,
+        "coverage": 94.62545842566435,
+        "gaps": 2,
+        "score": 90,
+        "lengthMeters": 1361.73781670669,
+        "coveredMeters": 1288.5506516143382,
+        "uncoveredMeters": 73.18716509235173
+      },
+      "vertices": 79
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:13:13.084Z",
+        "cacheHit": false,
+        "featureCount": 132
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:13:13.083Z",
+        "cacheHit": false,
+        "featureCount": 3
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:13:13.084Z",
+    "routingFetchedAt": "2026-10-24T05:13:12.389Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 135,
+    "segmentCount": 139,
+    "eligibleSegmentCount": 102,
+    "countsByKind": {
+      "crossing": 37,
+      "sidewalk": 95,
+      "trail": 3
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 6.00m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 25.598618515553643,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 76
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 25.598618515553643,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 52
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 25.598618515553643,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 79
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1279.7637920000125,
+  "catalogReconciledAt": "2026-10-24T19:45:40.410Z"
+}

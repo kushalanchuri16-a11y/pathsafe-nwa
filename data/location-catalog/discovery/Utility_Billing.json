@@ -1,0 +1,10 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Utility_Billing/RouteMap_WebMap",
+      "type": "MapServer"
+    }
+  ]
+}

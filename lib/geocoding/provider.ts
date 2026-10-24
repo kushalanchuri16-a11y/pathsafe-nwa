@@ -6,6 +6,8 @@ export interface LocationResult {
   address?: string;
   kind: "place" | "address";
   attribution: string;
+  aliases?: string[];
+  type?: import("./catalog/model").LocationType;
 }
 export interface GeocodingProvider {
   search(query: string): Promise<LocationResult[]>;

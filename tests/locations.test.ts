@@ -23,6 +23,7 @@ import {
 } from "../lib/gis/routeInventory";
 import { POST } from "../app/api/compare/route";
 import type { RouteComparison } from "../types/routes";
+import { catalogFetcher } from "./fixtures/catalog";
 import type { Fetcher } from "../lib/server/http";
 const captured: RouteComparison = JSON.parse(
   readFileSync("data/verification/cac-live-comparison.json", "utf8"),
@@ -106,30 +107,25 @@ test("City geocoding normalizes, deduplicates and removes outside/invalid locati
   assert.deepEqual(items[0].point, [36.36770870312484, -94.20851110772566]);
 });
 test("forward provider preserves ambiguous choices, handles empty results, escapes queries and propagates failures", async () => {
-  const provider = new CityGeocodingProvider((async (input) => {
-    const url = new URL(String(input));
-    assert.equal(url.searchParams.get("where"), "STATUS = 'PERMANENT'");
-    assert.equal(url.searchParams.get("resultRecordCount"), "1000");
-    return Response.json({
-      type: "FeatureCollection",
-      features: [
+  const provider = new CityGeocodingProvider(
+    catalogFetcher({
+      common: [
         place(),
         {
           ...place(2, "Library annex"),
           geometry: { type: "Point", coordinates: [-94.208, 36.3676] },
         },
       ],
-    });
-  }) as Fetcher);
+    }),
+  );
   assert.equal((await provider.search("Library")).length, 2);
-  const empty = new CityGeocodingProvider((async () =>
-    Response.json({ type: "FeatureCollection", features: [] })) as Fetcher);
+  const empty = new CityGeocodingProvider(catalogFetcher({}));
   assert.deepEqual(await empty.search("Unknown Place"), []);
   assert.deepEqual(await provider.search("li"), []);
   const failing = new CityGeocodingProvider((async () => {
     throw new Error("network offline");
   }) as Fetcher);
-  await assert.rejects(failing.search("Library"), /offline/);
+  await assert.rejects(failing.search("Library"), /unavailable/);
 });
 test("unresolved text, outside locations and same/nearby coordinates fail before routing", async () => {
   assert.throws(
@@ -299,15 +295,21 @@ test("long trip GIS envelopes tile without loosening existing bounded query prot
   assert.ok(tiles.every((t) => t[2] - t[0] <= 0.08 && t[3] - t[1] <= 0.08));
 });
 
-test("address queries preserve house number and compass direction", async () => {
-  const provider = new CityGeocodingProvider((async (input) => {
-    const where = new URL(String(input)).searchParams.get("where")!;
-    assert.ok(where.includes("LIKE '300 %'"));
-    assert.ok(
-      !where.includes("MAIN"),
-      "street spelling is ranked locally within the exact house number",
-    );
-    return Response.json({ type: "FeatureCollection", features: [] });
-  }) as Fetcher);
-  assert.deepEqual(await provider.search("300 N MAIN ST"), []);
+test("address queries preserve exact house number and compass direction in the unified inventory", async () => {
+  const features = [
+    {
+      properties: { OBJECTID: 1, ADDRESS: "300 N MAIN ST" },
+      geometry: { type: "Point", coordinates: [-94.2087, 36.3752] },
+    },
+    {
+      properties: { OBJECTID: 2, ADDRESS: "300 S MAIN ST" },
+      geometry: { type: "Point", coordinates: [-94.2085, 36.368] },
+    },
+  ];
+  const provider = new CityGeocodingProvider(
+    catalogFetcher({ "city-addresses": features }),
+  );
+  const result = await provider.search("300 north main street");
+  assert.equal(result.length, 1);
+  assert.equal(result[0].label, "300 N MAIN ST");
 });

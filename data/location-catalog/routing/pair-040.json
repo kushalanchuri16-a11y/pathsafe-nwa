@@ -1,0 +1,162 @@
+{
+  "id": 40,
+  "checkedAt": "2026-10-24T05:07:47.639Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-place:107",
+    "label": "Soccer Complex",
+    "point": [
+      36.376716302444386,
+      -94.1899201887361
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 2.6 minutes and increases mapped pedestrian infrastructure coverage from 50.1% to 75.3%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 18.606033333333336,
+        "miles": 1.0197527688300325,
+        "seconds": 1116.362,
+        "providerDistanceMeters": 1641.133,
+        "coverage": 50.09248753645098,
+        "gaps": 4,
+        "score": 42,
+        "lengthMeters": 1636.4915307478072,
+        "coveredMeters": 819.7593160749211,
+        "uncoveredMeters": 816.7322146728861
+      },
+      "vertices": 123
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 21.213016666666665,
+        "miles": 1.137813295355126,
+        "seconds": 1272.781,
+        "providerDistanceMeters": 1831.133,
+        "coverage": 75.30120235641705,
+        "gaps": 5,
+        "score": 65,
+        "lengthMeters": 1826.1300166225587,
+        "coveredMeters": 1375.0978591082253,
+        "uncoveredMeters": 451.03215751433345
+      },
+      "vertices": 160
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 24.5745,
+        "miles": 1.3254673954108007,
+        "seconds": 1474.47,
+        "providerDistanceMeters": 2133.133,
+        "coverage": 70.7829441618938,
+        "gaps": 3,
+        "score": 63,
+        "lengthMeters": 2130.5701607211936,
+        "coveredMeters": 1508.0802871932535,
+        "uncoveredMeters": 622.4898735279401
+      },
+      "vertices": 153
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:07:48.400Z",
+        "cacheHit": false,
+        "featureCount": 57
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:07:48.389Z",
+        "cacheHit": false,
+        "featureCount": 18
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:07:48.400Z",
+    "routingFetchedAt": "2026-10-24T05:07:48.079Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 75,
+    "segmentCount": 85,
+    "eligibleSegmentCount": 69,
+    "countsByKind": {
+      "crossing": 2,
+      "sidewalk": 55,
+      "trail": 18
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 46.19m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 7.998350515289891,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 123
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 7.998350515289891,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 160
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 7.998350515289891,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 153
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 879.8620000000228,
+  "catalogReconciledAt": "2026-10-24T19:45:40.094Z"
+}

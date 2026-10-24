@@ -17,6 +17,7 @@ import {
 import { parseValhalla, fetchValhalla } from "../lib/routing/valhalla";
 import { getLiveRouteComparison } from "../lib/analysis/compare";
 import type { RouteCandidate } from "../types/routes";
+import { catalogFetcher } from "./fixtures/catalog";
 import type { Fetcher } from "../lib/server/http";
 import { candidate, point, routingFixture } from "./fixtures/geometries";
 const reported = JSON.parse(
@@ -119,15 +120,9 @@ test("municipal-airport alias uses verified public City record, never XNA", asyn
   ).features.find(
     (f: { properties: { OBJECTID: number } }) => f.properties.OBJECTID === 124,
   );
-  const provider = new CityGeocodingProvider((async (input) =>
-    Response.json({
-      type: "FeatureCollection",
-      features: new URL(String(input)).searchParams
-        .get("where")
-        ?.includes("STATUS = 'PERMANENT'")
-        ? [source]
-        : [],
-    })) as Fetcher);
+  const provider = new CityGeocodingProvider(
+    catalogFetcher({ common: [source] }),
+  );
   const airport = await provider.search("Bentonville Municipal Airport");
   assert.equal(airport.length, 1);
   assert.ok(isWithinSupportedArea(...airport[0].point));
@@ -141,17 +136,24 @@ test("municipal-airport alias uses verified public City record, never XNA", asyn
     false,
   );
 });
-test("expanded address words and punctuation use the same official address tokens", async () => {
-  const provider = new CityGeocodingProvider((async (input) => {
-    const where = new URL(String(input)).searchParams.get("where")!;
-    assert.match(where, /'3809 %'/);
-    assert.ok(
-      !where.includes("MISTLETOE"),
-      "local ranking handles expanded words within exact-number candidates",
-    );
-    return Response.json({ type: "FeatureCollection", features: [] });
-  }) as Fetcher);
-  await provider.search(" 3809 Southwest Mistletoe Avenue., Bentonville, AR ");
+test("expanded address words and punctuation match the same complete official address inventory", async () => {
+  const provider = new CityGeocodingProvider(
+    catalogFetcher({
+      "city-addresses": [
+        {
+          properties: { OBJECTID: 1, ADDRESS: "3809 SW MISTLETOE AVE" },
+          geometry: {
+            type: "Point",
+            coordinates: [-94.2557953932388, 36.32936552602442],
+          },
+        },
+      ],
+    }),
+  );
+  const r = await provider.search(
+    " 3809 Southwest Mistletoe Avenue., Bentonville, AR ",
+  );
+  assert.equal(r[0].label, "3809 SW MISTLETOE AVE");
 });
 test("equivalent named-place aliases at one address/point collapse; distinct locations remain", () => {
   const feature = (id: number, name: string, lon = -94.2085) => ({
@@ -291,4 +293,90 @@ test("eligibility and normalization source regions remain byte-identical through
       .digest("hex"),
     hashes.trailNormalization,
   );
+});
+
+test("Creekside Park → Osage Park: three independently checked pedestrian alternatives cross an internal City Limits hole", async () => {
+  const trip = JSON.parse(
+    readFileSync("data/reliability/creekside-osage-routing.json", "utf8"),
+  );
+  const city: Polygon[] = JSON.parse(
+    readFileSync("data/boundary/bentonville.json", "utf8"),
+  ).features.flatMap(
+    (f: { geometry: { coordinates: Polygon[] } }) => f.geometry.coordinates,
+  );
+  const outer = city.map((p) => [p[0]]);
+  assert.deepEqual(trip.start.point, [36.34070259828065, -94.23757071600167]);
+  assert.deepEqual(
+    trip.destination.point,
+    [36.351640914616624, -94.21976250101292],
+  );
+  assert.ok(isWithinSupportedArea(...(trip.start.point as [number, number])));
+  assert.ok(
+    isWithinSupportedArea(...(trip.destination.point as [number, number])),
+  );
+  const result = await fetchValhalla(
+    { start: trip.start.point, destination: trip.destination.point },
+    (async (input) => {
+      const request = JSON.parse(
+        new URL(String(input)).searchParams.get("json")!,
+      );
+      assert.equal(request.costing, "pedestrian");
+      assert.equal(request.alternates, 2);
+      return Response.json(trip.raw);
+    }) as Fetcher,
+    trip.endpoint,
+  );
+  assert.equal(result.received, 3);
+  assert.equal(result.routes.length, 3);
+  for (const [i, route] of result.routes.entries()) {
+    assert.deepEqual(
+      route.geometry,
+      trip.raw.routes[i].geometry.coordinates.map(([lon, lat]: number[]) => [
+        lat,
+        lon,
+      ]),
+    );
+    assert.ok(
+      lineWithinArea(route.geometry, outer),
+      "No actual exit from the outer city outline",
+    );
+    assert.equal(
+      lineWithinArea(route.geometry),
+      false,
+      "Each route crosses an excluded interior hole",
+    );
+    assert.ok(isWithinSupportedArea(...route.geometry[0]));
+    assert.ok(isWithinSupportedArea(...route.geometry.at(-1)!));
+    assert.throws(() => supportedCandidates([route]), RouteBoundaryError);
+  }
+  const prior = JSON.stringify(result);
+  assert.throws(() => supportedCandidates(result.routes), RouteBoundaryError);
+  assert.equal(
+    JSON.stringify(result),
+    prior,
+    "Boundary checks do not alter provider geometry",
+  );
+  let inventoryCalled = false;
+  await assert.rejects(
+    getLiveRouteComparison(
+      { start: trip.start, destination: trip.destination },
+      {
+        routing: {
+          getCandidates: async () => ({
+            result,
+            fetchedAt: trip.checkedAt,
+            cacheHit: false,
+          }),
+        },
+        inventory: async () => {
+          inventoryCalled = true;
+          throw new Error(
+            "All candidates are outside; no infrastructure query should run",
+          );
+        },
+      },
+    ),
+    RouteBoundaryError,
+  );
+  assert.equal(inventoryCalled, false);
 });

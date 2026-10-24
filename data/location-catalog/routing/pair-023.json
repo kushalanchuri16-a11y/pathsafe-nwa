@@ -1,0 +1,61 @@
+{
+  "id": 23,
+  "checkedAt": "2026-10-24T05:05:26.482Z",
+  "group": "school",
+  "start": {
+    "id": "schools-4:24",
+    "label": "Vaughn Elementary School",
+    "point": [
+      36.321521327080774,
+      -94.29349310796395
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 1.1926323542282251,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 432
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 1.1926323542282251,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 339
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 1.1926323542282251,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 304
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Internal municipal polygon hole; Internal municipal polygon hole; Real outer city exit (may also cross holes)",
+  "elapsedMs": 806.8015829999931,
+  "catalogReconciledAt": "2026-10-24T19:45:39.704Z"
+}

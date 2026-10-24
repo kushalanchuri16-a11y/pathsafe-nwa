@@ -1,0 +1,747 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "2025 AHTD Traffic Counts",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326,
+        "xyTolerance": 8.983152841195215e-09,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -400,
+        "falseY": -400,
+        "xyUnits": 999999999.9999999,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              230,
+              0,
+              0,
+              255
+            ],
+            "size": 6,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            }
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 633752.2263814396,
+        "ymin": 728434.0314963517,
+        "xmax": 673415.0246993662,
+        "ymax": 765924.1177981691,
+        "spatialReference": {
+          "wkid": 102995,
+          "latestWkid": 6411,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "County_Station",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "year_1986",
+          "type": "esriFieldTypeDouble",
+          "alias": "1986",
+          "domain": null
+        },
+        {
+          "name": "year_1987",
+          "type": "esriFieldTypeDouble",
+          "alias": "1987",
+          "domain": null
+        },
+        {
+          "name": "year_1988",
+          "type": "esriFieldTypeDouble",
+          "alias": "1988",
+          "domain": null
+        },
+        {
+          "name": "year_1989",
+          "type": "esriFieldTypeDouble",
+          "alias": "1989",
+          "domain": null
+        },
+        {
+          "name": "year_1990",
+          "type": "esriFieldTypeDouble",
+          "alias": "1990",
+          "domain": null
+        },
+        {
+          "name": "year_1991",
+          "type": "esriFieldTypeDouble",
+          "alias": "1991",
+          "domain": null
+        },
+        {
+          "name": "year_1992",
+          "type": "esriFieldTypeDouble",
+          "alias": "1992",
+          "domain": null
+        },
+        {
+          "name": "year_1993",
+          "type": "esriFieldTypeDouble",
+          "alias": "1993",
+          "domain": null
+        },
+        {
+          "name": "year_1994",
+          "type": "esriFieldTypeDouble",
+          "alias": "1994",
+          "domain": null
+        },
+        {
+          "name": "year_1995",
+          "type": "esriFieldTypeDouble",
+          "alias": "1995",
+          "domain": null
+        },
+        {
+          "name": "year_1996",
+          "type": "esriFieldTypeDouble",
+          "alias": "1996",
+          "domain": null
+        },
+        {
+          "name": "year_1997",
+          "type": "esriFieldTypeDouble",
+          "alias": "1997",
+          "domain": null
+        },
+        {
+          "name": "year_1998",
+          "type": "esriFieldTypeDouble",
+          "alias": "1998",
+          "domain": null
+        },
+        {
+          "name": "year_1999",
+          "type": "esriFieldTypeDouble",
+          "alias": "1999",
+          "domain": null
+        },
+        {
+          "name": "year_2000",
+          "type": "esriFieldTypeDouble",
+          "alias": "2000",
+          "domain": null
+        },
+        {
+          "name": "year_2001",
+          "type": "esriFieldTypeDouble",
+          "alias": "2001",
+          "domain": null
+        },
+        {
+          "name": "year_2002",
+          "type": "esriFieldTypeDouble",
+          "alias": "2002",
+          "domain": null
+        },
+        {
+          "name": "year_2003",
+          "type": "esriFieldTypeDouble",
+          "alias": "2003",
+          "domain": null
+        },
+        {
+          "name": "year_2004",
+          "type": "esriFieldTypeDouble",
+          "alias": "2004",
+          "domain": null
+        },
+        {
+          "name": "year_2005",
+          "type": "esriFieldTypeDouble",
+          "alias": "2005",
+          "domain": null
+        },
+        {
+          "name": "year_2006",
+          "type": "esriFieldTypeDouble",
+          "alias": "2006",
+          "domain": null
+        },
+        {
+          "name": "year_2007",
+          "type": "esriFieldTypeDouble",
+          "alias": "2007",
+          "domain": null
+        },
+        {
+          "name": "year_2008",
+          "type": "esriFieldTypeDouble",
+          "alias": "2008",
+          "domain": null
+        },
+        {
+          "name": "year_2009",
+          "type": "esriFieldTypeDouble",
+          "alias": "2009",
+          "domain": null
+        },
+        {
+          "name": "year_2010",
+          "type": "esriFieldTypeDouble",
+          "alias": "2010",
+          "domain": null
+        },
+        {
+          "name": "year_2011",
+          "type": "esriFieldTypeDouble",
+          "alias": "2011",
+          "domain": null
+        },
+        {
+          "name": "year_2012",
+          "type": "esriFieldTypeDouble",
+          "alias": "2012",
+          "domain": null
+        },
+        {
+          "name": "year_2013",
+          "type": "esriFieldTypeDouble",
+          "alias": "2013",
+          "domain": null
+        },
+        {
+          "name": "year_2014",
+          "type": "esriFieldTypeDouble",
+          "alias": "2014",
+          "domain": null
+        },
+        {
+          "name": "year_2015",
+          "type": "esriFieldTypeDouble",
+          "alias": "2015",
+          "domain": null
+        },
+        {
+          "name": "year_2016",
+          "type": "esriFieldTypeDouble",
+          "alias": "2016",
+          "domain": null
+        },
+        {
+          "name": "year_2017",
+          "type": "esriFieldTypeDouble",
+          "alias": "2017",
+          "domain": null
+        },
+        {
+          "name": "year_2018",
+          "type": "esriFieldTypeDouble",
+          "alias": "2018",
+          "domain": null
+        },
+        {
+          "name": "year_2019",
+          "type": "esriFieldTypeDouble",
+          "alias": "2019",
+          "domain": null
+        },
+        {
+          "name": "year_2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "2020",
+          "domain": null
+        },
+        {
+          "name": "year_2021",
+          "type": "esriFieldTypeDouble",
+          "alias": "2021",
+          "domain": null
+        },
+        {
+          "name": "MostRecentADT",
+          "type": "esriFieldTypeDouble",
+          "alias": "2023",
+          "domain": null
+        },
+        {
+          "name": "AH_BLM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AH_BLM",
+          "domain": null
+        },
+        {
+          "name": "AH_District",
+          "type": "esriFieldTypeString",
+          "alias": "AH_District",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "AH_ELM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AH_ELM",
+          "domain": null
+        },
+        {
+          "name": "AH_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "AH_Length",
+          "domain": null
+        },
+        {
+          "name": "AH_RoadID",
+          "type": "esriFieldTypeString",
+          "alias": "AH_RoadID",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "APHN",
+          "type": "esriFieldTypeString",
+          "alias": "APHN",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "atr_ferry",
+          "type": "esriFieldTypeString",
+          "alias": "atr_ferry",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "count_type",
+          "type": "esriFieldTypeString",
+          "alias": "count_type",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "County",
+          "type": "esriFieldTypeString",
+          "alias": "County",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "County_Station",
+          "type": "esriFieldTypeString",
+          "alias": "County_Station",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Direction",
+          "type": "esriFieldTypeString",
+          "alias": "Direction",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "FunctionalClass",
+          "type": "esriFieldTypeString",
+          "alias": "FunctionalClass",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Longtitude_Use",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longtitude_Use",
+          "domain": null
+        },
+        {
+          "name": "NHS",
+          "type": "esriFieldTypeString",
+          "alias": "NHS",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "RouteSign",
+          "type": "esriFieldTypeString",
+          "alias": "RouteSign",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "RuralUrbaArea",
+          "type": "esriFieldTypeString",
+          "alias": "RuralUrbaArea",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Section",
+          "type": "esriFieldTypeString",
+          "alias": "Section",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "SpecialSystems",
+          "type": "esriFieldTypeString",
+          "alias": "SpecialSystems",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "stat",
+          "type": "esriFieldTypeString",
+          "alias": "stat",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_1997",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_1997",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_1998",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_1998",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_1999",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_1999",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2000",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2000",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2001",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2001",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2002",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2002",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2003",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2003",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2004",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2004",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2005",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2005",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2006",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2006",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2007",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2007",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2008",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2008",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2009",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2009",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2010",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2010",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2011",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2011",
+          "domain": null
+        },
+        {
+          "name": "TypeRoad",
+          "type": "esriFieldTypeString",
+          "alias": "TypeRoad",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2012",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2012",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2019",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2019",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2013",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2013",
+          "domain": null
+        },
+        {
+          "name": "Year_ADT",
+          "type": "esriFieldTypeString",
+          "alias": "Year_ADT",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2014",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2014",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2020",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2015",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2015",
+          "domain": null
+        },
+        {
+          "name": "Year_TruckPercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "Year_TruckPercent",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2016",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2016",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2021",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2021",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2017",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2017",
+          "domain": null
+        },
+        {
+          "name": "Latitude_Use",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude_Use",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_2018",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_2018",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent",
+          "domain": null
+        },
+        {
+          "name": "TruckPercent_1996",
+          "type": "esriFieldTypeDouble",
+          "alias": "TruckPercent_1996",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R162_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S138_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Query,Map,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "hasZ": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": true,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "b9509a839c9c4f9f8081faf73b69ca7b"
+    }
+  ],
+  "tables": []
+}

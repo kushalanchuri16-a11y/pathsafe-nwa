@@ -28,7 +28,16 @@ export const streetWords = new Set([
   ...Object.values(streets),
   "way",
 ]);
-const stopWords = new Set(["the", "of", "at", "in", "city", "arkansas", "ar"]);
+const stopWords = new Set([
+  "the",
+  "of",
+  "at",
+  "in",
+  "and",
+  "city",
+  "arkansas",
+  "ar",
+]);
 // Stable IDs in the existing official Common_Names layer; coordinates always
 // come from the current City record, never from this vocabulary.
 export const placeAliases: Record<string, string[]> = {
@@ -114,6 +123,57 @@ function queryTokens(query: string, address: boolean) {
       !(t.length >= 6 && tokenSimilarity(t, "bentonville") >= 0.84),
   );
 }
+export const genericDestinationWords = new Set([
+  "park",
+  "school",
+  "museum",
+  "center",
+  "centre",
+  "building",
+  "library",
+  "airport",
+  "plaza",
+  "trail",
+  "church",
+  "temple",
+  "public",
+  "facility",
+]);
+const categoryTypes: Record<string, string[]> = {
+  park: ["park"],
+  school: ["school"],
+  museum: ["museum"],
+  airport: ["airport"],
+  plaza: ["plaza"],
+  trail: ["trail destination"],
+};
+function meaningfulSimilarity(query: string, target: string) {
+  if (genericDestinationWords.has(query)) {
+    if (query === target) return 1;
+    if (target === query + "s") return 0.94;
+    if (
+      ["center", "centre"].includes(query) &&
+      ["center", "centre"].includes(target)
+    )
+      return 1;
+    return 0;
+  }
+  const similarity = tokenSimilarity(query, target);
+  if (similarity === 0 || similarity >= 0.94) return similarity;
+  const different = [...query].flatMap((c, i) => (c === target[i] ? [] : [i]));
+  const transposed =
+    query.length === target.length &&
+    different.length === 2 &&
+    different[1] === different[0] + 1 &&
+    query[different[0]] === target[different[1]] &&
+    query[different[1]] === target[different[0]];
+  const distance = transposed ? 1 : editDistance(query, target);
+  // A short near-word (lake/bake) is weak evidence; a modest deletion or
+  // transposition (osge/osage, crystla/crystal) retains strong character agreement.
+  return 1 - distance / Math.max(query.length, target.length) >= 0.8
+    ? similarity
+    : 0;
+}
 export function scoreCandidate(
   query: string,
   candidate: LocationResult,
@@ -122,36 +182,72 @@ export function scoreCandidate(
   const address = candidate.kind === "address";
   const tokens = queryTokens(query, address);
   if (!tokens.length) return 0;
-  const variants = [candidate.label, ...(placeAliases[candidate.id] ?? [])];
+  const distinctive = tokens
+    .map((t, i) => (genericDestinationWords.has(t) ? -1 : i))
+    .filter((i) => i >= 0);
+  if (
+    !distinctive.length &&
+    candidate.type &&
+    tokens.some(
+      (t) => categoryTypes[t] && !categoryTypes[t].includes(candidate.type!),
+    )
+  )
+    return 0;
+  const variants = [
+    candidate.label,
+    ...(candidate.aliases ?? []),
+    ...(placeAliases[candidate.id] ?? []),
+  ];
   return Math.max(
     ...variants.map((variant, index) => {
       const target = tokenizeSearch(variant, address);
       if (address) {
-        const numbers = tokens.filter((t) => /^\d+$/.test(t));
-        if (numbers.some((t) => t !== target[0])) return 0;
+        const houseNumber = tokens.find((t) => /^\d+$/.test(t));
+        if (houseNumber && houseNumber !== target[0]) return 0;
       }
       const matches = tokens.map((t) =>
-        Math.max(0, ...target.map((c) => tokenSimilarity(t, c))),
+        Math.max(0, ...target.map((c) => meaningfulSimilarity(t, c))),
       );
-      // Every meaningful token needs evidence. No "least bad" fallback.
+      // Every distinctive token must agree with this same canonical name or alias.
+      // Generic words never rescue a missing name or combine unrelated aliases.
       if (matches.some((m) => m === 0)) return 0;
       if (tokens.length === 1 && matches[0] < 0.94 && tokens[0].length < 6)
         return 0;
       let weighted = 0,
         weights = 0;
       tokens.forEach((t, i) => {
-        const weight = /^\d+$/.test(t) ? 5 : 1 + 1 / (frequency.get(t) ?? 1);
+        const weight = genericDestinationWords.has(t)
+          ? 0.15
+          : /^\d+$/.test(t)
+            ? 5
+            : 2 + 1 / (frequency.get(t) ?? 1);
         weighted += matches[i] * weight;
         weights += weight;
       });
       const similarity = weighted / weights;
-      // Minimum 75, high confidence >=94. Exact/prefix outrank fuzzy.
+      const precision =
+        tokens.length /
+        Math.max(tokens.length, queryTokens(variant, address).length);
       if (similarity < 0.76) return 0;
-      if (normalizeSearchText(query) === normalizeSearchText(variant))
-        return index === 0 ? 110 : 107;
+      // Category-only input is an ambiguous browse, even if a label is literally "Park".
+      if (!distinctive.length) return 78 + similarity + precision;
+      const addressVariant =
+        (address && index === 0) ||
+        (!!candidate.address &&
+          normalizeStreetTokens(variant) ===
+            normalizeStreetTokens(candidate.address));
+      const exact = addressVariant
+        ? normalizeStreetTokens(query) === normalizeStreetTokens(variant)
+        : normalizeSearchText(query) === normalizeSearchText(variant);
+      if (exact)
+        return (addressVariant ? 400 : index === 0 ? 600 : 500) + similarity;
+      const quality = distinctive.map((i) => matches[i]);
+      if (quality.every((m) => m === 1))
+        return 300 + similarity + 2 * precision;
+      if (quality.every((m) => m >= 0.94))
+        return 200 + similarity + 2 * precision;
       return (
-        100 * similarity +
-        (address && tokens.some((t) => /^\d+$/.test(t)) ? 3 : 0)
+        (quality.some((m) => m === 1) ? 150 : 100) + similarity + 2 * precision
       );
     }),
   );

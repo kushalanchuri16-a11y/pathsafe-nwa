@@ -1,0 +1,146 @@
+{
+  "id": 93,
+  "checkedAt": "2026-10-24T19:15:19.051Z",
+  "group": "issued non-home business",
+  "start": {
+    "id": "city-place:142",
+    "label": "The Trails at Bentonville",
+    "point": [
+      36.34426406668212,
+      -94.23859785820542
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 0.0 minutes and increases mapped pedestrian infrastructure coverage from 49.4% to 60.6%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 74.81146666666667,
+        "miles": 3.924115664519208,
+        "seconds": 4488.688,
+        "providerDistanceMeters": 6315.252,
+        "coverage": 49.36887430701529,
+        "gaps": 8,
+        "score": 33,
+        "lengthMeters": 6314.427501141621,
+        "coveredMeters": 3117.3617762462136,
+        "uncoveredMeters": 3197.0657248954076
+      },
+      "vertices": 196
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 74.85365,
+        "miles": 3.9141749681857947,
+        "seconds": 4491.219,
+        "providerDistanceMeters": 6299.254,
+        "coverage": 60.55369252214301,
+        "gaps": 8,
+        "score": 45,
+        "lengthMeters": 6291.425016311475,
+        "coveredMeters": 3809.690159638436,
+        "uncoveredMeters": 2481.734856673039
+      },
+      "vertices": 258
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T19:15:20.842Z",
+        "cacheHit": false,
+        "featureCount": 1471
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T19:15:19.927Z",
+        "cacheHit": false,
+        "featureCount": 24
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T19:15:20.842Z",
+    "routingFetchedAt": "2026-10-24T19:15:19.622Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1495,
+    "segmentCount": 1527,
+    "eligibleSegmentCount": 1195,
+    "countsByKind": {
+      "sidewalk": 1142,
+      "crossing": 327,
+      "trail": 26
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 195.54m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 12.136418974321971,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 217
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 12.136418974321971,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 196
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 12.136418974321971,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 258
+    }
+  ],
+  "validAlternatives": 2,
+  "elapsedMs": 1992.142458000002,
+  "catalogReconciledAt": "2026-10-24T19:45:41.299Z"
+}

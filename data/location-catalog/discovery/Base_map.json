@@ -1,0 +1,22 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Base_map/Benton_County_Data",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Base_map/Benton_County_Data",
+      "type": "MapServer"
+    },
+    {
+      "name": "Base_map/School_District18",
+      "type": "MapServer"
+    },
+    {
+      "name": "Base_map/Utility_Mapbooks18",
+      "type": "MapServer"
+    }
+  ]
+}

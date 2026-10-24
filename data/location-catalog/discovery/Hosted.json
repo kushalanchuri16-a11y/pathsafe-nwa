@@ -1,0 +1,30 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Hosted/2025_contours_vtpk",
+      "type": "VectorTileServer"
+    },
+    {
+      "name": "Hosted/Basemap_World_2023_UPDATE_updated_",
+      "type": "VectorTileServer"
+    },
+    {
+      "name": "Hosted/Bentonville_FLUM_PreferredScenario_View",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Hosted/Bond_Projects",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Hosted/Centerton_Land_Use_Plan",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Hosted/Historic_Sites_Field_Collection_(VIEW)",
+      "type": "FeatureServer"
+    }
+  ]
+}

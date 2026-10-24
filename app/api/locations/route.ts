@@ -1,5 +1,6 @@
-import { searchLocations } from "@/lib/geocoding";
+import { searchLocationsDetailed } from "@/lib/geocoding";
 export const runtime = "nodejs";
+export const maxDuration = 60;
 export async function GET(request: Request) {
   const q = new URL(request.url).searchParams.get("q") ?? "";
   if (q.trim().length < 3 || q.length > 120)
@@ -8,9 +9,17 @@ export async function GET(request: Request) {
       { status: 400 },
     );
   try {
+    const found = await searchLocationsDetailed(q);
     return Response.json(
       {
-        results: await searchLocations(q),
+        results: found.results,
+        diagnostics: found.diagnostics,
+        ...(found.partial
+          ? {
+              warning:
+                "Some official location sources are temporarily unavailable. Results may be incomplete.",
+            }
+          : {}),
         attribution: "City of Bentonville GIS",
       },
       { headers: { "Cache-Control": "no-store" } },

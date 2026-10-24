@@ -1,0 +1,14 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Utilities/Geometry",
+      "type": "GeometryServer"
+    },
+    {
+      "name": "Utilities/PrintingTools",
+      "type": "GPServer"
+    }
+  ]
+}

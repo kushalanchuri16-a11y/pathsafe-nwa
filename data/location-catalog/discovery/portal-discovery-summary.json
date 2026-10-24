@@ -1,0 +1,213 @@
+{
+  "checkedAt": "2026-10-24T19:00:36.798Z",
+  "organization": "KVEBkgY6kMufuFG2",
+  "services": 43,
+  "diagnostics": [
+    {
+      "id": "c6ba899b69124011a91287fb91d9c1f5",
+      "status": "inspected"
+    },
+    {
+      "id": "0c4935f348c244bcb9cefbee4626db6e",
+      "status": "inspected"
+    },
+    {
+      "id": "ddd9b34ea23141409fb4ab6fb3e16006",
+      "status": "inspected"
+    },
+    {
+      "id": "883664a63f2f4ac6a26538bd10e68efd",
+      "status": "inspected"
+    },
+    {
+      "id": "e9cbf633ad354f8b8590eb9c06492a86",
+      "status": "inspected"
+    },
+    {
+      "id": "cc5d7acb965c4b4691b03a236fd6530a",
+      "status": "inspected"
+    },
+    {
+      "id": "20278e9073684abd9f22ee37f582c364",
+      "status": "inspected"
+    },
+    {
+      "id": "516e863384274bb3a1f261656a3e8ce6",
+      "status": "inspected"
+    },
+    {
+      "id": "6311f7c65de945caac5c42ac0cde6a8a",
+      "status": "inspected"
+    },
+    {
+      "id": "9d7b704d56014c80a06909ca50886ef1",
+      "status": "inspected"
+    },
+    {
+      "id": "56e48a328fdb4e898ab9f01dfeec2edc",
+      "status": "inspected"
+    },
+    {
+      "id": "bb4dced096bf4c84ab36e3d6346b41a1",
+      "status": "inspected"
+    },
+    {
+      "id": "8ca90821965d470bb0726bbda3a371d1",
+      "status": "inspected"
+    },
+    {
+      "id": "bb52eb867dc54252b016750b0cb1f555",
+      "status": "inspected"
+    },
+    {
+      "id": "73677fc56c8e496bb21c0fe2630e2001",
+      "status": "inspected"
+    },
+    {
+      "id": "f240e5f8b3a74a338008d9eae1ec3877",
+      "status": "inspected"
+    },
+    {
+      "id": "ccc142f053d342ab92f79de936cae180",
+      "status": "inspected"
+    },
+    {
+      "id": "b3d2b1005cb447c594e59a14b8815744",
+      "status": "inspected"
+    },
+    {
+      "id": "ee5380957e0d4b3b9af65400731b70e6",
+      "status": "inspected"
+    },
+    {
+      "id": "7f5af15d2aaf4c34ace65fe37d164dd7",
+      "status": "inspected"
+    },
+    {
+      "id": "feae2f0ca213460a90f1123c351dd9bb",
+      "status": "inspected"
+    },
+    {
+      "id": "f6d4cc8bb74f491297ded93bc66b2d57",
+      "status": "inspected"
+    },
+    {
+      "id": "089b6b37f7754934aef5f6b0456ec7ce",
+      "status": "inspected"
+    },
+    {
+      "id": "9869935f25004224b891361f5dd4d691",
+      "status": "inspected"
+    },
+    {
+      "id": "f8c0d9d18bce463a8c9ec8a40209c085",
+      "status": "inspected"
+    },
+    {
+      "id": "004e5aae059d4561a4d476bf625a0470",
+      "status": "inspected"
+    },
+    {
+      "id": "4f0b3ca9f69d496a9361c595260ea8eb",
+      "status": "inspected"
+    },
+    {
+      "id": "578c9b2d5edb448b9a0426b2be71c11d",
+      "status": "inspected"
+    },
+    {
+      "id": "1dce4bce17344cff9bf66a0966244066",
+      "status": "inspected"
+    },
+    {
+      "id": "b9dbbfc9b3fa4579858bba57878dd9cf",
+      "status": "inspected"
+    },
+    {
+      "id": "c0052fb983634006a000e02bfe351569",
+      "status": "inspected"
+    },
+    {
+      "id": "e05a4d34363941078db21177b1ca8bcf",
+      "status": "inspected"
+    },
+    {
+      "id": "fd7e38b0997647eb9bd2e04df6bbe11f",
+      "status": "inspected"
+    },
+    {
+      "id": "ceb5086492a54b6fa4f29f347a3b4cec",
+      "status": "inspected"
+    },
+    {
+      "id": "b11b7fd6571e426fb31596f299799b8d",
+      "status": "inspected"
+    },
+    {
+      "id": "f932e3d9b4d64407912137958c100305",
+      "status": "inspected"
+    },
+    {
+      "id": "6a3a1540671d4795af9fb2acb6e64cc2",
+      "status": "inspected"
+    },
+    {
+      "id": "c5c5ce77d83540808d92ac67c572598e",
+      "status": "inspected"
+    },
+    {
+      "id": "563a73e384594fdba751c57bfffce66c",
+      "status": "inspected"
+    },
+    {
+      "id": "8ced9a3c53674c1c97b0b017b34e4061",
+      "status": "inspected"
+    },
+    {
+      "id": "37aa3b86874e4f17815e41d2842bfa9d",
+      "status": "inspected"
+    },
+    {
+      "id": "e4c18d5e8ba8410980df44d09b25dad6",
+      "status": "inspected"
+    },
+    {
+      "id": "88e7a36b391343bfb1941c9b6da8cad3",
+      "status": "inspected"
+    }
+  ],
+  "comparisons": [
+    {
+      "checkedAt": "2026-10-24T19:00:34.110Z",
+      "primary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+      "secondary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Parking_Data_Layers_(view)/FeatureServer/0",
+      "rawCounts": [
+        14,
+        14
+      ],
+      "acceptedCounts": [
+        14,
+        14
+      ],
+      "primaryHash": "b59e520329d58c3a42c570c62f5caa515525574518221b796d89578fdc15f5b9",
+      "secondaryHash": "b59e520329d58c3a42c570c62f5caa515525574518221b796d89578fdc15f5b9",
+      "sameEligibleDestinations": true
+    },
+    {
+      "checkedAt": "2026-10-24T19:00:36.796Z",
+      "primary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+      "secondary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Parking_Data_Layers_(view)/FeatureServer/12",
+      "rawCounts": [
+        22,
+        22
+      ],
+      "acceptedCounts": [
+        8,
+        9
+      ],
+      "primaryHash": "143586e2c2add70d0eabd2ce750a29cce3cb869eaa318699b246260ef1d502da",
+      "secondaryHash": "d00654c2c1360217c1d7446a640322b545bd2430dcc2ceb746f5ed8b944a6346",
+      "sameEligibleDestinations": false
+    }
+  ]
+}

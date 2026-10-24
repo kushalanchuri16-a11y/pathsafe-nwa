@@ -1,0 +1,45 @@
+{
+  "id": 63,
+  "checkedAt": "2026-10-24T05:14:57.565Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18892422",
+    "label": "1801 NW LIGHTNING LN",
+    "point": [
+      36.43638801550025,
+      -94.23173649361367
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 1,
+  "distinctAlternatives": 1,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 0.12166654949452914,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 430
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Real outer city exit (may also cross holes)",
+  "elapsedMs": 458.52450000005774,
+  "catalogReconciledAt": "2026-10-24T19:45:40.616Z"
+}

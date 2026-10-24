@@ -1,0 +1,160 @@
+{
+  "id": 39,
+  "checkedAt": "2026-10-24T05:07:41.455Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18751975",
+    "label": "VOLLEY BALL PARK",
+    "point": [
+      36.37737087184147,
+      -94.18756047682555
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 35.7966,
+        "miles": 1.8695741867493836,
+        "seconds": 2147.796,
+        "providerDistanceMeters": 3008.788,
+        "coverage": 76.46172879460013,
+        "gaps": 4,
+        "score": 68,
+        "lengthMeters": 3008.445635858264,
+        "coveredMeters": 2300.309543022929,
+        "uncoveredMeters": 708.1360928353347
+      },
+      "vertices": 136
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 36.03225,
+        "miles": 1.895672398194544,
+        "seconds": 2161.935,
+        "providerDistanceMeters": 3050.789,
+        "coverage": 68.5713222523456,
+        "gaps": 6,
+        "score": 57,
+        "lengthMeters": 3049.920433103842,
+        "coveredMeters": 2091.37076862377,
+        "uncoveredMeters": 958.5496644800719
+      },
+      "vertices": 117
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 36.65838333333333,
+        "miles": 1.9199064960629921,
+        "seconds": 2199.503,
+        "providerDistanceMeters": 3089.79,
+        "coverage": 42.869116154415934,
+        "gaps": 8,
+        "score": 27,
+        "lengthMeters": 3083.732306842255,
+        "coveredMeters": 1321.9687845114563,
+        "uncoveredMeters": 1761.7635223307989
+      },
+      "vertices": 172
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:07:42.508Z",
+        "cacheHit": false,
+        "featureCount": 548
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:07:42.241Z",
+        "cacheHit": false,
+        "featureCount": 35
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:07:42.508Z",
+    "routingFetchedAt": "2026-10-24T05:07:41.900Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 583,
+    "segmentCount": 599,
+    "eligibleSegmentCount": 454,
+    "countsByKind": {
+      "crossing": 139,
+      "sidewalk": 409,
+      "trail": 30
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 248.31m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 11.864703544093343,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 136
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 11.864703544093343,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 117
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 11.864703544093343,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 172
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1179.4696249999688,
+  "catalogReconciledAt": "2026-10-24T19:45:40.074Z"
+}

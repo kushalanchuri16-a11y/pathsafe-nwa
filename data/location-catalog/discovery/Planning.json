@@ -1,0 +1,86 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Planning/2025_Traffic_Counts",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/ASBuilt_Scans18",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Bentonville_Addresses23",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/Bentonville_Addresses23",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Community_Development23",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/DEC_FLUM_layer",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/DEC_FLUM_layer",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Downloadable_Contours_2017_Grid",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/Downloadable_Contours_2017_Grid",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/FLUM_26NOV2024",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/FLUM_JAN_2025",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/FLUM_JAN_2025",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Great_Neighborhood_Program",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/Great_Neighborhood_Program",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Land_Use_2025",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/Land_Use_2025",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Pending_PZitems_Publish23",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/Public_Art_Points_map_service",
+      "type": "MapServer"
+    },
+    {
+      "name": "Planning/SEP_Bentonville_FLUM_update_map_layer",
+      "type": "FeatureServer"
+    },
+    {
+      "name": "Planning/SEP_Bentonville_FLUM_update_map_layer",
+      "type": "MapServer"
+    }
+  ]
+}

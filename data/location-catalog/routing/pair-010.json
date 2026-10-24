@@ -1,0 +1,160 @@
+{
+  "id": 10,
+  "checkedAt": "2026-10-24T05:04:02.534Z",
+  "group": "school",
+  "start": {
+    "id": "schools-7:11",
+    "label": "Ardis Ann Middle School",
+    "point": [
+      36.37082147488395,
+      -94.24938056705776
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 52.075450000000004,
+        "miles": 2.654338040841486,
+        "seconds": 3124.527,
+        "providerDistanceMeters": 4271.743,
+        "coverage": 69.07911512245337,
+        "gaps": 7,
+        "score": 55,
+        "lengthMeters": 4261.258467978505,
+        "coveredMeters": 2943.6396427601644,
+        "uncoveredMeters": 1317.6188252183406
+      },
+      "vertices": 150
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 57.9394,
+        "miles": 2.9929859619820247,
+        "seconds": 3476.364,
+        "providerDistanceMeters": 4816.744,
+        "coverage": 90.40304456515491,
+        "gaps": 6,
+        "score": 78,
+        "lengthMeters": 4811.338458125948,
+        "coveredMeters": 4349.596450480038,
+        "uncoveredMeters": 461.74200764591023
+      },
+      "vertices": 233
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 61.75698333333333,
+        "miles": 3.1278228893263345,
+        "seconds": 3705.419,
+        "providerDistanceMeters": 5033.743,
+        "coverage": 91.13415738665776,
+        "gaps": 3,
+        "score": 84,
+        "lengthMeters": 5027.740166483129,
+        "coveredMeters": 4581.9886363149435,
+        "uncoveredMeters": 445.7515301681851
+      },
+      "vertices": 193
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:04.116Z",
+        "cacheHit": false,
+        "featureCount": 1020
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:03.447Z",
+        "cacheHit": false,
+        "featureCount": 17
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:04.116Z",
+    "routingFetchedAt": "2026-10-24T05:04:03.104Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1037,
+    "segmentCount": 1060,
+    "eligibleSegmentCount": 853,
+    "countsByKind": {
+      "sidewalk": 812,
+      "crossing": 206,
+      "trail": 19
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 140.61m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.125656140004628,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 150
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.125656140004628,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 233
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.125656140004628,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 193
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1785.7581250000076,
+  "catalogReconciledAt": "2026-10-24T19:45:39.374Z"
+}

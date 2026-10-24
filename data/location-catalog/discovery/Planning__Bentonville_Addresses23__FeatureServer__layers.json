@@ -1,0 +1,3197 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 2,
+      "name": "Address",
+      "type": "Feature Layer",
+      "parentLayer": null,
+      "defaultVisibility": true,
+      "minScale": 2400,
+      "maxScale": 0,
+      "canScaleSymbols": false,
+      "geometryType": "esriGeometryPoint",
+      "description": "",
+      "copyrightText": "",
+      "editFieldsInfo": null,
+      "ownershipBasedAccessControlForFeatures": null,
+      "syncCanReturnChanges": false,
+      "relationships": [],
+      "isDataVersioned": false,
+      "isDataArchived": false,
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "isDataBranchVersioned": false,
+      "isDataReplicaTracked": false,
+      "isCoGoEnabled": false,
+      "supportsRollbackOnFailureParameter": true,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportsValidateSQL": true,
+      "supportsCoordinatesQuantization": true,
+      "supportsQuantizationEditMode": true,
+      "supportsCalculate": true,
+      "supportsASyncCalculate": true,
+      "supportsDatumTransformation": true,
+      "advancedQueryCapabilities": {
+        "supportsPagination": true,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDistance": true,
+        "supportsReturningQueryExtent": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsQueryWithResultType": true,
+        "supportsReturningGeometryCentroid": false,
+        "supportsSqlExpression": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsQueryAnalytic": true
+      },
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "advancedEditingCapabilities": {
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ],
+        "supportsAsyncApplyEdits": true
+      },
+      "hasMetadata": true,
+      "extent": {
+        "xmin": 6.288290023803711e-05,
+        "ymin": 8.155405521392822e-05,
+        "xmax": 678678.8149466366,
+        "ymax": 772949.7399401367,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "MISC_INFO",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "7376a2cc14ece2d43665b6c8b7faf4c8",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABTElEQVQ4ja3UPUjUcRzH8Zd2nIvd4uiiIGoEiaS2KIIgt0mDBu4pKQ5C4UNB/lzOGoQQilKJCKMInSURhwRHnwbBVcKH5QYRDSFpkTju/p4m/rbv9/t5w+/7GHPNF7t5MCh2qkLK+v+B2745cBflVweHVfspqUxMv8femL4auGHOiJgqtBsXfBSc5QefemjLHa3ndouEXybQlx9cMe29gn/2czTqErwUpKPBHqN+K3Evw5dAt7hls2jJBYO47wYtROT8BFOaDan1ylo2eKrOibQipVngMf44U2g/+qvNeg34Yj4jRxhDg89S9qLBcV8lBT9USp77drDgSJuuTGluVe/rMGpVq1sK8QJNBi/vY8qmTos+SarBrh0z3mXLoienyiMfHLgtrl6npVxJNBgc6vZW2gOvrURJLt6OSc8ECbPR4fyLHBxeFLr2BfgLxlNNrm98qRsAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 15,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "ANC",
+              "label": "Ancillary"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "21d9a317dfac5827a315be129cbf7eaf",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABT0lEQVQ4jdWUsWrCUBSGvwNZLDi4SNM+RIbsgs1USIsPUXTwIcxrxJdQ0EV0FgSdxCeQpCW4KWQ8HWptm5irtTj0H384H/+99/zX4kqy/jdYVV0gANxfcgIR6RaCgWA6nfpJkpyfzLLwfT9U1VcRGRSB7SRJaDQaRliapkRRhG3bjMfjw6wp8Xc9A4sjfnM2m3Xq9Tq9Xq/4JAZwvE8RZvxhpVLB8zyq1SpF13ZqKwaj0chO0/Rg1Gq1xHGc1mQyCQC73+9fBA48zwt3u93XgGU9Ai8i0lXVEGheAh5ut9u31Wp1+2mUy2UcxwmBJ9OgESwisaqGpVKps16vAdhsNgA3JwIZwQNVjQFc18V1f3TmQVXnwN3Z4CiK2D+ITWY3M3IBlsvl0b3PglvtdntugOW0hw6NlRaRharen0iak4jkipS7ChGJ+SjHn3S1b/Mdm29zESkafokAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 16,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "BLDG",
+              "label": "Building"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "ddb49f021e37da2a5e9abc5adccea02e",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAACYAAAAOCAYAAABDwm71AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB3ElEQVRIic3VT2jPcRgH8Ndh2YRyEQelHEhK1JR/iVxkyYXGgYtSODg6qTkof5rDFEmLMmkHy4bEaYcltMNCSCyRf0PN8meTf4fn+bVv8tv2q5W969P383w+z+d53r2fz+f5VpmgqPrfBMrhX8SmYGPBHkQPnhfWVmAZvqMTDzAHy9GNp3/FXIt5+FSGxy28GI3YDFxEG35jKlZhH5rRhA24imo04Bhe4TxasL0QrwbtGMDtXFuKL3iY9suxECuhHj9yvgWNuIQ9mIUPudeMrly/j7okPJT7dXid8835bRGqNpRLPtY7Vo33mWxIKHYBP0Xp5mM1+nKsFyrBVlGBbWPMNSqxG6KUk7EI6/AtE5wSJe3CdZxNX2gVCrdjGhan/7gRa8QvodYmIf8SdOAaapPsLuzG8TzXhsOFcx0ZpyKMROym4TvWjjfYi884iTs5juKxUBU+4q4oZz0Oigc0bsSKmI3p4v6cEGV+lns1osUMFPxbsRNzxR1cM57EOgs+C3EG57AA94Qq/aKfXcET0d/gMk7jSKWERiL2VjTEEr6K5tqX9v5MWotJOCAa7EzRLiThlehNuwc7CjEPiYdUEbFBw2qVQ28haQnvcpTQXZj3C4VLeDRK/In7r/wD0vlzRI7oPbEAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 28,
+                "height": 10,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "BSMT",
+              "label": "Basement"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "2baa8018c632fe7e7d7958fb64a1a308",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB1klEQVQ4jdWUzWsTYRCHn9ndNNYoggfJriD0Fk8eikXUW5FeC2KS1qDEDzyIXyBePHQv4h+QeqwVv5Lsau9+oNWjWsVC8a5xNwcPSrAkJnnHg5YKJrUHDzowMC8zPPze38A4/KVw/g+Q4lt1MgdBCgoZkDaYtxbWTJrsk3WB6sxti+lUQS1BSjb26y46oLDPoKWI6qsWy6eGKDb7gpTAjuncU8xTj5xfI9zg0NkDdD8jtwbYfDtFYzbJxhJwsi+ojhaAr9vJT0VY+200AH0O4mxFZ+DLgSbNY0kGFyOCYY/sQh9FHFXk6o+XuS5wziUfAsRUjoDsHqIYRgTXFC0CvUHAzm8kXr6n7IHsSPPu/krDJX9zpTbwwkLG1zQbIIHdVtQIvllVqyKI9pr/DSTIUpLWiEv+YUSlFlEd88g9AIgILkVU0x65CxaMKLrUF6ToDZCLij6KCU4Adz5SeSzIFmC4i4x+IBgEc1qwJvqCXKQcw/GY4IpL9nKNcFcC3auIduBwk00mRWMWZP7XjfX4WrYbcfcQ2OWY8JmDTrdx3jiYhAWTKRrngYUWy2fX9AjAY/KT4o/FZMYVKdh0fZC2oIuCOeMyMf9Hs1eV+QaY+5nrin/vjHwHaQ6uEV2RmkkAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 13,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "CABLE",
+              "label": "Cable"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "e70073d7446afb986f3a5acd5631af1a",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+ElEQVRIid3VS2gTQRzH8e82my4YspiHaXy09KooetCItqeetAVpInqyhVpFcvPgRdubFPUgoqj12XrQg4JaRHupRa+mYFDoSanFUlLbNMZuFhuc7HqyJGa3uxE86O8285/5zDDMMDJ/MfL/gedGR5PFhexJSQhfLYgJZl19fVbZuOHU2ra2cUucOs/5aHeX+ocb3TR3Z/gCsNMSN4WogoufZ1h8OkLhbRqxtIQ3HMK/O0b4YAI5EKgYa/woRsrbq5753N0hMtdvYAqx0rc8NYWWmuDL0D0a+04T7GhfqUm/zbfFM7duk7k2aLtwSdeZPtMPULGAI/79w0cygzdt4fLMDJxD3bun6ohs8fn7D8AwXOElXSf7+AnRY73ucC01QTgRx9sQsSpXZPnTNNqblHtc5HKEEnF827Y64t9evWb2ylXLmiXu8fsppNOI/FdHXJ+cRFatn4Yl7tuxndmLlxzhX4ke7XGPrzt8iPzYS1ewJMuE4p3ucX9sF6HOAyyOPHPE1ydPoDQ1uscBmvr7MEWJ3PMX1gMkiejxXstb4ohLXi/NA2cJ7t/HwsNH6O/eIzQNbzCAPxYj0nWENVs228JVuOTxFAGlvE9tbUFtbVkVKdtQwRY3DGM4PzbeYxolhRojybKmNEQu2+LhjvYkkKwVtsu/+4f+BKFImIhwxPoUAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 17,
+                "height": 17,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "CONT",
+              "label": "Contamination"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "87502a05882ef2d8bd2a76e6be426cd2",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAATCAYAAABPwleqAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABwklEQVQ4jaXTTUuUYRTG8d/zOFOT6DQWWWYuxEyhVS4kF/ZC0Qtt+wCtaiMU9AX8Ai7auoyINkkQroSQiIIWtZDARDNJtBeLsRkndcbuFo5T4hhh1+a+zjn3/3DO4iT8hxIQQugvlErg6bs5mXRGd2OdOI634+aiKBpMlIPrRE0QbZSjqCpV1jwqsFL4CWqTNXLFYHg660prBsTbNKrA6WQS9LY2GxmbNPI+r6a0Ai61H6zaILElg+dDdz0bfWmicR+o67vhVO/pf4P/VVvgUrGg7USXCwc63TrXAOJ4WXE5K5nK/B1e+jopm13wdnbJw9FP4OqZY3Kf32ho6QFRFG+GX3/LgoFXM3KpOvnOlKG5PHgxWcKCa/E8OH+keTN8Z2oW3F+pFSdr1S9+tJpuAj9W6xEsz36pDu9Ev8dezFWSbcmSdlnF1r3gyQprgYl8oTrclNoNxnIF9YmS7mYehQDWyu/Gny3wzbb1PUYXsj4Uk+49Hvf9cgfYJYji2O2jLdXhnagCXzzUCIZP1hiYmjHd0eVsonyS6T36jnfo2d9QFe4XwmEIiEIghPUAQli35d03zjWx7qPBamON/+EfVKn/AlL+j9wWELcnAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 11,
+                "height": 14,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "DP",
+              "label": "Detention Pond"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6420ef1ed8f57313da3831bc57e796c6",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABCklEQVQ4jc3TMS+DURTG8d+hnRno5ANY8CEM0k18AoPRKhKDJsTAoKuhDR0YJOwSiYTNB2AxWzpKLCTX0Fe00rd90cFJbu59Ts753yc355aMMEr/CpYoB29/giUCq8Hxn5wlxtDASXd+KCwxHbS79DhamAhufwRDK9EMLlKn/gwrmP9eOBCWqOqsucQNmlhGI3goDEuUcZjJGTyiglfU+vUMcraO2S5dyfZ68FwYlpjCdiavsJSd29jPuz3P2R4mcRBsJq6xiN3gpTAssYA11IKdLL2FUxzlgfKc1bERX48vuE9UP79NIVjqzM959HEQPA0C9cCygWwHl8OahsKCd9z9FtQDG0WMFPYBc6I16/Qx/1IAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 14,
+                "height": 14,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "ELEC",
+              "label": "Electric Only"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "8422d547b9aae972d0c14cfa6a4c6764",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAaUlEQVQokWNhIBOwUENjKgMDgz8B9bkMDAz30TVqMzAweBPQWIPNRnRwEIvYF2I0OuCzmhSNdxgYGJ4Qo3E/Gr+QgYFhAjEa8QJ8GgXR+N+J1fiBXBvxAqpovMOAPdIJapwCxSRrJAkAAFFMDaUOoorCAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "FENCE",
+              "label": "Fence"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "4d1e5a9e9460626dcde5af12f7b1e4b5",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACG0lEQVQ4jc3US2gTURQG4P/OTCYzSQdjqI2PqhEs3fjYSFEobpS4VYQWVKpCSVxoC0JL3QViadEStCuj9ZWFYjdCBV+4cCeCjbhxI+hCqmU00zpzJ6+ZudeFRUwnxVYXetbn/7jncLgS/rKk/xs4e9FKZQe03B8BvZdobDV3s5OTfKKri3grBrwSsl8lUTU/mkcB5FcEnEjPRdbL7PB1PUSSMXtsfJzf6+sj1WUDQVmaekWl4GxNRMGWm7eHzAcAEssCujM00Sx7nTe+BAEAD+cUEpO8ff0XrDuXB7UjvwU2Kezu/aJKHE4AAIwDN/WwcLLF7k6NWFbunJZaEug5bw8bLo++LQfqUAbglh4Wkmtpb2qUvssNNY01BFoV98xtPYwdYQfbVAcvqIwPlR8t3gIyuMHKjOaMa0Op6Lc64FjGbPc4tJmaiESkgp1hB7oj/AQAoMwIXtOAEneF0wCG64AyxL2zDgcAvCkFUGEEhissXhFmaiK2qG6HbwSHkflQgAEAClRGgcq+MAAIBGBMID7A5OqjXbLJgwInVUYahgGgTXFRI/yxD3ieJjQ+Yr88EKnsnjLUhuF40MVGxTNUql3xAQDwSQrtbxfp+0PRcsuTeQWlhZeIADq0GjpXVc3PFHvyacIaAk8HiF1M8tatm0sTp9bRg+Bo4iAQCS8Zjvis6FV78uk11q8Z3yVOXyXONHB8ySUsqn//pX0HcvvOzUHUYN0AAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 12,
+                "height": 16,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "IRR",
+              "label": "Irrigation Only"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "0375d6a5e5b685277d90c1571aa00c2a",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABZUlEQVRIie3VMWsVURCG4Wc0pFAs7GyEgFqIlv4DW0ERAqnUwkK00EKSwigmhYggSsgPCAloYSFYpUgKG1ECacQmVUD7NEFRMWOxJ3BZs7nLem8h+MHCmRnme3fOHvaMGLJG/gPqSg4FX4cCSMbxzjAAyXWcDF715gcCSG5iFqfqtdaA5Aw2gp+1/B08w91gqxMgCSyoxn/Sk5/CY2xifq/ethNcwzmcTl4Gn5MHmCn16eB7J0ByBI9KeBhzySfcK7l1vGjqbzPBNI71xJfKs6vJIDsBkhOqj9ik5WB1P49+EzzFaFlv4WhPbQeTffqbAcl5XCzhh7J+j7GSWww+dgIkB/G8hG9xIdhOHqqO6zfc72feCMANnMUyLkdlCEuqbXkTfOkEyGqfZ/AaE8GP3Vqwk9zGWhvzpglmy5tfDX7Vi8FKW/M/AOV/cwBXojolf636BMeDW4Mw3hMQ1dYMVP/enVzXb84aSyFFy0BMAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 18,
+                "height": 18,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "LARGE",
+              "label": "Large Power Only"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "d17fdad6db55b6b13c35682df74bec05",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB4AAAAXCAYAAAAcP/9qAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACXElEQVRIie3VT4iVVRjH8c9579sdHCoXMmDgxlAwKGkR/i3FTa4igwJlkoiESBIa71UULEcRbfR1WtQqRMkgcLIIdCIiWmSpRW1aKJjgwsWAIqiDorf3fU+Ley/RIF7ujCGCPzicPzw/vpznOTwndZ+UPgR3qw30VdmKheiBwJcZQ/8beIDnEo7hDA7hKsTm/q6aNHgrMxqMBrKMfd36Jw1u8F7kl/2TgE4JjGUJhydrngq4p+T2/QBPSV2BNzGz4ImEc7F1Vmd+wc0ql4e4dk/Am5mV83JgJRYX9AYuBl5qgyPvJLyQ82SNscjphNHbHP+Y612BN9D3CNtK1gRGIyPYXqG3YPYtrlb/Df8pcirhr0gDz6C/yic1DgR2ZNzoCK4zP/ItviiYF1iBgcCikuuBsxV+bscHnsLiyDzMxI8YSjmfszvye53lGZfuCo4cDLyfcajG4cjywHBkzTAX23G11pzxQftsgDkJayNHcz7cz+u1pncP3uqU6rkp37TWqxLWZc1U/0eBH5IJrfEjzmP7RsrAK9hb8n2FLRP9d7rxkb/ZhXcj6/FZnTfxdcHp6ZwdJM/Y1vYMUh1v1nYJXsWzWL2eRxN2Rg52BKfUCr6qcbJkR8rckn70JwyP01trfgbth10ZZzquBH6LHE1Zm/PiNP6MjD7Opx3BexnHyjqvJQwWzIp8FxgJ7Cy5FWmk5JBTTekpeAxPY2nerPuvCW/s48RExh3B7Yy36jpSZzaejyyIrA7MCfSVLW9Co2QscA5/BI5UeLtTM+nYuTIuaI7PO8V2owejV99L/QNesLYxjGxcxgAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 22,
+                "height": 17,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "LIFT",
+              "label": "Lift Station"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "cf0b609303d2b76aad3f40e6e3a12318",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABY0lEQVQ4jb3Vv4rCQBAG8G9Ae4uFw1zpIyg2voLWNqmu0M7O1vPewFbrgJ2I3hukPC3sRQU5xSAWNooQv2tM8E9MTMSbbmZ3f8zuZkkML4zYv+IkS1ExEWndxUnWAXxGxUmWRCTjiQMoNRoNKKVCw5vNBpVKJU0yLSJDLxxKKei6DgDfAV6+3W7Dtm3oug7DMG4m+F1o3enAK0iyWq1iv987zYTCHaQA4PqSWwCW2Ww2eTgc7q71xUkWttttz7Ksi7pSykokEplOp9MDoAFIRul8uNvtVuv1+u0K/wDQdb4MkgMA6VC4iCxI/ozH4/x8Pnfrs9kMxWKxCaDvt/6RF1rO5XK/pmnCtm23OBqNPI8iFH7qvpxKpZrH49Gtx+Px1TN4n6SbaJp2PrYEAJKLU/7YhU4mE+dB+G37Zmw6nQbihVqtNvBBg+Lr/OFd4CIyJPkeVRaRxXl+cyzXE56Jl/4s/gDbR4tCUmXo+gAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 17,
+                "height": 14,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "M",
+              "label": "Main address"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "ac093af1600b92430372535f3ec0a87f",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFo0lEQVRIib2XWWxbRRSGv7mLr7fYzoKyE1qRNl1IqxYIiwAVCrSlFRRUiScQYhOoYntASAhUHhAv8MQDq9gkJBCLUKlARa2glK5KuqRpFkICIc3uxK33a197eLDr+NpJkUDq8YPvzD3//HP+c+aMrXGZTLvsRA+/sWP9mtb1Df9plUz+W52f6u4/gWIpXR/t+mLcRoRUdimIrSByQyQg8qPcDEUjiucVirxzT1IIMprcA2yzEV3bdj0z0Uli8RhJM4nLcJGyUmiqTjQRQVUU3E4vAsjKLEIoqEIlkYrhMjyYaRNFCKxMGq/bx3VtHSAln/KlXTqAofFBNq7ZRDJl4tAMHLrO4NgAHsODoTtpbVzGxOwEA6O9XNd2A2baJGHGicQitDWvZGhskFUt19A5eCyvyLwVEUkCniqOnD1EpbcSK5NBCHA6nMSSMTKODJ0Dx1GEgt9bSe9IDw7NIGWlsKwU54dD6KrO4d7fUBU1L7MsJ9KEzts7PyRtmfw5OcyS+qvRVb3gmIPNg+OpKONzY4QzIbrGjpCwEgVfj+7FPJe1pbRAZGHx7rE3afS1YIWy7D+5l6e3PU8ma/Henrc5/cdJHA6d1qblbOm4l6V1rVS4fOz9dQ8ev4ezkW7ORUYAqHLWsJabFpFOSvqDPfz85142t2xnYLQXkGSlZODvPk4NdQFwvO8ouw99y+uPvUXH8pt5fPNOXvrgOTrW3kow/jXJTAIkJRkqIsoKUaiocOoCUl4UjLKqjsQjfLb3Q9YsXYdTd3HbmtvpH+ml1lfPSHgYBIgSpqKILu6idC8LT81GZkmYCZy6C11zgLSfulJQgUgpvBD5z6WtoaoRj9ODRHJqsIu6pjp6pzsXRc5Ld6kgbNgs9dVNPLFtJ5qqse/kj7gDbrrDx1lZ285QcDAv2yLlPb+atI0UIVi37Fp8Hh9uw0Nby0o2rL0LTdPY1/cDPRdOcCZ5gtaalTy6/hnmkkG+OPUxhBeJqCCdsMejKCpbO7Zjpk0APG4PPpefYGSGWCJKhRGgtqKB3qluBoJnCSVmGY+OUUPTwkSFGKSwaWVlLF777GWO9R2yAQ3d4JWHXue+Gx9k36kf+aTrfQ7W7Kdr+iiVRjWlVn4fCQklnUoskF8zbfLpTx/Q0XYjG9duYvfBb5BzCm7VXZKdEqJsvsFcjOjfqg7g3PTfzEXn8LkDrFrSzsBoH1XNNcSsWBmTTTq5SEQLs0pURc03UJAyi0M3iGWiCAlC2ttDUTEU8IgyrRaOb0XLKqp9V5CRGU4PnWT5shV0xn7HrXvLYEUtKEevKw4CejXV/nDBV8hclMXIK2uv4tkHXsTlcPH90W8xDIOY8zxmOIlb99o6vY1IRbCl9X4a/M10njnOfTfvyDmoOo/d8zR+XyXh5HkqXdWsXtLOxnWbiCaifHXwc0LxWVpWN3Nk7EC+FZVrUCSdxuqadaStNBva7wQEIzPDSAlet59H7n7SJuRkaJxEOsGqpavpm+rBZTnZtiS3OZfuZnpkbmGitLR44Z2nSJhx4macCreP4NwMuq5T5a8hHL2A3xNgMjRBNmPh8/qJRMP4KvwkzSRSSiwrTVPdlcQiMe5av2XxYtBVjXvveIj+c2dJp9JUXVPNVHASh2agaAqjkyPc3bEFReQqNBqP4K8IEJwNkhFpJqYmuKV9Az8d+QF5sYrLiiGf7FA4RKW/ir9GhwlemGFp/dWMB8dQVEFDbSNJM8FMaJrG2iaEEEzMThBwBvD7/bgND5FEGCklQtjzVBSRoO6Keg73HADIXXwK9Px1el6C0EwB/ftoPzJ/VoJMwXg+eVlBc31L0W+8EqLfug/QdtUKWht88x1+oV5SXBH5MynsjR+Ag2d+sbnPS6cou6TkfRtgMZKSd3KhSzmbRWraeBnRV69+1wV0XWLp/2WX7d/EP6zsSgUfHGBCAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 19,
+                "height": 24,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "PARK",
+              "label": "Park"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "7ec225996a685653e4162c5c26f74b36",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAbCAYAAABMU775AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwUlEQVQ4je3RsQqCUBTG8f9gEb1HDa0FteUDRLX1JEFN+gAtre4+gdIcSBCEW0PR4GAZBkJBRDW1SEQaXV2i6FvP+Z1zuFciZaSPwnKxRnfvc9k59AFPCGbztJQxndUUVBkH0MJS7IA7vJ6YuXPI5KDdQwGUx8bABUunCRjPp3I+QqkOhWp0w3IClk4jFibJN8NgDQc/2rhZvIGjIRgDTOL/z3wJw2iEzy58qmj+8PegrcrYwBawk0APqKTZmCip4Q0ktjAJVg+1fgAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 20,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "PRE",
+              "label": "PreAddress"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "c36be7ef8b78176ea0e40912c51dbca6",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAb0lEQVQokWNhIBOwUKzxfyhDFAMDgxxe1UwMBxhXMpxAtzGNgYHBHq/GfwyVDAyYGkkC6BqfMjAwvMGhVhGfxg7G1QxTsOn6H8qwBZ9GosEQ1XiBARKquMBlBgaGRxgaGVczFOCzgXE1QyUuG0kCAOm9EopiiiZjAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 10,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "SIGN",
+              "label": "Sign"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6c05cefdf25bde7d07129101f8bf808f",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABJklEQVQ4jcXUTSuEURjG8R9mFlMiKYoNpbyVkrKjrLCxoWZhIyUpG/IBLFlYSaylZEfJhxDlZWMn1lKKSTHD4jlpmsbMPCRXnbrvu/uc6386Lwn/rMQP56XQgiSqQ+0F9/j4a4AUjrCL11DrwCBOA9Q2Hv4CoAZzuMAhnjGJNA6whkZsYBPnvwVoxxB60YpO1KMOY8iFniSWMBPmNWAKd3jHW4hXcV0OoAoLWER3CbjmgjyFpoJaT148EEAnygGMYquE8W/Ujz5clQJYL8hPRLsb+YHhMZ4wHfJMWOtLxQDS6ArxDs5EZ96G5RjmK8EwI3od43gsbCoGcBMG1AaILGZFN79S3YpeQgvmi5l/B5CvPeyLPpdcDHO4xHC5pkr+gWxM41j6BA2UM3TIO7OCAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 24,
+                "height": 9,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "SPC",
+              "label": "Space"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "95a05ceb4e6c46e915739ee5f4f96d73",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABUklEQVQ4jb2VPWoCURSFv+tfJXYimgWkszBZhIVmB4Io6B5s4jYcdAVW/oAuIrHWDUwQBFsL5aSIQzI4OupgDkwxc+673zzuu/cleLAS/w6QVIiS0MzcswBJVWAcBSCpbWZOIAAYMxrBdntf9ngcarWepKm3k9MabLdQrwN8haTLA7DbQSwGqRT0+ydBZ4tsZhdrIanLZvNONgvPz7BcBsZddYqiFD4UIGkCVAKsJzKZFrNZnnT6PoCkKlKFwcBvxGLQaFRIpV4plz1472aAmU0kOTSbLQ4Hv7nfty2ZdADn+DO3A45yWK9bzOf+r7lcSVLXzLqXFocCzOxT0pRSqcJi8Wus1zAc5sPWXzuL2hSLHxSL3rvLT5+E9cp5gCT3nAcUjs+LpNZtANf1OjJ0+ydarUIBbTqdwNNwg97+TlQfwMwcSdMo2S+O66CAqHr4jfYNaABzxWLU/PYAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 18,
+                "height": 15,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "TEMP",
+              "label": "Temporary Address"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "2ff12063dbba37140c9a939b439b9766",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAYAAABGiCfwAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACT0lEQVRIie3VP2gTYRjH8e9zia10EKEoUpK26iIU8Q/UpmkEobi4CBXSHGp1EMXFuXGwgyI4OCg6CKIoxItZRAdHF2muMUvpII7Vw1JNBUvVStvc45AU0iRXc1E7+VuO955738+9vA+8QTYwwf9YZfrSjIrydsLkxT/HgCMqAH8Zi1gMIyRRFsRgHkCVg0BX/1Ni5fEOIOi2MPhmiC9NYwiXgH0IqK6pbFNlT+WLwBImcKchLJqiSwNcVggDofJz629/qByFW5E0ScARwXFdpnImV+ti34rMtQU5hhIqbcp3DKAD6FClzzD4VFlcg02N8D2aIuYGuYhyujyxmYwLpJe+cs8TA8ie5D0wOmBxuyjkfYIKPJlIcKpe0bNBxk1m+jPsVZePwOYGsWdeUA0WsehGuAJ0AmF1CfuAAIYiFnMqOCJ8UGUyl2CsLvZjmUJbK0dXG6SpCO0C7Sj7DcGpLNU0SK9F1BDOCZyltEP/nvBKId26nYeeGEDexAHGoo+567aQBXb7cFyB+/YwF+oVPRskO8LnWIrelQAz+GgQO1EfqsEOZdhpuFwTCCuEViAEbGoQAjgRSTMv4KjgiDJpJ0jWxQIwqxBV6PYBVGeLQg9KjwvvKgtrMDvOYm+G/kCRMyKcV9jVJPhSBatTsHJeGEA+zixw43CGB8suNs00SPncclVFzwZ5Hacw8JwDxZ88EmhRpUDpFhis+vSmSOmqUZesbXLda81177Px4ywAQ6vjiEU3VecpAXJ2nMX11mkIq86EyTQw7WdO09ifZkOxX7BIuJX7j+FBAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 20,
+                "height": 19,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "TLITE",
+              "label": "Traffic Light"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "b45738994647a70a1e49b0c879536705",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAXCAYAAAA/ZK6/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABIElEQVQ4jb3TzytEURTA8Q/GjmLFAgtmYWODpERZWEiKolHyp1j4F/wTkoUoCyaxYcWGFUV+lFB2pGaYsXh3ND3vTVlw6nbPufd87z3n3HMzfimZfwea8IoeNOASjSimAYcYxzJaMI99jCUBbejELDZQh0X0ox2PceAJb3jBTlibQ6HinBTSZMijIg+YrnaIAxcYrLLLOK4FwBBOgj4Q9NQqdeBIVJ0MdtGL8zSgK4TQJyrrNYZrhVSPBWzjA0u4rQWMYBXvwV7DCg7SgBuMYi/YM7gTPWI5DrTiDM/IoRl5lNCNqziQxWlwKIT5PsyjSUA5jKlwclHUV1v4TMqhLGqNfLgBNjEhavkfQFbUpaWqtZLo8XJJwLp0+d77+z/9BaVoQf9IZaQ2AAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 9,
+                "height": 17,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "TOWER",
+              "label": "Tower"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "867f060e2d34ab1a4fc0c6008c49d12e",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAaCAYAAABPY4eKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVRIie3WsUuUcRzH8del3dBgONQot5lgkQUJQjQIbjqICPU3qEOOkThkNFTg1hRK0CDYkKggbQlCoA1Sg0GEt9Z2xzl5Ds9zcOk9z3OPD0819Jme5/t+fp/3j9+z/Dr9xXT+l4e5iBe4moPrGK/xIUp+E9M5iBu5HCfvaLWiGO7oHipYwlYKHtWf+M8v4SNuNc3u4wket8HjkiifO1XcyCOsYTyBf8oiH4uYF0KWxDPJCzHsQhs8LonydVxrMa8LjrWYwDPJ5zGC66fmL4tUelmqMvL9LH+OnazyCu7gIe6G719HmXjGg+7gm8+7bE5z40fA3+B9UnE7cjjC0/B5cJB3ryg0/eyB23S/ZXiYWq2dxhTy5szO/i5upFRicpLl5RzlPT3RrFRK15VaXi5Hb+DwMGf54iJDQ2ePvlxmZSVn+fY2MzMsLNDVFcz295maolrNWQ6rq2xs0NcXCA8OqNfT95z7JlOrsbd33tWt5b+y1SXmZ5z8G/pxJQdxHbtxcviSg7hl/qnb6x/NCexuWRgOwGJPAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 23,
+                "height": 19,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "TPED",
+              "label": "Pedestrian Crossing"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "ec1c655db31b717caf6cadffcdecca77",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyklEQVQ4je3SMU5CQRDG8d8qFGJHwSWksfAUFCZWFLSU3oTW1oRg4gWI9jbEE5CghS0JHTEKxjyLt8Wy7xUGLJ1kkvlmdv4zyWzDgdb4M0DBEJdRbgNXSa2D26TvJvCYb3CGXow32aBWUoNpZYN97R+wC/hI8wXNwFfUrazvsw4wT+Jj9DGJup8BFnWAB7zjNOpxwTVO0E3eveK5Agis4m+8w1GZcpFNXmMQ+K7bQOC+4E05+RxtNLHEE0aBl7SncoXATOm/soPP+APBRCKyktrbGQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 12,
+                "height": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "UTIL",
+              "label": "Utility address"
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "8d86047e448754d4e5824764ac401347",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAYCAYAAAD3Va0xAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACXElEQVQ4jdXUT0gUURwH8O97M/PWnZ1R1y1r+yeBh7wURmFFIJgYEYaBhzolQbcSJgg1shYKt1Nbi7ciQqpDhOAhDyIRRUgSQXlIKChEvfh3d8d5uzM787rEojbbH+1Qv8vjPX6/D++9H+/J+Esh/3/Q2R6z8/5l7ea6oKaYdapSyRsA1gdtD3jdjIqIcStVnbhY9nlN0OFue8+OAK8ZWgiQfZrdB+DQmqBdqj0wmmFk1GRoLM/VnYubbXe7tAd/BDVdtS5VBeyqhzMqHEHweEalbZuW7rVeN6efdmtDvwVVx0Tp3lDmxsB8EFmPAAA+ZWU8mVWllgr+zIrxI4Ox4MtfQrUy70+7hL012Yr190sKhIDcHMkOZ2P2gecx9q4o1HglV1Mb4g13pjW/3eODpSBIhdJQxl9Fk3PRR+2RtC+0NeQkP1oKmc9T1JfmUKl4GFoMIOXSQs4bk2FnSV4td2kfgBZfKCq7B/vnVeiSwMkIBwCMWQpSnC5Pw3CqBEbUPFb0aBWKCH3NSnAEQdql8AQQkd3VaZh1KFwBOZmc29beHpn8ASLfRwGgZ1IvdM0vuCAkTEThMldAaZfyzcwLTuSknyISgLDkeZYlpnyhGYe+rtPsxolcsCgCALWajQWPjsc7NmZ8IZmQM7tDzpcxS2Hj3P/1RJmL5jDnCqOtK2qXT3o7QtPn45mjpzcsDY6YgeBImhVar0sC+3Ub9XouZQvpxLUL+nhRCAB6u/QXicTClhrVuV2n2ccZgSYA5AUy3CP9pdTrNIyyxdV1vvs3jPAigDbfsxWJf+/z/waxveFq1ymqJwAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 13,
+                "height": 18,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "WATER",
+              "label": "Water Only"
+            }
+          ],
+          "fieldDelimiter": ",",
+          "authoringInfo": {
+            "colorRamp": {
+              "type": "multipart",
+              "colorRamps": [
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    0,
+                    112,
+                    6,
+                    255
+                  ],
+                  "toColor": [
+                    241,
+                    252,
+                    30,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    241,
+                    252,
+                    30,
+                    255
+                  ],
+                  "toColor": [
+                    250,
+                    58,
+                    10,
+                    255
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "scaleSymbols": false,
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelExpression": "[STNUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterRight",
+            "deconflictionStrategy": "dynamicNeverRemove",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO NOT IN ( 'APT' , 'STE' )",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Default",
+            "priority": 2,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 3,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": [
+                225,
+                225,
+                225,
+                255
+              ],
+              "haloSize": 2,
+              "font": {
+                "family": "Arial",
+                "size": 11,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          },
+          {
+            "labelExpression": "\"APT-#\" CONCAT [APT_NUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "deconflictionStrategy": "none",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO LIKE   'APT' ",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 1130,
+            "name": "Apt",
+            "priority": 4,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "left",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 4,
+              "yoffset": -6,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Consolas",
+                "size": 9,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          },
+          {
+            "labelExpression": "\"STE-#\" CONCAT [APT_NUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "deconflictionStrategy": "none",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO LIKE   'STE' ",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 1130,
+            "name": "STE",
+            "priority": 6,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "left",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 4,
+              "yoffset": -6,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Consolas",
+                "size": 9,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          }
+        ]
+      },
+      "hasM": true,
+      "hasZ": true,
+      "enableZDefaults": false,
+      "supportsVCSProjection": true,
+      "allowUpdateWithoutMValues": false,
+      "allowGeometryUpdates": true,
+      "allowTrueCurvesUpdates": true,
+      "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+      "hasAttachments": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "objectIdField": "OBJECTID",
+      "globalIdField": "",
+      "displayField": "STNAME",
+      "typeIdField": "MISC_INFO",
+      "subtypeField": "",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null,
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "modelName": "OBJECTID"
+        },
+        {
+          "name": "LOCID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LOCID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "LOCID"
+        },
+        {
+          "name": "MISC_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "MISC INFO",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "MISC_INFO"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 33,
+          "defaultValue": null,
+          "modelName": "ADDRESS"
+        },
+        {
+          "name": "STNUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "Street Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "STNUM"
+        },
+        {
+          "name": "STPREFIX",
+          "type": "esriFieldTypeString",
+          "alias": "Street Prefix",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "STPREFIX"
+        },
+        {
+          "name": "STNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Street Name",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 22,
+          "defaultValue": null,
+          "modelName": "STNAME"
+        },
+        {
+          "name": "STTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Street Type",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "STTYPE"
+        },
+        {
+          "name": "APT_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "Apt Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "APT_NUM"
+        },
+        {
+          "name": "ZONE_",
+          "type": "esriFieldTypeString",
+          "alias": "City Limit?",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "ZONE_"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "ZIP"
+        },
+        {
+          "name": "EX_ADD",
+          "type": "esriFieldTypeString",
+          "alias": "Extended Address",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "EX_ADD"
+        },
+        {
+          "name": "ZONE_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "ZONE_LINK"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 75,
+          "defaultValue": null,
+          "modelName": "SUBNAME"
+        },
+        {
+          "name": "SUBDIV_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "SUBDIV_LINK"
+        },
+        {
+          "name": "STR",
+          "type": "esriFieldTypeString",
+          "alias": "Section Township Range",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "STR"
+        },
+        {
+          "name": "PARCELID",
+          "type": "esriFieldTypeString",
+          "alias": "PARCELID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 12,
+          "defaultValue": null,
+          "modelName": "PARCELID"
+        },
+        {
+          "name": "FLD_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "Flood zone",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 17,
+          "defaultValue": null,
+          "modelName": "FLD_ZONE"
+        },
+        {
+          "name": "SiteCity",
+          "type": "esriFieldTypeString",
+          "alias": "Site City",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 30,
+          "defaultValue": null,
+          "modelName": "SiteCity"
+        },
+        {
+          "name": "SiteState",
+          "type": "esriFieldTypeString",
+          "alias": "Site State",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 2,
+          "defaultValue": null,
+          "modelName": "SiteState"
+        },
+        {
+          "name": "SiteZip",
+          "type": "esriFieldTypeString",
+          "alias": "Site Zip",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "SiteZip"
+        },
+        {
+          "name": "TotalSqFt",
+          "type": "esriFieldTypeInteger",
+          "alias": "TotalSqFt",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "TotalSqFt"
+        },
+        {
+          "name": "YearBuilt",
+          "type": "esriFieldTypeInteger",
+          "alias": "YearBuilt",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "YearBuilt"
+        },
+        {
+          "name": "EffectiveA",
+          "type": "esriFieldTypeInteger",
+          "alias": "Effective Age",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "EffectiveA"
+        },
+        {
+          "name": "Lot_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Lot Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "Lot_Number"
+        },
+        {
+          "name": "Block_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Block Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "Block_Number"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "STATE"
+        },
+        {
+          "name": "ZONING",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "ZONING"
+        },
+        {
+          "name": "SUB_HTEID",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision ID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "HTEID"
+        },
+        {
+          "name": "IMPACT_FEES",
+          "type": "esriFieldTypeString",
+          "alias": "Impact Fees",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 35,
+          "defaultValue": null,
+          "modelName": "LABEL"
+        },
+        {
+          "name": "FIRE_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "Fire Dist",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "FIRE_DIST"
+        },
+        {
+          "name": "DEV_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "Development District",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "DEV_DIST"
+        },
+        {
+          "name": "ASBUILT_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Asbuilt Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 75,
+          "defaultValue": null,
+          "modelName": "ASBUILT_LINK"
+        },
+        {
+          "name": "TAZ_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TAZ Zone",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 15,
+          "defaultValue": null,
+          "modelName": "TAZ_ZONE"
+        },
+        {
+          "name": "VOTING_WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Voting Ward",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "VOTING_WARD"
+        },
+        {
+          "name": "TRASH_DAY",
+          "type": "esriFieldTypeString",
+          "alias": "Trash Day",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "TRASH_DAY"
+        },
+        {
+          "name": "UTILITY_BILL",
+          "type": "esriFieldTypeString",
+          "alias": "Utility Bill",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "UTILITY_BILL"
+        },
+        {
+          "name": "E_SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "Electric Service",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "E_SERVICE"
+        },
+        {
+          "name": "W_SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "Water Service",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 100,
+          "defaultValue": null,
+          "modelName": "W_SERVICE"
+        },
+        {
+          "name": "LAND_USE",
+          "type": "esriFieldTypeString",
+          "alias": "Land Use",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "LAND_USE"
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null,
+        "editable": true,
+        "nullable": true,
+        "defaultValue": null,
+        "modelName": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R170_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "datesInUnknownTimezone": false,
+      "dateFieldsTimeReference": {
+        "timeZone": "UTC",
+        "respectsDaylightSaving": false
+      },
+      "preferredTimeReference": null,
+      "types": [
+        {
+          "id": "ANC",
+          "name": "Ancillary",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Ancillary",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "ANC",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "BLDG",
+          "name": "Building",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Building",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "BLDG",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "BSMT",
+          "name": "Basement",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Basement",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "BSMT",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "CABLE",
+          "name": "Cable",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Cable",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "CABLE",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "CONT",
+          "name": "Contamination",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Contamination",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "CONT",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "DP",
+          "name": "Detention Pond",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Detention Pond",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "DP",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "ELEC",
+          "name": "Electric Only",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Electric Only",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "ELEC",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "FENCE",
+          "name": "Fence",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Fence",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "FENCE",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "IRR",
+          "name": "Irrigation Only",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Irrigation Only",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "IRR",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "LARGE",
+          "name": "Large Power Only",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Large Power Only",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "LARGE",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "LIFT",
+          "name": "Lift Station",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Lift Station",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "LIFT",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "M",
+          "name": "Main address",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Main address",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "M",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "PARK",
+          "name": "Park",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Park",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "PARK",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "PRE",
+          "name": "PreAddress",
+          "domains": {},
+          "templates": [
+            {
+              "name": "PreAddress",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "PRE",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "SIGN",
+          "name": "Sign",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Sign",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "SIGN",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "SPC",
+          "name": "Space",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Space",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "SPC",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "TEMP",
+          "name": "Temporary Address",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Temporary Address",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "TEMP",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "TLITE",
+          "name": "Traffic Light",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Traffic Light",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "TLITE",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "TOWER",
+          "name": "Tower",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Tower",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "TOWER",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "TPED",
+          "name": "Pedestrian Crossing",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Pedestrian Crossing",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "TPED",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "UTIL",
+          "name": "Utility address",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Utility address",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "UTIL",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        },
+        {
+          "id": "WATER",
+          "name": "Water Only",
+          "domains": {},
+          "templates": [
+            {
+              "name": "Water Only",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "LOCID": null,
+                  "W_SERVICE": null,
+                  "MISC_INFO": "WATER",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null,
+                  "LAND_USE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        }
+      ],
+      "templates": [],
+      "maxRecordCount": 2000,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "supportedExportFormats": "sqlite,filegdb",
+      "capabilities": "Query",
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "standardMaxRecordCount": 32000,
+      "tileMaxRecordCount": 8000,
+      "standardMaxRecordCountNoGeometry": 32000,
+      "maxRecordCountFactor": 1,
+      "serviceItemId": "5f15b7c3b6fb4761b1f658020d8aab4a"
+    },
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 5,
+      "name": "DEMO Address",
+      "type": "Feature Layer",
+      "parentLayer": null,
+      "defaultVisibility": false,
+      "minScale": 5000,
+      "maxScale": 0,
+      "canScaleSymbols": false,
+      "geometryType": "esriGeometryPoint",
+      "description": "",
+      "copyrightText": "",
+      "editFieldsInfo": null,
+      "ownershipBasedAccessControlForFeatures": null,
+      "syncCanReturnChanges": false,
+      "relationships": [],
+      "isDataVersioned": false,
+      "isDataArchived": false,
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "isDataBranchVersioned": false,
+      "isDataReplicaTracked": false,
+      "isCoGoEnabled": false,
+      "supportsRollbackOnFailureParameter": true,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportsValidateSQL": true,
+      "supportsCoordinatesQuantization": true,
+      "supportsQuantizationEditMode": true,
+      "supportsCalculate": true,
+      "supportsASyncCalculate": true,
+      "supportsDatumTransformation": true,
+      "advancedQueryCapabilities": {
+        "supportsPagination": true,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDistance": true,
+        "supportsReturningQueryExtent": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsQueryWithResultType": true,
+        "supportsReturningGeometryCentroid": false,
+        "supportsSqlExpression": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsQueryAnalytic": true
+      },
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "advancedEditingCapabilities": {
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ],
+        "supportsAsyncApplyEdits": true
+      },
+      "hasMetadata": true,
+      "extent": {
+        "xmin": 6.288290023803711e-05,
+        "ymin": 8.155405521392822e-05,
+        "xmax": 678678.8149466366,
+        "ymax": 772949.7399401367,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "MISC_INFO",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "d1dfa711eed6c8290067fcd8ff030d17",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADeUlEQVRIie2WX2hTVxzHP7+bmzRdU71ra7qAzIIwOigFNxUfhCkOwVHdKIUVZIW+TApDH/a0BGyls/5hbO5hFKZSh4papm4rY08Wpqwt+CRMStXRh1IQapeGmzY1SfPbQ5osvdzcZiJjD/s+nfP7/c7vc8+55/zOMfmXZf4PLEhVXwMOAW8DESAIPAUeASMi8uClAFX1DWAAaAekTFi/qv4OxETkpxcGquonwFeVfBjQAvyoqj8AH4lI8h8BVfUL4NMKQE59APymqntEJF4RUFU/rgSm6TSLZ85Q3d2Nb/PmUlcrMKyqB0Qk6wlU1deBr9eDZScnsWMxak+ccMIKehc4CnzpCQT6ye/Aslq+dQu7r4/6O3cwNm3yCo2p6kURSbgCVXUD0OmVIXn6NHY0ivj9qG2DN7AO6AAuugKBA0DAbaSm0ySOHCF16VKxb8diWNeueQEB3vcCbnMbkZufJ97eTvru3TX21I0b1J46ha+pyQu4JqcTGHFGZ6emiLe1kX3yZI3dsCw2XriwHgygUVVFRNQN6C/tpEdHiXd0kIuvPU6GZWFdvkxVWxsAS+fPF+1iWVTt3QtmMbUJ+ICsG/BpoZG6epWF7m7IZIpOCYWoHRig+vBhFrq6COzbh1RXkzx5EiMc5tXbt0kNDeFvbcVobCwMmys9i07go0IjMzEBmQz+nTsxt24FyP+vLVvy7ePHsXt72XD2LBIKocvL5ObmwO9Hl5ZKcz4u7TiBPxcdzc280tODmCbp+/cJbN+OYVlkHz5EFxcx6uvxRSI827EDX1MTUlPDs235/RFcXepVjZQFisiMqv4KvONrbmZlZgaCQRrGx7GjURbPncPu6wMgFI2SnpigYWyM56OjLI+MENi9G81kwOcrLhQw7DVDgM+AscCuXeRmZ8kl8kXCqKvDaGggPD0NgCaTZKemwO/HiERgZYX6e/ecub4VkWlPoIiMq+qg1NT0BDs7SXR1MX/zJkY4jHXlChL4uy6YLS38uX8/mCYbBwedqaaBXqex3PV0DHhTAoE91vXrZUKgdnV5XZQADonIfEVAEcmo6nvAEPBhWaK7/gAOisikm7PsBSwiKaBTVX8BPgdc76ASPQe+AfpFZKFc0LpPBxH5TlWHgYPkC/Fb5EtgFflC8Zj8cfpeRGbXy1fRq211tsM4tviL6L/7Ln1Z+gt4mSN6vNjJCQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 21,
+                "height": 21,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "DEMO",
+              "label": "DEMO"
+            }
+          ],
+          "fieldDelimiter": ",",
+          "authoringInfo": {
+            "colorRamp": {
+              "type": "multipart",
+              "colorRamps": [
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    0,
+                    112,
+                    6,
+                    255
+                  ],
+                  "toColor": [
+                    241,
+                    252,
+                    30,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    241,
+                    252,
+                    30,
+                    255
+                  ],
+                  "toColor": [
+                    250,
+                    58,
+                    10,
+                    255
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "scaleSymbols": false,
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelExpression": "[STNUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterRight",
+            "deconflictionStrategy": "dynamicNeverRemove",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO NOT IN ( 'APT' , 'STE' )",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Default",
+            "priority": 1,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 3,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": [
+                225,
+                225,
+                225,
+                255
+              ],
+              "haloSize": 2,
+              "font": {
+                "family": "Arial",
+                "size": 11,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          },
+          {
+            "labelExpression": "\"APT-#\" CONCAT [APT_NUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "deconflictionStrategy": "none",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO LIKE   'APT' ",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Apt",
+            "priority": 3,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "left",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 4,
+              "yoffset": -6,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Consolas",
+                "size": 10,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          },
+          {
+            "labelExpression": "\"STE-#\" CONCAT [APT_NUM]",
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "deconflictionStrategy": "none",
+            "allowOverlapOfFeatureInterior": "exclude",
+            "removeDuplicates": "none",
+            "stackLabel": false,
+            "where": "MISC_INFO LIKE   'STE' ",
+            "useCodedValues": true,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "STE",
+            "priority": 5,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "left",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 4,
+              "yoffset": -6,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Consolas",
+                "size": 10,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              }
+            }
+          }
+        ]
+      },
+      "hasM": true,
+      "hasZ": true,
+      "enableZDefaults": false,
+      "supportsVCSProjection": true,
+      "allowUpdateWithoutMValues": false,
+      "allowGeometryUpdates": true,
+      "allowTrueCurvesUpdates": true,
+      "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+      "hasAttachments": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "objectIdField": "OBJECTID",
+      "globalIdField": "",
+      "displayField": "STNAME",
+      "typeIdField": "MISC_INFO",
+      "subtypeField": "",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null,
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "modelName": "OBJECTID"
+        },
+        {
+          "name": "LOCID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LOCID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "LOCID"
+        },
+        {
+          "name": "MISC_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "MISC INFO",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "MISC_INFO"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 33,
+          "defaultValue": null,
+          "modelName": "ADDRESS"
+        },
+        {
+          "name": "STNUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "Street Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "STNUM"
+        },
+        {
+          "name": "STPREFIX",
+          "type": "esriFieldTypeString",
+          "alias": "Street Prefix",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "STPREFIX"
+        },
+        {
+          "name": "STNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Street Name",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 22,
+          "defaultValue": null,
+          "modelName": "STNAME"
+        },
+        {
+          "name": "STTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Street Type",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "STTYPE"
+        },
+        {
+          "name": "APT_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "Apt Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "APT_NUM"
+        },
+        {
+          "name": "ZONE_",
+          "type": "esriFieldTypeString",
+          "alias": "City Limit?",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "ZONE_"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 20,
+          "defaultValue": null,
+          "modelName": "ZIP"
+        },
+        {
+          "name": "EX_ADD",
+          "type": "esriFieldTypeString",
+          "alias": "Extended Address",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "EX_ADD"
+        },
+        {
+          "name": "ZONE_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "ZONE_LINK"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 75,
+          "defaultValue": null,
+          "modelName": "SUBNAME"
+        },
+        {
+          "name": "SUBDIV_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "SUBDIV_LINK"
+        },
+        {
+          "name": "STR",
+          "type": "esriFieldTypeString",
+          "alias": "Section Township Range",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "STR"
+        },
+        {
+          "name": "PARCELID",
+          "type": "esriFieldTypeString",
+          "alias": "PARCELID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 12,
+          "defaultValue": null,
+          "modelName": "PARCELID"
+        },
+        {
+          "name": "FLD_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "Flood zone",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 17,
+          "defaultValue": null,
+          "modelName": "FLD_ZONE"
+        },
+        {
+          "name": "SiteCity",
+          "type": "esriFieldTypeString",
+          "alias": "Site City",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 30,
+          "defaultValue": null,
+          "modelName": "SiteCity"
+        },
+        {
+          "name": "SiteState",
+          "type": "esriFieldTypeString",
+          "alias": "Site State",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 2,
+          "defaultValue": null,
+          "modelName": "SiteState"
+        },
+        {
+          "name": "SiteZip",
+          "type": "esriFieldTypeString",
+          "alias": "Site Zip",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "SiteZip"
+        },
+        {
+          "name": "TotalSqFt",
+          "type": "esriFieldTypeInteger",
+          "alias": "TotalSqFt",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "TotalSqFt"
+        },
+        {
+          "name": "YearBuilt",
+          "type": "esriFieldTypeInteger",
+          "alias": "YearBuilt",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "YearBuilt"
+        },
+        {
+          "name": "EffectiveA",
+          "type": "esriFieldTypeInteger",
+          "alias": "Effective Age",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "modelName": "EffectiveA"
+        },
+        {
+          "name": "Lot_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Lot Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "Lot_Number"
+        },
+        {
+          "name": "Block_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Block Number",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "Block_Number"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 255,
+          "defaultValue": null,
+          "modelName": "STATE"
+        },
+        {
+          "name": "ZONING",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "ZONING"
+        },
+        {
+          "name": "SUB_HTEID",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision ID",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 10,
+          "defaultValue": null,
+          "modelName": "HTEID"
+        },
+        {
+          "name": "IMPACT_FEES",
+          "type": "esriFieldTypeString",
+          "alias": "Impact Fees",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 35,
+          "defaultValue": null,
+          "modelName": "LABEL"
+        },
+        {
+          "name": "FIRE_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "Fire Dist",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "FIRE_DIST"
+        },
+        {
+          "name": "DEV_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "Development District",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "DEV_DIST"
+        },
+        {
+          "name": "ASBUILT_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "Asbuilt Link",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 75,
+          "defaultValue": null,
+          "modelName": "ASBUILT_LINK"
+        },
+        {
+          "name": "TAZ_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TAZ Zone",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 15,
+          "defaultValue": null,
+          "modelName": "TAZ_ZONE"
+        },
+        {
+          "name": "VOTING_WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Voting Ward",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "VOTING_WARD"
+        },
+        {
+          "name": "TRASH_DAY",
+          "type": "esriFieldTypeString",
+          "alias": "Trash Day",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "TRASH_DAY"
+        },
+        {
+          "name": "UTILITY_BILL",
+          "type": "esriFieldTypeString",
+          "alias": "Utility Bill",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "UTILITY_BILL"
+        },
+        {
+          "name": "E_SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "Electric Service",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 25,
+          "defaultValue": null,
+          "modelName": "E_SERVICE"
+        },
+        {
+          "name": "W_SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "Water Service",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 100,
+          "defaultValue": null,
+          "modelName": "W_SERVICE"
+        },
+        {
+          "name": "LAND_USE",
+          "type": "esriFieldTypeString",
+          "alias": "Land Use",
+          "domain": null,
+          "editable": true,
+          "nullable": true,
+          "length": 50,
+          "defaultValue": null,
+          "modelName": "LAND_USE"
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null,
+        "editable": true,
+        "nullable": true,
+        "defaultValue": null,
+        "modelName": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R170_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "datesInUnknownTimezone": false,
+      "dateFieldsTimeReference": {
+        "timeZone": "UTC",
+        "respectsDaylightSaving": false
+      },
+      "preferredTimeReference": null,
+      "types": [
+        {
+          "id": "DEMO",
+          "name": "DEMO",
+          "domains": {},
+          "templates": [
+            {
+              "name": "DEMO",
+              "description": "",
+              "prototype": {
+                "attributes": {
+                  "W_SERVICE": null,
+                  "LAND_USE": null,
+                  "LOCID": null,
+                  "MISC_INFO": "DEMO",
+                  "ADDRESS": null,
+                  "STNUM": null,
+                  "STPREFIX": null,
+                  "STNAME": null,
+                  "STTYPE": null,
+                  "APT_NUM": null,
+                  "ZONE_": null,
+                  "ZIP": null,
+                  "EX_ADD": null,
+                  "ZONE_LINK": null,
+                  "SUBNAME": null,
+                  "SUBDIV_LINK": null,
+                  "STR": null,
+                  "PARCELID": null,
+                  "FLD_ZONE": null,
+                  "SiteCity": null,
+                  "SiteState": null,
+                  "SiteZip": null,
+                  "TotalSqFt": null,
+                  "YearBuilt": null,
+                  "EffectiveA": null,
+                  "Lot_Number": null,
+                  "Block_Number": null,
+                  "STATE": null,
+                  "ZONING": null,
+                  "SUB_HTEID": null,
+                  "IMPACT_FEES": null,
+                  "FIRE_DIST": null,
+                  "DEV_DIST": null,
+                  "ASBUILT_LINK": null,
+                  "TAZ_ZONE": null,
+                  "VOTING_WARD": null,
+                  "TRASH_DAY": null,
+                  "UTILITY_BILL": null,
+                  "E_SERVICE": null
+                }
+              },
+              "drawingTool": "esriFeatureEditToolPoint"
+            }
+          ]
+        }
+      ],
+      "templates": [],
+      "maxRecordCount": 2000,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "supportedExportFormats": "sqlite,filegdb",
+      "capabilities": "Query",
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "standardMaxRecordCount": 32000,
+      "tileMaxRecordCount": 8000,
+      "standardMaxRecordCountNoGeometry": 32000,
+      "maxRecordCountFactor": 1,
+      "serviceItemId": "5f15b7c3b6fb4761b1f658020d8aab4a"
+    }
+  ],
+  "tables": []
+}

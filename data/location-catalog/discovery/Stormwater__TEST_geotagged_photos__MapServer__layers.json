@@ -1,0 +1,311 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "geotagged_photos",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326,
+        "vcsWkid": 115700,
+        "latestVcsWkid": 115700,
+        "xyTolerance": 8.983152841195215e-09,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -400,
+        "falseY": -400,
+        "xyUnits": 999999999.9999999,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "sourceHeightModelInfo": {
+        "heightModel": "ellipsoidal",
+        "vertCRS": "WGS_1984",
+        "heightUnit": "meter"
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "fa7889bf1a88f3e62f9912fcfc355f58",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADwElEQVRIidWXT2/TSBjGHyctyXBzKAIHIZH4UBCc1tlLVfgELpcqf6ze9uB+DJKPQQ7cih2XHNiUG1dOxPSSKIqEEwSqI0TJRCto0k3k2QN1iJ04KU1Xq31uHs/4977z53nHK/gPtfK/gmuaFufCV2QAYMyJAwADZzLOsXcyGfPS4XuGIYURlsCgRklEigsCAIAQAgCw7Q4A4HnpRYdjqIANC4qi2EvDdaOsOozlk8k7gigmEOP5qT4P7t8DAHQpFSyrrVqttqqV9gtKNp2/EHzPMKSQw+UF4ab84P69mVC/YjyPWIqHKCZQqzee6KWynMtup34J7oJFMSn/nvptIXRWEI82N/C2+k7SS+VqUAAz4cuAJ3U2XtL0/YqSS28thOtGWRWEm0uDJwOgtCfrRlnNZbaLgfA9w5AcxvLuBgrS8NhE98/pmYw9rmJ1TZpqf7i5gZeVV08BBMPDCEvJ5B1h0eb6+9MBAODGH2zc9vkZh9FXcyackCjEZAL+7L3TzqCKYmJq8OdnnAd2+qniaXfVbxZB1tWZAYtiAq3WBxUT2Y/hmqbFoyQi+bOeBPhhfg2PTU+fyZmJ8TyiJCJpmhZ3DWgM58JXZNe5/HI/Mvnh1TUJK9ckkHUVo68mvh0W4JzMNzWe5zEYnMo4y/5c9urPeHVNQuxxFf1mEd8PCwhdFXA9d4Qv+q25AZBo1PM8hjPmxF2vXqSVaxL6zSL+erPrCShyW0a/WQwcRwgZFyMP/FdE1lV8Pyx42k4/HoDcVefC/fqZOTjTtjtYdMYBjI+Uu+uBH5mPjudX1C6lYODGnX7COWdhCXT17bCA67kjhK4KOP14gNW1Hxuv93rKQT0a9Acezhi+k8mYz0svOl1KF5qMc2Lji34LkdsyyF0Vo2MTvddbGM7JvEspKO2ZO9nMdOYAwDFULKutxlKLy6dzYqPfLJ57jS2rDcaYJzqfww0LVqutTl4aJo3ioupSivetdoeFnGBvVxTF1kr7hVq98eTR5sbSUFe1egMhjsvnfHe8qaOmZNN5vVSW31bfSZdRVmv1Buwj+0DJpafWZ+Y5z2W3U3qpXAWwVAC1egP1esMEG+3Oeh9oMrnsdkrT9yuU9uSHmxsgJBrUdUpdSscZg412g26ycx1OyaW3dKOsvqy8eiomEwi6vU5CLauN9612J8Rx+VlTfW44AJwV/6JulNVW64MaJRGJ53mQaHR8b+9SikF/AEp7JmPMZCGn6N9cF4L7g9A0LX5WFqf/WLL/wh/LpM7W7/zV4zLhl6l/ALJqsabem3KVAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 23,
+            "height": 23,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": -94.19300833299997,
+        "ymin": 36.38916388900003,
+        "xmax": -94.18483055599995,
+        "ymax": 36.39753611100008,
+        "spatialReference": {
+          "wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NAVD_1988\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+          "xyTolerance": 8.983152841195215e-09,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -400,
+          "falseY": -400,
+          "xyUnits": 11258999068426.238,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "heightModelInfo": {
+        "heightModel": "gravity_related_height",
+        "vertCRS": "NAVD_1988",
+        "heightUnit": "us-foot"
+      },
+      "supportsVCSProjection": true,
+      "hasAttachments": true,
+      "attachmentProperties": [
+        {
+          "name": "id",
+          "fieldName": "ATTACHMENTID",
+          "isEnabled": true
+        },
+        {
+          "name": "globalid",
+          "fieldName": "GLOBALID",
+          "isEnabled": false
+        },
+        {
+          "name": "keywords",
+          "fieldName": "KEYWORDS",
+          "isEnabled": false
+        },
+        {
+          "name": "name",
+          "fieldName": "ATT_NAME",
+          "isEnabled": true
+        },
+        {
+          "name": "contentType",
+          "fieldName": "CONTENT_TYPE",
+          "isEnabled": true
+        },
+        {
+          "name": "size",
+          "fieldName": "DATA_SIZE",
+          "isEnabled": true
+        },
+        {
+          "name": "exifInfo",
+          "fieldName": "EXIFINFO",
+          "isEnabled": false
+        }
+      ],
+      "attachmentFields": [
+        {
+          "name": "ATTACHMENTID",
+          "type": "esriFieldTypeOID",
+          "alias": "ATTACHMENTID",
+          "editable": false,
+          "nullable": false,
+          "length": 4,
+          "domain": null
+        },
+        {
+          "name": "ATT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ATT_NAME",
+          "editable": true,
+          "nullable": false,
+          "length": 250,
+          "domain": null
+        },
+        {
+          "name": "CONTENT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTENT_TYPE",
+          "editable": true,
+          "nullable": false,
+          "length": 150,
+          "domain": null
+        },
+        {
+          "name": "DATA_SIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATA_SIZE",
+          "editable": true,
+          "nullable": false,
+          "length": 4,
+          "domain": null
+        }
+      ],
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Name",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Path",
+          "type": "esriFieldTypeString",
+          "alias": "Path",
+          "length": 5000,
+          "domain": null
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name",
+          "length": 5000,
+          "domain": null
+        },
+        {
+          "name": "DateTime",
+          "type": "esriFieldTypeDate",
+          "alias": "DateTime",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Direction",
+          "type": "esriFieldTypeDouble",
+          "alias": "Direction",
+          "domain": null
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X",
+          "domain": null
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y",
+          "domain": null
+        },
+        {
+          "name": "Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "FDO_OBJECTID",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "FDO_Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Query,Map,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "hasZ": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAttachments": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "supportsQueryAnalytic": false
+      },
+      "supportsDatumTransformation": true,
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "90f81cdd68604427af7b5dd6c6e1f29a"
+    }
+  ],
+  "tables": []
+}

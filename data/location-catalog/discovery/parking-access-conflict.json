@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-24T19:08:10.667Z",
+  "primary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+  "secondary": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Parking_Data_Layers_(view)/FeatureServer/12",
+  "conflicts": [
+    {
+      "name": "Parking Lot at the Downtown Activity Center (DAC)",
+      "address": "219 SW A St",
+      "secondaryObjectId": 30,
+      "currentAttributes": []
+    }
+  ],
+  "interpretation": "The more recently modified canonical City view has no DAC lot with the same name/address. Absence does not prove closure; the older unrestricted-access claim is uncorroborated, so the older-only lot is excluded pending current City confirmation.",
+  "currentMatchingNameOrAddress": []
+}

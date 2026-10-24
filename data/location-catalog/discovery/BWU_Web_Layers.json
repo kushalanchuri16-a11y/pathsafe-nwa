@@ -1,0 +1,10 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "BWU_Web_Layers/Water_and_Sewer_Systems__PUBLIC",
+      "type": "MapServer"
+    }
+  ]
+}

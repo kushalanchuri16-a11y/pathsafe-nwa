@@ -1,0 +1,160 @@
+{
+  "id": 45,
+  "checkedAt": "2026-10-24T05:08:21.843Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-place:78",
+    "label": "Merchant's Park",
+    "point": [
+      36.3743192219413,
+      -94.24963022066163
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 51.18356666666667,
+        "miles": 2.5525928577109678,
+        "seconds": 3071.014,
+        "providerDistanceMeters": 4108,
+        "coverage": 77.6110949147174,
+        "gaps": 3,
+        "score": 72,
+        "lengthMeters": 4106.106801747089,
+        "coveredMeters": 3186.7944472036,
+        "uncoveredMeters": 919.3123545434887
+      },
+      "vertices": 131
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 55.93036666666667,
+        "miles": 2.863899825021872,
+        "seconds": 3355.822,
+        "providerDistanceMeters": 4609,
+        "coverage": 74.43941223193676,
+        "gaps": 6,
+        "score": 62,
+        "lengthMeters": 4594.587632185343,
+        "coveredMeters": 3420.184027880029,
+        "uncoveredMeters": 1174.4036043053138
+      },
+      "vertices": 163
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 72.35598333333334,
+        "miles": 3.7431400620376998,
+        "seconds": 4341.359,
+        "providerDistanceMeters": 6024,
+        "coverage": 91.0940235379373,
+        "gaps": 7,
+        "score": 73,
+        "lengthMeters": 6016.440451616109,
+        "coveredMeters": 5480.617681141161,
+        "uncoveredMeters": 535.8227704749488
+      },
+      "vertices": 278
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:08:23.404Z",
+        "cacheHit": false,
+        "featureCount": 1081
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:08:22.792Z",
+        "cacheHit": false,
+        "featureCount": 20
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:08:23.404Z",
+    "routingFetchedAt": "2026-10-24T05:08:22.413Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 1101,
+    "segmentCount": 1129,
+    "eligibleSegmentCount": 902,
+    "countsByKind": {
+      "sidewalk": 855,
+      "crossing": 224,
+      "trail": 22
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 147.34m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 3.5391525221564004,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 131
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 3.5391525221564004,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 163
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 3.5391525221564004,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 278
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1732.201000000001,
+  "catalogReconciledAt": "2026-10-24T19:45:40.215Z"
+}

@@ -1,0 +1,756 @@
+{
+  "tables": [],
+  "layers": [
+    {
+      "isCoGoEnabled": false,
+      "extent": {
+        "ymin": 731017.953069061,
+        "xmin": 647758.6185851693,
+        "ymax": 761409.0684678108,
+        "xmax": 674512.5243948251,
+        "spatialReference": {
+          "falseM": -100000,
+          "xyTolerance": 0.003280833333333333,
+          "mUnits": 10000,
+          "zUnits": 10000,
+          "latestWkid": 3433,
+          "zTolerance": 0.001,
+          "wkid": 102651,
+          "xyUnits": 3048.0060960121928,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "falseZ": -100000
+        }
+      },
+      "isDataBranchVersioned": false,
+      "supportsApplyEditsWithGlobalIds": true,
+      "maxRecordCount": 2000,
+      "attachmentProperties": [
+        {
+          "fieldName": "attachmentid",
+          "isEnabled": true,
+          "name": "id"
+        },
+        {
+          "fieldName": "globalid",
+          "isEnabled": true,
+          "name": "globalId"
+        },
+        {
+          "fieldName": "att_name",
+          "isEnabled": true,
+          "name": "name"
+        },
+        {
+          "fieldName": "data_size",
+          "isEnabled": true,
+          "name": "size"
+        },
+        {
+          "fieldName": "content_type",
+          "isEnabled": true,
+          "name": "contentType"
+        },
+        {
+          "fieldName": "keywords",
+          "isEnabled": true,
+          "name": "keywords"
+        },
+        {
+          "fieldName": "exifinfo",
+          "isEnabled": true,
+          "name": "exifInfo"
+        }
+      ],
+      "attachmentFields": [
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "attachmentid",
+          "alias": "attachmentid",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 38,
+          "name": "globalid",
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 250,
+          "name": "att_name",
+          "alias": "att_name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "data_size",
+          "alias": "data_size",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 150,
+          "name": "content_type",
+          "alias": "content_type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 2048,
+          "name": "keywords",
+          "alias": "keywords",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 1073741822,
+          "name": "exifinfo",
+          "alias": "exifinfo",
+          "type": "esriFieldTypeString"
+        }
+      ],
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "type": "Feature Layer",
+      "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+      "supportsAttachmentsByUploadId": true,
+      "relationships": [],
+      "supportsAttachmentsResizing": true,
+      "cimVersion": "2.6.0",
+      "isDataArchived": false,
+      "id": 0,
+      "supportsStatistics": true,
+      "supportedExportFormats": "sqlite,filegdb",
+      "standardMaxRecordCount": 2000,
+      "isDataVersioned": false,
+      "templates": [],
+      "hasGeometryProperties": true,
+      "supportsAdvancedQueries": true,
+      "parentLayer": null,
+      "currentVersion": 10.91,
+      "canScaleSymbols": false,
+      "hasZ": false,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": false,
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ]
+      },
+      "objectIdField": "objectid",
+      "supportsQuantizationEditMode": true,
+      "name": "Bond_Projects",
+      "allowTrueCurvesUpdates": false,
+      "displayField": "label",
+      "supportsCalculate": true,
+      "fields": [
+        {
+          "nullable": false,
+          "defaultValue": null,
+          "editable": false,
+          "length": 4,
+          "type": "esriFieldTypeOID",
+          "modelName": "OBJECTID",
+          "domain": null,
+          "name": "objectid",
+          "alias": "OBJECTID"
+        },
+        {
+          "modelName": "Label",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "label",
+          "length": 50,
+          "alias": "Label",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "created_us",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "created_us",
+          "length": 50,
+          "alias": "created_us",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "created_da",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "created_da",
+          "length": 29,
+          "alias": "created_da",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "modelName": "last_edite",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "last_edite",
+          "length": 50,
+          "alias": "last_edite",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "last_edi_1",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "last_edi_1",
+          "length": 29,
+          "alias": "last_edi_1",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "modelName": "GlobalID",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "globalid",
+          "length": 38,
+          "alias": "GlobalID",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "SHAPE_STLe",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "shape_stle",
+          "alias": "SHAPE_STLe",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "modelName": "Link",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "link",
+          "length": 100,
+          "alias": "Link",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "Type",
+          "nullable": false,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "type",
+          "length": 50,
+          "alias": "Type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "virtual": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "virtual": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Area",
+          "alias": "SHAPE__Area",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "globalid_1",
+          "length": 38,
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        }
+      ],
+      "maxRecordCountFactor": 1,
+      "dateFieldsTimeReference": {
+        "respectsDaylightSaving": false,
+        "timeZone": "UTC"
+      },
+      "supportsFieldDescriptionProperty": true,
+      "hasM": false,
+      "allowGeometryUpdates": true,
+      "useStandardizedQueries": true,
+      "globalIdField": "globalid_1",
+      "description": "",
+      "syncCanReturnChanges": true,
+      "supportsAsyncDelete": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin"
+      ],
+      "geometryProperties": {
+        "shapeAreaFieldName": "SHAPE__Area",
+        "shapeLengthFieldName": "SHAPE__Length",
+        "units": "esriFeet"
+      },
+      "supportsRollbackOnFailureParameter": true,
+      "isDataReplicaTracked": false,
+      "standardMaxRecordCountNoGeometry": 16000,
+      "indexes": [
+        {
+          "name": "r203_sde_rowid_uk",
+          "isUnique": true,
+          "description": "",
+          "fields": "objectid",
+          "isAscending": true
+        },
+        {
+          "name": "a151_ix1",
+          "isUnique": true,
+          "description": "",
+          "fields": "shape",
+          "isAscending": true
+        }
+      ],
+      "editFieldsInfo": null,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "minScale": 0,
+      "hasAttachments": true,
+      "advancedQueryCapabilities": {
+        "supportsSqlExpression": true,
+        "supportsQueryWithResultType": true,
+        "supportsQueryWithCacheHint": false,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "supportsQueryDateBins": false,
+        "supportsQueryWithLodSR": true,
+        "supportsPaginationOnAggregatedQueries": true,
+        "supportsPagination": true,
+        "supportsMaxRecordCountFactor": true,
+        "supportsStatistics": true,
+        "supportsOrderBy": true,
+        "supportsQueryWithDistance": true,
+        "supportsLod": true,
+        "supportsCountDistinct": true,
+        "supportsQueryAttachments": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryAttachmentsCountOnly": true,
+        "supportsOrderByOnlyOnLayerFields": false,
+        "supportsOutFieldSqlExpression": true,
+        "supportsTopFeaturesQuery": true,
+        "supportsDistinct": true,
+        "supportsReturningGeometryCentroid": true,
+        "supportsQueryAnalytic": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true
+      },
+      "supportsValidateSQL": true,
+      "enableZDefaults": true,
+      "serviceItemId": "526f6de8829641e8a8e0a0be42ab35d3",
+      "allowUpdateWithoutMValues": true,
+      "supportsCoordinatesQuantization": true,
+      "types": [
+        {
+          "templates": [
+            {
+              "name": "Drainage",
+              "description": "",
+              "drawingTool": "esriFeatureEditToolPolygon",
+              "prototype": {
+                "attributes": {
+                  "created_us": " ",
+                  "created_da": null,
+                  "link": " ",
+                  "globalid": " ",
+                  "shape_stle": 0,
+                  "label": " ",
+                  "type": " ",
+                  "last_edite": " ",
+                  "last_edi_1": null
+                }
+              }
+            }
+          ],
+          "name": "Drainage",
+          "domains": {},
+          "id": "Drainage"
+        },
+        {
+          "templates": [
+            {
+              "name": "Street",
+              "description": "",
+              "drawingTool": "esriFeatureEditToolPolygon",
+              "prototype": {
+                "attributes": {
+                  "created_us": " ",
+                  "created_da": null,
+                  "link": " ",
+                  "globalid": " ",
+                  "shape_stle": 0,
+                  "label": " ",
+                  "type": " ",
+                  "last_edite": " ",
+                  "last_edi_1": null
+                }
+              }
+            }
+          ],
+          "name": "Street",
+          "domains": {},
+          "id": "Street"
+        }
+      ],
+      "capabilities": "Query",
+      "maxScale": 0,
+      "supportsAppend": true,
+      "supportsExceedsLimitStatistics": true,
+      "defaultVisibility": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsAsync": false,
+        "supportsLinearRegression": true,
+        "supportsPercentileAnalytic": false
+      },
+      "hasMetadata": true,
+      "supportedAppendFormats": "shapefile,geojson,csv,featureCollection,excel",
+      "tileMaxRecordCount": 2000,
+      "typeIdField": "type",
+      "supportsASyncCalculate": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "sqlParserVersion": "PG_10.9.1",
+      "drawingInfo": {
+        "renderer": {
+          "field1": "type",
+          "authoringInfo": {
+            "colorRamp": {
+              "colorRamps": [
+                {
+                  "toColor": [
+                    50,
+                    199,
+                    199,
+                    255
+                  ],
+                  "fromColor": [
+                    50,
+                    199,
+                    199,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    184,
+                    46,
+                    199,
+                    255
+                  ],
+                  "fromColor": [
+                    184,
+                    46,
+                    199,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    196,
+                    66,
+                    43,
+                    255
+                  ],
+                  "fromColor": [
+                    196,
+                    66,
+                    43,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    161,
+                    194,
+                    45,
+                    255
+                  ],
+                  "fromColor": [
+                    161,
+                    194,
+                    45,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    52,
+                    93,
+                    158,
+                    255
+                  ],
+                  "fromColor": [
+                    52,
+                    93,
+                    158,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    176,
+                    70,
+                    114,
+                    255
+                  ],
+                  "fromColor": [
+                    176,
+                    70,
+                    114,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    158,
+                    120,
+                    63,
+                    255
+                  ],
+                  "fromColor": [
+                    158,
+                    120,
+                    63,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    50,
+                    186,
+                    105,
+                    255
+                  ],
+                  "fromColor": [
+                    50,
+                    186,
+                    105,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    37,
+                    56,
+                    179,
+                    255
+                  ],
+                  "fromColor": [
+                    37,
+                    56,
+                    179,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    58,
+                    191,
+                    46,
+                    255
+                  ],
+                  "fromColor": [
+                    58,
+                    191,
+                    46,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    44,
+                    133,
+                    163,
+                    255
+                  ],
+                  "fromColor": [
+                    44,
+                    133,
+                    163,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    166,
+                    43,
+                    143,
+                    255
+                  ],
+                  "fromColor": [
+                    166,
+                    43,
+                    143,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                },
+                {
+                  "toColor": [
+                    166,
+                    35,
+                    57,
+                    255
+                  ],
+                  "fromColor": [
+                    166,
+                    35,
+                    57,
+                    255
+                  ],
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm"
+                }
+              ],
+              "type": "multipart"
+            }
+          },
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "outline": {
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "width": 0.4,
+                  "style": "esriSLSSolid",
+                  "type": "esriSLS"
+                },
+                "color": [
+                  0,
+                  197,
+                  255,
+                  255
+                ],
+                "style": "esriSFSSolid",
+                "type": "esriSFS"
+              },
+              "label": "Drainage",
+              "value": "Drainage"
+            },
+            {
+              "symbol": {
+                "outline": {
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "width": 0.4,
+                  "style": "esriSLSSolid",
+                  "type": "esriSLS"
+                },
+                "color": [
+                  255,
+                  170,
+                  0,
+                  255
+                ],
+                "style": "esriSFSSolid",
+                "type": "esriSFS"
+              },
+              "label": "Street",
+              "value": "Street"
+            }
+          ],
+          "type": "uniqueValue",
+          "fieldDelimiter": ","
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "geometryField": {
+        "modelName": "SHAPE",
+        "nullable": true,
+        "editable": true,
+        "defaultValue": null,
+        "domain": null,
+        "name": "shape",
+        "alias": "SHAPE",
+        "type": "esriFieldTypeGeometry"
+      },
+      "copyrightText": "",
+      "zDefault": 0,
+      "geometryType": "esriGeometryPolygon"
+    }
+  ]
+}

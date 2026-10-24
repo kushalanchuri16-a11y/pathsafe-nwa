@@ -1,0 +1,161 @@
+{
+  "id": 5,
+  "checkedAt": "2026-10-24T05:03:24.627Z",
+  "group": "school",
+  "start": {
+    "id": "schools-4:16",
+    "label": "Apple Glen Elementary",
+    "point": [
+      36.374645640439816,
+      -94.18963553000182
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 94.18348333333333,
+        "miles": 4.951780352739998,
+        "seconds": 5651.009,
+        "providerDistanceMeters": 7969.118,
+        "coverage": 72.72939296384288,
+        "gaps": 10,
+        "score": 53,
+        "lengthMeters": 7961.781929995396,
+        "coveredMeters": 5790.555666790586,
+        "uncoveredMeters": 2171.2262632048105
+      },
+      "vertices": 296
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 94.7073,
+        "miles": 4.977256571621729,
+        "seconds": 5682.438,
+        "providerDistanceMeters": 8010.118,
+        "coverage": 57.42959407331384,
+        "gaps": 12,
+        "score": 37,
+        "lengthMeters": 7999.939491203532,
+        "coveredMeters": 4594.332775908917,
+        "uncoveredMeters": 3405.6067152946152
+      },
+      "vertices": 289
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 95.37570000000001,
+        "miles": 5.008325131233596,
+        "seconds": 5722.542,
+        "providerDistanceMeters": 8060.118,
+        "coverage": 52.8294420455074,
+        "gaps": 14,
+        "score": 33,
+        "lengthMeters": 8046.381970328388,
+        "coveredMeters": 4250.8586997747925,
+        "uncoveredMeters": 3795.5232705535955
+      },
+      "vertices": 308
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:03:32.068Z",
+        "cacheHit": false,
+        "featureCount": 2230
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:03:30.478Z",
+        "cacheHit": false,
+        "featureCount": 47
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:03:32.068Z",
+    "routingFetchedAt": "2026-10-24T05:03:25.421Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 2277,
+    "segmentCount": 2350,
+    "eligibleSegmentCount": 1827,
+    "countsByKind": {
+      "sidewalk": 1717,
+      "crossing": 512,
+      "trail": 43
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 461.85m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.2066237079897768,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 296
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.2066237079897768,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 289
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 1.2066237079897768,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 308
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 7850.281708000002,
+  "catalogReconciledAt": "2026-10-24T19:45:39.250Z"
+}

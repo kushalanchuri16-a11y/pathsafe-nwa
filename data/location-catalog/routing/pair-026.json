@@ -1,0 +1,53 @@
+{
+  "id": 26,
+  "checkedAt": "2026-10-24T05:05:43.494Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18752385",
+    "label": "NE PARK ENTRANCE",
+    "point": [
+      36.43288129786645,
+      -94.2295445493344
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 2,
+  "distinctAlternatives": 2,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 1.6024867387239847,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 543
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 1.6024867387239847,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 561
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Real outer city exit (may also cross holes); Real outer city exit (may also cross holes)",
+  "elapsedMs": 577.1878329999745,
+  "catalogReconciledAt": "2026-10-24T19:45:39.776Z"
+}

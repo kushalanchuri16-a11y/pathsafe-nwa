@@ -1,0 +1,163 @@
+{
+  "id": 88,
+  "checkedAt": "2026-10-24T19:14:46.448Z",
+  "group": "official parks directory",
+  "start": {
+    "id": "city-parks-directory:782",
+    "label": "Slaughter Pen Mountain Bike Park",
+    "point": [
+      36.406233023765395,
+      -94.20717139148667
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 122.77671666666667,
+        "miles": 6.242164509265888,
+        "seconds": 7366.603,
+        "providerDistanceMeters": 10045.79,
+        "coverage": 56.29704386046343,
+        "gaps": 11,
+        "score": 36,
+        "lengthMeters": 10032.163748161156,
+        "coveredMeters": 5647.811625455799,
+        "uncoveredMeters": 4384.352122705357
+      },
+      "vertices": 349
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 127.84838333333333,
+        "miles": 6.486981030780243,
+        "seconds": 7670.903,
+        "providerDistanceMeters": 10439.784,
+        "coverage": 55.97128056661427,
+        "gaps": 12,
+        "score": 36,
+        "lengthMeters": 10434.645510267448,
+        "coveredMeters": 5840.404714683413,
+        "uncoveredMeters": 4594.240795584035
+      },
+      "vertices": 494
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 128.3727,
+        "miles": 6.513081106338981,
+        "seconds": 7702.362,
+        "providerDistanceMeters": 10481.788,
+        "coverage": 52.077444489077806,
+        "gaps": 14,
+        "score": 32,
+        "lengthMeters": 10473.339384918538,
+        "coveredMeters": 5454.247504333674,
+        "uncoveredMeters": 5019.091880584863
+      },
+      "vertices": 513
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T19:14:48.153Z",
+        "cacheHit": false,
+        "featureCount": 2266
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T19:14:47.451Z",
+        "cacheHit": false,
+        "featureCount": 61
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T19:14:48.153Z",
+    "routingFetchedAt": "2026-10-24T19:14:47.062Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 2327,
+    "segmentCount": 2392,
+    "eligibleSegmentCount": 1915,
+    "countsByKind": {
+      "sidewalk": 1797,
+      "crossing": 474,
+      "trail": 121
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 2 duplicate features removed and 206.35m of near-coincident supplemental linework trimmed.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 209.43m of near-coincident supplemental linework trimmed.",
+      "2 bounded candidate-envelope tiles retrieved; repeated line parts deduplicated. Multi-tile counts summarize returned line records.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.8946223045516115,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 349
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.8946223045516115,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 494
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 4.8946223045516115,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 513
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 2170.306875000002,
+  "catalogReconciledAt": "2026-10-24T19:45:41.180Z"
+}

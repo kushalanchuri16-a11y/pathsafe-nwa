@@ -185,3 +185,55 @@ test("late responses cannot replace newer input; Escape/Tab never select, pointe
   await input.press("Enter");
   expect(comparisons).toBe(0);
 });
+
+test("partial official inventories keep school choices usable without caching incomplete results", async ({
+  page,
+}) => {
+  let searches = 0;
+  const warning =
+    "Some official location sources are temporarily unavailable. Results may be incomplete.";
+  await page.route("**/api/locations?**", (route) => {
+    searches++;
+    return route.fulfill({
+      json: {
+        warning,
+        results: [
+          {
+            id: "schools-7:19",
+            label: "Creekside Middle School",
+            point: [36.342294900955686, -94.24165967314097],
+            kind: "place",
+            type: "school",
+            attribution: "City of Bentonville GIS",
+          },
+        ],
+      },
+    });
+  });
+  await page.goto("/app");
+  const start = page.getByRole("combobox", {
+    name: "Starting point",
+    exact: true,
+  });
+  const compare = page.getByRole("button", {
+    name: "Compare routes",
+    exact: true,
+  });
+  await start.fill("creekside ms");
+  await expect(page.getByText(warning, { exact: true })).toBeVisible();
+  await expect(compare).toBeDisabled();
+  const option = page.getByRole("option", {
+    name: /Creekside Middle School school · Bentonville/,
+  });
+  await expect(option).toBeVisible();
+  await start.press("ArrowDown");
+  await start.press("Enter");
+  await expect(compare).toBeEnabled();
+  await start.fill("creekside ms");
+  await expect(compare).toBeDisabled();
+  await expect(option).toBeVisible();
+  expect(searches).toBe(2);
+  await page.getByRole("button", { name: "Clear starting point" }).click();
+  await expect(start).toHaveValue("");
+  await expect(compare).toBeDisabled();
+});

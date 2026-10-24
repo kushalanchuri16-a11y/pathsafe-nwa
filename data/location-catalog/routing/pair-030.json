@@ -1,0 +1,161 @@
+{
+  "id": 30,
+  "checkedAt": "2026-10-24T05:06:15.921Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18757171",
+    "label": "TRAIL TOILET-M-MARKER #34",
+    "point": [
+      36.406164352558875,
+      -94.2082055721366
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-parks-directory:767",
+    "label": "Austin-Baggett Park",
+    "point": [
+      36.36571210106438,
+      -94.20363133075323
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "alternative-2",
+    "explanation": "This route adds approximately 4.7 minutes and increases mapped pedestrian infrastructure coverage from 33.9% to 75.4%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 68.18673333333334,
+        "miles": 3.351115112741589,
+        "seconds": 4091.204,
+        "providerDistanceMeters": 5393.097,
+        "coverage": 33.8527229460307,
+        "gaps": 9,
+        "score": 16,
+        "lengthMeters": 5390.4388183856045,
+        "coveredMeters": 1824.8103187633697,
+        "uncoveredMeters": 3565.628499622235
+      },
+      "vertices": 320
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 69.72871666666667,
+        "miles": 3.3915042402370155,
+        "seconds": 4183.723,
+        "providerDistanceMeters": 5458.097,
+        "coverage": 46.26431752796961,
+        "gaps": 9,
+        "score": 28,
+        "lengthMeters": 5456.283026466814,
+        "coveredMeters": 2524.3121045893167,
+        "uncoveredMeters": 2931.970921877497
+      },
+      "vertices": 236
+    },
+    {
+      "id": "alternative-2",
+      "recommended": true,
+      "metrics": {
+        "minutes": 72.90613333333334,
+        "miles": 3.5219921906068556,
+        "seconds": 4374.368,
+        "providerDistanceMeters": 5668.097,
+        "coverage": 75.41788156544531,
+        "gaps": 4,
+        "score": 67,
+        "lengthMeters": 5661.790798185091,
+        "coveredMeters": 4270.002678658513,
+        "uncoveredMeters": 1391.7881195265782
+      },
+      "vertices": 234
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:06:17.249Z",
+        "cacheHit": false,
+        "featureCount": 674
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:06:16.874Z",
+        "cacheHit": false,
+        "featureCount": 33
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:06:17.249Z",
+    "routingFetchedAt": "2026-10-24T05:06:16.497Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 707,
+    "segmentCount": 714,
+    "eligibleSegmentCount": 569,
+    "countsByKind": {
+      "crossing": 143,
+      "sidewalk": 531,
+      "trail": 33
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 142.27m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.044888069197585,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 320
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.044888069197585,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 236
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.044888069197585,
+      "endSnapMeters": 5.286310764431914,
+      "vertices": 234
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1546.037707999989,
+  "catalogReconciledAt": "2026-10-24T19:45:39.875Z"
+}

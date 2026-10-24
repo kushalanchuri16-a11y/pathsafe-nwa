@@ -1,0 +1,10 @@
+{
+  "currentVersion": 10.91,
+  "folders": [],
+  "services": [
+    {
+      "name": "Emergency_Services/Emergency_Services_CLOUD_PUBLIC",
+      "type": "MapServer"
+    }
+  ]
+}

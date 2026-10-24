@@ -1,0 +1,61 @@
+{
+  "id": 28,
+  "checkedAt": "2026-10-24T05:06:03.521Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18752386",
+    "label": "WISHING SPRING TRAIL",
+    "point": [
+      36.421411857333695,
+      -94.22089585261573
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 4.934788830544712,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 329
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 4.934788830544712,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 272
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 4.934788830544712,
+      "endSnapMeters": 17.301211060124594,
+      "vertices": 382
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Internal municipal polygon hole; Real outer city exit (may also cross holes); Real outer city exit (may also cross holes)",
+  "elapsedMs": 635.44650000002,
+  "catalogReconciledAt": "2026-10-24T19:45:39.820Z"
+}

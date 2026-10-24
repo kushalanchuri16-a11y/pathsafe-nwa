@@ -1,0 +1,161 @@
+{
+  "id": 38,
+  "checkedAt": "2026-10-24T05:07:34.934Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-place:123",
+    "label": "Tennis Complex",
+    "point": [
+      36.37741452535444,
+      -94.18931669726689
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "alternative-2",
+    "explanation": "This route adds approximately 4.0 minutes and increases mapped pedestrian infrastructure coverage from 78.3% to 94.8%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 30.55136666666667,
+        "miles": 1.5795255706673028,
+        "seconds": 1833.082,
+        "providerDistanceMeters": 2542,
+        "coverage": 78.29277839705028,
+        "gaps": 2,
+        "score": 74,
+        "lengthMeters": 2543.6083039283426,
+        "coveredMeters": 1991.4616126835867,
+        "uncoveredMeters": 552.1466912447559
+      },
+      "vertices": 130
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 31.064633333333333,
+        "miles": 1.6143223574325936,
+        "seconds": 1863.878,
+        "providerDistanceMeters": 2598,
+        "coverage": 84.06139922489902,
+        "gaps": 2,
+        "score": 80,
+        "lengthMeters": 2599.447205347372,
+        "coveredMeters": 2185.131692927535,
+        "uncoveredMeters": 414.315512419837
+      },
+      "vertices": 106
+    },
+    {
+      "id": "alternative-2",
+      "recommended": true,
+      "metrics": {
+        "minutes": 34.512966666666664,
+        "miles": 1.7765002386065378,
+        "seconds": 2070.778,
+        "providerDistanceMeters": 2859,
+        "coverage": 94.79136353977256,
+        "gaps": 1,
+        "score": 93,
+        "lengthMeters": 2860.231122238396,
+        "coveredMeters": 2711.252081158714,
+        "uncoveredMeters": 148.9790410796818
+      },
+      "vertices": 168
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:07:36.333Z",
+        "cacheHit": false,
+        "featureCount": 344
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:07:36.157Z",
+        "cacheHit": false,
+        "featureCount": 35
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:07:36.333Z",
+    "routingFetchedAt": "2026-10-24T05:07:35.467Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 379,
+    "segmentCount": 395,
+    "eligibleSegmentCount": 304,
+    "countsByKind": {
+      "crossing": 80,
+      "sidewalk": 264,
+      "trail": 30
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 248.31m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.065658152353326,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 130
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.065658152353326,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 106
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.065658152353326,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 168
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1517.0320000000065,
+  "catalogReconciledAt": "2026-10-24T19:45:40.053Z"
+}

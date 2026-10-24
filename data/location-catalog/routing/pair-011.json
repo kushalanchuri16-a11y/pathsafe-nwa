@@ -1,0 +1,161 @@
+{
+  "id": 11,
+  "checkedAt": "2026-10-24T05:04:09.326Z",
+  "group": "school",
+  "start": {
+    "id": "schools-all:28",
+    "label": "Thaden School",
+    "point": [
+      36.36339976767973,
+      -94.20702577195505
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 40.1865,
+        "miles": 2.157441789946711,
+        "seconds": 2411.19,
+        "providerDistanceMeters": 3472.066,
+        "coverage": 64.39155750601077,
+        "gaps": 9,
+        "score": 46,
+        "lengthMeters": 3465.8972103578635,
+        "coveredMeters": 2231.7451953068066,
+        "uncoveredMeters": 1234.1520150510569
+      },
+      "vertices": 205
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 40.77061666666667,
+        "miles": 2.1878889783663404,
+        "seconds": 2446.237,
+        "providerDistanceMeters": 3521.066,
+        "coverage": 52.03177341008034,
+        "gaps": 6,
+        "score": 40,
+        "lengthMeters": 3512.8876840104044,
+        "coveredMeters": 1827.8177598949128,
+        "uncoveredMeters": 1685.0699241154916
+      },
+      "vertices": 185
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 50.67635,
+        "miles": 2.579974200668098,
+        "seconds": 3040.581,
+        "providerDistanceMeters": 4152.066,
+        "coverage": 68.83979019710098,
+        "gaps": 11,
+        "score": 48,
+        "lengthMeters": 4149.858883912151,
+        "coveredMeters": 2856.7541491608813,
+        "uncoveredMeters": 1293.10473475127
+      },
+      "vertices": 238
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:10.601Z",
+        "cacheHit": false,
+        "featureCount": 640
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:10.231Z",
+        "cacheHit": false,
+        "featureCount": 44
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:10.601Z",
+    "routingFetchedAt": "2026-10-24T05:04:09.910Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 684,
+    "segmentCount": 708,
+    "eligibleSegmentCount": 549,
+    "countsByKind": {
+      "crossing": 147,
+      "sidewalk": 493,
+      "trail": 44
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 180.92m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.979528011407342,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 205
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.979528011407342,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 185
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 5.979528011407342,
+      "endSnapMeters": 11.011823648728502,
+      "vertices": 238
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1484.8008750000008,
+  "catalogReconciledAt": "2026-10-24T19:45:39.395Z"
+}

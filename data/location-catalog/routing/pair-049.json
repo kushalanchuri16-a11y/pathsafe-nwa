@@ -1,0 +1,33 @@
+{
+  "id": 49,
+  "checkedAt": "2026-10-24T05:08:48.244Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-parks-directory:776",
+    "label": "Town Branch Park",
+    "point": [
+      36.37164339054253,
+      -94.20441431558274
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:124",
+    "label": "Bentonville Municipal Airport · Thaden Field House",
+    "point": [
+      36.35055955173087,
+      -94.22128233962593
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "Live route analysis is temporarily unavailable. Walking routing failed or timed out. Please try again.",
+  "providerError": "TimeoutError: The operation was aborted due to timeout",
+  "failureCause": "Provider unavailable: TimeoutError: The operation was aborted due to timeout",
+  "elapsedMs": 240434.65187499998,
+  "catalogReconciledAt": "2026-10-24T19:45:40.311Z"
+}

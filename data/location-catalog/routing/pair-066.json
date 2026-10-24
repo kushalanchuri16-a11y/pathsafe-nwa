@@ -1,0 +1,127 @@
+{
+  "id": 66,
+  "checkedAt": "2026-10-24T05:15:16.118Z",
+  "group": "residential / city edge",
+  "start": {
+    "id": "city-address:18901043",
+    "label": "314 NE ROYCE LOOP",
+    "point": [
+      36.37353938526568,
+      -94.15487817325456
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:67",
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "Only one distinct walking route was returned. No alternative comparison is available; this route is shown without a comparative infrastructure recommendation.",
+    "factors": [
+      "One provider route; no fabricated alternative"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 78.22488333333334,
+        "miles": 4.011787411516742,
+        "seconds": 4693.493,
+        "providerDistanceMeters": 6456.346,
+        "coverage": 90.6241091844486,
+        "gaps": 4,
+        "score": 83,
+        "lengthMeters": 6454.368576964965,
+        "coveredMeters": 5849.214026355471,
+        "uncoveredMeters": 605.1545506094935
+      },
+      "vertices": 232
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:15:17.385Z",
+        "cacheHit": false,
+        "featureCount": 623
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:15:16.989Z",
+        "cacheHit": false,
+        "featureCount": 52
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:15:17.385Z",
+    "routingFetchedAt": "2026-10-24T05:15:16.684Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 675,
+    "segmentCount": 708,
+    "eligibleSegmentCount": 603,
+    "countsByKind": {
+      "crossing": 86,
+      "sidewalk": 537,
+      "trail": 47
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 1,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "2 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Features without explicit public access are excluded from coverage.",
+      "Eligible mapped infrastructure includes explicit public hiking trails, which may have natural surfaces. Coverage is not a pavement, condition, or accessibility assessment.",
+      "Overlapping infrastructure is deduplicated before coverage; 3 duplicate features removed and 300.92m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 33.74333528072734,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 187
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 33.74333528072734,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 283
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 33.74333528072734,
+      "endSnapMeters": 4.798855836376334,
+      "vertices": 232
+    }
+  ],
+  "validAlternatives": 1,
+  "elapsedMs": 1382.0634579999605,
+  "catalogReconciledAt": "2026-10-24T19:45:40.689Z"
+}

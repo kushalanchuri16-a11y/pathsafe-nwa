@@ -1,0 +1,25 @@
+{
+  "currentVersion": 10.91,
+  "folders": [
+    "Base_map",
+    "BWU_Web_Layers",
+    "Cemetery",
+    "CityWorks",
+    "COB_ADDRESS",
+    "Electric_System",
+    "Emergency_Services",
+    "GDB_Feature_Services_for_ArcGIS_Pro_EDITS",
+    "Hosted",
+    "Locators",
+    "Parks",
+    "Planning",
+    "Stormwater",
+    "TrakIT",
+    "Transportation",
+    "Utilities",
+    "Utility_Billing",
+    "Utility_Locates",
+    "Water_System"
+  ],
+  "services": []
+}

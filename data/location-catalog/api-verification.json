@@ -1,0 +1,1253 @@
+[
+  {
+    "query": "Creekside MS",
+    "status": 200,
+    "ms": 5294.37725,
+    "results": [
+      {
+        "label": "Creekside Middle School",
+        "point": [
+          36.342294900955686,
+          -94.24165967314097
+        ],
+        "type": "school"
+      }
+    ],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "Creekside Park",
+    "status": 200,
+    "ms": 72.86837500000001,
+    "results": [
+      {
+        "label": "Creekside Park",
+        "point": [
+          36.34070259828065,
+          -94.23757071600167
+        ],
+        "type": "park"
+      }
+    ],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "Osage Creek Elementary",
+    "status": 200,
+    "ms": 196.58595799999966,
+    "results": [
+      {
+        "label": "Osage Creek Elementary",
+        "point": [
+          36.34169461266523,
+          -94.24356189105993
+        ],
+        "type": "school"
+      }
+    ],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "crstal bridges",
+    "status": 200,
+    "ms": 40.66908299999977,
+    "results": [
+      {
+        "label": "Crystal Bridges",
+        "point": [
+          36.38211712065461,
+          -94.2033730929639
+        ],
+        "type": "museum"
+      },
+      {
+        "label": "Crystal Bridges Trail Access",
+        "point": [
+          36.377651083057515,
+          -94.20646155804891
+        ],
+        "type": "museum"
+      },
+      {
+        "label": "Crystal Bridges Trailhead",
+        "point": [
+          36.37893834265047,
+          -94.19991007060916
+        ],
+        "type": "museum"
+      }
+    ],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "3809 mistltoe",
+    "status": 200,
+    "ms": 63.005166999999346,
+    "results": [
+      {
+        "label": "3809 SW MISTLETOE AVE",
+        "point": [
+          36.32936552602442,
+          -94.2557953932388
+        ],
+        "type": "address"
+      }
+    ],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "XNA",
+    "status": 200,
+    "ms": 47.03391600000032,
+    "results": [],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  },
+  {
+    "query": "2 Blowing Springs Rd",
+    "status": 200,
+    "ms": 21.69379200000003,
+    "results": [],
+    "diagnostics": [
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/194",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:29:43.313Z",
+        "rawCount": 201
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.542Z",
+        "rawCount": 13
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/7",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.721Z",
+        "rawCount": 5
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/School_District18/MapServer/10",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:05.896Z",
+        "rawCount": 4
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Sidewalk_Gap_Identification_Web_Map/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.071Z",
+        "rawCount": 29
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/45",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.292Z",
+        "rawCount": 38
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/168",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.498Z",
+        "rawCount": 234
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/165",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.699Z",
+        "rawCount": 127
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/1",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:06.895Z",
+        "rawCount": 79
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/119",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.719Z",
+        "rawCount": 969
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Emergency_Services/Emergency_Services_CLOUD_PUBLIC/MapServer/4",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:08.903Z",
+        "rawCount": 8
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Public_Art_Points_map_service/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.216Z",
+        "rawCount": 52
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Hosted/Historic_Sites_Field_Collection_(VIEW)/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.437Z",
+        "rawCount": 47
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:49.967Z",
+        "rawCount": 40404
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Bentonville_Addresses23/MapServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:24:20.974Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:56:06.159Z",
+        "rawCount": 43070
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Base_map/Benton_County_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:50:06.033Z",
+        "rawCount": 74266
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T04:49:46.836Z",
+        "rawCount": 36169
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/TrakIT/TrakIT_Data/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:31.990Z",
+        "rawCount": 360
+      },
+      {
+        "source": "https://gis.bentonvillear.com/arcgis/rest/services/Utility_Billing/RouteMap_WebMap/MapServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:28:32.225Z",
+        "rawCount": 267
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Business_Registry_PORTAL_copy_Public_view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:56:31.141Z",
+        "rawCount": 607
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/National_Register_Properties_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:08.934Z",
+        "rawCount": 27
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Images_View/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:06:09.219Z",
+        "rawCount": 25
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Public_Art_Points_for_AGOL_Story_Map/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T19:44:30.610Z",
+        "rawCount": 35
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/0",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:51.348Z",
+        "rawCount": 14
+      },
+      {
+        "source": "https://services1.arcgis.com/KVEBkgY6kMufuFG2/arcgis/rest/services/Downtown_Public_Parking__view/FeatureServer/2",
+        "status": "available",
+        "fetchedAt": "2026-10-24T18:27:55.017Z",
+        "rawCount": 22
+      },
+      {
+        "source": "https://www.bentonville.ar.gov/436/Parks",
+        "status": "available",
+        "fetchedAt": "2026-10-24T17:59:01.570Z",
+        "rawCount": 24
+      }
+    ]
+  }
+]

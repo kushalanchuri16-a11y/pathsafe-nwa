@@ -1,0 +1,240 @@
+{
+  "fetchedAt": "2026-10-24T17:59:01.570Z",
+  "directory": "https://www.bentonville.ar.gov/436/Parks",
+  "records": [
+    {
+      "objectId": 1936,
+      "name": "A Street Promenade",
+      "address": null,
+      "addressHeadings": [],
+      "page": "https://www.bentonville.ar.gov/1936/A-Street-Promenade",
+      "fetchedAt": "2026-10-24T18:01:23.675Z"
+    },
+    {
+      "objectId": 767,
+      "name": "Austin-Baggett Park",
+      "address": "601 SE D Street",
+      "addressHeadings": [
+        "601 SE D Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/767/Austin-Baggett-Park",
+      "fetchedAt": "2026-10-24T18:01:24.596Z"
+    },
+    {
+      "objectId": 781,
+      "name": "Bark Park",
+      "address": "2400 N. Walton Blvd.",
+      "addressHeadings": [
+        "2400 N. Walton Blvd."
+      ],
+      "page": "https://www.bentonville.ar.gov/781/Bark-Park",
+      "fetchedAt": "2026-10-24T18:01:25.414Z"
+    },
+    {
+      "objectId": 771,
+      "name": "Bella Vista Lake",
+      "address": null,
+      "addressHeadings": [],
+      "page": "https://www.bentonville.ar.gov/771/Bella-Vista-Lake",
+      "fetchedAt": "2026-10-24T18:01:26.304Z"
+    },
+    {
+      "objectId": 783,
+      "name": "Bentonville Bike Playground",
+      "address": "2400 N. Walton Blvd.",
+      "addressHeadings": [
+        "2400 N. Walton Blvd."
+      ],
+      "page": "https://www.bentonville.ar.gov/783/Bentonville-Bike-Playground",
+      "fetchedAt": "2026-10-24T18:01:27.245Z"
+    },
+    {
+      "objectId": 1479,
+      "name": "Bogle Park",
+      "address": "270 NW F Street",
+      "addressHeadings": [
+        "270 NW F Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/1479/Bogle-Park",
+      "fetchedAt": "2026-10-24T18:01:28.095Z"
+    },
+    {
+      "objectId": 1052,
+      "name": "Citizens Park",
+      "address": "1101 SW Citizens Circle",
+      "addressHeadings": [
+        "1101 SW Citizens Circle"
+      ],
+      "page": "https://www.bentonville.ar.gov/1052/Citizens-Park",
+      "fetchedAt": "2026-10-24T18:01:28.989Z"
+    },
+    {
+      "objectId": 784,
+      "name": "City Square",
+      "address": "1 East Central Avenue",
+      "addressHeadings": [
+        "1 East Central Avenue"
+      ],
+      "page": "https://www.bentonville.ar.gov/784/City-Square",
+      "fetchedAt": "2026-10-24T18:01:30.022Z"
+    },
+    {
+      "objectId": 1525,
+      "name": "Creekside Park",
+      "address": "3104 SW Bright Road",
+      "addressHeadings": [
+        "3104 SW Bright Road"
+      ],
+      "page": "https://www.bentonville.ar.gov/1525/Creekside-Park",
+      "fetchedAt": "2026-10-24T17:59:01.570Z"
+    },
+    {
+      "objectId": 768,
+      "name": "Dave Peel Park",
+      "address": "206 E Central Avenue",
+      "addressHeadings": [
+        "206 E Central Avenue"
+      ],
+      "page": "https://www.bentonville.ar.gov/768/Dave-Peel-Park",
+      "fetchedAt": "2026-10-24T18:01:31.420Z"
+    },
+    {
+      "objectId": 769,
+      "name": "Durham Place Park",
+      "address": "902 Durham Place",
+      "addressHeadings": [
+        "902 Durham Place"
+      ],
+      "page": "https://www.bentonville.ar.gov/769/Durham-Place-Park",
+      "fetchedAt": "2026-10-24T18:01:32.429Z"
+    },
+    {
+      "objectId": 770,
+      "name": "Enfield Park",
+      "address": "1205 NE Waverly Way",
+      "addressHeadings": [
+        "1205 NE Waverly Way"
+      ],
+      "page": "https://www.bentonville.ar.gov/770/Enfield-Park",
+      "fetchedAt": "2026-10-24T18:01:33.337Z"
+    },
+    {
+      "objectId": 779,
+      "name": "Gilmore Park",
+      "address": "501 SW D St.",
+      "addressHeadings": [
+        "501 SW D St."
+      ],
+      "page": "https://www.bentonville.ar.gov/779/Gilmore-Park",
+      "fetchedAt": "2026-10-24T18:01:34.248Z"
+    },
+    {
+      "objectId": 772,
+      "name": "Lake Bentonville",
+      "address": "2100 SW I St.",
+      "addressHeadings": [
+        "2100 SW I St."
+      ],
+      "page": "https://www.bentonville.ar.gov/772/Lake-Bentonville",
+      "fetchedAt": "2026-10-24T18:01:35.185Z"
+    },
+    {
+      "objectId": 773,
+      "name": "Memorial Park",
+      "address": "401 NE Martin Luther King Jr Parkway",
+      "addressHeadings": [
+        "401 NE Martin Luther King Jr Parkway"
+      ],
+      "page": "https://www.bentonville.ar.gov/773/Memorial-Park",
+      "fetchedAt": "2026-10-24T18:01:36.119Z"
+    },
+    {
+      "objectId": 765,
+      "name": "Merchants Baseball Park",
+      "address": "201 Elm Tree Road",
+      "addressHeadings": [
+        "201 Elm Tree Road"
+      ],
+      "page": "https://www.bentonville.ar.gov/765/Merchants-Baseball-Park",
+      "fetchedAt": "2026-10-24T18:01:37.107Z"
+    },
+    {
+      "objectId": 780,
+      "name": "Old Tiger Track",
+      "address": "517 Tiger Boulevard",
+      "addressHeadings": [
+        "517 Tiger Boulevard"
+      ],
+      "page": "https://www.bentonville.ar.gov/780/Old-Tiger-Track",
+      "fetchedAt": "2026-10-24T18:01:38.155Z"
+    },
+    {
+      "objectId": 774,
+      "name": "Orchards Park",
+      "address": "1100 NE John Deshields Boulevard",
+      "addressHeadings": [
+        "1100 NE John Deshields Boulevard"
+      ],
+      "page": "https://www.bentonville.ar.gov/774/Orchards-Park",
+      "fetchedAt": "2026-10-24T18:01:39.034Z"
+    },
+    {
+      "objectId": 775,
+      "name": "Park Springs Park",
+      "address": "300 NW 10th Street",
+      "addressHeadings": [
+        "300 NW 10th Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/775/Park-Springs-Park",
+      "fetchedAt": "2026-10-24T18:01:39.913Z"
+    },
+    {
+      "objectId": 766,
+      "name": "Phillips Park",
+      "address": "3108 SE J Street",
+      "addressHeadings": [
+        "3108 SE J Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/766/Phillips-Park",
+      "fetchedAt": "2026-10-24T18:01:40.982Z"
+    },
+    {
+      "objectId": 782,
+      "name": "Slaughter Pen Mountain Bike Park",
+      "address": null,
+      "addressHeadings": [],
+      "page": "https://www.bentonville.ar.gov/782/Slaughter-Pen-Mountain-Bike-Park",
+      "fetchedAt": "2026-10-24T18:01:42.445Z"
+    },
+    {
+      "objectId": 776,
+      "name": "Town Branch Park",
+      "address": "401 SE 2nd Street",
+      "addressHeadings": [
+        "401 SE 2nd Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/776/Town-Branch-Park",
+      "fetchedAt": "2026-10-24T18:01:43.432Z"
+    },
+    {
+      "objectId": 777,
+      "name": "Train Station Park",
+      "address": "400 S. Main Street",
+      "addressHeadings": [
+        "400 S. Main Street"
+      ],
+      "page": "https://www.bentonville.ar.gov/777/Train-Station-Park",
+      "fetchedAt": "2026-10-24T18:01:44.306Z"
+    },
+    {
+      "objectId": 778,
+      "name": "Wildwood Park",
+      "address": "3800 Bright Road",
+      "addressHeadings": [
+        "3800 Bright Road"
+      ],
+      "page": "https://www.bentonville.ar.gov/778/Wildwood-Park",
+      "fetchedAt": "2026-10-24T18:01:45.156Z"
+    }
+  ]
+}

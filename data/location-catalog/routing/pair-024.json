@@ -1,0 +1,61 @@
+{
+  "id": 24,
+  "checkedAt": "2026-10-24T05:05:32.294Z",
+  "group": "school",
+  "start": {
+    "id": "schools-10:18",
+    "label": "Fulbright Junior High School",
+    "point": [
+      36.3204018841617,
+      -94.23516716203245
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "UNSUPPORTED_OR_UNAVAILABLE",
+  "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 39.31711417416313,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 212
+    },
+    {
+      "id": "pathsafe",
+      "inside": false,
+      "reason": "Real outer city exit (may also cross holes)",
+      "startSnapMeters": 39.31711417416313,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 215
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 39.31711417416313,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 209
+    }
+  ],
+  "validAlternatives": 0,
+  "failureCause": "Real outer city exit (may also cross holes); Real outer city exit (may also cross holes); Internal municipal polygon hole",
+  "elapsedMs": 595.14724999998,
+  "catalogReconciledAt": "2026-10-24T19:45:39.728Z"
+}

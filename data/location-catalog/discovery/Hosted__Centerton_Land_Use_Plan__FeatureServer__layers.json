@@ -1,0 +1,335 @@
+{
+  "tables": [],
+  "layers": [
+    {
+      "isCoGoEnabled": false,
+      "extent": {
+        "ymin": 4342638.924999997,
+        "xmin": -10503915.679799998,
+        "ymax": 4357578.175999999,
+        "xmax": -10491962.375000002,
+        "spatialReference": {
+          "falseM": -100000,
+          "xyTolerance": 0.001,
+          "mUnits": 10000,
+          "zUnits": 10000,
+          "latestWkid": 3857,
+          "zTolerance": 0.001,
+          "wkid": 102100,
+          "xyUnits": 148923141.92838538,
+          "mTolerance": 0.001,
+          "falseX": -20037700,
+          "falseY": -30241100,
+          "falseZ": -100000
+        }
+      },
+      "isDataBranchVersioned": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "maxRecordCount": 2000,
+      "infoInEstimates": [
+        "extent",
+        "count"
+      ],
+      "type": "Feature Layer",
+      "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+      "supportsAttachmentsByUploadId": true,
+      "relationships": [],
+      "supportsAttachmentsResizing": true,
+      "cimVersion": "2.6.0",
+      "isDataArchived": false,
+      "id": 0,
+      "supportsStatistics": true,
+      "supportedExportFormats": "sqlite,filegdb",
+      "standardMaxRecordCount": 2000,
+      "isDataVersioned": false,
+      "templates": [
+        {
+          "name": "Centerton_Land_Use_Plan_2020",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "editor": null,
+              "creator": null,
+              "lup_id": null,
+              "globalid": null,
+              "hla_flu": null,
+              "editdate": null,
+              "creationda": null
+            }
+          }
+        }
+      ],
+      "hasGeometryProperties": true,
+      "supportsAdvancedQueries": true,
+      "parentLayer": null,
+      "currentVersion": 10.91,
+      "canScaleSymbols": false,
+      "hasZ": false,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": false,
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ]
+      },
+      "objectIdField": "fid",
+      "supportsQuantizationEditMode": true,
+      "name": "Centerton_Land_Use_Plan_2020",
+      "allowTrueCurvesUpdates": false,
+      "displayField": "hla_flu",
+      "supportsCalculate": true,
+      "fields": [
+        {
+          "modelName": "db_ssb1r.hsu_83gak.Centerton_Land_Use_Plan_Centerton_Land_Use_Plan_2020.fid",
+          "nullable": false,
+          "defaultValue": null,
+          "editable": false,
+          "domain": null,
+          "name": "fid",
+          "alias": "db_ssb1r.hsu_83gak.Centerton_Land_Use_Plan_Centerton_Land_Use_Plan_2020.fid",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "modelName": "hla_flu",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "hla_flu",
+          "length": 254,
+          "alias": "HLA_FLU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "lup_id",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "lup_id",
+          "length": 50,
+          "alias": "LUP_ID",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "globalid",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "globalid",
+          "length": 38,
+          "alias": "GlobalID",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "creationda",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "creationda",
+          "length": 29,
+          "alias": "CreationDa",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "modelName": "creator",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "creator",
+          "length": 128,
+          "alias": "Creator",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "modelName": "editdate",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "editdate",
+          "length": 29,
+          "alias": "EditDate",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "modelName": "editor",
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "domain": null,
+          "name": "editor",
+          "length": 128,
+          "alias": "Editor",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "virtual": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "virtual": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Area",
+          "alias": "SHAPE__Area",
+          "type": "esriFieldTypeDouble"
+        }
+      ],
+      "maxRecordCountFactor": 1,
+      "dateFieldsTimeReference": {
+        "respectsDaylightSaving": false,
+        "timeZone": "UTC"
+      },
+      "supportsFieldDescriptionProperty": true,
+      "hasM": false,
+      "allowGeometryUpdates": true,
+      "useStandardizedQueries": true,
+      "globalIdField": null,
+      "description": "",
+      "syncCanReturnChanges": true,
+      "supportsAsyncDelete": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin"
+      ],
+      "geometryProperties": {
+        "shapeAreaFieldName": "SHAPE__Area",
+        "shapeLengthFieldName": "SHAPE__Length",
+        "units": "esriMeters"
+      },
+      "supportsRollbackOnFailureParameter": true,
+      "isDataReplicaTracked": false,
+      "standardMaxRecordCountNoGeometry": 16000,
+      "indexes": [
+        {
+          "name": "r287_sde_rowid_uk",
+          "isUnique": true,
+          "description": "",
+          "fields": "fid",
+          "isAscending": true
+        },
+        {
+          "name": "a200_ix1",
+          "isUnique": true,
+          "description": "",
+          "fields": "shape",
+          "isAscending": true
+        }
+      ],
+      "editFieldsInfo": null,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "minScale": 288896,
+      "hasAttachments": false,
+      "advancedQueryCapabilities": {
+        "supportsSqlExpression": true,
+        "supportsQueryWithResultType": true,
+        "supportsQueryWithCacheHint": false,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "supportsQueryDateBins": false,
+        "supportsQueryWithLodSR": true,
+        "supportsPaginationOnAggregatedQueries": true,
+        "supportsPagination": true,
+        "supportsMaxRecordCountFactor": true,
+        "supportsStatistics": true,
+        "supportsOrderBy": true,
+        "supportsQueryWithDistance": true,
+        "supportsLod": true,
+        "supportsCountDistinct": true,
+        "supportsQueryAttachments": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryAttachmentsCountOnly": true,
+        "supportsOrderByOnlyOnLayerFields": false,
+        "supportsOutFieldSqlExpression": true,
+        "supportsTopFeaturesQuery": true,
+        "supportsDistinct": true,
+        "supportsReturningGeometryCentroid": true,
+        "supportsQueryAnalytic": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true
+      },
+      "supportsValidateSQL": true,
+      "enableZDefaults": true,
+      "serviceItemId": "797a7c5c8dd443c8a0fafa827446fd09",
+      "allowUpdateWithoutMValues": true,
+      "supportsCoordinatesQuantization": true,
+      "types": [],
+      "capabilities": "Query",
+      "maxScale": 1128,
+      "supportsAppend": true,
+      "supportsExceedsLimitStatistics": true,
+      "defaultVisibility": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsAsync": false,
+        "supportsLinearRegression": true,
+        "supportsPercentileAnalytic": false
+      },
+      "hasMetadata": true,
+      "supportedAppendFormats": "shapefile,geojson,csv,featureCollection,excel",
+      "tileMaxRecordCount": 2000,
+      "typeIdField": "",
+      "supportsASyncCalculate": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "sqlParserVersion": "PG_10.9.1",
+      "drawingInfo": {
+        "renderer": {
+          "symbol": {
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4,
+              "style": "esriSLSSolid",
+              "type": "esriSLS"
+            },
+            "color": [
+              194,
+              217,
+              242,
+              255
+            ],
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "type": "simple"
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "geometryField": {
+        "modelName": "shape",
+        "nullable": true,
+        "editable": true,
+        "defaultValue": null,
+        "domain": null,
+        "name": "shape",
+        "alias": "Shape",
+        "type": "esriFieldTypeGeometry"
+      },
+      "copyrightText": "",
+      "zDefault": 0,
+      "geometryType": "esriGeometryPolygon"
+    }
+  ]
+}

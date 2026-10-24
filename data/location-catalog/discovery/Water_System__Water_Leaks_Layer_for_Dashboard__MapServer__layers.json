@@ -1,0 +1,421 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "THEWEB.DBO.wLeaks_With_Location",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 102651,
+        "latestWkid": 3433,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -122328300,
+        "falseY": -93908400,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0.0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              132,
+              53,
+              119,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.7
+            }
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 449999.99999547005,
+        "ymin": 700000.0000131428,
+        "xmax": 677728.4595638812,
+        "ymax": 771658.7300549746,
+        "spatialReference": {
+          "wkid": 102651,
+          "latestWkid": 3433,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -122328300,
+          "falseY": -93908400,
+          "xyUnits": 3048.0060960121928,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Request__",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "Request__",
+          "type": "esriFieldTypeString",
+          "alias": "Request__",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "J_O__",
+          "type": "esriFieldTypeInteger",
+          "alias": "J_O__",
+          "domain": null
+        },
+        {
+          "name": "J_O_Description",
+          "type": "esriFieldTypeString",
+          "alias": "J_O_Description",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Scheduled_Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Scheduled_Start_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Department",
+          "type": "esriFieldTypeInteger",
+          "alias": "Department",
+          "domain": null
+        },
+        {
+          "name": "Task",
+          "type": "esriFieldTypeString",
+          "alias": "Task",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Crew",
+          "type": "esriFieldTypeString",
+          "alias": "Crew",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Work_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Work_Type",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Priority",
+          "type": "esriFieldTypeString",
+          "alias": "Priority",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Facility_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility_ID",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Location_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Location_ID",
+          "domain": null
+        },
+        {
+          "name": "Location_Address",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Address",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "Standard_task",
+          "type": "esriFieldTypeString",
+          "alias": "Standard_task",
+          "length": 1073741822,
+          "domain": null
+        },
+        {
+          "name": "LOCID_norm",
+          "type": "esriFieldTypeString",
+          "alias": "LOCID_norm",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Leak_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Leak_Status",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Show_on_GIS",
+          "type": "esriFieldTypeString",
+          "alias": "Show_on_GIS",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "Leak_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Leak_Flag",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "HasGeometry",
+          "type": "esriFieldTypeString",
+          "alias": "HasGeometry",
+          "length": 5,
+          "domain": null
+        },
+        {
+          "name": "GIS_Created_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_Created_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "GIS_Edited_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_Edited_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Suspected_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Suspected_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Investigated_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Investigated_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Confirmed_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Confirmed_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Repaired_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Repaired_Date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "CEI_comments",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_comments",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "CEI_AssetType",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_AssetType",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "CEI_AssetID",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_AssetID",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "CEI_Pipe_Dia",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_Pipe_Dia",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "CEI_Pipe_Mat",
+          "type": "esriFieldTypeString",
+          "alias": "CEI_Pipe_Mat",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Overwrite_show",
+          "type": "esriFieldTypeString",
+          "alias": "Overwrite_show",
+          "length": 15,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R24907_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S24771_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true,
+      "serviceItemId": "e17b913ea57f4275bb8e7c4aba172e7b"
+    }
+  ],
+  "tables": []
+}

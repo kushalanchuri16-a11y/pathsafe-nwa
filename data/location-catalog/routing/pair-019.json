@@ -1,0 +1,143 @@
+{
+  "id": 19,
+  "checkedAt": "2026-10-24T05:04:58.347Z",
+  "group": "school",
+  "start": {
+    "id": "schools-7:19",
+    "label": "Creekside Middle School",
+    "point": [
+      36.342294900955686,
+      -94.24165967314097
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:17",
+    "label": "Bentonville Community Center",
+    "point": [
+      36.330686633086984,
+      -94.22562277195081
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 33.92458333333333,
+        "miles": 1.7583854042392428,
+        "seconds": 2035.475,
+        "providerDistanceMeters": 2829.847,
+        "coverage": 64.87725802206346,
+        "gaps": 5,
+        "score": 55,
+        "lengthMeters": 2827.1176279280817,
+        "coveredMeters": 1834.1563980581413,
+        "uncoveredMeters": 992.9612298699403
+      },
+      "vertices": 100
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 40.66093333333333,
+        "miles": 2.1374218315040165,
+        "seconds": 2439.656,
+        "providerDistanceMeters": 3439.847,
+        "coverage": 80.06300673532175,
+        "gaps": 4,
+        "score": 71,
+        "lengthMeters": 3435.724012837926,
+        "coveredMeters": 2750.7439478054953,
+        "uncoveredMeters": 684.9800650324305
+      },
+      "vertices": 99
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:04:59.412Z",
+        "cacheHit": false,
+        "featureCount": 399
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:04:59.143Z",
+        "cacheHit": false,
+        "featureCount": 1
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:04:59.412Z",
+    "routingFetchedAt": "2026-10-24T05:04:58.797Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 400,
+    "segmentCount": 406,
+    "eligibleSegmentCount": 401,
+    "countsByKind": {
+      "crossing": 5,
+      "sidewalk": 394,
+      "trail": 1
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 2,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "1 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.",
+      "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 0.00m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 12.631848252380134,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 100
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 12.631848252380134,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 99
+    },
+    {
+      "id": "alternative-2",
+      "inside": false,
+      "reason": "Internal municipal polygon hole",
+      "startSnapMeters": 12.631848252380134,
+      "endSnapMeters": 39.937500392942546,
+      "vertices": 114
+    }
+  ],
+  "validAlternatives": 2,
+  "elapsedMs": 1147.3893749999988,
+  "catalogReconciledAt": "2026-10-24T19:45:39.593Z"
+}

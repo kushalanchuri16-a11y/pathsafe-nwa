@@ -1,0 +1,160 @@
+{
+  "id": 46,
+  "checkedAt": "2026-10-24T05:08:28.580Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "city-place:76",
+    "label": "Melvin Ford Aquatic Center",
+    "point": [
+      36.37407940851344,
+      -94.18713735511761
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-place:68",
+    "label": "Library",
+    "point": [
+      36.36770870312484,
+      -94.20851110772566
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "fastest",
+    "explanation": "The fastest route is recommended. No alternative meets both the infrastructure improvement and travel-cost thresholds.",
+    "factors": [
+      "Keep added walking time and distance proportionate",
+      "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": true,
+      "metrics": {
+        "minutes": 31.38471666666667,
+        "miles": 1.6513045066809828,
+        "seconds": 1883.083,
+        "providerDistanceMeters": 2657.517,
+        "coverage": 87.54891329364088,
+        "gaps": 3,
+        "score": 82,
+        "lengthMeters": 2655.6617521770645,
+        "coveredMeters": 2325.0030047858822,
+        "uncoveredMeters": 330.65874739118226
+      },
+      "vertices": 109
+    },
+    {
+      "id": "pathsafe",
+      "recommended": false,
+      "metrics": {
+        "minutes": 31.772016666666666,
+        "miles": 1.6693248926270579,
+        "seconds": 1906.321,
+        "providerDistanceMeters": 2686.518,
+        "coverage": 79.64486204849872,
+        "gaps": 5,
+        "score": 70,
+        "lengthMeters": 2683.5763948232,
+        "coveredMeters": 2137.3307176230132,
+        "uncoveredMeters": 546.245677200187
+      },
+      "vertices": 114
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 32.398133333333334,
+        "miles": 1.693558990495506,
+        "seconds": 1943.888,
+        "providerDistanceMeters": 2725.519,
+        "coverage": 50.33978045794021,
+        "gaps": 7,
+        "score": 36,
+        "lengthMeters": 2717.388268561613,
+        "coveredMeters": 1367.9272885837386,
+        "uncoveredMeters": 1349.4609799778746
+      },
+      "vertices": 169
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:08:30.007Z",
+        "cacheHit": false,
+        "featureCount": 486
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:08:29.905Z",
+        "cacheHit": false,
+        "featureCount": 26
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:08:30.007Z",
+    "routingFetchedAt": "2026-10-24T05:08:29.199Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 512,
+    "segmentCount": 516,
+    "eligibleSegmentCount": 389,
+    "countsByKind": {
+      "crossing": 124,
+      "sidewalk": 362,
+      "trail": 21
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 195.53m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.4495269008924816,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 109
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.4495269008924816,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 114
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 2.4495269008924816,
+      "endSnapMeters": 15.369976180476632,
+      "vertices": 169
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1536.1692500000354,
+  "catalogReconciledAt": "2026-10-24T19:45:40.236Z"
+}

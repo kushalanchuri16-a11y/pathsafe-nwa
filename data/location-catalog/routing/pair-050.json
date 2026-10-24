@@ -1,0 +1,161 @@
+{
+  "id": 50,
+  "checkedAt": "2026-10-24T05:12:53.698Z",
+  "group": "parks / recreation",
+  "start": {
+    "id": "parks:18739186",
+    "label": "CITY CEMETERY",
+    "point": [
+      36.36870489131947,
+      -94.21717072850352
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "destination": {
+    "id": "city-parks-directory:773",
+    "label": "Memorial Park",
+    "point": [
+      36.374059289119096,
+      -94.18699731536287
+    ],
+    "searchable": true,
+    "selectable": true,
+    "inside": true
+  },
+  "result": "PASS",
+  "recommendation": {
+    "routeId": "pathsafe",
+    "explanation": "This route adds approximately 0.0 minutes and increases mapped pedestrian infrastructure coverage from 83.2% to 94.9%.",
+    "factors": [
+      "At least 10 percentage points more mapped infrastructure coverage",
+      "At most 5 extra minutes and 25% added time/distance",
+      "Higher Pedestrian Infrastructure Score than the fastest route"
+    ]
+  },
+  "routes": [
+    {
+      "id": "fastest",
+      "recommended": false,
+      "metrics": {
+        "minutes": 39.99093333333334,
+        "miles": 2.0910787252445715,
+        "seconds": 2399.456,
+        "providerDistanceMeters": 3365.265,
+        "coverage": 83.2128856619422,
+        "gaps": 6,
+        "score": 71,
+        "lengthMeters": 3360.9807830873756,
+        "coveredMeters": 2796.769096150347,
+        "uncoveredMeters": 564.2116869370284
+      },
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "recommended": true,
+      "metrics": {
+        "minutes": 40.02343333333333,
+        "miles": 2.051310968941382,
+        "seconds": 2401.406,
+        "providerDistanceMeters": 3301.265,
+        "coverage": 94.89247751873995,
+        "gaps": 2,
+        "score": 91,
+        "lengthMeters": 3295.9776039547346,
+        "coveredMeters": 3127.6348068554503,
+        "uncoveredMeters": 168.34279709928433
+      },
+      "vertices": 124
+    },
+    {
+      "id": "alternative-2",
+      "recommended": false,
+      "metrics": {
+        "minutes": 40.624183333333335,
+        "miles": 2.1177983078819693,
+        "seconds": 2437.451,
+        "providerDistanceMeters": 3408.266,
+        "coverage": 91.23951010007994,
+        "gaps": 2,
+        "score": 87,
+        "lengthMeters": 3405.375078188075,
+        "coveredMeters": 3107.0475384090137,
+        "uncoveredMeters": 298.3275397790612
+      },
+      "vertices": 134
+    }
+  ],
+  "provenance": {
+    "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+    "gisSources": [
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "fetchedAt": "2026-10-24T05:12:54.914Z",
+        "cacheHit": false,
+        "featureCount": 611
+      },
+      {
+        "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+        "fetchedAt": "2026-10-24T05:12:54.662Z",
+        "cacheHit": false,
+        "featureCount": 24
+      }
+    ],
+    "gisFetchedAt": "2026-10-24T05:12:54.914Z",
+    "routingFetchedAt": "2026-10-24T05:12:54.149Z",
+    "gisCacheHit": false,
+    "routingCacheHit": false,
+    "featureCount": 635,
+    "segmentCount": 643,
+    "eligibleSegmentCount": 495,
+    "countsByKind": {
+      "crossing": 145,
+      "sidewalk": 466,
+      "trail": 19
+    },
+    "toleranceMeters": 15,
+    "gapThresholdMeters": 20,
+    "algorithm": "coverage-v1",
+    "candidatesReceived": 3,
+    "candidatesRetained": 3,
+    "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+    "warnings": [
+      "Features without explicit public access are excluded from coverage.",
+      "Overlapping infrastructure is deduplicated before coverage; 1 duplicate features removed and 195.53m of near-coincident supplemental linework trimmed.",
+      "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+    ]
+  },
+  "providerReceived": 3,
+  "distinctAlternatives": 3,
+  "alternatives": [
+    {
+      "id": "fastest",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.13550321537601,
+      "endSnapMeters": 10.090459807209568,
+      "vertices": 119
+    },
+    {
+      "id": "pathsafe",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.13550321537601,
+      "endSnapMeters": 10.090459807209568,
+      "vertices": 124
+    },
+    {
+      "id": "alternative-2",
+      "inside": true,
+      "reason": "Retained",
+      "startSnapMeters": 16.13550321537601,
+      "endSnapMeters": 10.090459807209568,
+      "vertices": 134
+    }
+  ],
+  "validAlternatives": 3,
+  "elapsedMs": 1322.2100830000127,
+  "catalogReconciledAt": "2026-10-24T19:45:40.345Z"
+}
