@@ -1,0 +1,86 @@
+{
+  "routes": [
+    {
+      "weight_name": "pedestrian",
+      "weight": 1072.246,
+      "duration": 1050.538,
+      "distance": 1482.056,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "admins": [
+            {
+              "iso_3166_1_alpha3": "USA",
+              "iso_3166_1": "US"
+            }
+          ],
+          "weight": 1072.246,
+          "duration": 1050.538,
+          "steps": [],
+          "distance": 1482.056,
+          "summary": ""
+        }
+      ],
+      "geometry": "}zqjdApnvtrD??CnBWhAs@lBMjA?~AIt@YdAe@pAIj@?bAP`B`@nBl@rB?r@e@xBA`DwIK{AUChBApAAv@IjBGVc@`@Qb\\J~BA~`@?tBCnAApAA~AmABmAEkAEeAA_@be@AxA}p@OmLDcTOer@a@adA{@}A{@wAqASA_q@{@_{@a@{B?Ita@Ktg@CjH?tAGxWqBCsO?q]E}BAwCAkAAgKAkICc@?_B@yCPoCXu_@Qk|@QuK@E}DoAcDYc@p@EjAWn@m@v@aA\\gAJwAW{Ay@_AoAaBW]vA{B~D?"
+    },
+    {
+      "weight_name": "pedestrian",
+      "weight": 1076.291,
+      "duration": 1056.291,
+      "distance": 1474.056,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "admins": [
+            {
+              "iso_3166_1_alpha3": "USA",
+              "iso_3166_1": "US"
+            }
+          ],
+          "weight": 1076.291,
+          "duration": 1056.291,
+          "steps": [],
+          "distance": 1474.056,
+          "summary": ""
+        }
+      ],
+      "geometry": "}zqjdApnvtrD??CnBWhAs@lBMjA?~AIt@YdAe@pAIj@?bAP`B`@nBl@rB?r@e@xBA`DwIK{AUChBApAAv@IjBGVc@`@Qb\\J~BA~`@?tBCnAApAA~AmABmAEkAEeAAq`Ak@mcAq@{@Eo@E_cAy@Ipe@CvBCvAYhhA?vAmBAuB@_w@Oi\\OoVMe@A}A??tAGxWqBCsO?q]E}BAwCAkAAgKAkICc@?_B@yCPoCXu_@Qk|@QuK@E}DoAcDYc@p@EjAWn@m@v@aA\\gAJwAW{Ay@_AoAaBW]vA{B~D?"
+    },
+    {
+      "weight_name": "pedestrian",
+      "weight": 1103.625,
+      "duration": 1063.625,
+      "distance": 1487.056,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "admins": [
+            {
+              "iso_3166_1_alpha3": "USA",
+              "iso_3166_1": "US"
+            }
+          ],
+          "weight": 1103.625,
+          "duration": 1063.625,
+          "steps": [],
+          "distance": 1487.056,
+          "summary": ""
+        }
+      ],
+      "geometry": "}zqjdApnvtrD??CnBWhAs@lBMjA?~AIt@YdAe@pAIj@?bAP`B`@nBl@rB?r@e@xBA`DwIK{AUChBApAwDEmBA[AkNMyCEiHGuGGuLM_IIeDCmGGgPOoTU{ACsQQyBAk}@}@y@AA`EaCEwCGSlYY|]p@|Ag@hv@?lBR@vApAm@roAuB@_w@Oi\\OoVMe@A}A??tAGxWqBCsO?q]E}BAwCAkAAgKAkICc@?_B@yCPoCXu_@Qk|@QuK@E}DoAcDYc@p@EjAWn@m@v@aA\\gAJwAW{Ay@_AoAaBW]vA{B~D?"
+    }
+  ],
+  "waypoints": [
+    {
+      "distance": 5.292,
+      "name": "",
+      "location": [-94.203641, 36.365759]
+    },
+    {
+      "distance": 4.821,
+      "name": "",
+      "location": [-94.207527, 36.374607]
+    }
+  ],
+  "code": "Ok"
+}

@@ -1,0 +1,266 @@
+{
+  "checkedAt": "2026-10-24T23:33:28.368Z",
+  "note": "Three requested real API comparisons through Stadia; existing GIS/cache policies preserved. No deployment.",
+  "results": [
+    {
+      "trip": "showcase",
+      "start": {
+        "label": "Austin-Baggett Park",
+        "point": [
+          36.36571210106438,
+          -94.20363133075323
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "endpointsInside": true,
+      "source": "live",
+      "endpoint": "https://api.stadiamaps.com/route/v1",
+      "candidatesReceived": 3,
+      "candidatesRetained": 3,
+      "allRetainedRoutesWithinBoundary": true,
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 17.508966666666666,
+            "miles": 0.9209069036824943,
+            "seconds": 1050.538,
+            "providerDistanceMeters": 1482.056,
+            "coverage": 74.64369816375708,
+            "gaps": 3,
+            "score": 69,
+            "lengthMeters": 1482.449785558302,
+            "coveredMeters": 1106.555343361403,
+            "uncoveredMeters": 375.89444219689904
+          },
+          "geometryHash": "861367c75abb7c09695e213f8ea88dd096bcfa44efec5ef29c3eb5702853b4c7"
+        },
+        {
+          "id": "pathsafe",
+          "recommended": true,
+          "metrics": {
+            "minutes": 17.60485,
+            "miles": 0.9159359341445955,
+            "seconds": 1056.291,
+            "providerDistanceMeters": 1474.056,
+            "coverage": 96.38925952666217,
+            "gaps": 1,
+            "score": 94,
+            "lengthMeters": 1474.910636503629,
+            "coveredMeters": 1421.6554412058279,
+            "uncoveredMeters": 53.25519529780104
+          },
+          "geometryHash": "e0b0953762f015552dd58e94c2591446a00714aa7bbeb7d4932bef4596430e5c"
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 17.727083333333333,
+            "miles": 0.9240137596436809,
+            "seconds": 1063.625,
+            "providerDistanceMeters": 1487.056,
+            "coverage": 79.7547276470793,
+            "gaps": 3,
+            "score": 74,
+            "lengthMeters": 1487.9727440528413,
+            "coveredMeters": 1186.728609482116,
+            "uncoveredMeters": 301.24413457072524
+          },
+          "geometryHash": "1494946f3cbf5b80f4ed0493df81e5a3d6486e22af5a3ba672f7adb1bb27fe6e"
+        }
+      ],
+      "recommendation": {
+        "routeId": "pathsafe",
+        "explanation": "This route adds approximately 0.1 minutes and increases mapped pedestrian infrastructure coverage from 74.6% to 96.4%.",
+        "factors": [
+          "At least 10 percentage points more mapped infrastructure coverage",
+          "At most 5 extra minutes and 25% added time/distance",
+          "Higher Pedestrian Infrastructure Score than the fastest route"
+        ]
+      },
+      "warnings": [],
+      "routingFetchedAt": "2026-10-24T23:29:57.683Z",
+      "gisFetchedAt": "2026-10-24T23:09:04.456Z"
+    },
+    {
+      "trip": "mistletoe",
+      "start": {
+        "label": "3809 SW MISTLETOE AVE",
+        "point": [
+          36.32936552602442,
+          -94.2557953932388
+        ]
+      },
+      "destination": {
+        "label": "Crystal Bridges",
+        "point": [
+          36.38211712065461,
+          -94.2033730929639
+        ]
+      },
+      "endpointsInside": true,
+      "source": "live",
+      "endpoint": "https://api.stadiamaps.com/route/v1",
+      "candidatesReceived": 3,
+      "candidatesRetained": 1,
+      "allRetainedRoutesWithinBoundary": true,
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": false,
+          "metrics": {
+            "minutes": 135.78955,
+            "miles": 7.152601929730374,
+            "seconds": 8147.373,
+            "providerDistanceMeters": 11510.997,
+            "coverage": 89.76368714764614,
+            "gaps": 8,
+            "score": 74,
+            "lengthMeters": 11494.90953579241,
+            "coveredMeters": 10318.254633613642,
+            "uncoveredMeters": 1176.6549021787687
+          },
+          "geometryHash": "23b64e14621859d5014a7399c56af8da2d300299957a542eb0999276b090f3b2"
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "Only one distinct walking route was returned. No alternative comparison is available; this route is shown without a comparative infrastructure recommendation.",
+        "factors": [
+          "One provider route; no fabricated alternative"
+        ]
+      },
+      "warnings": [
+        "2 provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area."
+      ],
+      "routingFetchedAt": "2026-10-24T23:30:44.763Z",
+      "gisFetchedAt": "2026-10-24T03:09:56.634Z"
+    },
+    {
+      "trip": "library",
+      "start": {
+        "label": "Library",
+        "point": [
+          36.36770870312484,
+          -94.20851110772566
+        ]
+      },
+      "destination": {
+        "label": "Memorial Park",
+        "point": [
+          36.374059289119096,
+          -94.18699731536287
+        ]
+      },
+      "endpointsInside": true,
+      "source": "live",
+      "endpoint": "https://api.stadiamaps.com/route/v1",
+      "candidatesReceived": 3,
+      "candidatesRetained": 3,
+      "allRetainedRoutesWithinBoundary": true,
+      "routes": [
+        {
+          "id": "fastest",
+          "recommended": true,
+          "metrics": {
+            "minutes": 31.827783333333333,
+            "miles": 1.6618665742066332,
+            "seconds": 1909.667,
+            "providerDistanceMeters": 2674.515,
+            "coverage": 72.98557639604658,
+            "gaps": 6,
+            "score": 61,
+            "lengthMeters": 2670.63285697311,
+            "coveredMeters": 1949.1767840840307,
+            "uncoveredMeters": 721.4560728890792
+          },
+          "geometryHash": "9b9750fd0588d04ad2f93fbf6fd44688b55a7601b63e1f1e6aad61a6d2baac7a"
+        },
+        {
+          "id": "pathsafe",
+          "recommended": false,
+          "metrics": {
+            "minutes": 32.273,
+            "miles": 1.6873421717171717,
+            "seconds": 1936.38,
+            "providerDistanceMeters": 2715.514,
+            "coverage": 67.2578110463169,
+            "gaps": 6,
+            "score": 55,
+            "lengthMeters": 2713.7338176262533,
+            "coveredMeters": 1825.1979633590677,
+            "uncoveredMeters": 888.5358542671856
+          },
+          "geometryHash": "664f90d890b5070bf49085c7ae00d432e4d8c5375946e3d03dc2121f8ba64f6d"
+        },
+        {
+          "id": "alternative-2",
+          "recommended": false,
+          "metrics": {
+            "minutes": 32.9092,
+            "miles": 1.7059839288554839,
+            "seconds": 1974.552,
+            "providerDistanceMeters": 2745.515,
+            "coverage": 67.79021869281422,
+            "gaps": 6,
+            "score": 56,
+            "lengthMeters": 2741.2502794222746,
+            "coveredMeters": 1858.299559337741,
+            "uncoveredMeters": 882.9507200845337
+          },
+          "geometryHash": "6ab677b678cff08a0050628d848fdc07b6ea16ae303c7c0283d70844eadd8e53"
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "warnings": [],
+      "routingFetchedAt": "2026-10-24T23:30:45.260Z",
+      "gisFetchedAt": "2026-10-24T23:30:45.808Z"
+    }
+  ],
+  "showcaseDelta": {
+    "recorded": {
+      "fastestSeconds": 1044.537,
+      "recommendedSeconds": 1049.29,
+      "addedSeconds": 4.752999999999929,
+      "addedDistanceMeters": -8,
+      "coverageImprovement": 21.745561362905093
+    },
+    "stadia": {
+      "fastestSeconds": 1050.538,
+      "recommendedSeconds": 1056.291,
+      "addedSeconds": 5.752999999999929,
+      "addedDistanceMeters": -8,
+      "coverageImprovement": 21.745561362905093
+    }
+  },
+  "frozenCheck": {
+    "files": 437,
+    "unchanged": 436,
+    "errorPropagationOnly": [
+      "lib/analysis/compare.ts"
+    ]
+  },
+  "browser": {
+    "liveSource": true,
+    "endpoint": "https://api.stadiamaps.com/route/v1",
+    "recommendationUsesLiveSixSeconds": true,
+    "noBrowserStadiaCalls": true,
+    "noCredentialInBrowserTrafficOrResponse": true,
+    "pageErrors": []
+  }
+}

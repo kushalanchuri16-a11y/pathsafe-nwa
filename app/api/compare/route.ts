@@ -4,6 +4,7 @@ import { validateTrip } from "@/lib/geocoding/validate";
 import { AnalysisUnavailableError } from "@/lib/server/analysisError";
 import { RouteBoundaryError } from "@/lib/geocoding/supportedRoutes";
 import { LocationError } from "@/lib/geocoding/provider";
+import { RoutingProviderError } from "@/lib/routing/errors";
 export const runtime = "nodejs";
 export const maxDuration = 60;
 export async function POST(request: Request) {
@@ -39,6 +40,14 @@ export async function POST(request: Request) {
       return Response.json(
         { error: error.message, code: "INVALID_LOCATION" },
         { status: 400 },
+      );
+    if (error instanceof RoutingProviderError)
+      return Response.json(
+        { error: error.message, code: error.code },
+        {
+          status: 503,
+          headers: { "Cache-Control": "no-store", "Retry-After": "60" },
+        },
       );
     console.error(
       "PathSafe live analysis failed:",

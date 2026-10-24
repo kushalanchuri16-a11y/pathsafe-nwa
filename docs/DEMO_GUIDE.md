@@ -71,7 +71,7 @@ Expand **Why is this route recommended?** to show the plain-English explanation 
 
 The app shows **Live route analysis is temporarily unavailable.** No mock result is silently substituted. Keep the status visible, wait at least a minute before retrying, and inspect server logs if necessary. Preserve the cache; clearing it can make an upstream outage harder to demonstrate around.
 
-If production configuration is missing, the deployment check/server logs name `VALHALLA_URL`. Do not point a production deployment at the public demo to bypass that guard. Use the local development server for this recording or supply an appropriate hosted/private provider later.
+Production now uses server-side `STADIA_API_KEY` for Stadia hosted Valhalla; see [Stadia routing setup](STADIA_ROUTING_MIGRATION.md). Do not point a production deployment at the public demo to bypass configuration checks. The October 24 Stadia verification preserved 74.64% → 96.39% coverage, scores 69 → 94 and gaps 3 → 1, with **5.753 seconds** additional time (rendered as about 6 seconds). Historical recorded values below remain historical; use the live comparison when recording.
 
 ## 9. Explicitly switch to demo fallback
 

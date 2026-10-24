@@ -4,6 +4,7 @@ import { getRouteInventory } from "@/lib/gis/routeInventory";
 import { validateTrip } from "@/lib/geocoding/validate";
 import { supportedCandidates } from "@/lib/geocoding/supportedRoutes";
 import { RoutingConfigurationError } from "@/lib/config";
+import { RoutingProviderError } from "@/lib/routing/errors";
 import { AnalysisUnavailableError } from "@/lib/server/analysisError";
 import { LocationError } from "@/lib/geocoding/provider";
 import { measureCoverage, TOLERANCE_METERS, MIN_GAP_METERS } from "./coverage";
@@ -66,6 +67,7 @@ export async function getLiveRouteComparison(
       throw new LocationError(
         "No walking route was found between these locations. Try different locations.",
       );
+    if (error instanceof RoutingProviderError) throw error;
     if (error instanceof Error && /snapped more than 100m/.test(error.message))
       throw new AnalysisUnavailableError(
         "The walking provider could not connect a selected location to its walking network within 100 meters. Try a nearby public entrance. No route was substituted.",

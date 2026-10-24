@@ -205,9 +205,16 @@ test("API rejects unknown endpoints and reports unavailable production configura
     }),
   );
   assert.equal(invalid.status, 400);
-  const before = { node: process.env.NODE_ENV, url: process.env.VALHALLA_URL };
+  const before = {
+    node: process.env.NODE_ENV,
+    url: process.env.VALHALLA_URL,
+    key: process.env.STADIA_API_KEY,
+    provider: process.env.ROUTING_PROVIDER,
+  };
   Object.assign(process.env, { NODE_ENV: "production" });
   delete process.env.VALHALLA_URL;
+  delete process.env.STADIA_API_KEY;
+  delete process.env.ROUTING_PROVIDER;
   try {
     const response = await POST(
       new Request("http://localhost/api/compare", {
@@ -228,6 +235,10 @@ test("API rejects unknown endpoints and reports unavailable production configura
       Reflect.deleteProperty(process.env, "NODE_ENV");
     else Object.assign(process.env, { NODE_ENV: before.node });
     if (before.url !== undefined) process.env.VALHALLA_URL = before.url;
+    if (before.key === undefined) delete process.env.STADIA_API_KEY;
+    else process.env.STADIA_API_KEY = before.key;
+    if (before.provider === undefined) delete process.env.ROUTING_PROVIDER;
+    else process.env.ROUTING_PROVIDER = before.provider;
   }
 });
 

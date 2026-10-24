@@ -39,7 +39,7 @@ npm run demo:prewarm
 
 Open http://localhost:3000/app and press **Compare routes**. Confirm **REAL DATA · V1**. Read the [demo/recording guide](docs/DEMO_GUIDE.md), [deployment requirements](docs/DEPLOYMENT.md), and [methodology](docs/DATA_PLAN.md).
 
-**Deployment is prepared, not performed.** Production requires an authorized HTTPS hosted/private `VALHALLA_URL`. `npm run check:deployment` deliberately fails when this is missing or points at the public demo. No service has been purchased or configured.
+**Deployment is prepared, not performed.** Production routing now supports Stadia hosted Valhalla using server-only `STADIA_API_KEY`. Configure it in `.env.local` for local use and in Vercel environment settings for a future deployment. See [Stadia migration/setup](docs/STADIA_ROUTING_MIGRATION.md). `npm run check:deployment` validates configuration; no deployment was performed.
 
 ---
 
@@ -75,7 +75,7 @@ node scripts/visual-demo.mjs               # real UI smoke test; dev server must
 
 `npm test` uses synthetic fixtures/stubbed fetchers with no live network calls. E2E tests intercept the comparison API using a recorded real result; the separate visual smoke script checks the actual local API and cached providers.
 
-`npm run start` serves a completed production build. **Production requires `VALHALLA_URL` to be explicitly set to your hosted/private routing endpoint** (including `/route`). The public demo default is development/testing only and is explicitly rejected in production. On Vercel, temporary files and bounded memory are instance-local, not a shared durable cache; see the deployment guide.
+`npm run start` serves a completed production build. **Production defaults to Stadia and requires server-only `STADIA_API_KEY`.** A configured key also selects Stadia in development. Explicit `ROUTING_PROVIDER=valhalla` retains local/private Valhalla support with `VALHALLA_URL`; production still rejects the public demo and insecure endpoints. On Vercel, temporary files and bounded memory are instance-local, not a shared durable cache; see the deployment guide.
 
 ## Data and locations
 

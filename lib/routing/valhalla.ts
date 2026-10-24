@@ -4,7 +4,11 @@ import {
   routeLengthMeters,
   coordinateDistance,
 } from "@/lib/analysis/geometry";
-import { fetchJson, type Fetcher } from "@/lib/server/http";
+import type { Fetcher } from "@/lib/server/http";
+import { fetchRoutingJson } from "./transport";
+import { resolveRoutingConfiguration } from "./config";
+import { RoutingProviderError } from "./errors";
+import { stadiaGeoJSON } from "./stadia";
 import { cached } from "@/lib/server/cache";
 import { deduplicateRoutes } from "./deduplicate";
 import type {
@@ -104,6 +108,7 @@ export async function fetchValhalla(
   request: WalkingRouteRequest,
   fetcher: Fetcher = fetch,
   endpoint = PUBLIC_VALHALLA_ENDPOINT,
+  apiKey?: string,
 ) {
   const url = new URL(endpoint);
   url.searchParams.set(
@@ -117,23 +122,22 @@ export async function fetchValhalla(
       alternates: 2,
       units: "kilometers",
       format: "osrm",
-      shape_format: "geojson",
+      shape_format: apiKey ? "polyline6" : "geojson",
       directions_type: "none",
     }),
   );
-  const result = parseValhalla(
-    await fetchJson(
-      url.toString(),
-      {
-        headers: {
-          "X-Client-Id": "PathSafe-NWA-development",
-          Accept: "application/json",
-        },
-      },
-      fetcher,
-    ),
-    endpoint,
-  );
+  const body = await fetchRoutingJson(url, fetcher, apiKey);
+  let result: WalkingRouteResult;
+  try {
+    result = parseValhalla(apiKey ? stadiaGeoJSON(body) : body, endpoint);
+  } catch (error) {
+    throw new RoutingProviderError(
+      error instanceof Error &&
+        error.message === "Routing provider returned no walking route."
+        ? "ROUTING_NO_ROUTE"
+        : "ROUTING_MALFORMED_RESPONSE",
+    );
+  }
   for (const route of result.routes) {
     const endpoints = [route.geometry[0], route.geometry.at(-1)!];
     for (let i = 0; i < 2; i++) {
@@ -157,10 +161,10 @@ export const valhallaProvider: WalkingRoutingProvider = {
   },
 };
 export function getCachedValhalla(request: WalkingRouteRequest) {
-  const endpoint = routingEndpoint();
+  const { provider, endpoint, apiKey } = resolveRoutingConfiguration();
   return cached(
-    `valhalla-v2:${endpoint}:${JSON.stringify(request)}`,
+    `valhalla-v3:${provider}:${endpoint}:${JSON.stringify(request)}`,
     6 * 60 * 60 * 1000,
-    () => fetchValhalla(request, fetch, endpoint),
+    () => fetchValhalla(request, fetch, endpoint, apiKey),
   );
 }

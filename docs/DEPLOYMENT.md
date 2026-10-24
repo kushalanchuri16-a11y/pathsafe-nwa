@@ -1,14 +1,12 @@
 # Vercel deployment preparation
 
-Status: code prepared and locally validated. **Nothing has been deployed and no paid infrastructure has been purchased or configured.** Deployment still requires owner approval and a suitable routing service.
+Status: Stadia routing is configured and validated locally. **Nothing has been deployed or purchased by this migration.** Deployment still requires owner approval and Vercel environment configuration. See [Stadia migration](STADIA_ROUTING_MIGRATION.md) for live results and setup.
 
 ## Required production configuration
 
-Set `VALHALLA_URL` in the Vercel project environment to an **HTTPS hosted/private Valhalla `/route` endpoint** whose operator permits your expected traffic. Include the complete path, such as `https://your-routing-host.example/route`. Do not use the illustrative example as a real endpoint.
+Set server-only `STADIA_API_KEY` in the Vercel project environment and optionally set `ROUTING_PROVIDER=stadia`. The fixed endpoint is `https://api.stadiamaps.com/route/v1`. The key is sent in the provider's Authorization header, never in a browser request or a URL. Do not use `NEXT_PUBLIC_*` for credentials.
 
-The production resolver rejects missing values, malformed URLs, non-HTTP(S) protocols, URL user credentials/fragments, paths not ending in `/route`, insecure HTTP, and the public `*.openstreetmap.de` demo domain. The public Valhalla default remains available only in development/testing. Public-demo usage is not a substitute for an approved production provider.
-
-If the provider needs a query key, it remains server-side; public result provenance exposes only the endpoint origin/path. Do not put credentials in `NEXT_PUBLIC_*` values. Provider endpoints are configuration, never user input.
+A configured Stadia key selects Stadia automatically. Without a key, production requires Stadia unless an existing private `VALHALLA_URL` is configured. Explicit `ROUTING_PROVIDER=valhalla` preserves the private/local adapter. Its existing production HTTPS, `/route`, credentials/fragment and public-demo restrictions remain unchanged. Failed Stadia requests never fall back to another provider or mock data.
 
 Run before approving a deployment:
 
@@ -30,7 +28,7 @@ The build succeeds without contacting upstream APIs, so previews and static page
 - Framework preset: **Next.js**, repository root as the project root.
 - Node: **24.x**, matching the tested development environment and package engines.
 - Install: `npm ci`; build: `npm run build`; default Next.js output handling.
-- Set `VALHALLA_URL` separately for each environment in which live analysis is intended. Do not leave a production secret in source control.
+- Set `STADIA_API_KEY` (and optionally `ROUTING_PROVIDER=stadia`) separately for each environment in which live analysis is intended. Do not leave a production secret in source control.
 - The Node API handler declares `maxDuration=60`. Confirm the chosen Vercel plan/runtime permits this duration. Individual upstream requests stop at 20s, the GIS sequence at 35s, and client comparison requests at 60s.
 - Permit outbound HTTPS to the configured routing provider and `gis.bentonvillear.com`. Browsers load the OpenStreetMap basemap separately.
 - Framework-generated metadata uses the Vercel production/preview domain environment automatically; local builds use localhost. Confirm the final Open Graph URL and icon after the actual domain exists.
@@ -47,9 +45,9 @@ A low-volume preview still needs an authorized hosted/private routing provider. 
 
 ## Before any public launch
 
-Verify the actual hosted provider returns pedestrian OSRM-format GeoJSON and alternatives, confirm source attribution remains visible, check cold and warm requests, verify an unavailable provider remains explicitly unavailable, and review data limitations. General Bentonville place/address search is implemented; validate the official boundary snapshot and City search-service availability before deployment. PathSafe does not evaluate personal safety or guarantee conditions.
+Verify the actual hosted provider returns pedestrian OSRM routes and alternatives (Stadia polyline6 is decoded inside the adapter to the existing GeoJSON contract), confirm source attribution remains visible, check cold and warm requests, verify an unavailable provider remains explicitly unavailable, and review data limitations. General Bentonville place/address search is implemented; validate the official boundary snapshot and City search-service availability before deployment. PathSafe does not evaluate personal safety or guarantee conditions.
 
-See [DEMO_GUIDE.md](DEMO_GUIDE.md) for the local CAC recording path, which can use the public development server conservatively with prewarmed responses.
+See [DEMO_GUIDE.md](DEMO_GUIDE.md) for the local CAC recording path, using the configured Stadia provider with prewarmed real responses.
 
 ## Platform references
 
