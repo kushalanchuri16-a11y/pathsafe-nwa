@@ -32,7 +32,13 @@ export function parseValhalla(
       weight_name?: string;
     }[];
   };
-  if (data.code !== "Ok" || !Array.isArray(data.routes) || !data.routes.length)
+  if (!data || typeof data !== "object")
+    throw new Error("Invalid walking routing response.");
+  if (data.code === "NoRoute" || data.code === "NoSegment")
+    throw new Error("Routing provider returned no walking route.");
+  if (data.code !== "Ok" || !Array.isArray(data.routes))
+    throw new Error("Invalid walking routing response.");
+  if (!data.routes.length)
     throw new Error("Routing provider returned no walking route.");
   if (data.routes.length > 3) throw new Error("Unexpected route count.");
   const routes: RouteCandidate[] = data.routes.map((r, i) => {

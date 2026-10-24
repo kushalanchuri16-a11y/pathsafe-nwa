@@ -1,0 +1,39 @@
+{
+  "details": [
+    {
+      "point": [
+        36.34297131627322,
+        -94.22914134952623
+      ],
+      "insideMunicipality": false,
+      "insideAnyOuterRing": true,
+      "reason": "City polygon hole/enclave"
+    },
+    {
+      "point": [
+        36.342917731502936,
+        -94.22688470758052
+      ],
+      "insideMunicipality": false,
+      "insideAnyOuterRing": true,
+      "reason": "City polygon hole/enclave"
+    }
+  ],
+  "snappedEndpoints": [
+    {
+      "id": "fastest",
+      "startInside": true,
+      "endInside": true
+    },
+    {
+      "id": "pathsafe",
+      "startInside": true,
+      "endInside": true
+    },
+    {
+      "id": "alternative-2",
+      "startInside": true,
+      "endInside": true
+    }
+  ]
+}

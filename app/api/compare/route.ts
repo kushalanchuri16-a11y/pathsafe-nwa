@@ -2,6 +2,7 @@ import { getLiveRouteComparison } from "@/lib/analysis/compare";
 import { RoutingConfigurationError } from "@/lib/config";
 import { validateTrip } from "@/lib/geocoding/validate";
 import { AnalysisUnavailableError } from "@/lib/server/analysisError";
+import { RouteBoundaryError } from "@/lib/geocoding/supportedRoutes";
 import { LocationError } from "@/lib/geocoding/provider";
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -28,6 +29,11 @@ export async function POST(request: Request) {
       { headers: { "Cache-Control": "no-store" } },
     );
   } catch (error) {
+    if (error instanceof RouteBoundaryError)
+      return Response.json(
+        { error: error.message, code: "ROUTE_OUTSIDE_SUPPORTED_AREA" },
+        { status: 422 },
+      );
     if (error instanceof LocationError)
       return Response.json(
         { error: error.message, code: "INVALID_LOCATION" },

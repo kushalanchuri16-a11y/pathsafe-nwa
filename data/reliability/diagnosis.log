@@ -1,0 +1,54 @@
+{
+  "start": {
+    "id": "city-address:18900897",
+    "label": "3809 SW MISTLETOE AVE",
+    "point": [
+      36.32936552602442,
+      -94.2557953932388
+    ],
+    "address": "3809 SW MISTLETOE AVE",
+    "kind": "address",
+    "attribution": "City of Bentonville GIS"
+  },
+  "destination": {
+    "id": "city-place:44",
+    "label": "Crystal Bridges",
+    "point": [
+      36.38211712065461,
+      -94.2033730929639
+    ],
+    "address": "600  MUSEUM WAY",
+    "kind": "place",
+    "attribution": "City of Bentonville GIS"
+  },
+  "inside": [
+    true,
+    true
+  ],
+  "routes": [
+    {
+      "id": "fastest",
+      "meters": 11217.994,
+      "strictInside": false,
+      "outsideVertices": 1,
+      "snapStartMeters": 19.515811353576005,
+      "snapEndMeters": 11.011823648728502
+    },
+    {
+      "id": "pathsafe",
+      "meters": 11505.996,
+      "strictInside": true,
+      "outsideVertices": 0,
+      "snapStartMeters": 19.515811353576005,
+      "snapEndMeters": 11.011823648728502
+    },
+    {
+      "id": "alternative-2",
+      "meters": 11508.996,
+      "strictInside": true,
+      "outsideVertices": 0,
+      "snapStartMeters": 19.515811353576005,
+      "snapEndMeters": 11.011823648728502
+    }
+  ]
+}

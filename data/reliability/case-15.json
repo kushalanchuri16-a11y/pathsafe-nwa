@@ -1,0 +1,48 @@
+{
+  "query": "4208 E CENTRAL AVE",
+  "kind": "address",
+  "searchStatus": 200,
+  "search": {
+    "results": [
+      {
+        "id": "city-address:18868700",
+        "label": "4208 E CENTRAL AVE",
+        "point": [
+          36.38525354886971,
+          -94.16380598271643
+        ],
+        "address": "4208 E CENTRAL AVE",
+        "kind": "address",
+        "attribution": "City of Bentonville GIS"
+      }
+    ],
+    "attribution": "City of Bentonville GIS"
+  },
+  "inside": true,
+  "selected": {
+    "id": "city-address:18868700",
+    "label": "4208 E CENTRAL AVE",
+    "point": [
+      36.38525354886971,
+      -94.16380598271643
+    ],
+    "address": "4208 E CENTRAL AVE",
+    "kind": "address",
+    "attribution": "City of Bentonville GIS"
+  },
+  "status": 422,
+  "destination": {
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "objectId": 67,
+    "officialName": "Lawrence Plaza",
+    "address": "214 NE A ST"
+  },
+  "body": {
+    "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip.",
+    "code": "ROUTE_OUTSIDE_SUPPORTED_AREA"
+  }
+}

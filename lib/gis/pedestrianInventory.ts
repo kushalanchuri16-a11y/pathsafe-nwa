@@ -1,3 +1,4 @@
+import { confirmedInventoryIds } from "./inventoryIds";
 import { fetchJson, type Fetcher } from "@/lib/server/http";
 import { cached } from "@/lib/server/cache";
 import {
@@ -115,16 +116,17 @@ export async function fetchOfficialTrails(
     url.toString(),
     { signal: deadline },
     fetcher,
-  )) as { objectIds?: unknown[]; exceededTransferLimit?: boolean };
-  if (
-    !Array.isArray(inventory.objectIds) ||
-    inventory.exceededTransferLimit ||
-    inventory.objectIds.some((id) => !Number.isInteger(id)) ||
-    inventory.objectIds.length > 2000
-  )
-    throw new Error("Incomplete City trail inventory.");
-  const ids = [...new Set(inventory.objectIds as number[])].sort(
-      (a, b) => a - b,
+  )) as {
+    objectIds?: unknown[] | null;
+    objectIdFieldName?: string;
+    exceededTransferLimit?: boolean;
+  };
+  const ids = await confirmedInventoryIds(
+      inventory,
+      url,
+      deadline,
+      fetcher,
+      2000,
     ),
     features: unknown[] = [];
   for (let offset = 0; offset < ids.length; offset += 250) {

@@ -1,0 +1,2624 @@
+{
+  "query": "300 N Main St",
+  "kind": "address",
+  "searchStatus": 200,
+  "search": {
+    "results": [
+      {
+        "id": "city-address:18910884",
+        "label": "300 N MAIN ST",
+        "point": [
+          36.37528271730159,
+          -94.20875532431894
+        ],
+        "address": "300 N MAIN ST",
+        "kind": "address",
+        "attribution": "City of Bentonville GIS"
+      }
+    ],
+    "attribution": "City of Bentonville GIS"
+  },
+  "inside": true,
+  "selected": {
+    "id": "city-address:18910884",
+    "label": "300 N MAIN ST",
+    "point": [
+      36.37528271730159,
+      -94.20875532431894
+    ],
+    "address": "300 N MAIN ST",
+    "kind": "address",
+    "attribution": "City of Bentonville GIS"
+  },
+  "status": 200,
+  "destination": {
+    "label": "Lawrence Plaza",
+    "point": [
+      36.374649832783945,
+      -94.20753355872435
+    ],
+    "objectId": 67,
+    "officialName": "Lawrence Plaza",
+    "address": "214 NE A ST"
+  },
+  "body": {
+    "comparison": {
+      "source": "live",
+      "start": {
+        "label": "300 N MAIN ST",
+        "point": [
+          36.37528271730159,
+          -94.20875532431894
+        ]
+      },
+      "destination": {
+        "label": "Lawrence Plaza",
+        "point": [
+          36.374649832783945,
+          -94.20753355872435
+        ]
+      },
+      "routes": [
+        {
+          "id": "fastest",
+          "name": "Fastest Route",
+          "source": "live",
+          "recommended": true,
+          "geometry": [
+            [
+              36.375284,
+              -94.208819
+            ],
+            [
+              36.375156,
+              -94.208822
+            ],
+            [
+              36.375094,
+              -94.208824
+            ],
+            [
+              36.375093,
+              -94.208744
+            ],
+            [
+              36.37508,
+              -94.208089
+            ],
+            [
+              36.375079,
+              -94.20807
+            ],
+            [
+              36.375034,
+              -94.208072
+            ],
+            [
+              36.374734,
+              -94.208077
+            ],
+            [
+              36.374737,
+              -94.207982
+            ],
+            [
+              36.374777,
+              -94.2079
+            ],
+            [
+              36.37479,
+              -94.207882
+            ],
+            [
+              36.374765,
+              -94.207879
+            ],
+            [
+              36.374727,
+              -94.207867
+            ],
+            [
+              36.374703,
+              -94.207844
+            ],
+            [
+              36.374675,
+              -94.207811
+            ],
+            [
+              36.37466,
+              -94.207775
+            ],
+            [
+              36.374654,
+              -94.207731
+            ],
+            [
+              36.374666,
+              -94.207685
+            ],
+            [
+              36.374695,
+              -94.207653
+            ],
+            [
+              36.374735,
+              -94.207604
+            ],
+            [
+              36.374747,
+              -94.207589
+            ],
+            [
+              36.374703,
+              -94.207527
+            ],
+            [
+              36.374607,
+              -94.207527
+            ]
+          ],
+          "metrics": {
+            "minutes": 2.3730166666666666,
+            "miles": 0.12627753917123996,
+            "seconds": 142.381,
+            "providerDistanceMeters": 203.224,
+            "coverage": 99.88691839717674,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 203.58491110608458,
+            "coveredMeters": 203.35469402549953,
+            "uncoveredMeters": 0.23021708058504942
+          }
+        },
+        {
+          "id": "pathsafe",
+          "name": "Alternative 1",
+          "source": "live",
+          "recommended": false,
+          "geometry": [
+            [
+              36.375284,
+              -94.208819
+            ],
+            [
+              36.375156,
+              -94.208822
+            ],
+            [
+              36.375094,
+              -94.208824
+            ],
+            [
+              36.375093,
+              -94.208744
+            ],
+            [
+              36.37508,
+              -94.208089
+            ],
+            [
+              36.375079,
+              -94.20807
+            ],
+            [
+              36.375034,
+              -94.208072
+            ],
+            [
+              36.375022,
+              -94.207528
+            ],
+            [
+              36.374998,
+              -94.207564
+            ],
+            [
+              36.374995,
+              -94.207632
+            ],
+            [
+              36.374971,
+              -94.207685
+            ],
+            [
+              36.374934,
+              -94.207695
+            ],
+            [
+              36.374954,
+              -94.207661
+            ],
+            [
+              36.374953,
+              -94.207632
+            ],
+            [
+              36.374944,
+              -94.207595
+            ],
+            [
+              36.374909,
+              -94.207551
+            ],
+            [
+              36.374877,
+              -94.207514
+            ],
+            [
+              36.374851,
+              -94.207503
+            ],
+            [
+              36.37483,
+              -94.207502
+            ],
+            [
+              36.374808,
+              -94.207508
+            ],
+            [
+              36.374784,
+              -94.207541
+            ],
+            [
+              36.374747,
+              -94.207589
+            ],
+            [
+              36.374703,
+              -94.207527
+            ],
+            [
+              36.374607,
+              -94.207527
+            ]
+          ],
+          "metrics": {
+            "minutes": 2.540316666666667,
+            "miles": 0.13621947824703728,
+            "seconds": 152.419,
+            "providerDistanceMeters": 219.224,
+            "coverage": 100,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 218.45238749811088,
+            "coveredMeters": 218.45238749811088,
+            "uncoveredMeters": 0
+          }
+        },
+        {
+          "id": "alternative-2",
+          "name": "Alternative 2",
+          "source": "live",
+          "recommended": false,
+          "geometry": [
+            [
+              36.375284,
+              -94.208819
+            ],
+            [
+              36.375156,
+              -94.208822
+            ],
+            [
+              36.375094,
+              -94.208824
+            ],
+            [
+              36.375093,
+              -94.208744
+            ],
+            [
+              36.37508,
+              -94.208089
+            ],
+            [
+              36.375079,
+              -94.20807
+            ],
+            [
+              36.375067,
+              -94.207474
+            ],
+            [
+              36.375066,
+              -94.207417
+            ],
+            [
+              36.37502,
+              -94.207435
+            ],
+            [
+              36.374867,
+              -94.207433
+            ],
+            [
+              36.374817,
+              -94.20736
+            ],
+            [
+              36.374771,
+              -94.207344
+            ],
+            [
+              36.374724,
+              -94.207345
+            ],
+            [
+              36.374623,
+              -94.207347
+            ],
+            [
+              36.374585,
+              -94.207317
+            ],
+            [
+              36.374554,
+              -94.207357
+            ],
+            [
+              36.374556,
+              -94.207444
+            ],
+            [
+              36.374585,
+              -94.207501
+            ],
+            [
+              36.374585,
+              -94.207525
+            ],
+            [
+              36.374607,
+              -94.207527
+            ]
+          ],
+          "metrics": {
+            "minutes": 2.5854833333333334,
+            "miles": 0.14119044778493597,
+            "seconds": 155.129,
+            "providerDistanceMeters": 227.224,
+            "coverage": 100,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 228.27512715883833,
+            "coveredMeters": 228.27512715883833,
+            "uncoveredMeters": 0
+          }
+        }
+      ],
+      "infrastructure": [
+        {
+          "id": "1781:0",
+          "geometry": [
+            [
+              36.375184310789926,
+              -94.21009330726645
+            ],
+            [
+              36.37515825282666,
+              -94.20889704656177
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 1781,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2108:0",
+          "geometry": [
+            [
+              36.37453226688124,
+              -94.20815856721089
+            ],
+            [
+              36.374692924659534,
+              -94.2081586115999
+            ],
+            [
+              36.37473577800976,
+              -94.20814051589525
+            ],
+            [
+              36.374768977789316,
+              -94.20815819083988
+            ],
+            [
+              36.37500387564735,
+              -94.20815758583676
+            ],
+            [
+              36.37500775907433,
+              -94.20813699580594
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2108,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2109:0",
+          "geometry": [
+            [
+              36.374028074089225,
+              -94.20873791151723
+            ],
+            [
+              36.375048993494,
+              -94.20874040309693
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2109,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2110:0",
+          "geometry": [
+            [
+              36.3736103618511,
+              -94.20873949637867
+            ],
+            [
+              36.37394020051542,
+              -94.208743734064
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2110,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2111:0",
+          "geometry": [
+            [
+              36.375023256607356,
+              -94.20889236687566
+            ],
+            [
+              36.37454152278536,
+              -94.20890550896573
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2111,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2112:0",
+          "geometry": [
+            [
+              36.37503866033658,
+              -94.2100948325898
+            ],
+            [
+              36.375023256607356,
+              -94.20889236687566
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2112,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2297:0",
+          "geometry": [
+            [
+              36.37686044016943,
+              -94.20885737848472
+            ],
+            [
+              36.37515825282666,
+              -94.20889704656177
+            ],
+            [
+              36.37513449283293,
+              -94.20887959412251
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2297,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2755:0",
+          "geometry": [
+            [
+              36.37513547324312,
+              -94.20873986086593
+            ],
+            [
+              36.37610209536381,
+              -94.2087166034298
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2755,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2891:0",
+          "geometry": [
+            [
+              36.37443294803304,
+              -94.2068596721289
+            ],
+            [
+              36.37370822207019,
+              -94.20686184615161
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2891,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2892:0",
+          "geometry": [
+            [
+              36.375057131905145,
+              -94.20796549454867
+            ],
+            [
+              36.375010649694545,
+              -94.20796420539324
+            ],
+            [
+              36.37501035458013,
+              -94.20801993699585
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2892,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2893:0",
+          "geometry": [
+            [
+              36.37501044850421,
+              -94.20800223466378
+            ],
+            [
+              36.3747524732092,
+              -94.20799774376295
+            ],
+            [
+              36.37471760223058,
+              -94.20798076600168
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2893,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "2903:0",
+          "geometry": [
+            [
+              36.375142375562504,
+              -94.20806520818219
+            ],
+            [
+              36.375130962281204,
+              -94.20751753808177
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 2903,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3753:0",
+          "geometry": [
+            [
+              36.37514016616764,
+              -94.20795916009946
+            ],
+            [
+              36.37511895492681,
+              -94.20796095269326
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3753,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3758:0",
+          "geometry": [
+            [
+              36.375372678475536,
+              -94.20683723499738
+            ],
+            [
+              36.37558679503008,
+              -94.20682822408843
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3758,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3795:0",
+          "geometry": [
+            [
+              36.37346702264793,
+              -94.20799881497643
+            ],
+            [
+              36.37445004733458,
+              -94.2079741737055
+            ],
+            [
+              36.37446231607409,
+              -94.20794350379292
+            ],
+            [
+              36.374458115257994,
+              -94.20759824151628
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3795,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3796:0",
+          "geometry": [
+            [
+              36.374456407850374,
+              -94.20748382514246
+            ],
+            [
+              36.37445325941648,
+              -94.20726603465786
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3796,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3797:0",
+          "geometry": [
+            [
+              36.37445386560999,
+              -94.20796462911962
+            ],
+            [
+              36.37446418005951,
+              -94.20796875397517
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3797,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3798:0",
+          "geometry": [
+            [
+              36.37513150248802,
+              -94.2074360482626
+            ],
+            [
+              36.375131239806194,
+              -94.20739565418276
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3798,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3853:0",
+          "geometry": [
+            [
+              36.37449624631012,
+              -94.20890632259723
+            ],
+            [
+              36.374174826976265,
+              -94.20891448174595
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3853,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3855:0",
+          "geometry": [
+            [
+              36.37304243668662,
+              -94.20891834371787
+            ],
+            [
+              36.373553291538755,
+              -94.20891777250696
+            ],
+            [
+              36.37355304552637,
+              -94.20893133060092
+            ],
+            [
+              36.37405240238875,
+              -94.20892747665556
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3855,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3959:0",
+          "geometry": [
+            [
+              36.375652748202356,
+              -94.20682586348298
+            ],
+            [
+              36.37586692229037,
+              -94.20681800331288
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3959,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3987:0",
+          "geometry": [
+            [
+              36.375045273846325,
+              -94.20743323265908
+            ],
+            [
+              36.375057131905145,
+              -94.20796549454867
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3987,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3988:0",
+          "geometry": [
+            [
+              36.37455860630003,
+              -94.20744100131131
+            ],
+            [
+              36.37469333109391,
+              -94.20765063455082
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 3988,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "5519:0",
+          "geometry": [
+            [
+              36.37506398180588,
+              -94.20874103628961
+            ],
+            [
+              36.37506106468341,
+              -94.20818966975587
+            ],
+            [
+              36.37505149519944,
+              -94.20815843850232
+            ],
+            [
+              36.375031661179406,
+              -94.20813429478413
+            ],
+            [
+              36.375009290268856,
+              -94.20813497173393
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 5519,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "5667:0",
+          "geometry": [
+            [
+              36.374451276406695,
+              -94.20712881867787
+            ],
+            [
+              36.37444459759301,
+              -94.20690043500335
+            ],
+            [
+              36.37443645035197,
+              -94.20687192761322
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 5667,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "7345:0",
+          "geometry": [
+            [
+              36.37374619144662,
+              -94.20670786036018
+            ],
+            [
+              36.37437893755224,
+              -94.2067093060022
+            ],
+            [
+              36.37444654286247,
+              -94.2066899450686
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 7345,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "7346:0",
+          "geometry": [
+            [
+              36.374556541685195,
+              -94.20670007195669
+            ],
+            [
+              36.37460758060595,
+              -94.20672626052013
+            ],
+            [
+              36.37499853343248,
+              -94.20670273962618
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 7346,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8085:0",
+          "geometry": [
+            [
+              36.374505011117705,
+              -94.2081649749721
+            ],
+            [
+              36.374049836114864,
+              -94.20816998337766
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8085,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8100:0",
+          "geometry": [
+            [
+              36.37444870448413,
+              -94.20673116163871
+            ],
+            [
+              36.37444654286247,
+              -94.2066899450686
+            ],
+            [
+              36.3744515422016,
+              -94.20659285879094
+            ],
+            [
+              36.37444011693341,
+              -94.20606523680341
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8100,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8102:0",
+          "geometry": [
+            [
+              36.37443714198321,
+              -94.2068743488162
+            ],
+            [
+              36.374459778489694,
+              -94.20687020791648
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8102,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8103:0",
+          "geometry": [
+            [
+              36.37443294803304,
+              -94.2068596721289
+            ],
+            [
+              36.37443714198321,
+              -94.2068743488162
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8103,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8104:0",
+          "geometry": [
+            [
+              36.37443294803304,
+              -94.2068596721289
+            ],
+            [
+              36.37443607302684,
+              -94.2068428698601
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8104,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8105:0",
+          "geometry": [
+            [
+              36.37453872228366,
+              -94.20686426948613
+            ],
+            [
+              36.37456280499403,
+              -94.20688407309005
+            ],
+            [
+              36.374570469171516,
+              -94.20698750616017
+            ],
+            [
+              36.37457224985514,
+              -94.20728394321934
+            ],
+            [
+              36.374587022413145,
+              -94.20732416639588
+            ],
+            [
+              36.37461406067362,
+              -94.2073455601996
+            ],
+            [
+              36.37467842081541,
+              -94.20734734467933
+            ],
+            [
+              36.37479281131515,
+              -94.20735199099579
+            ],
+            [
+              36.37483645538753,
+              -94.20737826928654
+            ],
+            [
+              36.374871035370326,
+              -94.2074441089096
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8105,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8106:0",
+          "geometry": [
+            [
+              36.374871035370326,
+              -94.2074441089096
+            ],
+            [
+              36.375045273846325,
+              -94.20743323265908
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8106,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8107:0",
+          "geometry": [
+            [
+              36.37499853343248,
+              -94.20670273962618
+            ],
+            [
+              36.37501355108035,
+              -94.20671816451288
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8107,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8108:0",
+          "geometry": [
+            [
+              36.37499853343248,
+              -94.20670273962618
+            ],
+            [
+              36.37501481037202,
+              -94.2066882746939
+            ],
+            [
+              36.375018344010606,
+              -94.20665121390434
+            ],
+            [
+              36.375015213401404,
+              -94.20661337763723
+            ],
+            [
+              36.374987830309884,
+              -94.20659787308979
+            ],
+            [
+              36.374983601873375,
+              -94.20591001255205
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8108,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "8109:0",
+          "geometry": [
+            [
+              36.37525702465155,
+              -94.20679194235443
+            ],
+            [
+              36.37538367372018,
+              -94.20679132439383
+            ],
+            [
+              36.37538767798679,
+              -94.20679408936009
+            ],
+            [
+              36.37538987480103,
+              -94.20680447298002
+            ],
+            [
+              36.37538808752913,
+              -94.2068365865095
+            ]
+          ],
+          "source": "live",
+          "kind": "sidewalk",
+          "eligible": true,
+          "attributes": {
+            "OBJECTID": 8109,
+            "trltyptxt": "Sidewalk",
+            "facdescrip": null,
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "223:0",
+          "geometry": [
+            [
+              36.37511852620886,
+              -94.20796093411519
+            ],
+            [
+              36.375057131905145,
+              -94.20796549454867
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 223,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "224:0",
+          "geometry": [
+            [
+              36.37504443968586,
+              -94.20739611988279
+            ],
+            [
+              36.37504444287756,
+              -94.20739594385812
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 224,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "224:1",
+          "geometry": [
+            [
+              36.37504443968586,
+              -94.20739611988279
+            ],
+            [
+              36.375045273846325,
+              -94.20743323265908
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 224,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "224:2",
+          "geometry": [
+            [
+              36.375131236594314,
+              -94.20739583132168
+            ],
+            [
+              36.37504443968586,
+              -94.20739611988279
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 224,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "225:0",
+          "geometry": [
+            [
+              36.375009290268856,
+              -94.20813497173393
+            ],
+            [
+              36.37501036083646,
+              -94.20801879689296
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 225,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "274:0",
+          "geometry": [
+            [
+              36.37446418005951,
+              -94.20796875397517
+            ],
+            [
+              36.37454684483657,
+              -94.20796823105778
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 274,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "277:0",
+          "geometry": [
+            [
+              36.37405240238875,
+              -94.20892747665556
+            ],
+            [
+              36.374174826976265,
+              -94.20891448174595
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 277,
+            "trltyptxt": "Painted Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "510:0",
+          "geometry": [
+            [
+              36.37513099617443,
+              -94.20751914856359
+            ],
+            [
+              36.37513073292288,
+              -94.20743514189911
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 510,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "524:0",
+          "geometry": [
+            [
+              36.374458115257994,
+              -94.20759824151628
+            ],
+            [
+              36.374456407850374,
+              -94.20748382514246
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 524,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "525:0",
+          "geometry": [
+            [
+              36.37445325941648,
+              -94.20726603465786
+            ],
+            [
+              36.374451276406695,
+              -94.20712881867787
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 525,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "534:0",
+          "geometry": [
+            [
+              36.37394020051542,
+              -94.208743734064
+            ],
+            [
+              36.374028074089225,
+              -94.20873791151723
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 534,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "535:0",
+          "geometry": [
+            [
+              36.37454152278536,
+              -94.20890550896573
+            ],
+            [
+              36.37449624631012,
+              -94.20890632259723
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 535,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3754:0",
+          "geometry": [
+            [
+              36.375023256607356,
+              -94.20889236687566
+            ],
+            [
+              36.375021852910955,
+              -94.20874016283959
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 3754,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3755:0",
+          "geometry": [
+            [
+              36.375136860672576,
+              -94.20873984920014
+            ],
+            [
+              36.37504863403168,
+              -94.20874128706555
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 3755,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3756:0",
+          "geometry": [
+            [
+              36.37513770087824,
+              -94.20873984241561
+            ],
+            [
+              36.37513484116934,
+              -94.20887972082478
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 3756,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "3757:0",
+          "geometry": [
+            [
+              36.37513523516977,
+              -94.20887986439907
+            ],
+            [
+              36.375023256607356,
+              -94.20889236687566
+            ]
+          ],
+          "source": "live",
+          "kind": "crossing",
+          "eligible": false,
+          "exclusion": "Not classified as sidewalk or paved/shared-use trail",
+          "attributes": {
+            "OBJECTID": 3757,
+            "trltyptxt": "Other Cross",
+            "facdescrip": "Sidewalk",
+            "surftype": "Concrete",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "Closure_Status": null
+          }
+        },
+        {
+          "id": "parks158:202:0:unique-0",
+          "source": "live",
+          "kind": "trail",
+          "eligible": true,
+          "geometry": [
+            [
+              36.37509652578205,
+              -94.20740710095376
+            ],
+            [
+              36.37502652615311,
+              -94.20744710059903
+            ],
+            [
+              36.37487652549522,
+              -94.20744710012079
+            ],
+            [
+              36.37479652607432,
+              -94.2073571009408
+            ],
+            [
+              36.374636525532004,
+              -94.20735710091358
+            ],
+            [
+              36.37459652622161,
+              -94.20734710043577
+            ],
+            [
+              36.37458789297872,
+              -94.20732551740592
+            ]
+          ],
+          "attributes": {
+            "OBJECTID": 202,
+            "prim_name": "Razorback Regional Greenway",
+            "trlsubtype": 4,
+            "trltyptxt": "Off-Street Trail",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Asphalt",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "maintowner": "Bentonville",
+            "Approved": null,
+            "constrdate": null,
+            "Closure_Status": null,
+            "Start_Closure": null,
+            "End_Closure": null
+          }
+        },
+        {
+          "id": "parks158:202:0:unique-1",
+          "source": "live",
+          "kind": "trail",
+          "eligible": true,
+          "geometry": [
+            [
+              36.37457727952445,
+              -94.20729898386537
+            ],
+            [
+              36.3745765262829,
+              -94.20729710076824
+            ],
+            [
+              36.374572252253486,
+              -94.20720948378587
+            ]
+          ],
+          "attributes": {
+            "OBJECTID": 202,
+            "prim_name": "Razorback Regional Greenway",
+            "trlsubtype": 4,
+            "trltyptxt": "Off-Street Trail",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Asphalt",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "maintowner": "Bentonville",
+            "Approved": null,
+            "constrdate": null,
+            "Closure_Status": null,
+            "Start_Closure": null,
+            "End_Closure": null
+          }
+        },
+        {
+          "id": "parks158:202:0:unique-2",
+          "source": "live",
+          "kind": "trail",
+          "eligible": true,
+          "geometry": [
+            [
+              36.374571226608445,
+              -94.20718845821152
+            ],
+            [
+              36.374556526116514,
+              -94.20688710026175
+            ],
+            [
+              36.37444652590791,
+              -94.20687710014444
+            ],
+            [
+              36.37442652568665,
+              -94.20683710004353
+            ],
+            [
+              36.37442652565185,
+              -94.20674710025921
+            ],
+            [
+              36.374386525467166,
+              -94.20672710073991
+            ],
+            [
+              36.37376652565929,
+              -94.20672710059219
+            ],
+            [
+              36.3730465259065,
+              -94.20674710015965
+            ],
+            [
+              36.37301652557623,
+              -94.20672710062638
+            ],
+            [
+              36.372976525939805,
+              -94.20664709975348
+            ],
+            [
+              36.37289652516003,
+              -94.20664710044075
+            ],
+            [
+              36.37288652564917,
+              -94.2066070997114
+            ],
+            [
+              36.372866525723815,
+              -94.20571709948223
+            ],
+            [
+              36.37284652600947,
+              -94.20567710049133
+            ],
+            [
+              36.37277652605015,
+              -94.20565710004921
+            ],
+            [
+              36.372466525592294,
+              -94.2056570996724
+            ],
+            [
+              36.37234652535919,
+              -94.20561710027741
+            ],
+            [
+              36.37232652586113,
+              -94.20514709948152
+            ],
+            [
+              36.372216525509735,
+              -94.20515710020162
+            ],
+            [
+              36.37218652584941,
+              -94.20513709927272
+            ],
+            [
+              36.372036525297766,
+              -94.20496709919681
+            ],
+            [
+              36.37193652552917,
+              -94.2047770998271
+            ],
+            [
+              36.37183652580962,
+              -94.20451709995771
+            ],
+            [
+              36.37178652520609,
+              -94.20428710002594
+            ],
+            [
+              36.37170652518327,
+              -94.20418709963806
+            ],
+            [
+              36.37159652514161,
+              -94.20413709983949
+            ],
+            [
+              36.37107652534136,
+              -94.20428709923219
+            ],
+            [
+              36.37086652508674,
+              -94.20426709975399
+            ],
+            [
+              36.37073652530817,
+              -94.2042170994959
+            ],
+            [
+              36.370616525707476,
+              -94.20411709990842
+            ],
+            [
+              36.3704965252879,
+              -94.20395709965926
+            ],
+            [
+              36.37045652510925,
+              -94.20383709953815
+            ],
+            [
+              36.37045652497697,
+              -94.20352709948445
+            ],
+            [
+              36.37043652542269,
+              -94.20332709953496
+            ],
+            [
+              36.37040652541073,
+              -94.20320709904307
+            ],
+            [
+              36.37037652502455,
+              -94.20316709938388
+            ],
+            [
+              36.37037652559312,
+              -94.20292709938498
+            ],
+            [
+              36.370296525343036,
+              -94.20286709859104
+            ],
+            [
+              36.369936525133795,
+              -94.20289709850893
+            ],
+            [
+              36.36951652542797,
+              -94.20287709949251
+            ],
+            [
+              36.36941652493823,
+              -94.20279709919353
+            ],
+            [
+              36.369406525199366,
+              -94.20204709824236
+            ],
+            [
+              36.36939652487137,
+              -94.20193709883372
+            ],
+            [
+              36.3693365250887,
+              -94.20185709822496
+            ],
+            [
+              36.369216524799164,
+              -94.2018270981698
+            ],
+            [
+              36.36886652523702,
+              -94.20181709903764
+            ],
+            [
+              36.36872652486333,
+              -94.2018370987807
+            ],
+            [
+              36.36848652480368,
+              -94.20182709898178
+            ],
+            [
+              36.368376524634144,
+              -94.20186709845076
+            ],
+            [
+              36.36828652513085,
+              -94.20184709888234
+            ],
+            [
+              36.36791652448293,
+              -94.2018570987523
+            ],
+            [
+              36.367746525294734,
+              -94.20187709889227
+            ],
+            [
+              36.36759652502893,
+              -94.20174709849643
+            ],
+            [
+              36.36755652490108,
+              -94.20178709858502
+            ],
+            [
+              36.36744652440727,
+              -94.20178709818576
+            ],
+            [
+              36.367386525109325,
+              -94.20175709865954
+            ],
+            [
+              36.367286524731,
+              -94.20164709878566
+            ],
+            [
+              36.36697652458594,
+              -94.20122709839309
+            ],
+            [
+              36.36683652469561,
+              -94.20085709795205
+            ],
+            [
+              36.366686524462814,
+              -94.20015709803643
+            ],
+            [
+              36.36606652466627,
+              -94.19681709674929
+            ],
+            [
+              36.36525652493175,
+              -94.19684709739205
+            ],
+            [
+              36.364656524755844,
+              -94.19689709691774
+            ],
+            [
+              36.36463652437007,
+              -94.196927096636
+            ],
+            [
+              36.36460652430384,
+              -94.19694709648834
+            ],
+            [
+              36.364306524236994,
+              -94.19698709732084
+            ],
+            [
+              36.364146524787856,
+              -94.19708709750057
+            ],
+            [
+              36.363806524644886,
+              -94.19710709668277
+            ],
+            [
+              36.36378652433787,
+              -94.19577709647629
+            ],
+            [
+              36.36375652481429,
+              -94.19568709635864
+            ],
+            [
+              36.36367652438592,
+              -94.19564709608692
+            ],
+            [
+              36.363596524089786,
+              -94.19567709618845
+            ],
+            [
+              36.363556524656985,
+              -94.19574709675517
+            ],
+            [
+              36.36354652413884,
+              -94.19613709716238
+            ],
+            [
+              36.36350652458733,
+              -94.19625709618181
+            ],
+            [
+              36.363076524501196,
+              -94.19659709698995
+            ],
+            [
+              36.36301652404958,
+              -94.19665709639386
+            ],
+            [
+              36.362676524152455,
+              -94.19670709628483
+            ],
+            [
+              36.36141652359356,
+              -94.1967370969158
+            ],
+            [
+              36.36123652407443,
+              -94.19671709717224
+            ],
+            [
+              36.361166524201295,
+              -94.19674709703261
+            ],
+            [
+              36.360426523680275,
+              -94.19674709703747
+            ],
+            [
+              36.36032652411018,
+              -94.19668709658173
+            ],
+            [
+              36.36014652411258,
+              -94.19668709675334
+            ],
+            [
+              36.35999652397608,
+              -94.19676709675727
+            ],
+            [
+              36.35885652359313,
+              -94.19679709626482
+            ],
+            [
+              36.35869652365483,
+              -94.19673709656912
+            ],
+            [
+              36.35850652384312,
+              -94.19672709645661
+            ],
+            [
+              36.358376523107175,
+              -94.19677709621635
+            ],
+            [
+              36.358086523324594,
+              -94.19680709681616
+            ],
+            [
+              36.357736522909455,
+              -94.19680709612464
+            ],
+            [
+              36.357646523676316,
+              -94.19676709604585
+            ],
+            [
+              36.35755652310498,
+              -94.19674709602447
+            ],
+            [
+              36.3573265233445,
+              -94.19674709633186
+            ],
+            [
+              36.35706652355766,
+              -94.19671709663965
+            ],
+            [
+              36.35699652299738,
+              -94.1966870964396
+            ],
+            [
+              36.35696652288433,
+              -94.19661709678809
+            ],
+            [
+              36.356926523510175,
+              -94.19440709595347
+            ],
+            [
+              36.356966523398164,
+              -94.19416709576805
+            ],
+            [
+              36.356936523548114,
+              -94.19221709513951
+            ],
+            [
+              36.3569665237624,
+              -94.19213709483613
+            ],
+            [
+              36.35696652385437,
+              -94.19188709524272
+            ],
+            [
+              36.356836523103894,
+              -94.19182709462123
+            ],
+            [
+              36.35678652381337,
+              -94.19188709512443
+            ],
+            [
+              36.356506522922885,
+              -94.19188709491839
+            ],
+            [
+              36.35650652347941,
+              -94.19196709492027
+            ],
+            [
+              36.356486523470075,
+              -94.19200709542797
+            ],
+            [
+              36.35643652323761,
+              -94.19201709460712
+            ],
+            [
+              36.3532965227124,
+              -94.19208709427392
+            ],
+            [
+              36.351476522112776,
+              -94.19210709484923
+            ]
+          ],
+          "attributes": {
+            "OBJECTID": 202,
+            "prim_name": "Razorback Regional Greenway",
+            "trlsubtype": 4,
+            "trltyptxt": "Off-Street Trail",
+            "facdescrip": "Razorback Greenway",
+            "surftype": "Asphalt",
+            "bikesallow": "Yes",
+            "useaccess": "Public",
+            "maintowner": "Bentonville",
+            "Approved": null,
+            "constrdate": null,
+            "Closure_Status": null,
+            "Start_Closure": null,
+            "End_Closure": null
+          }
+        },
+        {
+          "id": "parks158:6016:0",
+          "source": "live",
+          "kind": "trail",
+          "eligible": true,
+          "geometry": [
+            [
+              36.37575561870532,
+              -94.20763090301087
+            ],
+            [
+              36.37577200340427,
+              -94.20754781990235
+            ],
+            [
+              36.37578899027498,
+              -94.20749748962808
+            ],
+            [
+              36.375811033780366,
+              -94.20746386548382
+            ],
+            [
+              36.37594179270549,
+              -94.2073449061882
+            ],
+            [
+              36.37606367654654,
+              -94.20727208343234
+            ],
+            [
+              36.37608916937807,
+              -94.20724518025322
+            ]
+          ],
+          "attributes": {
+            "OBJECTID": 6016,
+            "prim_name": "Compton Gardens Trails",
+            "trlsubtype": 6,
+            "trltyptxt": "Park Trail",
+            "facdescrip": "Trail",
+            "surftype": "Concrete",
+            "bikesallow": "No",
+            "useaccess": "Public",
+            "maintowner": null,
+            "Approved": null,
+            "constrdate": null,
+            "Closure_Status": null,
+            "Start_Closure": null,
+            "End_Closure": null
+          }
+        },
+        {
+          "id": "parks158:6017:0",
+          "source": "live",
+          "kind": "trail",
+          "eligible": true,
+          "geometry": [
+            [
+              36.37608916937807,
+              -94.20724518025322
+            ],
+            [
+              36.3761467771721,
+              -94.20722027319546
+            ],
+            [
+              36.376243560631735,
+              -94.20720197314799
+            ],
+            [
+              36.37628412850009,
+              -94.20718101096716
+            ],
+            [
+              36.37630442631843,
+              -94.20714512887896
+            ],
+            [
+              36.376312627672036,
+              -94.20708682335223
+            ],
+            [
+              36.376300227287494,
+              -94.20698266816827
+            ],
+            [
+              36.37624965547709,
+              -94.20691500430517
+            ],
+            [
+              36.37615948196234,
+              -94.20691360806036
+            ],
+            [
+              36.376056698405606,
+              -94.20686879201608
+            ],
+            [
+              36.37600018355731,
+              -94.20688268784046
+            ],
+            [
+              36.375969986639966,
+              -94.20692271169244
+            ],
+            [
+              36.37596906616187,
+              -94.20697348759383
+            ],
+            [
+              36.375982096384085,
+              -94.20699372754352
+            ],
+            [
+              36.376059885602295,
+              -94.20703785078747
+            ],
+            [
+              36.37609225126411,
+              -94.20707519169682
+            ],
+            [
+              36.376107578783305,
+              -94.20711647876215
+            ],
+            [
+              36.37610933576629,
+              -94.20716732898318
+            ],
+            [
+              36.37608916937807,
+              -94.20724518025322
+            ]
+          ],
+          "attributes": {
+            "OBJECTID": 6017,
+            "prim_name": "Compton Gardens Trails",
+            "trlsubtype": 6,
+            "trltyptxt": "Park Trail",
+            "facdescrip": "Trail",
+            "surftype": "Concrete",
+            "bikesallow": "No",
+            "useaccess": "Public",
+            "maintowner": null,
+            "Approved": null,
+            "constrdate": null,
+            "Closure_Status": null,
+            "Start_Closure": null,
+            "End_Closure": null
+          }
+        }
+      ],
+      "recommendation": {
+        "routeId": "fastest",
+        "explanation": "The routes have similar mapped pedestrian infrastructure coverage. The faster route is recommended.",
+        "factors": [
+          "Keep added walking time and distance proportionate",
+          "No qualifying coverage gain of at least 10 percentage points within the tradeoff limits"
+        ]
+      },
+      "provenance": {
+        "gisEndpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+        "gisSources": [
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/174",
+            "fetchedAt": "2026-10-24T03:09:31.988Z",
+            "cacheHit": false,
+            "featureCount": 51
+          },
+          {
+            "endpoint": "https://gis.bentonvillear.com/arcgis/rest/services/Parks/Parks_Recreation18/MapServer/158",
+            "fetchedAt": "2026-10-24T03:09:31.921Z",
+            "cacheHit": false,
+            "featureCount": 3
+          }
+        ],
+        "gisFetchedAt": "2026-10-24T03:09:31.988Z",
+        "routingFetchedAt": "2026-10-24T03:09:31.740Z",
+        "gisCacheHit": false,
+        "routingCacheHit": false,
+        "featureCount": 54,
+        "segmentCount": 58,
+        "eligibleSegmentCount": 42,
+        "countsByKind": {
+          "crossing": 14,
+          "sidewalk": 37,
+          "trail": 3
+        },
+        "toleranceMeters": 15,
+        "gapThresholdMeters": 20,
+        "algorithm": "coverage-v1",
+        "candidatesReceived": 3,
+        "candidatesRetained": 3,
+        "routingEndpoint": "https://valhalla1.openstreetmap.de/route",
+        "warnings": [
+          "Overlapping infrastructure is deduplicated before coverage; 0 duplicate features removed and 4.54m of near-coincident supplemental linework trimmed.",
+          "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network."
+        ]
+      }
+    }
+  },
+  "routesInside": true
+}

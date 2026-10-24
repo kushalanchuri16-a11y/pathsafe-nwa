@@ -112,7 +112,13 @@ test("forward provider preserves ambiguous choices, handles empty results, escap
     assert.equal(url.searchParams.get("resultRecordCount"), "8");
     return Response.json({
       type: "FeatureCollection",
-      features: [place(), place(2, "Library annex")],
+      features: [
+        place(),
+        {
+          ...place(2, "Library annex"),
+          geometry: { type: "Point", coordinates: [-94.208, 36.3676] },
+        },
+      ],
     });
   }) as Fetcher);
   assert.equal((await provider.search("Bentonville Public Library")).length, 2);
@@ -273,13 +279,13 @@ test("routing failure, GIS failure, no route and outside route never become mock
     /No walking route/,
   );
   const outside = await routing.getCandidates();
-  outside.result.routes[0].geometry.push([36.33, -94.1]);
+  outside.result.routes.forEach((r) => r.geometry.push([36.33, -94.1]));
   await assert.rejects(
     getLiveRouteComparison(undefined, {
       routing: { getCandidates: async () => outside },
       inventory,
     }),
-    /outside Bentonville/,
+    /No returned walking route/,
   );
 });
 test("long trip GIS envelopes tile without loosening existing bounded query protections", () => {

@@ -1,0 +1,1003 @@
+{
+  "validatedAt": "2026-10-24T03:28:21.840Z",
+  "checks": [
+    {
+      "query": "Austin-Baggett Park",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 17.40895,
+            "miles": 0.920906282311302,
+            "seconds": 1044.537,
+            "providerDistanceMeters": 1482.055,
+            "coverage": 74.64369816375708,
+            "gaps": 3,
+            "score": 69,
+            "lengthMeters": 1482.449785558302,
+            "coveredMeters": 1106.555343361403,
+            "uncoveredMeters": 375.89444219689904
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 17.488166666666665,
+            "miles": 0.9159353127734033,
+            "seconds": 1049.29,
+            "providerDistanceMeters": 1474.055,
+            "coverage": 96.38925952666217,
+            "gaps": 1,
+            "score": 94,
+            "lengthMeters": 1474.910636503629,
+            "coveredMeters": 1421.6554412058279,
+            "uncoveredMeters": 53.25519529780104
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 17.610400000000002,
+            "miles": 0.9240131382724887,
+            "seconds": 1056.624,
+            "providerDistanceMeters": 1487.055,
+            "coverage": 80.26834633964855,
+            "gaps": 3,
+            "score": 74,
+            "lengthMeters": 1487.8799981139816,
+            "coveredMeters": 1194.296670004487,
+            "uncoveredMeters": 293.5833281094947
+          }
+        }
+      ]
+    },
+    {
+      "query": "Lawrence Plaza",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 17.56425,
+            "miles": 0.9165573053368329,
+            "seconds": 1053.855,
+            "providerDistanceMeters": 1475.056,
+            "coverage": 83.97159903668133,
+            "gaps": 3,
+            "score": 78,
+            "lengthMeters": 1474.5562546411456,
+            "coveredMeters": 1238.2084657175685,
+            "uncoveredMeters": 236.34778892357713
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 17.677983333333334,
+            "miles": 0.9178000477213075,
+            "seconds": 1060.679,
+            "providerDistanceMeters": 1477.056,
+            "coverage": 83.26138126344208,
+            "gaps": 3,
+            "score": 77,
+            "lengthMeters": 1475.3630132998003,
+            "coveredMeters": 1228.4076235233545,
+            "uncoveredMeters": 246.95538977644583
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 17.939866666666667,
+            "miles": 0.9246351308359182,
+            "seconds": 1076.392,
+            "providerDistanceMeters": 1488.056,
+            "coverage": 89.44776512297216,
+            "gaps": 3,
+            "score": 83,
+            "lengthMeters": 1488.1267165084814,
+            "coveredMeters": 1331.096090114704,
+            "uncoveredMeters": 157.0306263937773
+          }
+        }
+      ]
+    },
+    {
+      "query": "Bentonville Public Library",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 11.46545,
+            "miles": 0.5940308597788913,
+            "seconds": 687.927,
+            "providerDistanceMeters": 956,
+            "coverage": 99.97551502007107,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 956.6002615490743,
+            "coveredMeters": 956.3660381670339,
+            "uncoveredMeters": 0.23422338204034077
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 11.969366666666668,
+            "miles": 0.621371192237334,
+            "seconds": 718.162,
+            "providerDistanceMeters": 1000,
+            "coverage": 99.97659024234336,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 1000.5374061368451,
+            "coveredMeters": 1000.3031827548045,
+            "uncoveredMeters": 0.23422338204056814
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 12.641483333333333,
+            "miles": 0.6598962061560486,
+            "seconds": 758.489,
+            "providerDistanceMeters": 1062,
+            "coverage": 99.97794846862969,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 1062.163793104836,
+            "coveredMeters": 1061.9295697227953,
+            "uncoveredMeters": 0.23422338204068183
+          }
+        }
+      ]
+    },
+    {
+      "query": "Crystal Bridges Museum of American Art",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 22.3082,
+            "miles": 1.0594378827646544,
+            "seconds": 1338.492,
+            "providerDistanceMeters": 1705,
+            "coverage": 48.75872543136266,
+            "gaps": 5,
+            "score": 39,
+            "lengthMeters": 1704.5087733801945,
+            "coveredMeters": 831.0967527659366,
+            "uncoveredMeters": 873.4120206142579
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 33.27328333333333,
+            "miles": 1.6603038256581564,
+            "seconds": 1996.397,
+            "providerDistanceMeters": 2672,
+            "coverage": 69.41307989525275,
+            "gaps": 4,
+            "score": 57,
+            "lengthMeters": 2670.1837190002843,
+            "coveredMeters": 1853.4567582196985,
+            "uncoveredMeters": 816.7269607805858
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 35.76875,
+            "miles": 1.7168486041517537,
+            "seconds": 2146.125,
+            "providerDistanceMeters": 2763,
+            "coverage": 44.86141677179939,
+            "gaps": 9,
+            "score": 22,
+            "lengthMeters": 2759.4569744991477,
+            "coveredMeters": 1237.9314939685487,
+            "uncoveredMeters": 1521.525480530599
+          }
+        }
+      ]
+    },
+    {
+      "query": "Memorial Park",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 25.587783333333334,
+            "miles": 1.3281896226039926,
+            "seconds": 1535.267,
+            "providerDistanceMeters": 2137.514,
+            "coverage": 94.21673882233257,
+            "gaps": 1,
+            "score": 92,
+            "lengthMeters": 2137.7892704564683,
+            "coveredMeters": 2014.1553335178198,
+            "uncoveredMeters": 123.6339369386485
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 25.87895,
+            "miles": 1.3356466982820328,
+            "seconds": 1552.737,
+            "providerDistanceMeters": 2149.515,
+            "coverage": 94.24597312343246,
+            "gaps": 1,
+            "score": 92,
+            "lengthMeters": 2148.6506683194402,
+            "coveredMeters": 2025.0167313807917,
+            "uncoveredMeters": 123.6339369386485
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 27.705733333333335,
+            "miles": 1.4450080281158035,
+            "seconds": 1662.344,
+            "providerDistanceMeters": 2325.515,
+            "coverage": 94.68612273692025,
+            "gaps": 1,
+            "score": 93,
+            "lengthMeters": 2326.6238721327672,
+            "coveredMeters": 2202.9899351941185,
+            "uncoveredMeters": 123.63393693864873
+          }
+        }
+      ]
+    },
+    {
+      "query": "Bentonville Community Center",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 75.79276666666667,
+            "miles": 4.003589661377555,
+            "seconds": 4547.566,
+            "providerDistanceMeters": 6443.153,
+            "coverage": 68.54049643276925,
+            "gaps": 8,
+            "score": 53,
+            "lengthMeters": 6439.030416914875,
+            "coveredMeters": 4413.343413210467,
+            "uncoveredMeters": 2025.6870037044082
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 76.15148333333333,
+            "miles": 3.9924043585460907,
+            "seconds": 4569.089,
+            "providerDistanceMeters": 6425.152,
+            "coverage": 77.81990215261433,
+            "gaps": 8,
+            "score": 62,
+            "lengthMeters": 6420.814931986117,
+            "coveredMeters": 4996.671897472046,
+            "uncoveredMeters": 1424.1430345140707
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 76.69796666666666,
+            "miles": 4.0427366678597,
+            "seconds": 4601.878,
+            "providerDistanceMeters": 6506.154,
+            "coverage": 77.78951854342378,
+            "gaps": 7,
+            "score": 64,
+            "lengthMeters": 6500.208025550078,
+            "coveredMeters": 5056.480527396398,
+            "uncoveredMeters": 1443.7274981536793
+          }
+        }
+      ]
+    },
+    {
+      "query": "Bentonville Municipal Airport",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 45.004983333333335,
+            "miles": 2.3655346526286487,
+            "seconds": 2700.299,
+            "providerDistanceMeters": 3806.959,
+            "coverage": 59.84503296174836,
+            "gaps": 7,
+            "score": 46,
+            "lengthMeters": 3806.3712228145264,
+            "coveredMeters": 2277.9241129398574,
+            "uncoveredMeters": 1528.447109874669
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 46.62208333333333,
+            "miles": 2.440721188260558,
+            "seconds": 2797.325,
+            "providerDistanceMeters": 3927.96,
+            "coverage": 77.31644961136136,
+            "gaps": 6,
+            "score": 65,
+            "lengthMeters": 3923.973614662837,
+            "coveredMeters": 3033.8770825439074,
+            "uncoveredMeters": 890.0965321189296
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 48.056783333333335,
+            "miles": 2.51901333711127,
+            "seconds": 2883.407,
+            "providerDistanceMeters": 4053.959,
+            "coverage": 97.94479134922241,
+            "gaps": 1,
+            "score": 96,
+            "lengthMeters": 4048.9566133358753,
+            "coveredMeters": 3965.742106752365,
+            "uncoveredMeters": 83.21450658351023
+          }
+        }
+      ]
+    },
+    {
+      "query": "300 N Main St",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 2.3730166666666666,
+            "miles": 0.12627753917123996,
+            "seconds": 142.381,
+            "providerDistanceMeters": 203.224,
+            "coverage": 99.88691839717674,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 203.58491110608458,
+            "coveredMeters": 203.35469402549953,
+            "uncoveredMeters": 0.23021708058504942
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 2.540316666666667,
+            "miles": 0.13621947824703728,
+            "seconds": 152.419,
+            "providerDistanceMeters": 219.224,
+            "coverage": 100,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 218.45238749811088,
+            "coveredMeters": 218.45238749811088,
+            "uncoveredMeters": 0
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 2.5854833333333334,
+            "miles": 0.14119044778493597,
+            "seconds": 155.129,
+            "providerDistanceMeters": 227.224,
+            "coverage": 100,
+            "gaps": 0,
+            "score": 100,
+            "lengthMeters": 228.27512715883833,
+            "coveredMeters": 228.27512715883833,
+            "uncoveredMeters": 0
+          }
+        }
+      ]
+    },
+    {
+      "query": "500 S Main St",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 12.2644,
+            "miles": 0.6430011234391155,
+            "seconds": 735.864,
+            "providerDistanceMeters": 1034.81,
+            "coverage": 99.0986603554034,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 1034.957167552476,
+            "coveredMeters": 1025.6286882967315,
+            "uncoveredMeters": 9.328479255744469
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 12.631066666666667,
+            "miles": 0.6535644337071502,
+            "seconds": 757.864,
+            "providerDistanceMeters": 1051.81,
+            "coverage": 99.11583369990285,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 1055.0593541870046,
+            "coveredMeters": 1045.7308749312606,
+            "uncoveredMeters": 9.328479255744014
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 13.77635,
+            "miles": 0.7094878410085103,
+            "seconds": 826.581,
+            "providerDistanceMeters": 1141.81,
+            "coverage": 99.18276113663077,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 1141.4630010724104,
+            "coveredMeters": 1132.134521816666,
+            "uncoveredMeters": 9.328479255744469
+          }
+        }
+      ]
+    },
+    {
+      "query": "3809 SW Mistletoe Ave",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 135.25885,
+            "miles": 7.149494452397995,
+            "seconds": 8115.531,
+            "providerDistanceMeters": 11505.996,
+            "coverage": 81.30079757644816,
+            "gaps": 15,
+            "score": 61,
+            "lengthMeters": 11486.547594154315,
+            "coveredMeters": 9338.654808045776,
+            "uncoveredMeters": 2147.8927861085394
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 135.64798333333334,
+            "miles": 7.151358565974707,
+            "seconds": 8138.879,
+            "providerDistanceMeters": 11508.996,
+            "coverage": 89.05130667327586,
+            "gaps": 9,
+            "score": 71,
+            "lengthMeters": 11493.662068654778,
+            "coveredMeters": 10235.256256747749,
+            "uncoveredMeters": 1258.4058119070287
+          }
+        }
+      ]
+    },
+    {
+      "query": "2608 SE 14TH ST",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 47.00151666666667,
+            "miles": 2.4752396007317268,
+            "seconds": 2820.091,
+            "providerDistanceMeters": 3983.512,
+            "coverage": 57.15443109120072,
+            "gaps": 5,
+            "score": 47,
+            "lengthMeters": 3984.2120383902507,
+            "coveredMeters": 2277.1537240090793,
+            "uncoveredMeters": 1707.0583143811714
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 47.24665,
+            "miles": 2.483317426230812,
+            "seconds": 2834.799,
+            "providerDistanceMeters": 3996.512,
+            "coverage": 40.22648553275108,
+            "gaps": 4,
+            "score": 32,
+            "lengthMeters": 3997.0700466039043,
+            "coveredMeters": 1607.8808040310464,
+            "uncoveredMeters": 2389.189242572858
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 47.447300000000006,
+            "miles": 2.4913952517298976,
+            "seconds": 2846.838,
+            "providerDistanceMeters": 4009.512,
+            "coverage": 52.24335009059092,
+            "gaps": 4,
+            "score": 44,
+            "lengthMeters": 4007.254732444016,
+            "coveredMeters": 2093.5241188925,
+            "uncoveredMeters": 1913.730613551516
+          }
+        }
+      ]
+    },
+    {
+      "query": "3000 NW A ST",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 58.77033333333333,
+            "miles": 2.717387954346616,
+            "seconds": 3526.22,
+            "providerDistanceMeters": 4373.212,
+            "coverage": 77.75649992637995,
+            "gaps": 3,
+            "score": 72,
+            "lengthMeters": 4368.503574133749,
+            "coveredMeters": 3396.7954784052135,
+            "uncoveredMeters": 971.7080957285352
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 62.853433333333335,
+            "miles": 3.0752977610753205,
+            "seconds": 3771.206,
+            "providerDistanceMeters": 4949.212,
+            "coverage": 14.562047011016524,
+            "gaps": 7,
+            "score": 0,
+            "lengthMeters": 4946.566996769584,
+            "coveredMeters": 720.3214115010151,
+            "uncoveredMeters": 4226.245585268569
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 63.430616666666666,
+            "miles": 3.0989104877515308,
+            "seconds": 3805.837,
+            "providerDistanceMeters": 4987.213,
+            "coverage": 45.771984541921015,
+            "gaps": 6,
+            "score": 33,
+            "lengthMeters": 4981.782280172091,
+            "coveredMeters": 2280.26061519253,
+            "uncoveredMeters": 2701.521664979561
+          }
+        }
+      ]
+    },
+    {
+      "query": "4425 SW H ST",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 73.84981666666665,
+            "miles": 3.907619502107691,
+            "seconds": 4430.989,
+            "providerDistanceMeters": 6288.704,
+            "coverage": 79.3760006484534,
+            "gaps": 6,
+            "score": 67,
+            "lengthMeters": 6284.545986205691,
+            "coveredMeters": 4988.421262762982,
+            "uncoveredMeters": 1296.1247234427092
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 73.90036666666667,
+            "miles": 3.8802785482780564,
+            "seconds": 4434.022,
+            "providerDistanceMeters": 6244.703,
+            "coverage": 80.40724921932446,
+            "gaps": 7,
+            "score": 66,
+            "lengthMeters": 6239.405913028766,
+            "coveredMeters": 5016.934662294306,
+            "uncoveredMeters": 1222.4712507344602
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 74.75500000000001,
+            "miles": 3.9467658872186426,
+            "seconds": 4485.3,
+            "providerDistanceMeters": 6351.704,
+            "coverage": 88.74570147912932,
+            "gaps": 5,
+            "score": 79,
+            "lengthMeters": 6345.723594840893,
+            "coveredMeters": 5631.556918168173,
+            "uncoveredMeters": 714.1666766727203
+          }
+        }
+      ]
+    },
+    {
+      "query": "706 NW 3RD ST",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 14.0125,
+            "miles": 0.718305098226358,
+            "seconds": 840.75,
+            "providerDistanceMeters": 1156,
+            "coverage": 63.61990558271581,
+            "gaps": 2,
+            "score": 60,
+            "lengthMeters": 1156.520087344502,
+            "coveredMeters": 735.7769876137145,
+            "uncoveredMeters": 420.74309973078743
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 14.114866666666668,
+            "miles": 0.72016921180307,
+            "seconds": 846.892,
+            "providerDistanceMeters": 1159,
+            "coverage": 76.46438205065633,
+            "gaps": 1,
+            "score": 74,
+            "lengthMeters": 1160.3140417085874,
+            "coveredMeters": 887.2269618394662,
+            "uncoveredMeters": 273.0870798691212
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 16.81585,
+            "miles": 0.8674341843633182,
+            "seconds": 1008.951,
+            "providerDistanceMeters": 1396,
+            "coverage": 77.40570006359314,
+            "gaps": 1,
+            "score": 74,
+            "lengthMeters": 1398.9642852318811,
+            "coveredMeters": 1082.8780986233796,
+            "uncoveredMeters": 316.0861866085015
+          }
+        }
+      ]
+    },
+    {
+      "query": "4208 E CENTRAL AVE",
+      "status": 422,
+      "source": null,
+      "error": "No returned walking route stays within Bentonville City Limits. Your selected locations are valid, but the provider routes leave the supported area. Try another trip."
+    },
+    {
+      "query": "3700 MEDICAL CENTER PKWY",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 72.29835,
+            "miles": 3.7919257784538294,
+            "seconds": 4337.901,
+            "providerDistanceMeters": 6102.513,
+            "coverage": 35.3140142474208,
+            "gaps": 8,
+            "score": 19,
+            "lengthMeters": 6102.993432856079,
+            "coveredMeters": 2155.2119703979515,
+            "uncoveredMeters": 3947.781462458128
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 73.60955,
+            "miles": 3.814296384116758,
+            "seconds": 4416.573,
+            "providerDistanceMeters": 6138.515,
+            "coverage": 88.91488743007136,
+            "gaps": 5,
+            "score": 79,
+            "lengthMeters": 6132.043503768047,
+            "coveredMeters": 5452.299578538363,
+            "uncoveredMeters": 679.7439252296845
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 76.14656666666666,
+            "miles": 3.9565897657679154,
+            "seconds": 4568.794,
+            "providerDistanceMeters": 6367.514,
+            "coverage": 49.47095095453922,
+            "gaps": 6,
+            "score": 37,
+            "lengthMeters": 6365.532424195275,
+            "coveredMeters": 3149.0894235689357,
+            "uncoveredMeters": 3216.443000626339
+          }
+        }
+      ]
+    },
+    {
+      "query": "101 SE 18TH ST",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 33.4664,
+            "miles": 1.7440920027042075,
+            "seconds": 2007.984,
+            "providerDistanceMeters": 2806.844,
+            "coverage": 81.62325150890557,
+            "gaps": 3,
+            "score": 76,
+            "lengthMeters": 2806.4263710074115,
+            "coveredMeters": 2290.696455219631,
+            "uncoveredMeters": 515.7299157877806
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 36.26205,
+            "miles": 1.8994348007635409,
+            "seconds": 2175.723,
+            "providerDistanceMeters": 3056.844,
+            "coverage": 74.99138540597501,
+            "gaps": 5,
+            "score": 65,
+            "lengthMeters": 3051.2568227226716,
+            "coveredMeters": 2288.1797636540664,
+            "uncoveredMeters": 763.0770590686052
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 36.28738333333333,
+            "miles": 1.8926003390201223,
+            "seconds": 2177.243,
+            "providerDistanceMeters": 3045.845,
+            "coverage": 69.97969037386741,
+            "gaps": 5,
+            "score": 60,
+            "lengthMeters": 3042.866853053436,
+            "coveredMeters": 2129.3888022558376,
+            "uncoveredMeters": 913.4780507975984
+          }
+        }
+      ]
+    },
+    {
+      "query": "1102 TIGER BLVD",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 34.595866666666666,
+            "miles": 1.7291343553646703,
+            "seconds": 2075.752,
+            "providerDistanceMeters": 2782.772,
+            "coverage": 51.67281902777402,
+            "gaps": 6,
+            "score": 40,
+            "lengthMeters": 2779.36768838908,
+            "coveredMeters": 1436.1776357377153,
+            "uncoveredMeters": 1343.1900526513646
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 36.63516666666667,
+            "miles": 1.864593275272409,
+            "seconds": 2198.11,
+            "providerDistanceMeters": 3000.772,
+            "coverage": 99.35112823135532,
+            "gaps": 0,
+            "score": 99,
+            "lengthMeters": 2998.8370342442645,
+            "coveredMeters": 2979.3784273413917,
+            "uncoveredMeters": 19.458606902872816
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 36.75548333333334,
+            "miles": 1.8335253370317346,
+            "seconds": 2205.329,
+            "providerDistanceMeters": 2950.773,
+            "coverage": 56.67951192328721,
+            "gaps": 4,
+            "score": 49,
+            "lengthMeters": 2947.782220320972,
+            "coveredMeters": 1670.7885750393657,
+            "uncoveredMeters": 1276.9936452816064
+          }
+        }
+      ]
+    },
+    {
+      "query": "1301 E CENTRAL AVE",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 19.207816666666666,
+            "miles": 1.0130922910204405,
+            "seconds": 1152.469,
+            "providerDistanceMeters": 1630.414,
+            "coverage": 96.55479743265754,
+            "gaps": 1,
+            "score": 95,
+            "lengthMeters": 1630.527817075022,
+            "coveredMeters": 1574.3528308599205,
+            "uncoveredMeters": 56.174986215101626
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 19.799183333333335,
+            "miles": 1.0447822218245446,
+            "seconds": 1187.951,
+            "providerDistanceMeters": 1681.414,
+            "coverage": 95.13638975080951,
+            "gaps": 2,
+            "score": 91,
+            "lengthMeters": 1681.983521174446,
+            "coveredMeters": 1600.1783982489105,
+            "uncoveredMeters": 81.80512292553544
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 19.936316666666666,
+            "miles": 1.0441608506323072,
+            "seconds": 1196.179,
+            "providerDistanceMeters": 1680.414,
+            "coverage": 93.9537043375797,
+            "gaps": 2,
+            "score": 90,
+            "lengthMeters": 1681.1303682793068,
+            "coveredMeters": 1579.4842557424045,
+            "uncoveredMeters": 101.64611253690236
+          }
+        }
+      ]
+    },
+    {
+      "query": "205 PRAIRIE LN",
+      "status": 200,
+      "source": "live",
+      "error": null,
+      "metrics": [
+        {
+          "id": "fastest",
+          "metrics": {
+            "minutes": 42.27558333333333,
+            "miles": 2.2122274665950847,
+            "seconds": 2536.535,
+            "providerDistanceMeters": 3560.235,
+            "coverage": 93.89102999441296,
+            "gaps": 2,
+            "score": 90,
+            "lengthMeters": 3561.62918884916,
+            "coveredMeters": 3344.050329992132,
+            "uncoveredMeters": 217.57885885702808
+          }
+        },
+        {
+          "id": "pathsafe",
+          "metrics": {
+            "minutes": 42.45041666666667,
+            "miles": 2.2122274665950847,
+            "seconds": 2547.025,
+            "providerDistanceMeters": 3560.235,
+            "coverage": 93.97702574213973,
+            "gaps": 2,
+            "score": 90,
+            "lengthMeters": 3560.3291142901776,
+            "coveredMeters": 3345.8914082413758,
+            "uncoveredMeters": 214.43770604880183
+          }
+        },
+        {
+          "id": "alternative-2",
+          "metrics": {
+            "minutes": 42.617983333333335,
+            "miles": 2.2013727332378905,
+            "seconds": 2557.079,
+            "providerDistanceMeters": 3542.766,
+            "coverage": 79.24866491046147,
+            "gaps": 4,
+            "score": 71,
+            "lengthMeters": 3543.6870931386497,
+            "coveredMeters": 2808.3247099167215,
+            "uncoveredMeters": 735.3623832219282
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "fastest",
+    "lengthMeters": 11203.027265115436,
+    "outsideMeters": 404.41198763537875,
+    "maxOutsideDepthMeters": 198.51662485658207,
+    "outsideIntervals": [
+      {
+        "from": [
+          36.34302363254643,
+          -94.23135669905247
+        ],
+        "to": [
+          36.342919,
+          -94.226926
+        ],
+        "meters": 397.00981639487844,
+        "maxDepthMeters": 198.51662485658207
+      },
+      {
+        "from": [
+          36.342919,
+          -94.226926
+        ],
+        "to": [
+          36.342916463005864,
+          -94.22684341516104
+        ],
+        "meters": 7.402171240500331,
+        "maxDepthMeters": 7.402168108385739
+      }
+    ]
+  },
+  {
+    "id": "pathsafe",
+    "lengthMeters": 11486.547594154315,
+    "outsideMeters": 0,
+    "maxOutsideDepthMeters": 0,
+    "outsideIntervals": []
+  },
+  {
+    "id": "alternative-2",
+    "lengthMeters": 11493.662068654778,
+    "outsideMeters": 0,
+    "maxOutsideDepthMeters": 0,
+    "outsideIntervals": []
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "query": "3809 sw mistletoe ave",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": " 3809   SW MISTLETOE AVE., Bentonville, AR ",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "3809 Southwest Mistletoe Avenue",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "3809 SW MIST",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-address:18900897",
+          "label": "3809 SW MISTLETOE AVE",
+          "point": [
+            36.32936552602442,
+            -94.2557953932388
+          ],
+          "address": "3809 SW MISTLETOE AVE",
+          "kind": "address",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "3809 SW MISTLETOE AVE APT 1",
+    "status": 200,
+    "body": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "Bentonville Municipal Airport",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-place:124",
+          "label": "Bentonville Municipal Airport · Thaden Field House",
+          "point": [
+            36.35055955173087,
+            -94.22128233962593
+          ],
+          "address": "2205 SW I ST",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "XNA",
+    "status": 200,
+    "body": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "Bentonville Community Center",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "id": "city-place:17",
+          "label": "Bentonville Community Center",
+          "point": [
+            36.330686633086984,
+            -94.22562277195081
+          ],
+          "address": "1101 SW CITIZENS CIR",
+          "kind": "place",
+          "attribution": "City of Bentonville GIS"
+        }
+      ],
+      "attribution": "City of Bentonville GIS"
+    }
+  },
+  {
+    "query": "999999 SW NONEXISTENT ST",
+    "status": 200,
+    "body": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    }
+  }
+]

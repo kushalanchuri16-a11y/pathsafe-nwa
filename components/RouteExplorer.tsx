@@ -340,13 +340,13 @@ export default function RouteExplorer() {
                   ? "No demo route available"
                   : mock
                     ? "Comparison unavailable"
-                    : /^Choose|^PathSafe currently|^The walking provider returned/.test(
-                          error,
-                        )
+                    : /^Choose|^PathSafe currently/.test(error)
                       ? "Check your locations"
-                      : /^No walking route/.test(error)
-                        ? "No walking route found"
-                        : "Live route analysis is temporarily unavailable."}
+                      : /^No returned walking route/.test(error)
+                        ? "No supported walking route"
+                        : /^No walking route/.test(error)
+                          ? "No walking route found"
+                          : "Live route analysis is temporarily unavailable."}
               </h2>
               <p>
                 {status === "empty"

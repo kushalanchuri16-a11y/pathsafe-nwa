@@ -1,0 +1,65 @@
+{
+  "sampledPair": [
+    {
+      "type": "Feature",
+      "id": 18868613,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2103201348513,
+          36.35499638763491
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868613,
+        "ADDRESS": "1509 SW A ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868614,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21020112222803,
+          36.35441714824877
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868614,
+        "ADDRESS": "1601 SW A ST",
+        "APT_NUM": ""
+      }
+    }
+  ],
+  "selected": [
+    {
+      "id": "city-address:18868613",
+      "label": "1509 SW A ST",
+      "point": [
+        36.35499638763491,
+        -94.2103201348513
+      ],
+      "address": "1509 SW A ST",
+      "kind": "address",
+      "attribution": "City of Bentonville GIS"
+    },
+    {
+      "id": "city-address:18868614",
+      "label": "1601 SW A ST",
+      "point": [
+        36.35441714824877,
+        -94.21020112222803
+      ],
+      "address": "1601 SW A ST",
+      "kind": "address",
+      "attribution": "City of Bentonville GIS"
+    }
+  ],
+  "status": 503,
+  "body": {
+    "code": "LIVE_ANALYSIS_UNAVAILABLE",
+    "error": "Live route analysis is temporarily unavailable. City infrastructure data could not be loaded. Please try again."
+  }
+}

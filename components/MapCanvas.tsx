@@ -141,7 +141,7 @@ export default function MapCanvas({
               fillOpacity: 1,
             }}
           >
-            <Tooltip permanent direction="left">
+            <Tooltip permanent direction="auto">
               Start · {comparison.start.label}
             </Tooltip>
           </CircleMarker>
@@ -157,7 +157,7 @@ export default function MapCanvas({
           >
             <Tooltip
               permanent
-              direction={comparison.source === "live" ? "right" : "top"}
+              direction={comparison.source === "live" ? "auto" : "top"}
             >
               Destination · {comparison.destination.label}
             </Tooltip>

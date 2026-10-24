@@ -1,3 +1,4 @@
+import { confirmedInventoryIds } from "./inventoryIds";
 import type {
   Coordinate,
   InfrastructureKind,
@@ -168,17 +169,17 @@ export async function fetchBentonville(
     { signal: deadline },
     fetcher,
   )) as {
-    objectIds?: unknown[];
+    objectIds?: unknown[] | null;
+    objectIdFieldName?: string;
     exceededTransferLimit?: boolean;
   };
-  if (
-    !Array.isArray(data.objectIds) ||
-    data.exceededTransferLimit ||
-    data.objectIds.some((id) => !Number.isInteger(id)) ||
-    data.objectIds.length > 10000
-  )
-    throw new Error("Incomplete GIS record inventory.");
-  const ids = [...new Set(data.objectIds as number[])].sort((a, b) => a - b),
+  const ids = await confirmedInventoryIds(
+      data,
+      idsUrl,
+      deadline,
+      fetcher,
+      10000,
+    ),
     features: unknown[] = [];
   // ArcGIS IDs-only queries are not capped by MaxRecordCount. Fetch exact ID batches
   // below the layer's 2,000-record limit; verify every ID to detect partial responses.

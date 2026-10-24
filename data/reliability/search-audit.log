@@ -1,0 +1,18 @@
+Outside sample records 0
+Negatives [
+  [ 'Northwest Arkansas National Airport', false, 400 ],
+  [ '4251 W WALNUT CREEK PKWY', false, 400 ],
+  [ '1050 WHISTLER ST', false, 400 ],
+  [ '2 BANFF LN', false, 400 ]
+]
+Searches [
+  [ '3809 sw mistletoe ave', 1 ],
+  [ ' 3809   SW MISTLETOE AVE., Bentonville, AR ', 1 ],
+  [ '3809 Southwest Mistletoe Avenue', 1 ],
+  [ '3809 SW MIST', 1 ],
+  [ '3809 SW MISTLETOE AVE APT 1', 0 ],
+  [ 'Bentonville Municipal Airport', 1 ],
+  [ 'XNA', 0 ],
+  [ 'Bentonville Community Center', 1 ],
+  [ '999999 SW NONEXISTENT ST', 0 ]
+]

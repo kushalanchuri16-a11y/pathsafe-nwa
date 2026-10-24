@@ -1,0 +1,90 @@
+{
+  "routing": {
+    "result": {
+      "routes": [
+        {
+          "id": "fastest",
+          "name": "Fastest Route",
+          "source": "live",
+          "recommended": false,
+          "geometry": [
+            [
+              36.354886,
+              -94.210321
+            ],
+            [
+              36.354886,
+              -94.210394
+            ],
+            [
+              36.354902,
+              -94.210433
+            ],
+            [
+              36.354928,
+              -94.210456
+            ],
+            [
+              36.354965,
+              -94.210461
+            ],
+            [
+              36.355101,
+              -94.210457
+            ],
+            [
+              36.355103,
+              -94.210524
+            ],
+            [
+              36.355067,
+              -94.210526
+            ],
+            [
+              36.354818,
+              -94.210526
+            ],
+            [
+              36.354769,
+              -94.21053
+            ],
+            [
+              36.354763,
+              -94.210316
+            ],
+            [
+              36.354419,
+              -94.210324
+            ]
+          ],
+          "metrics": {
+            "minutes": 1.6395666666666666,
+            "miles": 0.08303569653225165,
+            "seconds": 98.374,
+            "providerDistanceMeters": 133.633,
+            "coverage": 0,
+            "gaps": 0,
+            "score": 0
+          }
+        }
+      ],
+      "received": 1,
+      "endpoint": "https://valhalla1.openstreetmap.de/route",
+      "warnings": [
+        "No distinct alternative was returned after geometric deduplication."
+      ]
+    },
+    "fetchedAt": "2026-10-24T03:21:06.851Z",
+    "cacheHit": true
+  },
+  "bounds": [
+    -94.21136750135423,
+    36.35374450924052,
+    -94.20947849864578,
+    36.35577749075948
+  ],
+  "inventory": {
+    "objectIdFieldName": "OBJECTID",
+    "objectIds": null
+  }
+}

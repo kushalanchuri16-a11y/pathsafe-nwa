@@ -1,0 +1,16 @@
+desktop passed [
+  { text: 'Start · 3809 SW MISTLETOE AVE', clipped: false },
+  { text: 'Destination · Crystal Bridges', clipped: false }
+]
+laptop passed [
+  { text: 'Start · 3809 SW MISTLETOE AVE', clipped: false },
+  { text: 'Destination · Crystal Bridges', clipped: false }
+]
+tablet passed [
+  { text: 'Start · 3809 SW MISTLETOE AVE', clipped: false },
+  { text: 'Destination · Crystal Bridges', clipped: false }
+]
+mobile passed [
+  { text: 'Start · 3809 SW MISTLETOE AVE', clipped: false },
+  { text: 'Destination · Crystal Bridges', clipped: false }
+]

@@ -1,0 +1,7 @@
+{
+  "status": 400,
+  "body": {
+    "error": "The walking provider returned a route outside Bentonville. Choose different locations within the supported area.",
+    "code": "INVALID_LOCATION"
+  }
+}

@@ -191,8 +191,11 @@ export default function Methodology() {
               and a 450ms pause. Location points and full candidate lines must
               remain inside the official City Limits polygon
               (Planning/Pending_PZitems_Publish23 layer 5), including its holes.
-              Routes outside the boundary are rejected. The boundary is a dated
-              GIS snapshot, not a legal survey or a guarantee of citywide data
+              Alternatives outside the boundary are excluded and disclosed. The
+              fastest retained route means the fastest wholly supported
+              candidate; if none remain, no comparison is shown. No
+              outside-distance tolerance is used. The boundary is a dated GIS
+              snapshot, not a legal survey or a guarantee of citywide data
               completeness. Some valid trips may have no usable provider route.
             </p>
             <p>

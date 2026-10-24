@@ -1,0 +1,165 @@
+{
+  "method": "Ten inside-boundary records chosen by deterministic farthest-point sampling from a bounded 200-record official City address query; not citywide random sampling",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 18868588,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.18088626334554,
+          36.35609683589007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868588,
+        "ADDRESS": "2608 SE 14TH ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868685,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21604638528939,
+          36.40854784027764
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868685,
+        "ADDRESS": "3000 NW A ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21994384969014,
+          36.32873723413272
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868643,
+        "ADDRESS": "4425 SW H ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868847,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21712625122834,
+          36.375584991962874
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868847,
+        "ADDRESS": "706 NW 3RD ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868700,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.16380598271643,
+          36.38525354886971
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868700,
+        "ADDRESS": "4208 E CENTRAL AVE",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868675,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19023087574931,
+          36.33295388709952
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868675,
+        "ADDRESS": "3700 MEDICAL CENTER PKWY",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21060244890754,
+          36.35198410761167
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868615,
+        "ADDRESS": "101 SE 18TH ST",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868696,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1958125044842,
+          36.389127710244736
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868696,
+        "ADDRESS": "1102 TIGER BLVD",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868783,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.19297798086862,
+          36.37132107392949
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868783,
+        "ADDRESS": "1301 E CENTRAL AVE",
+        "APT_NUM": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18868719,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.17484337609058,
+          36.37349163318741
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18868719,
+        "ADDRESS": "205 PRAIRIE LN",
+        "APT_NUM": ""
+      }
+    }
+  ]
+}

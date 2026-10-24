@@ -1,0 +1,206 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "source": "live",
+    "candidates": 2,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "clips": [
+      {
+        "text": "Start · 3809 SW MISTLETOE AVE",
+        "clipped": false
+      },
+      {
+        "text": "Destination · Crystal Bridges",
+        "clipped": false
+      }
+    ],
+    "metrics": [
+      {
+        "id": "fastest",
+        "metrics": {
+          "minutes": 135.25885,
+          "miles": 7.149494452397995,
+          "seconds": 8115.531,
+          "providerDistanceMeters": 11505.996,
+          "coverage": 81.30079757644816,
+          "gaps": 15,
+          "score": 61,
+          "lengthMeters": 11486.547594154315,
+          "coveredMeters": 9338.654808045776,
+          "uncoveredMeters": 2147.8927861085394
+        }
+      },
+      {
+        "id": "pathsafe",
+        "metrics": {
+          "minutes": 135.64798333333334,
+          "miles": 7.151358565974707,
+          "seconds": 8138.879,
+          "providerDistanceMeters": 11508.996,
+          "coverage": 89.05130667327586,
+          "gaps": 9,
+          "score": 71,
+          "lengthMeters": 11493.662068654778,
+          "coveredMeters": 10235.256256747749,
+          "uncoveredMeters": 1258.4058119070287
+        }
+      }
+    ]
+  },
+  {
+    "name": "laptop",
+    "width": 1280,
+    "height": 900,
+    "source": "live",
+    "candidates": 2,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "clips": [
+      {
+        "text": "Start · 3809 SW MISTLETOE AVE",
+        "clipped": false
+      },
+      {
+        "text": "Destination · Crystal Bridges",
+        "clipped": false
+      }
+    ],
+    "metrics": [
+      {
+        "id": "fastest",
+        "metrics": {
+          "minutes": 135.25885,
+          "miles": 7.149494452397995,
+          "seconds": 8115.531,
+          "providerDistanceMeters": 11505.996,
+          "coverage": 81.30079757644816,
+          "gaps": 15,
+          "score": 61,
+          "lengthMeters": 11486.547594154315,
+          "coveredMeters": 9338.654808045776,
+          "uncoveredMeters": 2147.8927861085394
+        }
+      },
+      {
+        "id": "pathsafe",
+        "metrics": {
+          "minutes": 135.64798333333334,
+          "miles": 7.151358565974707,
+          "seconds": 8138.879,
+          "providerDistanceMeters": 11508.996,
+          "coverage": 89.05130667327586,
+          "gaps": 9,
+          "score": 71,
+          "lengthMeters": 11493.662068654778,
+          "coveredMeters": 10235.256256747749,
+          "uncoveredMeters": 1258.4058119070287
+        }
+      }
+    ]
+  },
+  {
+    "name": "tablet",
+    "width": 834,
+    "height": 1112,
+    "source": "live",
+    "candidates": 2,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "clips": [
+      {
+        "text": "Start · 3809 SW MISTLETOE AVE",
+        "clipped": false
+      },
+      {
+        "text": "Destination · Crystal Bridges",
+        "clipped": false
+      }
+    ],
+    "metrics": [
+      {
+        "id": "fastest",
+        "metrics": {
+          "minutes": 135.25885,
+          "miles": 7.149494452397995,
+          "seconds": 8115.531,
+          "providerDistanceMeters": 11505.996,
+          "coverage": 81.30079757644816,
+          "gaps": 15,
+          "score": 61,
+          "lengthMeters": 11486.547594154315,
+          "coveredMeters": 9338.654808045776,
+          "uncoveredMeters": 2147.8927861085394
+        }
+      },
+      {
+        "id": "pathsafe",
+        "metrics": {
+          "minutes": 135.64798333333334,
+          "miles": 7.151358565974707,
+          "seconds": 8138.879,
+          "providerDistanceMeters": 11508.996,
+          "coverage": 89.05130667327586,
+          "gaps": 9,
+          "score": 71,
+          "lengthMeters": 11493.662068654778,
+          "coveredMeters": 10235.256256747749,
+          "uncoveredMeters": 1258.4058119070287
+        }
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "source": "live",
+    "candidates": 2,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "clips": [
+      {
+        "text": "Start · 3809 SW MISTLETOE AVE",
+        "clipped": false
+      },
+      {
+        "text": "Destination · Crystal Bridges",
+        "clipped": false
+      }
+    ],
+    "metrics": [
+      {
+        "id": "fastest",
+        "metrics": {
+          "minutes": 135.25885,
+          "miles": 7.149494452397995,
+          "seconds": 8115.531,
+          "providerDistanceMeters": 11505.996,
+          "coverage": 81.30079757644816,
+          "gaps": 15,
+          "score": 61,
+          "lengthMeters": 11486.547594154315,
+          "coveredMeters": 9338.654808045776,
+          "uncoveredMeters": 2147.8927861085394
+        }
+      },
+      {
+        "id": "pathsafe",
+        "metrics": {
+          "minutes": 135.64798333333334,
+          "miles": 7.151358565974707,
+          "seconds": 8138.879,
+          "providerDistanceMeters": 11508.996,
+          "coverage": 89.05130667327586,
+          "gaps": 9,
+          "score": 71,
+          "lengthMeters": 11493.662068654778,
+          "coveredMeters": 10235.256256747749,
+          "uncoveredMeters": 1258.4058119070287
+        }
+      }
+    ]
+  }
+]

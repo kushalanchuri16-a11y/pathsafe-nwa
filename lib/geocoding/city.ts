@@ -24,7 +24,12 @@ export function normalizeCityResults(
       kind === "place" ? (p.COMMON_NAME ?? "") : (p.ADDRESS ?? ""),
     ).trim();
     if (!label || !Number.isInteger(p.OBJECTID)) return [];
-    const key = label.toLowerCase() + c.join(",");
+    const key =
+      c.map((n) => n.toFixed(7)).join(",") +
+      String(p.ADDRESS ?? label)
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, " ");
     if (seen.has(key)) return [];
     seen.add(key);
     return [
@@ -69,6 +74,44 @@ export class CityGeocodingProvider implements GeocodingProvider {
         ].includes(t),
     );
     if (!terms.length) return [];
+    const abbreviations: Record<string, string> = {
+      NORTH: "N",
+      SOUTH: "S",
+      EAST: "E",
+      WEST: "W",
+      NORTHEAST: "NE",
+      NORTHWEST: "NW",
+      SOUTHEAST: "SE",
+      SOUTHWEST: "SW",
+      STREET: "ST",
+      AVENUE: "AVE",
+      ROAD: "RD",
+      DRIVE: "DR",
+      LANE: "LN",
+      BOULEVARD: "BLVD",
+      PARKWAY: "PKWY",
+      COURT: "CT",
+      CIRCLE: "CIR",
+      PLACE: "PL",
+      TRAIL: "TRL",
+      HIGHWAY: "HWY",
+    };
+    if (kind === "address") terms = terms.map((t) => abbreviations[t] ?? t);
+    const municipalAlias =
+      kind === "place" &&
+      [
+        "BENTONVILLE MUNICIPAL AIRPORT",
+        "BENTONVILLE MUNICIPAL AIRPORT THADEN FIELD",
+        "BENTONVILLE AIRPORT",
+        "THADEN FIELD",
+        "VBT",
+      ].includes(
+        q
+          .toUpperCase()
+          .replace(/[^A-Z0-9 ]/g, " ")
+          .replace(/\s+/g, " ")
+          .trim(),
+      );
     const where = terms
       .map((t, i) => {
         const safe = t.replaceAll("'", "''");
@@ -87,7 +130,11 @@ export class CityGeocodingProvider implements GeocodingProvider {
     );
     url.search = new URLSearchParams({
       f: "geojson",
-      where: kind === "place" ? `(${where}) AND STATUS = 'PERMANENT'` : where,
+      where: municipalAlias
+        ? "OBJECTID = 124 AND STATUS = 'PERMANENT'"
+        : kind === "place"
+          ? `(${where}) AND STATUS = 'PERMANENT'`
+          : where,
       outFields:
         kind === "place" ? "OBJECTID,COMMON_NAME,ADDRESS" : "OBJECTID,ADDRESS",
       outSR: "4326",
@@ -102,6 +149,12 @@ export class CityGeocodingProvider implements GeocodingProvider {
     )) as { type?: string; features?: CityFeature[] };
     if (body.type !== "FeatureCollection" || !Array.isArray(body.features))
       throw new Error("Invalid location search response.");
-    return normalizeCityResults(body.features, kind);
+    const results = normalizeCityResults(body.features, kind);
+    return municipalAlias
+      ? results.map((r) => ({
+          ...r,
+          label: `Bentonville Municipal Airport · ${r.label}`,
+        }))
+      : results;
   }
 }

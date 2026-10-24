@@ -2085,3 +2085,16 @@ form label {
   color: #526354;
   margin: 6px 0 0;
 }
+
+/* Keep endpoint labels within narrow maps; Leaflet auto direction faces inward. */
+.leaflet-tooltip {
+  width: max-content;
+  max-width: 240px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1100px) {
+  .leaflet-tooltip {
+    max-width: 150px;
+  }
+}

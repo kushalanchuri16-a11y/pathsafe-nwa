@@ -2,7 +2,7 @@ import type { RouteComparison, RouteCandidate } from "@/types/routes";
 import { demoLocations } from "@/data/demoLocations";
 import { getRouteInventory } from "@/lib/gis/routeInventory";
 import { validateTrip } from "@/lib/geocoding/validate";
-import { lineWithinArea } from "@/lib/geocoding/area";
+import { supportedCandidates } from "@/lib/geocoding/supportedRoutes";
 import { RoutingConfigurationError } from "@/lib/config";
 import { AnalysisUnavailableError } from "@/lib/server/analysisError";
 import { LocationError } from "@/lib/geocoding/provider";
@@ -66,6 +66,10 @@ export async function getLiveRouteComparison(
       throw new LocationError(
         "No walking route was found between these locations. Try different locations.",
       );
+    if (error instanceof Error && /snapped more than 100m/.test(error.message))
+      throw new AnalysisUnavailableError(
+        "The walking provider could not connect a selected location to its walking network within 100 meters. Try a nearby public entrance. No route was substituted.",
+      );
     throw new AnalysisUnavailableError(
       "Live route analysis is temporarily unavailable. Walking routing failed or timed out. Please try again.",
     );
@@ -74,14 +78,11 @@ export async function getLiveRouteComparison(
     throw new LocationError(
       "No walking route was found between these locations.",
     );
-  if (!routing.result.routes.every((r) => lineWithinArea(r.geometry)))
-    throw new LocationError(
-      "The walking provider returned a route outside Bentonville. Choose different locations within the supported area.",
-    );
+  const supported = supportedCandidates(routing.result.routes);
   let inventory: Awaited<ReturnType<typeof getRouteInventory>>;
   try {
     inventory = await dependencies.inventory(
-      routing.result.routes.map((r) => r.geometry),
+      supported.routes.map((r) => r.geometry),
     );
   } catch {
     throw new AnalysisUnavailableError(
@@ -89,7 +90,7 @@ export async function getLiveRouteComparison(
     );
   }
   const { routes, recommendation } = analyzeCandidates(
-    routing.result.routes,
+    supported.routes,
     inventory.dataset,
   );
   return {
@@ -138,6 +139,11 @@ export async function getLiveRouteComparison(
       routingEndpoint: routing.result.endpoint,
       warnings: [
         ...routing.result.warnings,
+        ...(supported.excluded
+          ? [
+              `${supported.excluded} provider alternative(s) excluded because they leave official Bentonville City Limits. Fastest means the fastest retained route wholly within the supported area.`,
+            ]
+          : []),
         ...inventory.dataset.warnings,
         "Proximity to a mapped facility does not establish a connected or usable walking path. City points are campus/building locations; provider endpoints may snap to the walking network.",
       ],

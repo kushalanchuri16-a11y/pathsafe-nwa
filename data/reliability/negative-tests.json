@@ -1,0 +1,74 @@
+[
+  {
+    "query": "Northwest Arkansas National Airport",
+    "point": [
+      36.281869444444446,
+      -94.3068111111111
+    ],
+    "source": "https://fly.arkansas.gov/uploads/7/5/7/7/75772239/fayettevillespringdale.pdf",
+    "inside": false,
+    "search": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    "status": 400,
+    "body": {
+      "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+      "code": "INVALID_LOCATION"
+    }
+  },
+  {
+    "query": "4251 W WALNUT CREEK PKWY",
+    "point": [
+      36.32848219483674,
+      -94.17652597986437
+    ],
+    "source": "Official City-hosted Benton County address record 1316892 (ROGERS)",
+    "inside": false,
+    "search": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    "status": 400,
+    "body": {
+      "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+      "code": "INVALID_LOCATION"
+    }
+  },
+  {
+    "query": "1050 WHISTLER ST",
+    "point": [
+      36.343188225095304,
+      -94.29438173021467
+    ],
+    "source": "Official City-hosted Benton County address record 1317006 (CENTERTON)",
+    "inside": false,
+    "search": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    "status": 400,
+    "body": {
+      "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+      "code": "INVALID_LOCATION"
+    }
+  },
+  {
+    "query": "2 BANFF LN",
+    "point": [
+      36.47549210646813,
+      -94.33386532937047
+    ],
+    "source": "Official City-hosted Benton County address record 1316890 (BELLA VISTA)",
+    "inside": false,
+    "search": {
+      "results": [],
+      "attribution": "City of Bentonville GIS"
+    },
+    "status": 400,
+    "body": {
+      "error": "PathSafe currently supports locations within Bentonville, Arkansas.",
+      "code": "INVALID_LOCATION"
+    }
+  }
+]
