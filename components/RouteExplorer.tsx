@@ -209,7 +209,7 @@ export default function RouteExplorer() {
           aria-busy={status === "loading"}
         >
           {status === "initial" && (
-            <div className="empty-state">
+            <div className="empty-state initial-state">
               <div className="route-illustration">
                 <MapPin size={24} />
                 <span>··········</span>

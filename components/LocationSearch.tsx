@@ -103,7 +103,7 @@ export default function LocationSearch({
   }
   const searching = busy && !selected;
   return (
-    <div className="location-search">
+    <div className={`location-search ${selected ? "has-selection" : ""}`}>
       <label htmlFor={id}>{label}</label>
       <div className="location-input">
         <Search size={15} aria-hidden="true" />

@@ -9,12 +9,17 @@ import {
 } from "lucide-react";
 import Header from "@/components/Header";
 import ProductPreview from "@/components/ProductPreview";
+import HeroRoutes from "@/components/HeroRoutes";
+import PageMotion from "@/components/PageMotion";
+import ShowcaseComparison from "@/components/ShowcaseComparison";
 export default function Home() {
   return (
     <>
       <Header />
-      <main id="main">
+      <main id="main" className="landing-page">
+        <PageMotion />
         <section className="hero">
+          <HeroRoutes />
           <div className="hero-copy">
             <div className="eyebrow">
               <span className="live-dot" /> BUILT FOR BENTONVILLE. DESIGNED FOR
@@ -49,7 +54,8 @@ export default function Home() {
           </div>
           <ProductPreview />
         </section>
-        <section className="how-section section" id="how-it-works">
+        <ShowcaseComparison />
+        <section data-reveal className="how-section section" id="how-it-works">
           <div className="section-intro">
             <span className="eyebrow">01 / THE PROCESS</span>
             <h2>
@@ -78,7 +84,7 @@ export default function Home() {
                 text: "Compare travel time, distance, and sidewalk/trail coverage.",
               },
             ].map((s, i) => (
-              <div className="step" key={s.title}>
+              <div className="step" key={s.title} data-reveal>
                 <span className="step-number">0{i + 1}</span>
                 <s.icon size={23} />
                 <div>
@@ -89,7 +95,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-        <section className="why-section section" id="about">
+        <section data-reveal className="why-section section" id="about">
           <div>
             <span className="eyebrow">02 / WHY IT MATTERS</span>
             <h2>
@@ -113,7 +119,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className="data-section section" id="data">
+        <section data-reveal className="data-section section" id="data">
           <div className="section-intro">
             <span className="eyebrow">03 / THE FOUNDATION</span>
             <h2>

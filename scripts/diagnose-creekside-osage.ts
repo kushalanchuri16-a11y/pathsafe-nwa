@@ -202,10 +202,10 @@ console.log(
   JSON.stringify(
     {
       ...result,
-      alternatives: alternatives.map(({ pieces, intervals, ...rest }) => ({
-        ...rest,
-        intervals,
-      })),
+      alternatives: alternatives.map(({ pieces, intervals, ...rest }) => {
+        void pieces; // Exclude detailed fragments from console output.
+        return { ...rest, intervals };
+      }),
     },
     null,
     2,

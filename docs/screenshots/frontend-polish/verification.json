@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-10-24T23:07:57.541Z",
+  "note": "Saved real-response fixture used for visual states; no live backend analysis claimed.",
+  "results": [
+    {
+      "width": 1440,
+      "landingCLS": 0.0004764438657407407,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "landingCLS": 0.000618665771484375,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 1024,
+      "landingCLS": 0.01650857402384281,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 834,
+      "landingCLS": 0.0007991018435251798,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "landingCLS": 0.007273781249999999,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 430,
+      "landingCLS": 0.001446552989520528,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "landingCLS": 0.0013264885050648938,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 375,
+      "landingCLS": 0.0012916109053497942,
+      "landing": {
+        "overflow": false,
+        "h1": 1
+      },
+      "app": {
+        "overflow": false,
+        "h1": 1
+      },
+      "axeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "reducedMotion": true,
+      "contentVisible": true,
+      "animationsDisabled": true
+    },
+    {
+      "width": 390,
+      "reducedMotion": true,
+      "contentVisible": true,
+      "animationsDisabled": true
+    },
+    {
+      "noJavaScript": true,
+      "showcaseVisible": true
+    }
+  ]
+}

@@ -126,6 +126,7 @@ export default function MapCanvas({
               key={r.id}
               positions={r.geometry}
               pathOptions={{
+                className: "map-route",
                 color:
                   r.id === "fastest"
                     ? "#64748b"
@@ -188,14 +189,32 @@ export default function MapCanvas({
       {!comparison && locations && (
         <>
           {locations.start && (
-            <CircleMarker center={locations.start.point} radius={8}>
+            <CircleMarker
+              center={locations.start.point}
+              radius={8}
+              pathOptions={{
+                color: "#fff",
+                weight: 3,
+                fillColor: "#243e35",
+                fillOpacity: 1,
+              }}
+            >
               <Tooltip permanent eventHandlers={namedTooltip("Start location")}>
                 Start · {locations.start.label}
               </Tooltip>
             </CircleMarker>
           )}
           {locations.destination && (
-            <CircleMarker center={locations.destination.point} radius={8}>
+            <CircleMarker
+              center={locations.destination.point}
+              radius={8}
+              pathOptions={{
+                color: "#fff",
+                weight: 3,
+                fillColor: "#19664f",
+                fillOpacity: 1,
+              }}
+            >
               <Tooltip
                 permanent
                 eventHandlers={namedTooltip("Destination location")}

@@ -16,6 +16,7 @@ export default function RouteCard({
     <button
       type="button"
       aria-pressed={selected}
+      data-recommended={route.recommended || undefined}
       className={`route-card ${selected ? "selected" : ""} ${route.id}`}
       onClick={onSelect}
     >
