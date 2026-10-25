@@ -1,0 +1,617 @@
+{
+  "checkedDate": "2026-10-25",
+  "note": "Vercel observations are from the existing deployed version. Fix validated locally only; no commit, push or deployment performed. Local dev baseline used a 65-second observation limit; local production baseline used 16 seconds and had warmed source caches.",
+  "searches": {
+    "dev-before": [
+      {
+        "query": "Crystal Bridges",
+        "ms": 65006,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Bentonville Public Library",
+        "ms": 65002,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walmart Museum",
+        "ms": 65001,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Middle School",
+        "ms": 65001,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Park",
+        "ms": 65001,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Osage Park",
+        "ms": 65001,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "ms": 65002,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "ms": 65001,
+        "error": "TimeoutError",
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      }
+    ],
+    "local-production-before": [
+      {
+        "query": "Crystal Bridges",
+        "status": 200,
+        "ms": 5391,
+        "resultCount": 3,
+        "labels": [
+          "Crystal Bridges",
+          "Crystal Bridges Trailhead",
+          "Crystal Bridges Trail Access"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Bentonville Public Library",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 3,
+        "labels": [
+          "Library",
+          "Bentonville Public Library Parking Lot",
+          "This is Your Public Library"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Walmart Museum",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 0,
+        "labels": [],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Creekside Middle School",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 1,
+        "labels": [
+          "Creekside Middle School"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Creekside Park",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 0,
+        "labels": [],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Osage Park",
+        "status": 200,
+        "ms": 5370,
+        "resultCount": 1,
+        "labels": [
+          "Osage Park"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 2,
+        "labels": [
+          "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD",
+          "Northwest Arkansas Hindu Temple \u00b7 2502 SW REGIONAL AIRPORT BLVD"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "status": 200,
+        "ms": 5371,
+        "resultCount": 0,
+        "labels": [],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      }
+    ],
+    "vercel-before": [
+      {
+        "query": "Crystal Bridges",
+        "status": 504,
+        "ms": 60808,
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Bentonville Public Library",
+        "status": 200,
+        "ms": 12860,
+        "resultCount": 3,
+        "labels": [
+          "Library",
+          "Bentonville Public Library Parking Lot",
+          "This is Your Public Library"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Walmart Museum",
+        "status": 504,
+        "ms": 60728,
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Middle School",
+        "status": 504,
+        "ms": 60396,
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Park",
+        "status": 504,
+        "ms": 60728,
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Osage Park",
+        "status": 200,
+        "ms": 55699,
+        "resultCount": 1,
+        "labels": [
+          "Osage Park"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "status": 200,
+        "ms": 11858,
+        "resultCount": 2,
+        "labels": [
+          "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD",
+          "Northwest Arkansas Hindu Temple \u00b7 2502 SW REGIONAL AIRPORT BLVD"
+        ],
+        "warning": "Some official location sources are temporarily unavailable. Results may be incomplete.",
+        "unavailableSources": [
+          {
+            "source": "https://www.bentonville.ar.gov/436/Parks",
+            "status": "unavailable",
+            "message": "Official parks directory evidence expired; refresh required"
+          }
+        ]
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "status": 504,
+        "ms": 60746,
+        "resultCount": null,
+        "labels": [],
+        "warning": null,
+        "unavailableSources": []
+      }
+    ],
+    "dev-after": [
+      {
+        "query": "Crystal Bridges",
+        "status": 200,
+        "ms": 5180,
+        "resultCount": 3,
+        "labels": [
+          "Crystal Bridges",
+          "Crystal Bridges Trailhead",
+          "Crystal Bridges Trail Access"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Bentonville Public Library",
+        "status": 200,
+        "ms": 32,
+        "resultCount": 3,
+        "labels": [
+          "Library",
+          "Bentonville Public Library Parking Lot",
+          "This is Your Public Library"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walmart Museum",
+        "status": 200,
+        "ms": 18,
+        "resultCount": 1,
+        "labels": [
+          "The Walmart Museum"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Middle School",
+        "status": 200,
+        "ms": 16,
+        "resultCount": 1,
+        "labels": [
+          "Creekside Middle School"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Park",
+        "status": 200,
+        "ms": 14,
+        "resultCount": 1,
+        "labels": [
+          "Creekside Park"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Osage Park",
+        "status": 200,
+        "ms": 10,
+        "resultCount": 1,
+        "labels": [
+          "Osage Park"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "status": 200,
+        "ms": 11,
+        "resultCount": 2,
+        "labels": [
+          "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD",
+          "Northwest Arkansas Hindu Temple \u00b7 2502 SW REGIONAL AIRPORT BLVD"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "status": 200,
+        "ms": 15,
+        "resultCount": 1,
+        "labels": [
+          "Walton Family Whole Health & Fitness"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      }
+    ],
+    "local-production-after": [
+      {
+        "query": "Crystal Bridges",
+        "status": 200,
+        "ms": 4720,
+        "resultCount": 3,
+        "labels": [
+          "Crystal Bridges",
+          "Crystal Bridges Trailhead",
+          "Crystal Bridges Trail Access"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Bentonville Public Library",
+        "status": 200,
+        "ms": 13,
+        "resultCount": 3,
+        "labels": [
+          "Library",
+          "Bentonville Public Library Parking Lot",
+          "This is Your Public Library"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walmart Museum",
+        "status": 200,
+        "ms": 8,
+        "resultCount": 1,
+        "labels": [
+          "The Walmart Museum"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Middle School",
+        "status": 200,
+        "ms": 11,
+        "resultCount": 1,
+        "labels": [
+          "Creekside Middle School"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Creekside Park",
+        "status": 200,
+        "ms": 9,
+        "resultCount": 1,
+        "labels": [
+          "Creekside Park"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Osage Park",
+        "status": 200,
+        "ms": 7,
+        "resultCount": 1,
+        "labels": [
+          "Osage Park"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "status": 200,
+        "ms": 10,
+        "resultCount": 2,
+        "labels": [
+          "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD",
+          "Northwest Arkansas Hindu Temple \u00b7 2502 SW REGIONAL AIRPORT BLVD"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "status": 200,
+        "ms": 14,
+        "resultCount": 1,
+        "labels": [
+          "Walton Family Whole Health & Fitness"
+        ],
+        "warning": null,
+        "unavailableSources": []
+      }
+    ]
+  },
+  "browser": {
+    "checks": [
+      {
+        "query": "Crystal Bridges",
+        "count": 3,
+        "first": "Crystal Bridges600  MUSEUM WAY \u00b7 Bentonville"
+      },
+      {
+        "query": "Bentonville Public Library",
+        "count": 3,
+        "first": "Library405 S MAIN ST \u00b7 Bentonville"
+      },
+      {
+        "query": "Walmart Museum",
+        "count": 1,
+        "first": "The Walmart Museum105 N MAIN ST \u00b7 Bentonville"
+      },
+      {
+        "query": "Creekside Middle School",
+        "count": 1,
+        "first": "Creekside Middle Schoolschool \u00b7 Bentonville"
+      },
+      {
+        "query": "Creekside Park",
+        "count": 1,
+        "first": "Creekside Park3104 SW Bright Road \u00b7 Bentonville"
+      },
+      {
+        "query": "Osage Park",
+        "count": 1,
+        "first": "Osage Parkpark \u00b7 Bentonville"
+      },
+      {
+        "query": "Northwest Arkansas Hindu Temple",
+        "count": 2,
+        "first": "Northwest Arkansas Hindu Temple \u00b7 2500 SW REGIONAL AIRPORT BLVD2500 SW REGIONAL AIRPORT BLVD \u00b7 Bentonville"
+      },
+      {
+        "query": "Walton Family Whole Health & Fitness",
+        "count": 1,
+        "first": "Walton Family Whole Health & Fitness1400 SE 5TH ST \u00b7 Bentonville"
+      }
+    ],
+    "pageErrors": []
+  },
+  "routes": [
+    {
+      "trip": "showcase",
+      "status": 200,
+      "ms": 304,
+      "source": "live",
+      "received": 3,
+      "retained": 3,
+      "routes": [
+        {
+          "name": "Fastest Route",
+          "recommended": false,
+          "coverage": 74.64369816375708,
+          "score": 69,
+          "gaps": 3
+        },
+        {
+          "name": "Alternative 1",
+          "recommended": true,
+          "coverage": 96.38925952666217,
+          "score": 94,
+          "gaps": 1
+        },
+        {
+          "name": "Alternative 2",
+          "recommended": false,
+          "coverage": 79.7547276470793,
+          "score": 74,
+          "gaps": 3
+        }
+      ]
+    },
+    {
+      "trip": "mistletoe",
+      "status": 200,
+      "ms": 3596,
+      "source": "live",
+      "received": 3,
+      "retained": 1,
+      "routes": [
+        {
+          "name": "Fastest Route",
+          "recommended": false,
+          "coverage": 89.76368714764614,
+          "score": 74,
+          "gaps": 8
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "createdAt": "2026-10-24T19:44:31.952Z",
+    "sourceInventories": 27,
+    "packedRecords": 194465,
+    "snapshotModified": false,
+    "includedInLocalProductionTrace": true
+  },
+  "checks": {
+    "lint": "pass",
+    "build": "pass",
+    "unitTests": 189,
+    "browserTests": 48,
+    "targetedCatalogTests": 58
+  }
+}

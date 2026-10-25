@@ -98,15 +98,38 @@ export function buildUnifiedLocationCatalog(
       .join("|"),
   };
 }
-let active: Promise<CatalogIndex> | undefined,
-  ready: CatalogIndex | undefined,
-  expiresAt = 0;
+// A deployment searches its reviewed official snapshot. Refreshing 27 inventories
+// belongs in catalog:refresh, not inside a serverless autocomplete request.
+export function indexCatalogSnapshot(snapshot: CatalogSnapshot) {
+  if (
+    snapshot?.schemaVersion !== 1 ||
+    !Array.isArray(snapshot.inventories) ||
+    !Number.isFinite(Date.parse(snapshot.createdAt)) ||
+    snapshot.inventories.length !== OFFICIAL_LOCATION_SOURCES.length ||
+    new Set(snapshot.inventories.map((i) => i.id)).size !==
+      OFFICIAL_LOCATION_SOURCES.length ||
+    OFFICIAL_LOCATION_SOURCES.some(
+      (source) => !snapshot.inventories.some((i) => i.id === source.id),
+    )
+  )
+    throw new Error("Incomplete official catalog snapshot; refresh required");
+  const inventories = unpackSnapshot(snapshot);
+  const diagnostics: CatalogDiagnostic[] = inventories.map((i) => ({
+    source: sourceUrl(OFFICIAL_LOCATION_SOURCES.find((s) => s.id === i.id)!),
+    status: "available",
+    fetchedAt: i.fetchedAt,
+    rawCount: i.rawCount,
+    message:
+      "Bundled official catalog inventory; timestamps reflect its recorded retrieval, not a live refresh.",
+  }));
+  const catalog = buildUnifiedLocationCatalog(inventories, diagnostics);
+  return buildSearchIndex({ ...catalog, inventories: [] });
+}
+let active: Promise<CatalogIndex> | undefined, ready: CatalogIndex | undefined;
 export async function getUnifiedCatalog() {
-  if (ready && expiresAt > Date.now()) return ready;
+  if (ready) return ready;
   if (active) return active;
   active = (async () => {
-    // A generated official snapshot is a cold-start cache, not manually entered locations.
-    let seeds: SourceInventory[] = [];
     try {
       const snapshot = JSON.parse(
         gunzipSync(
@@ -115,27 +138,15 @@ export async function getUnifiedCatalog() {
           ),
         ).toString("utf8"),
       ) as CatalogSnapshot;
-      seeds = unpackSnapshot(snapshot);
+      ready = indexCatalogSnapshot(snapshot);
+      return ready;
     } catch {
-      // A broken cold-start asset must not prevent independent official sources from loading.
-      console.warn(
-        "Official catalog snapshot unavailable; rebuilding from independent official inventories",
+      // Fail promptly rather than starting a citywide rebuild on a request deadline.
+      console.error(
+        "Official catalog snapshot unavailable or invalid; run catalog:refresh and include the snapshot in deployment.",
       );
+      throw new Error("Official location catalog is unavailable");
     }
-    const { inventories, diagnostics } = await fetchOfficialLocationSources(
-      OFFICIAL_LOCATION_SOURCES,
-      fetch,
-      seeds,
-    );
-    if (!inventories.length)
-      throw new Error("All official location inventories are unavailable");
-    const catalog = buildUnifiedLocationCatalog(inventories, diagnostics);
-    // Retain the searchable identities and source diagnostics, not duplicate raw inventories.
-    ready = buildSearchIndex({ ...catalog, inventories: [] });
-    expiresAt = diagnostics.some((d) => d.status === "unavailable")
-      ? Date.now() + 60000
-      : Math.min(...inventories.map((i) => inventoryFreshUntil(i)));
-    return ready;
   })();
   try {
     return await active;

@@ -237,3 +237,38 @@ test("partial official inventories keep school choices usable without caching in
   await expect(start).toHaveValue("");
   await expect(compare).toBeDisabled();
 });
+
+test("search timeout clears the spinner, gives retry guidance and allows another search", async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    const original = AbortSignal.timeout.bind(AbortSignal);
+    AbortSignal.timeout = (ms: number) => original(ms === 15000 ? 50 : ms);
+  });
+  await page.route("**/api/locations?**", async (route) => {
+    if (new URL(route.request().url()).searchParams.get("q") === "Slow search")
+      await new Promise((resolve) => setTimeout(resolve, 300));
+    await route.fulfill({ json: { results: [library] } }).catch(() => {});
+  });
+  await page.goto("/app");
+  const start = page.getByRole("combobox", { name: "Starting point" });
+  await start.fill("Slow search");
+  await expect(
+    page.getByText("Location search timed out. Please try again.", {
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByLabel("Searching locations", { exact: true }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole("button", { name: "Compare routes" }),
+  ).toBeDisabled();
+  await start.fill("Library");
+  await expect(
+    page.getByRole("option", {
+      name: "Library 405 S MAIN ST · Bentonville",
+      exact: true,
+    }),
+  ).toBeVisible();
+});

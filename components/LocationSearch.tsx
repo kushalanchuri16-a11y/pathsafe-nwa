@@ -78,9 +78,12 @@ export default function LocationSearch({
       } catch (e) {
         if (!controller.signal.aborted && generation.current === version)
           setMessage(
-            e instanceof Error
-              ? e.message
-              : "Location search timed out. Please try again.",
+            e instanceof Error &&
+              (e.name === "TimeoutError" || e.name === "AbortError")
+              ? "Location search timed out. Please try again."
+              : e instanceof Error
+                ? e.message
+                : "Location search timed out. Please try again.",
           );
       } finally {
         if (generation.current === version) setBusy(false);

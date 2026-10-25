@@ -51,6 +51,8 @@ Included: real candidate geometry/time/distance, alternative deduplication, rout
 
 General geocoding, accounts, crowdsourcing, AI, crossing/accessibility assessment, and expansion outside Bentonville are not implemented.
 
+Location search uses the complete reviewed official catalog bundled with each deployment; it does not rebuild City GIS inventories during autocomplete. Source retrieval dates remain available in search diagnostics. Catalog updates require an explicit refresh and redeployment. See the [production search fix](docs/LOCATION_SEARCH_PRODUCTION_FIX.md).
+
 ## Run locally
 
 Node 24.21.0 and npm 11.19.0 were inspected before initialization. The project pins Node 24.x for reproducible local/Vercel builds.
